@@ -450,6 +450,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-09-10">published source on <a href="https://github.com/dret/HTML5-overview"><q>github</q></a>, working on complete markdown formatting</entry>
         <entry date="2013-07-30">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from PR to REC</entry>
         <entry date="2013-07-23">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>
         <entry date="2013-07-10">added <a href="http://www.w3.org/TR/image-capture/"><q>Mediastream Image Capture</q></a></entry>
