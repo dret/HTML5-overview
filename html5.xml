@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Source: https://github.com/dret/HTML5-overview -->
+<!DOCTYPE html5 [
+  <!ELEMENT html5 (classdefs, specs, log) >
+  <!ELEMENT classdefs (classdef*) >
+  <!ELEMENT classdef (#PCDATA) >
+  <!ATTLIST classdef
+            id ID #REQUIRED
+            title CDATA #REQUIRED >
+  <!ELEMENT specs (spec*) >
+  <!ELEMENT spec (class?, title, abstract) >
+  <!ATTLIST spec
+            id NMTOKEN #REQUIRED
+            status ( WD | CR | PER | PR | REC | NOTE ) #REQUIRED >
+  <!ELEMENT class (#PCDATA) >
+  <!ATTLIST class
+            ref IDREF #REQUIRED >
+  <!ELEMENT title (#PCDATA) >
+  <!ELEMENT abstract (#PCDATA | q | em)* >
+  <!ELEMENT q (#PCDATA) >
+  <!ELEMENT em (#PCDATA) >
+  <!ELEMENT log (entry*) >
+  <!ELEMENT entry (#PCDATA | q | em | a)* >
+  <!ATTLIST entry
+            date CDATA #REQUIRED >
+  <!ELEMENT a (#PCDATA | q)* >
+  <!ATTLIST a
+            href CDATA #REQUIRED >
+]>
+<html5>
+    <classdefs>
+        <classdef id="device" title="Device">Specifications which provide access to the hardware components of the device</classdef>
+        <classdef id="media" title="Media">Specifications which provide multimedia functionality (e.g., audio processing)</classdef>
+        <classdef id="environment" title="OS Environment">Specifications which provide access to operating system environment (e.g., contacts)</classdef>
+        <classdef id="filesystem" title="File System">Specifications to access the local file system such as reading, writing and navigating through it.</classdef>
+        <classdef id="graphics" title="Graphics">Graphical specifications. (e.g., canvas)</classdef>
+        <classdef id="storage" title="Storage">Specifications to manage or use temporary/persistent storage resources.</classdef>
+        <classdef id="DOM" title="DOM">Specifications to access or manipulate the document structure</classdef>
+        <classdef id="communications" title="Communications/Networking">Specifications which provide networking-features for communicating and transferring data between clients and servers</classdef>
+        <classdef id="security" title="Security">Specifications which provide security features (e.g., hashing, key-management etc.)</classdef>
+        <classdef id="monitoring" title="Monitoring">[[ explanation needed ]]</classdef>
+        <classdef id="ui" title="User Interaction">[[ explanation needed ]]</classdef>
+    </classdefs>
+    <specs>
+        <spec id="telephony" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Web Telephony API</title>
+            <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
+        </spec>
+        <spec id="discovery-api" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Network Service Discovery</title>
+            <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
+        </spec>
+        <spec id="ambient-light" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Ambient Light Events</title>
+            <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
+        </spec>
+        <spec id="audioproc" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Audio Processing API</title>
+            <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
+        </spec>
+        <spec id="html-picture-element" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>The picture Element</title>
+            <abstract>The picture element is an image container whose source content is determined by one or more CSS media queries.</abstract>
+        </spec>
+        <spec id="html-longdesc" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>HTML Image Description Extension</title>
+            <abstract>This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.</abstract>
+        </spec>
+        <spec id="html-srcset" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>The srcset Attribute</title>
+            <abstract>When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.</abstract>
+        </spec>
+        <spec id="media-source" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Media Source Extensions</title>
+            <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams. </abstract>
+        </spec>
+        <spec id="webmidi" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Web MIDI API</title>
+            <abstract> Some user agents have connected music devices, such as synthesizers, keyboard and other controllers, and drum machines. The widely adopted Musical Instrument Digital Interface (MIDI) protocol enables electronic musical instruments, controllers and computers to communicate and synchronize with each other. MIDI does not transmit audio signals: instead, it sends event messages about musical notes, controller signals for parameters such as volume, vibrato and panning, cues and clock signals to set the tempo, and system-specific MIDI communications (e.g. to remotely store synthesizer-specific patch data). This same protocol has become a standard for non-musical uses, such as show control, lighting and special effects control. This specification defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages. It is intended to enable non-music MIDI applications as well as music ones, by providing low-level access to the MIDI devices available on the users' systems. At the same time, the Web MIDI API is not intended to become a semantic controller platform; it is designed to expose the mechanics of MIDI input and output interfaces, and the practical aspects of sending and receiving MIDI messages, without identifying what those actions might mean semantically. To some users, "MIDI" has become synonymous with Standard MIDI Files and General MIDI. That is not the intent of this API; the use case of simply playing back a .SMF file is not within the purview of this specification (it could be considered a different format to be supported by the HTML5 &lt;audio> element, for example). The Web MIDI API is intended to enable direct access to devices that respond to MIDI - external synthesizers or lighting systems, for example, or even the software synthesizers that are built in to many common operating systems. The Web MIDI API is also explicitly designed to enable a new class of applications on the web that can respond to MIDI controller inputs - using external hardware controllers with physical buttons, knobs and sliders (as well as musical controllers like keyboard, guitar or wind instrument controllers) to control web applications. The Web MIDI API is also expected to be used in conjunction with other APIs and elements of the web platform, notably the Web Audio API and High-Resolution Time. This API is also intended to be familiar to users of MIDI APIs on other systems, such as Apple's CoreMIDI and Microsoft's Windows MIDI API.</abstract>
+        </spec>
+        <spec id="battery-status" status="CR">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Battery Status Event Specification</title>
+            <abstract>This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.</abstract>
+        </spec>
+        <spec id="calendar-api" status="WD">
+            <class ref="environment">[[ explanation needed ]]</class>
+            <title>Calendar API</title>
+            <abstract>The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.</abstract>
+        </spec>
+        <spec id="clipboard-apis" status="WD">
+            <class ref="environment">[[ explanation needed ]]</class>
+            <title>Clipboard API and Events</title>
+            <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
+        </spec>
+        <spec id="orientation-event" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>DeviceOrientation Event Specification</title>
+            <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
+        </spec>
+        <spec id="app-uri" status="WD">
+            <class ref="filesystem">[[ explanation needed ]]</class>
+            <title>The app: URI scheme</title>
+            <abstract>This specification defines the app: URI scheme and rules for dereferencing an app: URI, which can be used to address resources inside a package (e.g., a packaged application). The dereferencing model relies on HTTP semantics to return resources in a manner akin to a HTTP GET request. Doing so allows this URI scheme to be used with other technologies that rely on HTTP responses to function as intended, such as XmlHttpRequest.</abstract>
+        </spec>
+        <spec id="FileAPI" status="WD">
+            <class ref="filesystem">[[ explanation needed ]]</class>
+            <title>File API</title>
+            <abstract>This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.</abstract>
+        </spec>
+        <spec id="file-system-api" status="WD">
+            <class ref="filesystem">[[ explanation needed ]]</class>
+            <title>File API: Directories and System</title>
+            <abstract>This specification defines an API to navigate file system hierarchies, and defines a means by which a user agent may expose sandboxed sections of a user's local filesystem to web applications. It builds on <q>File API: Writer</q>, which in turn built on <q>File API</q>, each adding a different kind of functionality.</abstract>
+        </spec>
+        <spec id="file-writer-api" status="WD">
+            <class ref="filesystem">[[ explanation needed ]]</class>
+            <title>File API: Writer</title>
+            <abstract>This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are <em>File API</em> and <em>Web Workers</em>.</abstract>
+        </spec>
+        <spec id="fullscreen" status="WD">
+            <title>Fullscreen</title>
+            <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
+        </spec>
+        <spec id="gamepad" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Gamepad</title>
+            <abstract>The Gamepad specification defines a low-level interface that represents gamepad devices.</abstract>
+        </spec>
+        <spec id="geolocation-API" status="PR">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Geolocation API Specification</title>
+            <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
+        </spec>
+        <spec id="2dcontext" status="WD">
+            <class ref="graphics">[[ explanation needed ]]</class>
+            <title>HTML Canvas 2D Context</title>
+            <abstract>This specification defines the 2D Context for the HTML canvas element.</abstract>
+        </spec>
+        <spec id="html-media-capture" status="CR">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>HTML Media Capture</title>
+            <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
+        </spec>
+        <spec id="encrypted-media" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Encrypted Media Extensions</title>
+            <abstract>This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.</abstract>
+        </spec>
+        <spec id="microdata" status="WD">
+            <title>HTML Microdata</title>
+            <abstract>This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON.</abstract>
+        </spec>
+        <spec id="webmessaging" status="CR">
+            <title>HTML5 Web Messaging</title>
+            <abstract>This specification defines two mechanism for communicating between browsing contexts in HTML documents.</abstract>
+        </spec>
+        <spec id="hr-time" status="REC">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>High Resolution Time</title>
+            <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
+        </spec>
+        <spec id="IndexedDB" status="CR">
+	        <class ref="storage">[[ explanation needed ]]</class>
+            <title>Indexed Database API</title>
+            <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
+        </spec>
+        <spec id="media-capture-api" status="NOTE">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Media Capture API</title>
+            <abstract>This specification defines an Application Programming Interface (API) that provides access to the audio, image and video capture capabilities of the device.</abstract>
+        </spec>
+        <spec id="streamproc" status="NOTE">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>MediaStream Processing API</title>
+            <abstract>A number of existing or proposed features for the Web platform deal with continuous real-time media: HTML media elements, Synchronization of multiple HTML media elements (e.g. proposed HTML MediaController), Capture and recording of local audio and video input (e.g. proposed HTML Streams), Peer-to-peer streaming of audio and video streams (e.g. proposed WebRTC and HTML Streams), and Advanced audio APIs that allow complex mixing and effects processing (e.g. Mozilla's AudioData, Chrome's AudioNode). Many use-cases require these features to work together. This proposal makes HTML Streams the foundation for integrated Web media processing by creating a mixing and effects processing API for HTML Streams.</abstract>
+        </spec>
+        <spec id="mediastream-recording" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>MediaStream Recording</title>
+            <abstract>This document defines a recording API for use with MediaStreams as defined in Media Capture and Streams.</abstract>
+        </spec>
+        <spec id="image-capture" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Mediastream Image Capture</title>
+            <abstract>This document specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams as defined in Media Capture and Streams.</abstract>
+        </spec>
+        <spec id="streams-api" status="WD">
+            <title>Streams API</title>
+            <abstract>This specification provides an API for representing binary data in web applications as a Stream object, as well as programmatically building and reading its contents. This includes: A Stream interface, which represents a sequence of data that can be read over time; A StreamReader interface, which provides methods to read the contents of a Stream as a Blob, DataURL, ArrayBuffer, or as Text; A StreamBuilder interface, which allows for creating a new Stream whose contents is read from an internal buffer that was made by appending Text, Blobs, or ArrayBuffers; Extensions to XmlHttpRequest to add support for upload and download of a Stream; Extensions to createObjectURL and revokeObjectURL to add support for Stream. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of a Stream. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: File, XMLHttpRequest (e.g. with an overloaded send() method and response object for Stream objects), postMessage, and Web Workers.</abstract>
+        </spec>
+        <spec id="messaging-api" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>The Messaging API</title>
+            <abstract>This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.</abstract>
+        </spec>
+        <spec id="messaging" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Messaging API</title>
+            <abstract>This specification defines a System Level API which offers a simple interface to get access to mobile messaging services. A typical use case of the Messaging API is the implementation of a messaging client application that allows the user to send SMS and MMS messages as well as to access and manage the received SMS and MMS messages.</abstract>
+        </spec>
+        <spec id="navigation-timing" status="REC">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Navigation Timing</title>
+            <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
+        </spec>
+        <spec id="navigation-timing-2" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Navigation Timing 2</title>
+            <abstract>This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.</abstract>
+        </spec>
+        <spec id="page-visibility" status="REC">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Page Visibility</title>
+            <abstract>This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.</abstract>
+        </spec>
+        <spec id="performance-timeline" status="CR">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Performance Timeline</title>
+            <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
+        </spec>
+        <spec id="gallery" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Pick Media Intent</title>
+            <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. </abstract>
+        </spec>
+        <spec id="pointerlock" status="WD">
+            <title>Pointer Lock</title>
+            <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.</abstract>
+        </spec>
+        <spec id="ime-api" status="WD">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>IndieUI: Events 1.0</title>
+            <abstract>IndieUI: Events 1.0 is an abstraction between physical, device-specific user interaction events and inferred user intent such as scrolling or changing values. This provides an intermediate layer between device- and modality-specific user interaction events, and the basic user interface functionality used by web applications. IndieUI: Events focuses on granular user interface interactions such as scrolling the view, canceling an action, changing the value of a user input widget, selecting a range, placing focus on an object, etc. Implementing platforms will combine modality-specific user input, user idiosyncratic heuristics to determine the specific corresponding Indie UI event, and send that to the web application in addition to the modality-specific input such as mouse or keyboard events, should applications wish to process it.</abstract>
+        </spec>
+        <spec id="indie-ui-events" status="WD">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>Input Method Editor API</title>
+            <abstract>This specification defines an "IME API" that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition; and a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events.</abstract>
+        </spec>
+        <spec id="DataCache" status="NOTE">
+            <title>Programmable HTTP Caching and Serving</title>
+            <abstract>This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.</abstract>
+        </spec>
+        <spec id="proximity" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Proximity Events</title>
+            <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
+        </spec>
+        <spec id="quota-api" status="WD">
+            <class ref="storage">[[ explanation needed ]]</class>
+            <title>Quota Management API</title>
+            <abstract>This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.</abstract>
+        </spec>
+        <spec id="resource-timing" status="CR">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Resource Timing</title>
+            <abstract>This specification defines an interface for web applications to access timing information related to HTML elements.</abstract>
+        </spec>
+        <spec id="screen-orientation" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Screen Orientation API</title>
+            <abstract>The Screen Orientation API's goal is to provide an interface for web applications to be able to read the screen orientation state, to be informed when this state changes and to be able to lock the screen orientation to a specific state.</abstract>
+        </spec>
+        <spec id="selectors-api" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>Selectors API Level 1</title>
+            <abstract>The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.</abstract>
+        </spec>
+        <spec id="selectors-api2" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>Selectors API Level 2</title>
+            <abstract>The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.</abstract>
+        </spec>
+        <spec id="domparsing" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>DOM Parsing and Serialization</title>
+            <abstract>This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.</abstract>
+        </spec>
+        <spec id="html-templates" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>HTML Templates</title>
+            <abstract>This specification describes a method for declaring inert DOM subtrees in HTML and manipulating them to instantiate document fragments with identical contents.</abstract>
+        </spec>
+        <spec id="shadow-dom" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>Shadow DOM</title>
+            <abstract>This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.</abstract>
+        </spec>
+        <spec id="custom-elements" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>Custom Elements</title>
+            <abstract>This specification describes the method for enabling the author to define and use new types of DOM elements in a document.</abstract>
+        </spec>
+        <spec id="html-imports" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>HTML Imports</title>
+            <abstract>HTML Imports are a way to include and reuse HTML documents in other HTML documents.</abstract>
+        </spec>
+        <spec id="eventsource" status="CR">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Server-Sent Events</title>
+            <abstract>This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</abstract>
+        </spec>
+        <spec id="push-api" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Push API</title>
+            <abstract>This specification defines a "Push API" that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.</abstract>
+        </spec>
+        <spec id="contacts-api" status="WD">
+            <class ref="environment">[[ explanation needed ]]</class>
+            <title>Contacts API</title>
+            <abstract>This specification defines an API that provides access to a user's unified address book.</abstract>
+        </spec>
+        <spec id="contacts-manager-api" status="WD">
+            <class ref="environment">[[ explanation needed ]]</class>
+            <title>Contacts Manager API</title>
+            <abstract>This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.</abstract>
+        </spec>
+        <spec id="netinfo-api" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Network Information API</title>
+            <abstract>The Network Information API provides an interface for Web Applications to access the underlying network information (connection info) of the device.</abstract>
+        </spec>
+        <spec id="websockets" status="CR">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>WebSocket API</title>
+            <abstract>This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.</abstract>
+        </spec>
+        <spec id="raw-sockets" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Raw Sockets</title>
+            <abstract>This API provides interfaces to raw UDP sockets, TCP client sockets and TCP server sockets.</abstract>
+        </spec>
+        <spec id="animation-timing" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Timing Control for Script-Based Animations</title>
+            <abstract>This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.</abstract>
+        </spec>
+        <spec id="web-animations" status="WD">
+            <class ref="graphics">[[ explanation needed ]]</class>
+            <title>Web Animations 1.0</title>
+            <abstract>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.</abstract>
+        </spec>
+        <spec id="touch-events" status="PR">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Touch Events Version 1</title>
+            <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
+        </spec>
+        <spec id="pointer-events" status="CR">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Pointer Events</title>
+            <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
+        </spec>
+        <spec id="url" status="WD">
+            <title>URL</title>
+            <abstract>This specification defines the term URL, various algorithms for dealing with URLs, and an API for constructing, parsing, and resolving URLs.</abstract>
+        </spec>
+        <spec id="user-timing" status="CR">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>User Timing</title>
+            <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
+        </spec>
+        <spec id="vibration" status="CR">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Vibration API</title>
+            <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
+        </spec>
+        <spec id="webaudio" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Web Audio API</title>
+            <abstract>This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly/C/C++ code), but direct JavaScript processing and synthesis is also supported. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (using the responseType and response attributes). For games and interactive applications, it is anticipated to be used with the canvas 2D and WebGL 3D graphics APIs.</abstract>
+        </spec>
+        <spec id="webintents-local-services" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Web Intents Addendum &#8212; Local Services</title>
+            <abstract>This specification is an addendum to Web Intents, that defines how Web Intents enabled User Agents can discover and communicate with local Web Intents Services.</abstract>
+        </spec>
+        <spec id="web-intents" status="NOTE">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Web Intents</title>
+            <abstract>This specification defines a service discovery and light-weight RPC mechanism for web apps called Web Intents. This document defines DOM interfaces and markup used by client and service pages to create, receive, and reply to Web Intents messages, and the procedures the User Agent carries out to facilitate that process.</abstract>
+        </spec>
+        <spec id="notifications" status="WD">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>Web Notifications</title>
+            <abstract>This document defines an API for displaying simple notifications to the user.</abstract>
+        </spec>
+        <spec id="web-alarms" status="WD">
+            <class ref="environment">[[ explanation needed ]]</class>
+            <title>Web Alarms API Specification</title>
+            <abstract>This specification defines a System Level API to provide access to the device alarm settings, which can schedule a notification or for an application to be started at a specific time. For example, some applications like alarm-clock, calendar or auto-update might need to utilize Alarm API to trigger particular device behaviors at specified time points.</abstract>
+        </spec>
+        <spec id="webdatabase" status="NOTE">
+            <class ref="storage">[[ explanation needed ]]</class>
+            <title>Web SQL Database</title>
+            <abstract>This specification defines an API for storing data in databases that can be queried using a variant of SQL.</abstract>
+        </spec>
+        <spec id="webstorage" status="REC">
+            <class ref="storage">[[ explanation needed ]]</class>
+            <title>Web Storage</title>
+            <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
+        </spec>
+        <spec id="workers" status="CR">
+            <title>Web Workers</title>
+            <abstract>This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.</abstract>
+        </spec>
+        <spec id="WebCryptoAPI" status="WD">
+            <class ref="security">[[ explanation needed ]]</class>
+            <title>Web Cryptography API</title>
+            <abstract>This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.</abstract>
+        </spec>
+        <spec id="webcrypto-key-discovery" status="WD">
+            <class ref="security">[[ explanation needed ]]</class>
+            <title>WebCrypto Key Discovery</title>
+            <abstract>This specification describes a JavaScript API for discovering named, origin-specific pre-provisioned cryptographic keys for use with the Web Cryptography API. Pre-provisioned keys are keys which have been made available to the UA by means other than the generation, derivation, imporation functions of the Web Cryptography API. Origin-specific keys are keys that are available only to a specified origin. Named keys are identified by a name assumed to be known to the origin in question and provisioned with the key itself.</abstract>
+        </spec>
+        <spec id="runtime" status="WD">
+            <class ref="security">[[ explanation needed ]]</class>
+            <title>Runtime and Security Model for Web Applications</title>
+            <abstract>This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.</abstract>
+        </spec>
+        <spec id="webdriver" status="WD">
+            <title>WebDriver</title>
+            <abstract>This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a browser. The WebDriver API is defined by a set of interfaces to discover and manipulate DOM elements on a page, and to control the behaviour of the containing browser. This specification also includes a non-normative reference useful for browser vendors.</abstract>
+        </spec>
+        <spec id="webrtc" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
+            <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent over the network to another browser or device implementing the appropriate set of real-time protocols, and media to be received from another browser or device. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
+        </spec>
+        <spec id="XMLHttpRequest" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>XMLHttpRequest</title>
+            <abstract>The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.</abstract>
+        </spec>
+        <spec id="XMLHttpRequest2" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>XMLHttpRequest Level 2</title>
+            <abstract>The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.</abstract>
+        </spec>
+    </specs>
+    <log>
+        <entry date="2013-07-30">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from PR to REC</entry>
+        <entry date="2013-07-23">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>
+        <entry date="2013-07-10">added <a href="http://www.w3.org/TR/image-capture/"><q>Mediastream Image Capture</q></a></entry>
+        <entry date="2013-07-04">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from WD to CR</entry>
+        <entry date="2013-06-25">added <a href="http://www.w3.org/TR/web-animations/"><q>Web Animations 1.0</q></a></entry>
+        <entry date="2013-06-20">added <a href="http://www.w3.org/TR/telephony/"><q>Web Telephony API</q></a></entry>
+        <entry date="2013-05-23">moved <a href="http://www.w3.org/TR/web-intents/"><q>Web Intents</q></a> from active to inactive list (WD to NOTE); changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
+        <entry date="2013-05-16">added <a href="http://www.w3.org/TR/app-uri/"><q>The app: URI scheme</q></a> and <a href="http://www.w3.org/TR/messaging/"><q>Messaging API</q></a></entry>
+        <entry date="2013-05-14">added <a href="http://www.w3.org/TR/shadow-dom/"><q>Shadow DOM</q></a>, <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a>, <a href="http://www.w3.org/TR/html-imports/"><q>HTML Imports</q></a>, and <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a>; changed status of <a href="http://www.w3.org/TR/page-visibility/"><q>Page Visibility</q></a> from PR to REC</entry>
+        <entry date="2013-05-10">added <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a></entry>
+        <entry date="2013-05-09">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events Version 1</q></a> from WD to PR; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
+        <entry date="2013-04-09">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from CR to PR</entry>
+        <entry date="2013-04-04">added <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a></entry>
+        <entry date="2013-03-27">added <a href="http://www.w3.org/TR/runtime/"><q>Runtime and Security Model for Web Applications</q></a></entry>
+        <entry date="2013-03-12">added <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension</q></a></entry>
+        <entry date="2013-03-07">added <a href="http://www.w3.org/TR/contacts-manager-api/"><q>Contacts Manager API</q></a></entry>
+        <entry date="2013-02-28">added <a href="http://www.w3.org/TR/html-srcset/"><q>The srcset Attribute</q></a></entry>
+        <entry date="2013-02-27">added <a href="http://www.w3.org/TR/html-picture-element/"><q>The picture Element</q></a></entry>
+        <entry date="2013-02-19">added <a href="http://www.w3.org/TR/streams-api/"><q>Streams API</q></a> and <a href="http://www.w3.org/TR/html-templates/"><q>HTML Templates</q></a></entry>
+        <entry date="2013-02-05">added <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> and <a href="http://www.w3.org/TR/mediastream-recording/"><q>MediaStream Recording</q></a></entry>
+        <entry date="2013-01-31">added <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a></entry>
+        <entry date="2013-01-29">added <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a></entry>
+        <entry date="2013-01-25">changed status of <a href="http://www.w3.org/TR/touch-events"><q>Touch Events Version 1</q></a> from CR to WD</entry>
+        <entry date="2013-01-24">added <a href="http://www.w3.org/TR/indie-ui-events/"><q>IndieUI: Events 1.0</q></a></entry>
+        <entry date="2013-01-09">added <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a></entry>
+        <entry date="2012-12-17">changed status of <a href="http://www.w3.org/TR/hr-time/"><q>High Resolution Time</q></a> and <a href="http://www.w3.org/TR/navigation-timing/"><q>Navigation Timing</q></a> from PR to REC</entry>
+        <entry date="2012-12-11">added <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a>; changed status of <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from WD to CR</entry>
+        <entry date="2012-10-25">added <a href="http://www.w3.org/TR/webmidi/"><q>Web MIDI API</q></a></entry>
+        <entry date="2012-10-23">changed status of <a href="http://www.w3.org/TR/hr-time/"><q>High Resolution Time</q></a> from CR to PR</entry>
+        <entry date="2012-10-18">added <a href="http://www.w3.org/TR/push-api/"><q>Push API</q></a></entry>
+        <entry date="2012-10-04">added <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>; updated title and abstract of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a></entry>
+        <entry date="2012-09-20">added <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a>; updated status of <a href="http://www.w3.org/TR/websockets/"><q>WebSocket API</q></a> to CR; added experimental classification of specs</entry>
+        <entry date="2012-09-14">added <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a></entry>
+        <entry date="2012-09-13">published <a href="http://dret.typepad.com/dretblog/2012/09/html5-classification.html">blog entry about <q>HTML5 Classification</q></a>, looking for ideas to improve this list</entry>
+        <entry date="2012-08-22">updated abstract of <a href="http://www.w3.org/TR/webrtc/"><q>WebRTC 1.0: Real-time Communication Between Browsers</q></a></entry>
+        <entry date="2012-08-07">added <a href="http://www.w3.org/TR/discovery-api/"><q>Networked Service Discovery and Messaging</q></a></entry>
+        <entry date="2012-08-02">added <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a></entry>
+        <entry date="2012-07-26">updated status of <a href="http://www.w3.org/TR/page-visibility/"><q>Page Visibility</q></a>, <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a>, and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> to CR, and <a href="http://www.w3.org/TR/navigation-timing/"><q>Navigation Timing</q></a> to PR</entry>
+        <entry date="2012-07-25">switched from HTML to XML source, now generating this page by XSLT</entry>
+        <entry date="2012-07-12">added <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> and <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a></entry>
+        <entry date="2012-07-10">added <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a></entry>
+        <entry date="2012-07-03">added <a href="http://www.w3.org/TR/quota-api/"><q>Quota Management API</q></a> and <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a></entry>
+        <entry date="2012-06-26">added <a href="http://www.w3.org/TR/web-intents/"><q>Web Intents</q></a></entry>
+        <entry date="2012-05-31">added <a href="http://www.w3.org/TR/streamproc/"><q>MediaStream Processing API</q></a> (in inactive list, missed it before)</entry>
+        <entry date="2012-05-29">added <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> and <a href="http://www.w3.org/TR/gamepad/"><q>Gamepad</q></a></entry>
+        <entry date="2012-05-24">added <a href="http://www.w3.org/TR/url/"><q>URL</q></a></entry>
+        <entry date="2012-05-23">added <a href="http://www.w3.org/TR/screen-orientation/"><q>Screen Orientation API</q></a></entry>
+        <entry date="2012-03-27">moved <a href="http://www.w3.org/TR/media-capture-api/"><q>Media Capture API</q></a> from active to inactive list</entry>
+        <entry date="2012-03-13">added <a href="http://www.w3.org/TR/hr-time/"><q>High Resolution Time</q></a></entry>
+        <entry date="2011-12-15">added <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a> and <a href="http://www.w3.org/TR/audioproc/"><q>Audio Processing API</q></a></entry>
+        <entry date="2011-11-19">added <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a></entry>
+        <entry date="2011-10-27">added <a href="http://www.w3.org/TR/webrtc/"><q>WebRTC 1.0: Real-time Communication Between Browsers</q></a></entry>
+        <entry date="2011-08-14">added <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a></entry>
+        <entry date="2011-07-01">added <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a></entry>
+        <entry date="2011-06-07">added <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a></entry>
+        <entry date="2011-06-02">added <a href="http://www.w3.org/TR/page-visibility/"><q>Page Visibility</q></a>, <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a>, <a href="http://www.w3.org/TR/navigation-timing/"><q>Navigation Timing</q></a>, and <a href="http://www.w3.org/TR/resource-timing/"><q>Resource Timing</q></a></entry>
+        <entry date="2011-05-05">added <a href="http://www.w3.org/TR/touch-events"><q>Touch Events Specification</q></a></entry>
+        <entry date="2011-04-26">added <a href="http://www.w3.org/TR/battery-status"><q>Battery Status Event Specification</q></a></entry>
+        <entry date="2011-04-19">added <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a></entry>
+        <entry date="2011-04-14">added <a href="http://www.w3.org/TR/clipboard-apis"><q>Clipboard API and Events</q></a></entry>
+        <entry date="2011-04-05">marked <a href="http://www.w3.org/TR/DataCache/"><q>Programmable HTTP Caching and Serving</q></a> as deprecated</entry>
+        <entry date="2011-03-01">added <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a></entry>
+        <entry date="2010-11-19">added <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a>, marked <a href="http://www.w3.org/TR/webdatabase/"><q>Web SQL Database</q></a> as deprecated</entry>
+        <entry date="2010-10-26">added <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a></entry>
+        <entry date="2010-09-28">added <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> and changed title and permalink of <a href="http://www.w3.org/TR/media-capture-api/"><q>Media Capture API</q></a> (previously <a href="http://www.w3.org/TR/capture-api/"><q>Capture API</q></a>)</entry>
+        <entry date="2010-08-19">updated abstract for <a href="http://www.w3.org/TR/2010/WD-IndexedDB-20100819/"><q>Indexed Database API</q></a></entry>
+        <entry date="2010-08-10">added <a href="http://dret.typepad.com/dretblog/2010/08/html5-messaging-api.html"><q>Messaging API</q></a></entry>
+        <entry date="2010-04-06">added <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a></entry>
+        <entry date="2010-04-01">added <a href="http://dret.typepad.com/dretblog/2010/04/html5-capture-api.html"><q>Capture API</q></a></entry>
+        <entry date="2010-03-04">added <a href="http://dret.typepad.com/dretblog/2010/03/html5-canvas-2d-context.html"><q>HTML Canvas 2D Context</q></a> and <a href="http://dret.typepad.com/dretblog/2010/03/html5-microdata.html"><q>HTML Microdata</q></a></entry>
+        <entry date="2010-01-21"><a href="http://dret.typepad.com/dretblog/2010/01/hunting-html5-apis.html">initial version</a></entry>
+    </log>
+</html5>
