@@ -27,7 +27,9 @@ I am currently working on making this page as complete as the blog page. As a st
             <xsl:value-of select="title/text()"/>
             <xsl:text>](http://www.w3.org/TR/</xsl:text>
             <xsl:value-of select="@id"/>
-            <xsl:text>)&#xa;</xsl:text>
+            <xsl:text> "</xsl:text>
+            <xsl:value-of select="abstract"/>
+            <xsl:text>")&#xa;</xsl:text>
         </xsl:for-each>
         <xsl:text>&#xa;&#xa;For completeness, here's the change log (latest first):&#xa;&#xa;</xsl:text>
         <xsl:for-each select="//log/entry">
