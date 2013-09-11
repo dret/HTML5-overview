@@ -10,7 +10,7 @@
 
 An overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser as a programming platform". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists </xsl:text>
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists </xsl:text>
         <xsl:value-of select="count(//specs/spec[@status ne 'NOTE'])"/>
         <xsl:text> current specifications and </xsl:text>
         <xsl:value-of select="count(//specs/spec[@status eq 'NOTE'])"/>
