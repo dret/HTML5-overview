@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into github-friendly markdown. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
-    <xsl:output method="text" indent="yes"/>
+    <xsl:output method="text" encoding="UTF-8"/>
     <xsl:variable name="doc" select="."/>
     <xsl:key name="classes" match="/html5/classdefs/classdef" use="@id"/>
     <xsl:template match="html5">
@@ -27,9 +27,12 @@ I am currently working on making this page as complete as the blog page. As a st
             <xsl:value-of select="title/text()"/>
             <xsl:text>](http://www.w3.org/TR/</xsl:text>
             <xsl:value-of select="@id"/>
+<!--
             <xsl:text> "</xsl:text>
             <xsl:value-of select="abstract"/>
-            <xsl:text>")&#xa;</xsl:text>
+            <xsl:text>"</xsl:text>
+-->
+            <xsl:text>)&#xa;</xsl:text>
         </xsl:for-each>
         <xsl:text>&#xa;&#xa;For completeness, here's the change log (latest first):&#xa;&#xa;</xsl:text>
         <xsl:for-each select="//log/entry">
