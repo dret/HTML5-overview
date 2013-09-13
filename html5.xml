@@ -5,16 +5,19 @@
   <!ELEMENT classdefs (classdef*) >
   <!ELEMENT classdef (#PCDATA) >
   <!ATTLIST classdef
-            id ID #REQUIRED
-            title CDATA #REQUIRED >
+    id        ID                                    #REQUIRED
+    title     CDATA                                 #REQUIRED
+    >
   <!ELEMENT specs (spec*) >
   <!ELEMENT spec (class?, title, abstract) >
   <!ATTLIST spec
-            id NMTOKEN #REQUIRED
-            status ( WD | CR | PER | PR | REC | NOTE ) #REQUIRED >
+    id        NMTOKEN                               #REQUIRED      -- must be short name used by W3C to be used as http://www.w3.org/TR/{$id} URI
+    status    ( WD | CR | PER | PR | REC | NOTE )   #REQUIRED
+    >
   <!ELEMENT class (#PCDATA) >
   <!ATTLIST class
-            ref IDREF #REQUIRED >
+    ref       IDREF                                 #REQUIRED
+    >
   <!ELEMENT title (#PCDATA) >
   <!ELEMENT abstract (#PCDATA | q | em)* >
   <!ELEMENT q (#PCDATA) >
@@ -22,10 +25,12 @@
   <!ELEMENT log (entry*) >
   <!ELEMENT entry (#PCDATA | q | em | a)* >
   <!ATTLIST entry
-            date CDATA #REQUIRED >
+    date      CDATA                                 #REQUIRED
+    >
   <!ELEMENT a (#PCDATA | q)* >
   <!ATTLIST a
-            href CDATA #REQUIRED >
+    href      CDATA                                 #REQUIRED
+    >
 ]>
 <html5>
     <classdefs>
