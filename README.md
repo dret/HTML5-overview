@@ -30,7 +30,7 @@ Candidate Recommendation
 * [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging)
 * [Indexed Database API](http://www.w3.org/TR/IndexedDB)
 * [Performance Timeline](http://www.w3.org/TR/performance-timeline)
-* [Pointer Events](http://www.w3.org/TR/pointer-events)
+* [Pointer Events](http://www.w3.org/TR/pointerevents)
 * [Resource Timing](http://www.w3.org/TR/resource-timing)
 * [Server-Sent Events](http://www.w3.org/TR/eventsource)
 * [User Timing](http://www.w3.org/TR/user-timing)

@@ -11,7 +11,7 @@
   <!ELEMENT specs (spec*) >
   <!ELEMENT spec (class?, title, abstract) >
   <!ATTLIST spec
-    id        NMTOKEN                               #REQUIRED      -- must be short name used by W3C to be used as http://www.w3.org/TR/{$id} URI
+    id        NMTOKEN                               #REQUIRED
     status    ( WD | CR | PER | PR | REC | NOTE )   #REQUIRED
     >
   <!ELEMENT class (#PCDATA) >
@@ -362,7 +362,7 @@
             <title>Touch Events Version 1</title>
             <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
         </spec>
-        <spec id="pointer-events" status="CR">
+        <spec id="pointerevents" status="CR">
             <class ref="device">[[ explanation needed ]]</class>
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
