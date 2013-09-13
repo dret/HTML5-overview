@@ -8,6 +8,36 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 83 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
+Recommendation
+----------------
+
+* [High Resolution Time](http://www.w3.org/TR/hr-time)
+* [Navigation Timing](http://www.w3.org/TR/navigation-timing)
+* [Page Visibility](http://www.w3.org/TR/page-visibility)
+* [Web Storage](http://www.w3.org/TR/webstorage)
+
+Proposed Recommendation
+----------------
+
+* [Geolocation API Specification](http://www.w3.org/TR/geolocation-API)
+* [Touch Events Version 1](http://www.w3.org/TR/touch-events)
+
+Candidate Recommendation
+----------------
+
+* [Battery Status Event Specification](http://www.w3.org/TR/battery-status)
+* [HTML Media Capture](http://www.w3.org/TR/html-media-capture)
+* [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging)
+* [Indexed Database API](http://www.w3.org/TR/IndexedDB)
+* [Performance Timeline](http://www.w3.org/TR/performance-timeline)
+* [Pointer Events](http://www.w3.org/TR/pointer-events)
+* [Resource Timing](http://www.w3.org/TR/resource-timing)
+* [Server-Sent Events](http://www.w3.org/TR/eventsource)
+* [User Timing](http://www.w3.org/TR/user-timing)
+* [Vibration API](http://www.w3.org/TR/vibration)
+* [Web Workers](http://www.w3.org/TR/workers)
+* [WebSocket API](http://www.w3.org/TR/websockets)
+
 Working Draft
 ----------------
 
@@ -71,36 +101,6 @@ Working Draft
 * [WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/webrtc)
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest)
 * [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2)
-
-Candidate Recommendation
-----------------
-
-* [Battery Status Event Specification](http://www.w3.org/TR/battery-status)
-* [HTML Media Capture](http://www.w3.org/TR/html-media-capture)
-* [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging)
-* [Indexed Database API](http://www.w3.org/TR/IndexedDB)
-* [Performance Timeline](http://www.w3.org/TR/performance-timeline)
-* [Pointer Events](http://www.w3.org/TR/pointer-events)
-* [Resource Timing](http://www.w3.org/TR/resource-timing)
-* [Server-Sent Events](http://www.w3.org/TR/eventsource)
-* [User Timing](http://www.w3.org/TR/user-timing)
-* [Vibration API](http://www.w3.org/TR/vibration)
-* [Web Workers](http://www.w3.org/TR/workers)
-* [WebSocket API](http://www.w3.org/TR/websockets)
-
-Proposed Recommendation
-----------------
-
-* [Geolocation API Specification](http://www.w3.org/TR/geolocation-API)
-* [Touch Events Version 1](http://www.w3.org/TR/touch-events)
-
-Recommendation
-----------------
-
-* [High Resolution Time](http://www.w3.org/TR/hr-time)
-* [Navigation Timing](http://www.w3.org/TR/navigation-timing)
-* [Page Visibility](http://www.w3.org/TR/page-visibility)
-* [Web Storage](http://www.w3.org/TR/webstorage)
 
 Note
 ----------------

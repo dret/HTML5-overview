@@ -2,8 +2,8 @@
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into github-friendly markdown. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output name="md-text" method="text" encoding="UTF-8"/>
-    <xsl:variable name="status-index" select="( 'WD'            , 'CR'                       , 'PR'                      , 'REC'            , 'PER'                            , 'NOTE' )"/>
-    <xsl:variable name="status-title" select="( 'Working Draft' , 'Candidate Recommendation' , 'Proposed Recommendation' , 'Recommendation' , 'Proposed Edited Recommendation' , 'Note' )"/>
+    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' )"/>
+    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' )"/>
     <xsl:key name="classes" match="/html5/classdefs/classdef" use="@id"/>
     <xsl:template match="html5">
         <xsl:result-document href="README.md" format="md-text">
