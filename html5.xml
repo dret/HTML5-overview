@@ -43,7 +43,7 @@
     </classdefs>
     <specs>
         <spec id="telephony" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
+            <class ref="communications">defines an API to manage telephone calls (e.g dialer app)</class>
             <title>Web Telephony API</title>
             <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
         </spec>
@@ -53,7 +53,7 @@
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
         <spec id="ambient-light" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provides access to light sensor of an device</class>
             <title>Ambient Light Events</title>
             <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
         </spec>
@@ -73,7 +73,7 @@
             <abstract>This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.</abstract>
         </spec>
         <spec id="html-srcset" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
+            <class ref="media">provides methods to include images in different quality for different viewports (e.g. phones, hq-displays)</class>
             <title>The srcset Attribute</title>
             <abstract>When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.</abstract>
         </spec>
@@ -88,12 +88,12 @@
             <abstract> Some user agents have connected music devices, such as synthesizers, keyboard and other controllers, and drum machines. The widely adopted Musical Instrument Digital Interface (MIDI) protocol enables electronic musical instruments, controllers and computers to communicate and synchronize with each other. MIDI does not transmit audio signals: instead, it sends event messages about musical notes, controller signals for parameters such as volume, vibrato and panning, cues and clock signals to set the tempo, and system-specific MIDI communications (e.g. to remotely store synthesizer-specific patch data). This same protocol has become a standard for non-musical uses, such as show control, lighting and special effects control. This specification defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages. It is intended to enable non-music MIDI applications as well as music ones, by providing low-level access to the MIDI devices available on the users' systems. At the same time, the Web MIDI API is not intended to become a semantic controller platform; it is designed to expose the mechanics of MIDI input and output interfaces, and the practical aspects of sending and receiving MIDI messages, without identifying what those actions might mean semantically. To some users, "MIDI" has become synonymous with Standard MIDI Files and General MIDI. That is not the intent of this API; the use case of simply playing back a .SMF file is not within the purview of this specification (it could be considered a different format to be supported by the HTML5 &lt;audio> element, for example). The Web MIDI API is intended to enable direct access to devices that respond to MIDI - external synthesizers or lighting systems, for example, or even the software synthesizers that are built in to many common operating systems. The Web MIDI API is also explicitly designed to enable a new class of applications on the web that can respond to MIDI controller inputs - using external hardware controllers with physical buttons, knobs and sliders (as well as musical controllers like keyboard, guitar or wind instrument controllers) to control web applications. The Web MIDI API is also expected to be used in conjunction with other APIs and elements of the web platform, notably the Web Audio API and High-Resolution Time. This API is also intended to be familiar to users of MIDI APIs on other systems, such as Apple's CoreMIDI and Microsoft's Windows MIDI API.</abstract>
         </spec>
         <spec id="battery-status" status="CR">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provices information about battery status of an device</class>
             <title>Battery Status Event Specification</title>
             <abstract>This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.</abstract>
         </spec>
         <spec id="calendar-api" status="WD">
-            <class ref="environment">[[ explanation needed ]]</class>
+            <class ref="environment">provides access to calender of os-environment</class>
             <title>Calendar API</title>
             <abstract>The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.</abstract>
         </spec>
@@ -103,7 +103,7 @@
             <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
         </spec>
         <spec id="orientation-event" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provides information about physical device orientation and motion (for e.g. compass)</class>
             <title>DeviceOrientation Event Specification</title>
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
@@ -128,16 +128,17 @@
             <abstract>This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are <em>File API</em> and <em>Web Workers</em>.</abstract>
         </spec>
         <spec id="fullscreen" status="WD">
+            <class ref="ui">provides information about fullscreen capabilities and actions</class>
             <title>Fullscreen</title>
             <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
         </spec>
         <spec id="gamepad" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="ui">specifies interfaces to allow web apps to act on gamepad data</class>
             <title>Gamepad</title>
             <abstract>The Gamepad specification defines a low-level interface that represents gamepad devices.</abstract>
         </spec>
         <spec id="geolocation-API" status="PR">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provides access to device geolocation information</class>
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
         </spec>
@@ -170,7 +171,7 @@
             <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
         <spec id="IndexedDB" status="CR">
-	        <class ref="storage">[[ explanation needed ]]</class>
+	        <class ref="storage">defines APIs for a keys/value database</class>
             <title>Indexed Database API</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
         </spec>
@@ -252,12 +253,12 @@
             <abstract>This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.</abstract>
         </spec>
         <spec id="proximity" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provides access to proximity sensor of an device</class>
             <title>Proximity Events</title>
             <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
         </spec>
         <spec id="quota-api" status="WD">
-            <class ref="storage">[[ explanation needed ]]</class>
+            <class ref="storage">defines an API to query, manage usage and availability of a user's local storage</class>
             <title>Quota Management API</title>
             <abstract>This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.</abstract>
         </spec>
@@ -267,7 +268,7 @@
             <abstract>This specification defines an interface for web applications to access timing information related to HTML elements.</abstract>
         </spec>
         <spec id="screen-orientation" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provides access to device screen orientation (portrait/landscape)</class>
             <title>Screen Orientation API</title>
             <abstract>The Screen Orientation API's goal is to provide an interface for web applications to be able to read the screen orientation state, to be informed when this state changes and to be able to lock the screen orientation to a specific state.</abstract>
         </spec>
@@ -317,7 +318,7 @@
             <abstract>This specification defines a "Push API" that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.</abstract>
         </spec>
         <spec id="contacts-api" status="WD">
-            <class ref="environment">[[ explanation needed ]]</class>
+            <class ref="environment">provides access to contacts stored in system's address book</class>
             <title>Contacts API</title>
             <abstract>This specification defines an API that provides access to a user's unified address book.</abstract>
         </spec>
@@ -371,7 +372,7 @@
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
         <spec id="vibration" status="CR">
-            <class ref="device">[[ explanation needed ]]</class>
+            <class ref="device">provides access to device vibration capabilities and actions</class>
             <title>Vibration API</title>
             <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
         </spec>
@@ -396,17 +397,17 @@
             <abstract>This document defines an API for displaying simple notifications to the user.</abstract>
         </spec>
         <spec id="web-alarms" status="WD">
-            <class ref="environment">[[ explanation needed ]]</class>
+            <class ref="environment">provides access to system's alarm settings</class>
             <title>Web Alarms API Specification</title>
             <abstract>This specification defines a System Level API to provide access to the device alarm settings, which can schedule a notification or for an application to be started at a specific time. For example, some applications like alarm-clock, calendar or auto-update might need to utilize Alarm API to trigger particular device behaviors at specified time points.</abstract>
         </spec>
         <spec id="webdatabase" status="NOTE">
-            <class ref="storage">[[ explanation needed ]]</class>
+            <class ref="storage">defines methods to store and query information using SQL</class>
             <title>Web SQL Database</title>
             <abstract>This specification defines an API for storing data in databases that can be queried using a variant of SQL.</abstract>
         </spec>
         <spec id="webstorage" status="REC">
-            <class ref="storage">[[ explanation needed ]]</class>
+            <class ref="storage">provides an API for persistant storing key/value pairs</class>
             <title>Web Storage</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
@@ -415,17 +416,17 @@
             <abstract>This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.</abstract>
         </spec>
         <spec id="WebCryptoAPI" status="WD">
-            <class ref="security">[[ explanation needed ]]</class>
+            <class ref="security">describes how to perform cryptographic operations in web apps</class>
             <title>Web Cryptography API</title>
             <abstract>This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.</abstract>
         </spec>
         <spec id="webcrypto-key-discovery" status="WD">
-            <class ref="security">[[ explanation needed ]]</class>
+            <class ref="security">provides methods to generate, derive or import cryptographic key objects</class>
             <title>WebCrypto Key Discovery</title>
             <abstract>This specification describes a JavaScript API for discovering named, origin-specific pre-provisioned cryptographic keys for use with the Web Cryptography API. Pre-provisioned keys are keys which have been made available to the UA by means other than the generation, derivation, imporation functions of the Web Cryptography API. Origin-specific keys are keys that are available only to a specified origin. Named keys are identified by a name assumed to be known to the origin in question and provisioned with the key itself.</abstract>
         </spec>
         <spec id="runtime" status="WD">
-            <class ref="security">[[ explanation needed ]]</class>
+            <class ref="security">describes a security model for web apps]</class>
             <title>Runtime and Security Model for Web Applications</title>
             <abstract>This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.</abstract>
         </spec>
