@@ -43,8 +43,8 @@
         <classdef id="DOM" title="DOM">Specifications to access or manipulate the document structure</classdef>
         <classdef id="communications" title="Communications/Networking">Specifications which provide networking-features for communicating and transferring data between clients and servers</classdef>
         <classdef id="security" title="Security">Specifications which provide security features (e.g., hashing, key-management etc.)</classdef>
-        <classdef id="monitoring" title="Monitoring">[[ explanation needed ]]</classdef>
-        <classdef id="ui" title="User Interaction">[[ explanation needed ]]</classdef>
+        <classdef id="monitoring" title="Monitoring">Specifications which are related to monitoring and application performance</classdef>
+        <classdef id="ui" title="User Interaction">Specifications which are related to user interface (e.g. notifications) or user interaction (controlling interfaces).</classdef>
     </classdefs>
     <specs>
         <spec id="telephony" status="WD">
