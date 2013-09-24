@@ -43,8 +43,8 @@
         <classdef id="DOM" title="DOM">Specifications to access or manipulate the document structure</classdef>
         <classdef id="communications" title="Communications/Networking">Specifications which provide networking-features for communicating and transferring data between clients and servers</classdef>
         <classdef id="security" title="Security">Specifications which provide security features (e.g., hashing, key-management etc.)</classdef>
-        <classdef id="monitoring" title="Monitoring">[[ explanation needed ]]</classdef>
-        <classdef id="ui" title="User Interaction">[[ explanation needed ]]</classdef>
+        <classdef id="monitoring" title="Monitoring">Specifications which are related to monitoring and application performance</classdef>
+        <classdef id="ui" title="User Interaction">Specifications which are related to user interface (e.g. notifications) or user interaction (controlling interfaces).</classdef>
     </classdefs>
     <specs>
         <spec id="telephony" status="WD">
@@ -53,7 +53,7 @@
             <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
         </spec>
         <spec id="discovery-api" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
+            <class ref="communications">Defines methods for an HTML document to communicate with HTTP-services</class>
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
@@ -63,17 +63,17 @@
             <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
         </spec>
         <spec id="audioproc" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
+            <class ref="media">Extends browser capabilities to add advanced audio features</class>
             <title>Audio Processing API</title>
             <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
         </spec>
         <spec id="html-picture-element" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
+            <class ref="media">Introduces the picture element to declare multiple image sources for different media queries</class>
             <title>The picture Element</title>
             <abstract>The picture element is an image container whose source content is determined by one or more CSS media queries.</abstract>
         </spec>
         <spec id="html-longdesc" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
+            <class ref="media">Provides the longdesc attribute to add or link a machine-discoverable description to an image</class>
             <title>HTML Image Description Extension</title>
             <abstract>This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.</abstract>
         </spec>
@@ -83,12 +83,12 @@
             <abstract>When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.</abstract>
         </spec>
         <spec id="media-source" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
+            <class ref="media">Allows JavaScript to dynamically construct media streams for audio/video element (incl. buffering model etc.)</class>
             <title>Media Source Extensions</title>
             <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams. </abstract>
         </spec>
         <spec id="webmidi" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
+            <class ref="ui">Represents the low-level software protocol of MIDI to build powerful MIDI software on top. Enable developers to enmuerate input/output interfaces and sending/receiving MIDI messages. Not limited to musical uses.</class>
             <title>Web MIDI API</title>
             <abstract> Some user agents have connected music devices, such as synthesizers, keyboard and other controllers, and drum machines. The widely adopted Musical Instrument Digital Interface (MIDI) protocol enables electronic musical instruments, controllers and computers to communicate and synchronize with each other. MIDI does not transmit audio signals: instead, it sends event messages about musical notes, controller signals for parameters such as volume, vibrato and panning, cues and clock signals to set the tempo, and system-specific MIDI communications (e.g. to remotely store synthesizer-specific patch data). This same protocol has become a standard for non-musical uses, such as show control, lighting and special effects control. This specification defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages. It is intended to enable non-music MIDI applications as well as music ones, by providing low-level access to the MIDI devices available on the users' systems. At the same time, the Web MIDI API is not intended to become a semantic controller platform; it is designed to expose the mechanics of MIDI input and output interfaces, and the practical aspects of sending and receiving MIDI messages, without identifying what those actions might mean semantically. To some users, "MIDI" has become synonymous with Standard MIDI Files and General MIDI. That is not the intent of this API; the use case of simply playing back a .SMF file is not within the purview of this specification (it could be considered a different format to be supported by the HTML5 &lt;audio> element, for example). The Web MIDI API is intended to enable direct access to devices that respond to MIDI - external synthesizers or lighting systems, for example, or even the software synthesizers that are built in to many common operating systems. The Web MIDI API is also explicitly designed to enable a new class of applications on the web that can respond to MIDI controller inputs - using external hardware controllers with physical buttons, knobs and sliders (as well as musical controllers like keyboard, guitar or wind instrument controllers) to control web applications. The Web MIDI API is also expected to be used in conjunction with other APIs and elements of the web platform, notably the Web Audio API and High-Resolution Time. This API is also intended to be familiar to users of MIDI APIs on other systems, such as Apple's CoreMIDI and Microsoft's Windows MIDI API.</abstract>
         </spec>
@@ -103,7 +103,7 @@
             <abstract>The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.</abstract>
         </spec>
         <spec id="clipboard-apis" status="WD">
-            <class ref="environment">[[ explanation needed ]]</class>
+            <class ref="environment">Provides methods to redefine clipboard operations in web apps. (e.g. to reformat/cleanup rich content)</class>
             <title>Clipboard API and Events</title>
             <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
         </spec>
@@ -113,22 +113,22 @@
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
         <spec id="app-uri" status="WD">
-            <class ref="filesystem">[[ explanation needed ]]</class>
+            <class ref="filesystem">Replacement technology for the file URL scheme</class>
             <title>The app: URI scheme</title>
             <abstract>This specification defines the app: URI scheme and rules for dereferencing an app: URI, which can be used to address resources inside a package (e.g., a packaged application). The dereferencing model relies on HTTP semantics to return resources in a manner akin to a HTTP GET request. Doing so allows this URI scheme to be used with other technologies that rely on HTTP responses to function as intended, such as XmlHttpRequest.</abstract>
         </spec>
         <spec id="FileAPI" status="WD">
-            <class ref="filesystem">[[ explanation needed ]]</class>
+            <class ref="filesystem">Represents file objects. Includes interfaces for File, FileLists, Blobs, FileReader and a URL scheme to reference files within web apps.</class>
             <title>File API</title>
             <abstract>This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.</abstract>
         </spec>
         <spec id="file-system-api" status="WD">
-            <class ref="filesystem">[[ explanation needed ]]</class>
+            <class ref="filesystem">Defines an API to navigate file system hierarchies</class>
             <title>File API: Directories and System</title>
             <abstract>This specification defines an API to navigate file system hierarchies, and defines a means by which a user agent may expose sandboxed sections of a user's local filesystem to web applications. It builds on <q>File API: Writer</q>, which in turn built on <q>File API</q>, each adding a different kind of functionality.</abstract>
         </spec>
         <spec id="file-writer-api" status="WD">
-            <class ref="filesystem">[[ explanation needed ]]</class>
+            <class ref="filesystem">Defines an API through which user agents can permit applications to write generated or downloaded files.</class>
             <title>File API: Writer</title>
             <abstract>This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are <em>File API</em> and <em>Web Workers</em>.</abstract>
         </spec>
