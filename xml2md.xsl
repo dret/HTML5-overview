@@ -34,11 +34,9 @@ I am currently working on making this page as complete as the blog page. As a st
                     <xsl:value-of select="title/text()"/>
                     <xsl:text>](http://www.w3.org/TR/</xsl:text>
                     <xsl:value-of select="@id"/>
-<!--
                     <xsl:text> "</xsl:text>
-                    <xsl:value-of select="abstract"/>
+                    <xsl:value-of select="replace(abstract,'&quot;', '&#x201d;')"/>
                     <xsl:text>"</xsl:text>
--->
                     <xsl:text>)&#xa;</xsl:text>
                 </xsl:for-each>
             </xsl:for-each-group>
