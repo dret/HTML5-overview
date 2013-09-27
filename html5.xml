@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: https://github.com/dret/HTML5-overview -->
+<?xml-stylesheet type="text/xsl" href="xml2md.xsl"?>
 <!DOCTYPE html5 [
   <!ELEMENT html5 (classdefs, specs, log) >
   <!ELEMENT classdefs (classdef*) >
@@ -454,8 +455,14 @@
             <title>XMLHttpRequest Level 2</title>
             <abstract>The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.</abstract>
         </spec>
+        <spec id="cors" status="CR">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Cross-Origin Resource Sharing</title>
+            <abstract>This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</abstract>
+        </spec>
     </specs>
     <log>
+        <entry date="2013-09-27">adding <a href="http://www.w3.org/TR/cors"><q>Cross-Origin Resource Sharing</q></a></entry>
         <entry date="2013-09-10">published source on <a href="https://github.com/dret/HTML5-overview"><q>github</q></a>, working on complete markdown formatting</entry>
         <entry date="2013-07-30">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from PR to REC</entry>
         <entry date="2013-07-23">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>

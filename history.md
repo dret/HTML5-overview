@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* September 27, 2013: adding Cross-Origin Resource Sharing
 * September 10, 2013: published source on github, working on complete markdown formatting
 * July 30, 2013: changed status of Web Storage from PR to REC
 * July 23, 2013: changed status of Vibration API from WD to CR
