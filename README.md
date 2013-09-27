@@ -25,9 +25,9 @@ Proposed Recommendation
 Candidate Recommendation
 ----------------
 
-* [Battery Status Event Specification](http://www.w3.org/TR/battery-status)
-* [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors)
-* [HTML Media Capture](http://www.w3.org/TR/html-media-capture)
+* [Battery Status Event Specification](http://www.w3.org/TR/battery-status "test")
+* [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "Apos: '")
+* [HTML Media Capture](http://www.w3.org/TR/html-media-capture "Test: &quot;&apos;")
 * [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging)
 * [Indexed Database API](http://www.w3.org/TR/IndexedDB)
 * [Performance Timeline](http://www.w3.org/TR/performance-timeline)
