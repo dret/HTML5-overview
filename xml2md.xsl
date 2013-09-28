@@ -26,8 +26,10 @@ I am currently working on making this page as complete as the blog page. As a st
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
                 <xsl:text>&#xa;</xsl:text>
-                <xsl:value-of select="concat($status-title[index-of($status-index, current-grouping-key())], 's')"/>
-                <xsl:text>&#xa;----------------&#xa;&#xa;</xsl:text>
+                <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
+                <xsl:text>s (</xsl:text>
+                <xsl:value-of select="count(current-group())"/>
+                <xsl:text> Specs)&#xa;----------------&#xa;&#xa;</xsl:text>
                 <xsl:for-each select="current-group()">
                     <xsl:sort select="title/text()"/>
                     <xsl:text>* [</xsl:text>
