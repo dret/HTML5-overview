@@ -148,10 +148,10 @@
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
         </spec>
-        <spec id="2dcontext" status="WD">
+        <spec id="2dcontext" status="CR">
             <class ref="graphics">[[ explanation needed ]]</class>
             <title>HTML Canvas 2D Context</title>
-            <abstract>This specification defines the 2D Context for the HTML canvas element.</abstract>
+            <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
         <spec id="html-media-capture" status="CR">
             <class ref="media">[[ explanation needed ]]</class>
@@ -462,7 +462,8 @@
         </spec>
     </specs>
     <log>
-        <entry date="2013-09-27">adding <a href="http://www.w3.org/TR/cors"><q>Cross-Origin Resource Sharing</q></a></entry>
+        <entry date="2013-09-28">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
+        <entry date="2013-09-27">added <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a></entry>
         <entry date="2013-09-10">published source on <a href="https://github.com/dret/HTML5-overview"><q>github</q></a>, working on complete markdown formatting</entry>
         <entry date="2013-07-30">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from PR to REC</entry>
         <entry date="2013-07-23">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>
