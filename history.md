@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* October 1, 2013: moved Ambient Light Events and Proximity Events from WD to CR
 * September 28, 2013: changed status of HTML Canvas 2D Context from WD to CR
 * September 27, 2013: added Cross-Origin Resource Sharing
 * September 10, 2013: published source on github, working on complete markdown formatting

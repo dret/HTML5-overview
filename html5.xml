@@ -58,7 +58,7 @@
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
-        <spec id="ambient-light" status="WD">
+        <spec id="ambient-light" status="CR">
             <class ref="device">Provides access to light sensor of an device.</class>
             <title>Ambient Light Events</title>
             <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
@@ -258,7 +258,7 @@
             <title>Programmable HTTP Caching and Serving</title>
             <abstract>This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.</abstract>
         </spec>
-        <spec id="proximity" status="WD">
+        <spec id="proximity" status="CR">
             <class ref="device">Provides access to proximity sensor of an device.</class>
             <title>Proximity Events</title>
             <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
@@ -462,6 +462,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-10-01">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from WD to CR</entry>
         <entry date="2013-09-28">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
         <entry date="2013-09-27">added <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a></entry>
         <entry date="2013-09-10">published source on <a href="https://github.com/dret/HTML5-overview"><q>github</q></a>, working on complete markdown formatting</entry>
