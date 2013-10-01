@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: https://github.com/dret/HTML5-overview -->
-<?xml-stylesheet type="text/xsl" href="xml2md.xsl"?>
+<?xml-stylesheet type="text/xsl" href="XSLT/xml2md.xsl"?>
 <!DOCTYPE html5 [
   <!ELEMENT html5 (classdefs, specs, log) >
   <!ELEMENT classdefs (classdef*) >
