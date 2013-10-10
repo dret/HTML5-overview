@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* October 10, 2013: changed status of Touch Events from PR to REC
 * October 1, 2013: moved Ambient Light Events and Proximity Events from WD to CR
 * September 28, 2013: changed status of HTML Canvas 2D Context from WD to CR
 * September 27, 2013: added Cross-Origin Resource Sharing
@@ -15,7 +16,7 @@ HTML5 Overview: Change Log
 * May 16, 2013: added The app: URI scheme and Messaging API
 * May 14, 2013: added Shadow DOM, Custom Elements, HTML Imports, and Raw Sockets; changed status of Page Visibility from PR to REC
 * May 10, 2013: added Encrypted Media Extensions
-* May 9, 2013: changed status of Touch Events Version 1 from WD to PR; changed status of Pointer Events and HTML Media Capture from WD to CR
+* May 9, 2013: changed status of Touch Events from WD to PR; changed status of Pointer Events and HTML Media Capture from WD to CR
 * April 9, 2013: changed status of Web Storage from CR to PR
 * April 4, 2013: added Input Method Editor API
 * March 27, 2013: added Runtime and Security Model for Web Applications
@@ -27,7 +28,7 @@ HTML5 Overview: Change Log
 * February 5, 2013: added Web Alarms API Specification and MediaStream Recording
 * January 31, 2013: added Navigation Timing 2
 * January 29, 2013: added Media Source Extensions
-* January 25, 2013: changed status of Touch Events Version 1 from CR to WD
+* January 25, 2013: changed status of Touch Events from CR to WD
 * January 24, 2013: added IndieUI: Events 1.0
 * January 9, 2013: added WebCrypto Key Discovery
 * December 17, 2012: changed status of High Resolution Time and Navigation Timing from PR to REC
@@ -61,7 +62,7 @@ HTML5 Overview: Change Log
 * July 1, 2011: added DeviceOrientation Event Specification
 * June 7, 2011: added Network Information API
 * June 2, 2011: added Page Visibility, Timing Control for Script-Based Animations, Navigation Timing, and Resource Timing
-* May 5, 2011: added Touch Events Specification
+* May 5, 2011: added Touch Events
 * April 26, 2011: added Battery Status Event Specification
 * April 19, 2011: added Calendar API
 * April 14, 2011: added Clipboard API and Events

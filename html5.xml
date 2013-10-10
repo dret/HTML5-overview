@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: https://github.com/dret/HTML5-overview -->
+<!-- This is free and unencumbered data released into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute this data, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. Enjoy! -->
 <?xml-stylesheet type="text/xsl" href="XSLT/xml2md.xsl"?>
 <!DOCTYPE html5 [
   <!ELEMENT html5 (classdefs, specs, log) >
@@ -358,9 +359,9 @@
             <title>Web Animations 1.0</title>
             <abstract>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.</abstract>
         </spec>
-        <spec id="touch-events" status="PR">
+        <spec id="touch-events" status="REC">
             <class ref="device">[[ explanation needed ]]</class>
-            <title>Touch Events Version 1</title>
+            <title>Touch Events</title>
             <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
         </spec>
         <spec id="pointerevents" status="CR">
@@ -462,6 +463,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-10-10">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events</q></a> from PR to REC</entry>
         <entry date="2013-10-01">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from WD to CR</entry>
         <entry date="2013-09-28">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
         <entry date="2013-09-27">added <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a></entry>
@@ -476,7 +478,7 @@
         <entry date="2013-05-16">added <a href="http://www.w3.org/TR/app-uri/"><q>The app: URI scheme</q></a> and <a href="http://www.w3.org/TR/messaging/"><q>Messaging API</q></a></entry>
         <entry date="2013-05-14">added <a href="http://www.w3.org/TR/shadow-dom/"><q>Shadow DOM</q></a>, <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a>, <a href="http://www.w3.org/TR/html-imports/"><q>HTML Imports</q></a>, and <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a>; changed status of <a href="http://www.w3.org/TR/page-visibility/"><q>Page Visibility</q></a> from PR to REC</entry>
         <entry date="2013-05-10">added <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a></entry>
-        <entry date="2013-05-09">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events Version 1</q></a> from WD to PR; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
+        <entry date="2013-05-09">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events</q></a> from WD to PR; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
         <entry date="2013-04-09">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from CR to PR</entry>
         <entry date="2013-04-04">added <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a></entry>
         <entry date="2013-03-27">added <a href="http://www.w3.org/TR/runtime/"><q>Runtime and Security Model for Web Applications</q></a></entry>
@@ -488,7 +490,7 @@
         <entry date="2013-02-05">added <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> and <a href="http://www.w3.org/TR/mediastream-recording/"><q>MediaStream Recording</q></a></entry>
         <entry date="2013-01-31">added <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a></entry>
         <entry date="2013-01-29">added <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a></entry>
-        <entry date="2013-01-25">changed status of <a href="http://www.w3.org/TR/touch-events"><q>Touch Events Version 1</q></a> from CR to WD</entry>
+        <entry date="2013-01-25">changed status of <a href="http://www.w3.org/TR/touch-events"><q>Touch Events</q></a> from CR to WD</entry>
         <entry date="2013-01-24">added <a href="http://www.w3.org/TR/indie-ui-events/"><q>IndieUI: Events 1.0</q></a></entry>
         <entry date="2013-01-09">added <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a></entry>
         <entry date="2012-12-17">changed status of <a href="http://www.w3.org/TR/hr-time/"><q>High Resolution Time</q></a> and <a href="http://www.w3.org/TR/navigation-timing/"><q>Navigation Timing</q></a> from PR to REC</entry>
@@ -522,7 +524,7 @@
         <entry date="2011-07-01">added <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a></entry>
         <entry date="2011-06-07">added <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a></entry>
         <entry date="2011-06-02">added <a href="http://www.w3.org/TR/page-visibility/"><q>Page Visibility</q></a>, <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a>, <a href="http://www.w3.org/TR/navigation-timing/"><q>Navigation Timing</q></a>, and <a href="http://www.w3.org/TR/resource-timing/"><q>Resource Timing</q></a></entry>
-        <entry date="2011-05-05">added <a href="http://www.w3.org/TR/touch-events"><q>Touch Events Specification</q></a></entry>
+        <entry date="2011-05-05">added <a href="http://www.w3.org/TR/touch-events"><q>Touch Events</q></a></entry>
         <entry date="2011-04-26">added <a href="http://www.w3.org/TR/battery-status"><q>Battery Status Event Specification</q></a></entry>
         <entry date="2011-04-19">added <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a></entry>
         <entry date="2011-04-14">added <a href="http://www.w3.org/TR/clipboard-apis"><q>Clipboard API and Events</q></a></entry>
