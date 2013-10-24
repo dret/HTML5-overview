@@ -144,7 +144,7 @@
             <title>Gamepad</title>
             <abstract>The Gamepad specification defines a low-level interface that represents gamepad devices.</abstract>
         </spec>
-        <spec id="geolocation-API" status="PR">
+        <spec id="geolocation-API" status="REC">
             <class ref="device">Provides access to device geolocation information.</class>
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
@@ -463,6 +463,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-10-24">changed status of <a href="http://www.w3.org/TR/geolocation-API/"><q>Geolocation API Specification</q></a> from PR to REC</entry>
         <entry date="2013-10-10">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events</q></a> from PR to REC</entry>
         <entry date="2013-10-01">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from WD to CR</entry>
         <entry date="2013-09-28">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>

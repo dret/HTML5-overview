@@ -8,19 +8,15 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 84 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
-Recommendations (5 Specs)
+Recommendations (6 Specs)
 ----------------
 
+* [Geolocation API Specification](http://www.w3.org/TR/geolocation-API "This specification defines an API that provides scripted access to geographical location information associated with the hosting device.")
 * [High Resolution Time](http://www.w3.org/TR/hr-time "This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.")
 * [Navigation Timing](http://www.w3.org/TR/navigation-timing "This specification defines an interface for web applications to access timing information related to navigation and elements.")
 * [Page Visibility](http://www.w3.org/TR/page-visibility "This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.")
 * [Touch Events](http://www.w3.org/TR/touch-events "The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
-
-Proposed Recommendations (1 Specs)
-----------------
-
-* [Geolocation API Specification](http://www.w3.org/TR/geolocation-API "This specification defines an API that provides scripted access to geographical location information associated with the hosting device.")
 
 Candidate Recommendations (16 Specs)
 ----------------

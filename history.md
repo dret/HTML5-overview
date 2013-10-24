@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* October 24, 2013: changed status of Geolocation API Specification from PR to REC
 * October 10, 2013: changed status of Touch Events from PR to REC
 * October 1, 2013: moved Ambient Light Events and Proximity Events from WD to CR
 * September 28, 2013: changed status of HTML Canvas 2D Context from WD to CR
