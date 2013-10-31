@@ -231,7 +231,7 @@
             <title>Page Visibility</title>
             <abstract>This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.</abstract>
         </spec>
-        <spec id="performance-timeline" status="CR">
+        <spec id="performance-timeline" status="PR">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
@@ -478,7 +478,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions"><q>Touch Events Extensions</q></a></entry>
+        <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions"><q>Touch Events Extensions</q></a></entry>
         <entry date="2013-10-29">added <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> and <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
         <entry date="2013-10-24">changed status of <a href="http://www.w3.org/TR/geolocation-API/"><q>Geolocation API Specification</q></a> from PR to REC</entry>
         <entry date="2013-10-10">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events</q></a> from PR to REC</entry>

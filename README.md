@@ -18,12 +18,13 @@ Recommendations (6 Specs)
 * [Touch Events](http://www.w3.org/TR/touch-events "The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-Proposed Recommendations (1 Specs)
+Proposed Recommendations (2 Specs)
 ----------------
 
+* [Performance Timeline](http://www.w3.org/TR/performance-timeline "This specification defines an interface for web applications to access timing information related to navigation and elements.")
 * [User Timing](http://www.w3.org/TR/user-timing "This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.")
 
-Candidate Recommendations (15 Specs)
+Candidate Recommendations (14 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -33,7 +34,6 @@ Candidate Recommendations (15 Specs)
 * [HTML Media Capture](http://www.w3.org/TR/html-media-capture "This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.")
 * [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging "This specification defines two mechanism for communicating between browsing contexts in HTML documents.")
 * [Indexed Database API](http://www.w3.org/TR/IndexedDB "This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.")
-* [Performance Timeline](http://www.w3.org/TR/performance-timeline "This specification defines an interface for web applications to access timing information related to navigation and elements.")
 * [Pointer Events](http://www.w3.org/TR/pointerevents "This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.")
 * [Proximity Events](http://www.w3.org/TR/proximity "This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. ")
 * [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
