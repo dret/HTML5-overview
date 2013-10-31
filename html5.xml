@@ -164,7 +164,7 @@
             <title>Encrypted Media Extensions</title>
             <abstract>This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.</abstract>
         </spec>
-        <spec id="microdata" status="WD">
+        <spec id="microdata" status="NOTE">
             <title>HTML Microdata</title>
             <abstract>This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON.</abstract>
         </spec>
@@ -473,6 +473,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE</entry>
         <entry date="2013-10-29">added <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> and <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
         <entry date="2013-10-24">changed status of <a href="http://www.w3.org/TR/geolocation-API/"><q>Geolocation API Specification</q></a> from PR to REC</entry>
         <entry date="2013-10-10">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events</q></a> from PR to REC</entry>
