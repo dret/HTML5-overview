@@ -1,7 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
-* October 31, 2013: changed status of HTML Microdata from WD to NOTE
+* October 31, 2013: changed status of HTML Microdata from WD to NOTE; added Touch Events Extensions
 * October 29, 2013: added Resource Priorities and Beacon
 * October 24, 2013: changed status of Geolocation API Specification from PR to REC
 * October 10, 2013: changed status of Touch Events from PR to REC

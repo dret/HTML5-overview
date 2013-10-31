@@ -364,6 +364,11 @@
             <title>Touch Events</title>
             <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
         </spec>
+        <spec id="touch-events-extensions" status="NOTE">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Touch Events Extensions</title>
+            <abstract>This document defines extensions to the Touch Events specification that have been implemented by one or more browsers. We recommend that user agents implement the Touch Events Recommendation and/or the newer Pointer Events specification instead. This document is no longer being developed.</abstract>
+        </spec>
         <spec id="pointerevents" status="CR">
             <class ref="device">[[ explanation needed ]]</class>
             <title>Pointer Events</title>
@@ -473,7 +478,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE</entry>
+        <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions"><q>Touch Events Extensions</q></a></entry>
         <entry date="2013-10-29">added <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> and <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
         <entry date="2013-10-24">changed status of <a href="http://www.w3.org/TR/geolocation-API/"><q>Geolocation API Specification</q></a> from PR to REC</entry>
         <entry date="2013-10-10">changed status of <a href="http://www.w3.org/TR/touch-events/"><q>Touch Events</q></a> from PR to REC</entry>
