@@ -466,7 +466,7 @@
             <title>XMLHttpRequest Level 2</title>
             <abstract>The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.</abstract>
         </spec>
-        <spec id="cors" status="CR">
+        <spec id="cors" status="PR">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Cross-Origin Resource Sharing</title>
             <abstract>This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</abstract>
@@ -483,6 +483,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-12-05">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from CR to PR</entry>
         <entry date="2013-12-03">added <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a></entry>
         <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions"><q>Touch Events Extensions</q></a></entry>
         <entry date="2013-10-29">added <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> and <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
