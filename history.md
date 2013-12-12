@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* December 12, 2013: changed status of Progress Events from CR to PR, and status of User Timing and Performance Timeline from PR to REC
 * December 5, 2013: changed status of Cross-Origin Resource Sharing from CR to PR
 * December 3, 2013: added High Resolution Time Level 2
 * October 31, 2013: changed status of User Timing and Performance Timeline from CR to PR; changed status of Timing Control for Script-Based Animations from WD to CR; changed status of HTML Microdata from WD to NOTE; added Touch Events Extensions

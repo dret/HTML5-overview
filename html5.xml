@@ -236,7 +236,7 @@
             <title>Page Visibility</title>
             <abstract>This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.</abstract>
         </spec>
-        <spec id="performance-timeline" status="PR">
+        <spec id="performance-timeline" status="REC">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
@@ -383,7 +383,7 @@
             <title>URL</title>
             <abstract>This specification defines the term URL, various algorithms for dealing with URLs, and an API for constructing, parsing, and resolving URLs.</abstract>
         </spec>
-        <spec id="user-timing" status="PR">
+        <spec id="user-timing" status="REC">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
@@ -466,6 +466,11 @@
             <title>XMLHttpRequest Level 2</title>
             <abstract>The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.</abstract>
         </spec>
+        <spec id="progress-events" status="PR">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Progress Events</title>
+            <abstract>The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.</abstract>
+        </spec>
         <spec id="cors" status="PR">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Cross-Origin Resource Sharing</title>
@@ -483,6 +488,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR, and status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
         <entry date="2013-12-05">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from CR to PR</entry>
         <entry date="2013-12-03">added <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a></entry>
         <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions"><q>Touch Events Extensions</q></a></entry>
