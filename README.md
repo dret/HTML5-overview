@@ -26,7 +26,7 @@ Proposed Recommendations (2 Specs)
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
 * [Progress Events](http://www.w3.org/TR/progress-events "The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.")
 
-Candidate Recommendations (14 Specs)
+Candidate Recommendations (15 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -36,6 +36,7 @@ Candidate Recommendations (14 Specs)
 * [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging "This specification defines two mechanism for communicating between browsing contexts in HTML documents.")
 * [Indexed Database API](http://www.w3.org/TR/IndexedDB "This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.")
 * [Pointer Events](http://www.w3.org/TR/pointerevents "This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.")
+* [Pointer Lock](http://www.w3.org/TR/pointerlock "This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.")
 * [Proximity Events](http://www.w3.org/TR/proximity "This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. ")
 * [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
 * [Server-Sent Events](http://www.w3.org/TR/eventsource "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
@@ -44,7 +45,7 @@ Candidate Recommendations (14 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (58 Specs)
+Working Drafts (57 Specs)
 ----------------
 
 * [Audio Processing API](http://www.w3.org/TR/audioproc "This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.")
@@ -76,7 +77,6 @@ Working Drafts (58 Specs)
 * [Network Information API](http://www.w3.org/TR/netinfo-api "The Network Information API provides an interface for Web Applications to access the underlying network information (connection info) of the device.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")
 * [Pick Media Intent](http://www.w3.org/TR/gallery "The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. ")
-* [Pointer Lock](http://www.w3.org/TR/pointerlock "This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.")
 * [Push API](http://www.w3.org/TR/push-api "This specification defines a ”Push API” that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.")
 * [Quota Management API](http://www.w3.org/TR/quota-api "This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.")
 * [Raw Sockets](http://www.w3.org/TR/raw-sockets "This API provides interfaces to raw UDP sockets, TCP client sockets and TCP server sockets.")

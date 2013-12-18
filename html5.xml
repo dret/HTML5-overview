@@ -246,7 +246,7 @@
             <title>Pick Media Intent</title>
             <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. </abstract>
         </spec>
-        <spec id="pointerlock" status="WD">
+        <spec id="pointerlock" status="CR">
             <title>Pointer Lock</title>
             <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.</abstract>
         </spec>
@@ -488,6 +488,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2013-12-18">changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
         <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR, and status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
         <entry date="2013-12-05">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from CR to PR</entry>
         <entry date="2013-12-03">added <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a></entry>
