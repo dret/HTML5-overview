@@ -432,6 +432,10 @@
             <title>Web Workers</title>
             <abstract>This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.</abstract>
         </spec>
+        <spec id="appmanifest" status="WD">
+            <title>Manifest for Web Apps and Bookmarks</title>
+            <abstract>This specification defines a manifest, which provides developers with a centralized place to put metadata about a web application. This includes, amongst other things, the ability to specify the name of the web application, links to icons, as well as the preferred URL at which the web application should open when it is launched by the user. With this metadata, user agents can provide, for example, enhanced bookmarking capabilities such as being able to add a web application to the homescreen of a device - as well as the various icons needed to effectively integrate with an OS's task switcher and system preferences. The specification also defines an API to enable bookmarking from within a document, as well as a means to check if an application is running in a special mode called "standalone". This specification also defines the manifest link type, which provides a declarative means for a web document to be associated with a manifest.</abstract>
+        </spec>
         <spec id="WebCryptoAPI" status="WD">
             <class ref="security">Describes how to perform cryptographic operations in Web apps.</class>
             <title>Web Cryptography API</title>
@@ -488,7 +492,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2013-12-18">changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
+        <entry date="2013-12-18">added <a href="http://www.w3.org/TR/appmanifest/"><q>Manifest for Web Apps and Bookmarks</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
         <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR, and status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
         <entry date="2013-12-05">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from CR to PR</entry>
         <entry date="2013-12-03">added <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a></entry>
