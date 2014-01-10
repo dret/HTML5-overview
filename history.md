@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* January 9, 2014: changed status of Media Source Extensions from WD to CR
 * December 18, 2013: added Manifest for Web Apps and Bookmarks; changed status of Pointer Lock from WD to CR
 * December 12, 2013: changed status of Progress Events from CR to PR, and status of User Timing and Performance Timeline from PR to REC
 * December 5, 2013: changed status of Cross-Origin Resource Sharing from CR to PR
