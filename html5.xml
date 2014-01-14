@@ -49,6 +49,11 @@
         <classdef id="ui" title="User Interaction">Specifications which are related to user interface (e.g., notifications) or user interaction (controlling interfaces).</classdef>
     </classdefs>
     <specs>
+        <spec id="system-info-api" status="NOTE">
+            <class ref="device">Defines an API to access various device characteristics.</class>
+            <title>System Information API</title>
+            <abstract>This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.</abstract>
+        </spec>
         <spec id="telephony" status="WD">
             <class ref="communications">Defines an API to manage telephone calls (e.g. dialer app).</class>
             <title>Web Telephony API</title>
@@ -99,7 +104,7 @@
             <title>Battery Status Event Specification</title>
             <abstract>This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.</abstract>
         </spec>
-        <spec id="calendar-api" status="WD">
+        <spec id="calendar-api" status="NOTE">
             <class ref="environment">Provides access to calender of OS environment.</class>
             <title>Calendar API</title>
             <abstract>The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.</abstract>
@@ -216,7 +221,7 @@
             <title>Streams API</title>
             <abstract>This specification provides an API for representing binary data in web applications as a Stream object, as well as programmatically building and reading its contents. This includes: A Stream interface, which represents a sequence of data that can be read over time; A StreamReader interface, which provides methods to read the contents of a Stream as a Blob, DataURL, ArrayBuffer, or as Text; A StreamBuilder interface, which allows for creating a new Stream whose contents is read from an internal buffer that was made by appending Text, Blobs, or ArrayBuffers; Extensions to XmlHttpRequest to add support for upload and download of a Stream; Extensions to createObjectURL and revokeObjectURL to add support for Stream. Additionally, this specification defines objects to be used within threaded web applications for the synchronous reading of a Stream. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: File, XMLHttpRequest (e.g. with an overloaded send() method and response object for Stream objects), postMessage, and Web Workers.</abstract>
         </spec>
-        <spec id="messaging-api" status="WD">
+        <spec id="messaging-api" status="NOTE">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>The Messaging API</title>
             <abstract>This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.</abstract>
@@ -246,7 +251,7 @@
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
         </spec>
-        <spec id="gallery" status="WD">
+        <spec id="gallery" status="NOTE">
             <class ref="media">[[ explanation needed ]]</class>
             <title>Pick Media Intent</title>
             <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. </abstract>
@@ -334,10 +339,10 @@
             <title>Push API</title>
             <abstract>This specification defines a "Push API" that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.</abstract>
         </spec>
-        <spec id="contacts-api" status="WD">
+        <spec id="contacts-api" status="NOTE">
             <class ref="environment">Provides access to contacts stored in system's address book.</class>
-            <title>Contacts API</title>
-            <abstract>This specification defines an API that provides access to a user's unified address book.</abstract>
+            <title>Pick Contacts Intent</title>
+            <abstract>The Pick Contacts Intent defines a Web Intent that enables access to a user's address book service from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the contacts data that is returned by services implementing this specification.</abstract>
         </spec>
         <spec id="contacts-manager-api" status="WD">
             <class ref="environment">[[ explanation needed ]]</class>
@@ -403,7 +408,7 @@
             <title>Web Audio API</title>
             <abstract>This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly/C/C++ code), but direct JavaScript processing and synthesis is also supported. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (using the responseType and response attributes). For games and interactive applications, it is anticipated to be used with the canvas 2D and WebGL 3D graphics APIs.</abstract>
         </spec>
-        <spec id="webintents-local-services" status="WD">
+        <spec id="webintents-local-services" status="NOTE">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Web Intents Addendum &#8212; Local Services</title>
             <abstract>This specification is an addendum to Web Intents, that defines how Web Intents enabled User Agents can discover and communicate with local Web Intents Services.</abstract>
@@ -497,7 +502,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a></entry>
+        <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a>; changed status of <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>, <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a>, <a href="http://www.w3.org/TR/contacts-api/"><q>Pick Contacts Intent</q></a>, <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a>, <a href="http://www.w3.org/TR/system-info-api/"><q>System Information API</q></a>, and <a href="http://www.w3.org/TR/messaging-api/"><q>The Messaging API</q></a> from WD to NOTE</entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>
         <entry date="2013-12-18">added <a href="http://www.w3.org/TR/appmanifest/"><q>Manifest for Web Apps and Bookmarks</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
         <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR, and status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
