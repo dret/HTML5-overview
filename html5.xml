@@ -149,6 +149,11 @@
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
         </spec>
+        <spec id="nfc" status="WD">
+            <class ref="device">Provides access to device NFC capabilities.</class>
+            <title>Web NFC API</title>
+            <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
+        </spec>
         <spec id="2dcontext" status="CR">
             <class ref="graphics">[[ explanation needed ]]</class>
             <title>HTML Canvas 2D Context</title>
@@ -492,6 +497,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a></entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>
         <entry date="2013-12-18">added <a href="http://www.w3.org/TR/appmanifest/"><q>Manifest for Web Apps and Bookmarks</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
         <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR, and status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
