@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* January 29, 2014: added Encoding
 * January 14, 2014: added Web NFC API; changed status of Web Intents Addendum — Local Services, Pick Media Intent, Pick Contacts Intent, Calendar API, System Information API, and The Messaging API from WD to NOTE
 * January 9, 2014: changed status of Media Source Extensions from WD to CR
 * December 18, 2013: added Manifest for Web Apps and Bookmarks; changed status of Pointer Lock from WD to CR

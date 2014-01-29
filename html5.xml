@@ -500,8 +500,14 @@
             <title>Beacon</title>
             <abstract>This specification defines an interoperable means for site developers to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.</abstract>
         </spec>
+        <spec id="encoding" status="WD">
+            <class ref="DOM">[[ explanation needed ]]</class>
+            <title>Encoding</title>
+            <abstract>While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge.</abstract>
+        </spec>
     </specs>
     <log>
+        <entry date="2014-01-29">added <a href="http://www.w3.org/TR/encoding/"><q>Encoding</q></a></entry>
         <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a>; changed status of <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>, <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a>, <a href="http://www.w3.org/TR/contacts-api/"><q>Pick Contacts Intent</q></a>, <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a>, <a href="http://www.w3.org/TR/system-info-api/"><q>System Information API</q></a>, and <a href="http://www.w3.org/TR/messaging-api/"><q>The Messaging API</q></a> from WD to NOTE</entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>
         <entry date="2013-12-18">added <a href="http://www.w3.org/TR/appmanifest/"><q>Manifest for Web Apps and Bookmarks</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
