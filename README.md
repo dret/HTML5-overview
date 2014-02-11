@@ -3,9 +3,9 @@ HTML5 Overview
 
 An overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 80 current specifications and 13 expired specifications (93 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 81 current specifications and 13 expired specifications (94 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
-I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 93 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
+I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 94 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
 Recommendations (9 Specs)
@@ -45,7 +45,7 @@ Candidate Recommendations (15 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (55 Specs)
+Working Drafts (56 Specs)
 ----------------
 
 * [Audio Processing API](http://www.w3.org/TR/audioproc "This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.")
@@ -72,6 +72,7 @@ Working Drafts (55 Specs)
 * [MediaStream Recording](http://www.w3.org/TR/mediastream-recording "This document defines a recording API for use with MediaStreams as defined in Media Capture and Streams.")
 * [Mediastream Image Capture](http://www.w3.org/TR/image-capture "This document specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams as defined in Media Capture and Streams.")
 * [Messaging API](http://www.w3.org/TR/messaging "This specification defines a System Level API which offers a simple interface to get access to mobile messaging services. A typical use case of the Messaging API is the implementation of a messaging client application that allows the user to send SMS and MMS messages as well as to access and manage the received SMS and MMS messages.")
+* [Navigation Error Logging](http://www.w3.org/TR/navigation-error-logging "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.")
 * [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2 "This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.")
 * [Network Information API](http://www.w3.org/TR/netinfo-api "The Network Information API provides an interface for Web Applications to access the underlying network information (connection info) of the device.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")

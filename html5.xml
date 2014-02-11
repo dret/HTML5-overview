@@ -241,6 +241,11 @@
             <title>Navigation Timing 2</title>
             <abstract>This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.</abstract>
         </spec>
+        <spec id="navigation-error-logging" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Navigation Error Logging</title>
+            <abstract>This specification defines an interface to store and retrieve error data related to the previous navigations of a document.</abstract>
+        </spec>
         <spec id="page-visibility" status="REC">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Page Visibility</title>
@@ -507,7 +512,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-02-11">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
+        <entry date="2014-02-11">added <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a>; changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
         <entry date="2014-01-29">added <a href="http://www.w3.org/TR/encoding/"><q>Encoding</q></a></entry>
         <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a>; changed status of <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>, <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a>, <a href="http://www.w3.org/TR/contacts-api/"><q>Pick Contacts Intent</q></a>, <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a>, <a href="http://www.w3.org/TR/system-info-api/"><q>System Information API</q></a>, and <a href="http://www.w3.org/TR/messaging-api/"><q>The Messaging API</q></a> from WD to NOTE</entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>
