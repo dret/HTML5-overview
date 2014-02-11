@@ -480,7 +480,7 @@
             <title>XMLHttpRequest Level 2</title>
             <abstract>The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.</abstract>
         </spec>
-        <spec id="progress-events" status="PR">
+        <spec id="progress-events" status="REC">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Progress Events</title>
             <abstract>The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.</abstract>
@@ -507,6 +507,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-02-11">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC.</entry>
         <entry date="2014-01-29">added <a href="http://www.w3.org/TR/encoding/"><q>Encoding</q></a></entry>
         <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a>; changed status of <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>, <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a>, <a href="http://www.w3.org/TR/contacts-api/"><q>Pick Contacts Intent</q></a>, <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a>, <a href="http://www.w3.org/TR/system-info-api/"><q>System Information API</q></a>, and <a href="http://www.w3.org/TR/messaging-api/"><q>The Messaging API</q></a> from WD to NOTE</entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>
