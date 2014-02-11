@@ -1,12 +1,12 @@
 HTML5 Overview: Change Log
 ==========================
 
-* February 11, 2014: changed status of Progress Events from PR to REC.
+* February 11, 2014: changed status of Progress Events from PR to REC; changed status of Vibration API from CR to WD
 * January 29, 2014: added Encoding
 * January 14, 2014: added Web NFC API; changed status of Web Intents Addendum — Local Services, Pick Media Intent, Pick Contacts Intent, Calendar API, System Information API, and The Messaging API from WD to NOTE
 * January 9, 2014: changed status of Media Source Extensions from WD to CR
 * December 18, 2013: added Manifest for Web Apps and Bookmarks; changed status of Pointer Lock from WD to CR
-* December 12, 2013: changed status of Progress Events from CR to PR, and status of User Timing and Performance Timeline from PR to REC
+* December 12, 2013: changed status of Progress Events from CR to PR; changed status of User Timing and Performance Timeline from PR to REC
 * December 5, 2013: changed status of Cross-Origin Resource Sharing from CR to PR
 * December 3, 2013: added High Resolution Time Level 2
 * October 31, 2013: changed status of User Timing and Performance Timeline from CR to PR; changed status of Timing Control for Script-Based Animations from WD to CR; changed status of HTML Microdata from WD to NOTE; added Touch Events Extensions
@@ -16,7 +16,7 @@ HTML5 Overview: Change Log
 * October 1, 2013: moved Ambient Light Events and Proximity Events from WD to CR
 * September 28, 2013: changed status of HTML Canvas 2D Context from WD to CR
 * September 27, 2013: added Cross-Origin Resource Sharing
-* September 10, 2013: published source on github, working on complete markdown formatting
+* September 10, 2013: published source on github; working on complete markdown formatting
 * July 30, 2013: changed status of Web Storage from PR to REC
 * July 23, 2013: changed status of Vibration API from WD to CR
 * July 10, 2013: added Mediastream Image Capture

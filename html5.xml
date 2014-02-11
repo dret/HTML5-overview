@@ -398,7 +398,7 @@
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
-        <spec id="vibration" status="CR">
+        <spec id="vibration" status="WD">
             <class ref="device">Provides access to device vibration capabilities and actions.</class>
             <title>Vibration API</title>
             <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
@@ -507,12 +507,12 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-02-11">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC.</entry>
+        <entry date="2014-02-11">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
         <entry date="2014-01-29">added <a href="http://www.w3.org/TR/encoding/"><q>Encoding</q></a></entry>
         <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a>; changed status of <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>, <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a>, <a href="http://www.w3.org/TR/contacts-api/"><q>Pick Contacts Intent</q></a>, <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a>, <a href="http://www.w3.org/TR/system-info-api/"><q>System Information API</q></a>, and <a href="http://www.w3.org/TR/messaging-api/"><q>The Messaging API</q></a> from WD to NOTE</entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>
         <entry date="2013-12-18">added <a href="http://www.w3.org/TR/appmanifest/"><q>Manifest for Web Apps and Bookmarks</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from WD to CR</entry>
-        <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR, and status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
+        <entry date="2013-12-12">changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from PR to REC</entry>
         <entry date="2013-12-05">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from CR to PR</entry>
         <entry date="2013-12-03">added <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a></entry>
         <entry date="2013-10-31">changed status of <a href="http://www.w3.org/TR/user-timing/"><q>User Timing</q></a> and <a href="http://www.w3.org/TR/performance-timeline/"><q>Performance Timeline</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions"><q>Touch Events Extensions</q></a></entry>
@@ -522,7 +522,7 @@
         <entry date="2013-10-01">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from WD to CR</entry>
         <entry date="2013-09-28">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
         <entry date="2013-09-27">added <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a></entry>
-        <entry date="2013-09-10">published source on <a href="https://github.com/dret/HTML5-overview"><q>github</q></a>, working on complete markdown formatting</entry>
+        <entry date="2013-09-10">published source on <a href="https://github.com/dret/HTML5-overview"><q>github</q></a>; working on complete markdown formatting</entry>
         <entry date="2013-07-30">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage</q></a> from PR to REC</entry>
         <entry date="2013-07-23">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>
         <entry date="2013-07-10">added <a href="http://www.w3.org/TR/image-capture/"><q>Mediastream Image Capture</q></a></entry>
