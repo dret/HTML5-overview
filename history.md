@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* March 18, 2014: changed status of HTML Templates from WD to NOTE
 * February 11, 2014: added Navigation Error Logging; changed status of Progress Events from PR to REC; changed status of Vibration API from CR to WD
 * January 29, 2014: added Encoding
 * January 14, 2014: added Web NFC API; changed status of Web Intents Addendum — Local Services, Pick Media Intent, Pick Contacts Intent, Calendar API, System Information API, and The Messaging API from WD to NOTE
