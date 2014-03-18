@@ -16,7 +16,7 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
             <xsl:value-of select="count(//specs/spec[@status ne 'NOTE'])"/>
             <xsl:text> current specifications and </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq 'NOTE'])"/>
-            <xsl:text> expired specifications (</xsl:text>
+            <xsl:text> specifications that were retired as notes (</xsl:text>
             <xsl:value-of select="count(//specs/spec)"/>
             <xsl:text> total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
