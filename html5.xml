@@ -354,10 +354,10 @@
             <title>Contacts Manager API</title>
             <abstract>This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.</abstract>
         </spec>
-        <spec id="netinfo-api" status="WD">
+        <spec id="netinfo-api" status="NOTE">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Network Information API</title>
-            <abstract>The Network Information API provides an interface for Web Applications to access the underlying network information (connection info) of the device.</abstract>
+            <abstract>The Network Information API provides an interface for web applications to access the underlying connection information of the device.</abstract>
         </spec>
         <spec id="websockets" status="CR">
             <class ref="communications">[[ explanation needed ]]</class>
@@ -517,6 +517,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-04-10">changed status of <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a> from WD to NOTE</entry>
         <entry date="2014-03-18">added <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a>; changed status of <a href="http://www.w3.org/TR/html-templates/"><q>HTML Templates</q></a> from WD to NOTE</entry>
         <entry date="2014-02-11">added <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a>; changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
         <entry date="2014-01-29">added <a href="http://www.w3.org/TR/encoding/"><q>Encoding</q></a></entry>

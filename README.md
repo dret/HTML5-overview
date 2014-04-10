@@ -3,7 +3,7 @@ HTML5 Overview
 
 An overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 81 current specifications and 14 specifications that were retired as notes (95 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 80 current specifications and 15 specifications that were retired as notes (95 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 95 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
@@ -45,7 +45,7 @@ Candidate Recommendations (15 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (56 Specs)
+Working Drafts (55 Specs)
 ----------------
 
 * [Audio Processing API](http://www.w3.org/TR/audioproc "This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.")
@@ -73,7 +73,6 @@ Working Drafts (56 Specs)
 * [Messaging API](http://www.w3.org/TR/messaging "This specification defines a System Level API which offers a simple interface to get access to mobile messaging services. A typical use case of the Messaging API is the implementation of a messaging client application that allows the user to send SMS and MMS messages as well as to access and manage the received SMS and MMS messages.")
 * [Navigation Error Logging](http://www.w3.org/TR/navigation-error-logging "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.")
 * [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2 "This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.")
-* [Network Information API](http://www.w3.org/TR/netinfo-api "The Network Information API provides an interface for Web Applications to access the underlying network information (connection info) of the device.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")
 * [Push API](http://www.w3.org/TR/push-api "This specification defines a ”Push API” that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.")
 * [Quota Management API](http://www.w3.org/TR/quota-api "This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.")
@@ -105,7 +104,7 @@ Working Drafts (56 Specs)
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
 * [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2 "The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.")
 
-Notes (14 Specs)
+Notes (15 Specs)
 ----------------
 
 * [Calendar API](http://www.w3.org/TR/calendar-api "The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.")
@@ -113,6 +112,7 @@ Notes (14 Specs)
 * [HTML Templates](http://www.w3.org/TR/html-templates "This specification describes a method for declaring inert DOM subtrees in HTML and manipulating them to instantiate document fragments with identical contents.")
 * [Media Capture API](http://www.w3.org/TR/media-capture-api "This specification defines an Application Programming Interface (API) that provides access to the audio, image and video capture capabilities of the device.")
 * [MediaStream Processing API](http://www.w3.org/TR/streamproc "A number of existing or proposed features for the Web platform deal with continuous real-time media: HTML media elements, Synchronization of multiple HTML media elements (e.g. proposed HTML MediaController), Capture and recording of local audio and video input (e.g. proposed HTML Streams), Peer-to-peer streaming of audio and video streams (e.g. proposed WebRTC and HTML Streams), and Advanced audio APIs that allow complex mixing and effects processing (e.g. Mozilla's AudioData, Chrome's AudioNode). Many use-cases require these features to work together. This proposal makes HTML Streams the foundation for integrated Web media processing by creating a mixing and effects processing API for HTML Streams.")
+* [Network Information API](http://www.w3.org/TR/netinfo-api "The Network Information API provides an interface for web applications to access the underlying connection information of the device.")
 * [Pick Contacts Intent](http://www.w3.org/TR/contacts-api "The Pick Contacts Intent defines a Web Intent that enables access to a user's address book service from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the contacts data that is returned by services implementing this specification.")
 * [Pick Media Intent](http://www.w3.org/TR/gallery "The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. ")
 * [Programmable HTTP Caching and Serving](http://www.w3.org/TR/DataCache "This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.")
