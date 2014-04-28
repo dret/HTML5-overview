@@ -129,12 +129,12 @@
             <title>File API</title>
             <abstract>This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.</abstract>
         </spec>
-        <spec id="file-system-api" status="WD">
+        <spec id="file-system-api" status="NOTE">
             <class ref="filesystem">Defines an API to navigate file system hierarchies.</class>
             <title>File API: Directories and System</title>
             <abstract>This specification defines an API to navigate file system hierarchies, and defines a means by which a user agent may expose sandboxed sections of a user's local filesystem to web applications. It builds on <q>File API: Writer</q>, which in turn built on <q>File API</q>, each adding a different kind of functionality.</abstract>
         </spec>
-        <spec id="file-writer-api" status="WD">
+        <spec id="file-writer-api" status="NOTE">
             <class ref="filesystem">Defines an API through which user agents can permit applications to write generated or downloaded files.</class>
             <title>File API: Writer</title>
             <abstract>This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are <em>File API</em> and <em>Web Workers</em>.</abstract>
@@ -517,6 +517,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
         <entry date="2014-04-10">changed status of <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a> from WD to NOTE</entry>
         <entry date="2014-03-18">added <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a>; changed status of <a href="http://www.w3.org/TR/html-templates/"><q>HTML Templates</q></a> from WD to NOTE</entry>
         <entry date="2014-02-11">added <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a>; changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>

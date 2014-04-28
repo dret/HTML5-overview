@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* April 28, 2014: changed status of File API: Directories and System and File API: Writer from WD to NOTE
 * April 10, 2014: changed status of Network Information API from WD to NOTE
 * March 18, 2014: added Subresource Integrity; changed status of HTML Templates from WD to NOTE
 * February 11, 2014: added Navigation Error Logging; changed status of Progress Events from PR to REC; changed status of Vibration API from CR to WD
