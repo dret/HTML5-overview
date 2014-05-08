@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* May 8, 2014: added Service Workers
 * April 28, 2014: changed status of File API: Directories and System and File API: Writer from WD to NOTE
 * April 10, 2014: changed status of Network Information API from WD to NOTE
 * March 18, 2014: added Subresource Integrity; changed status of HTML Templates from WD to NOTE

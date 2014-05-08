@@ -447,6 +447,10 @@
             <title>Web Workers</title>
             <abstract>This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.</abstract>
         </spec>
+        <spec id="service-workers" status="WD">
+            <title>Service Workers</title>
+            <abstract>This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.</abstract>
+        </spec>
         <spec id="appmanifest" status="WD">
             <title>Manifest for Web Apps and Bookmarks</title>
             <abstract>This specification defines a manifest, which provides developers with a centralized place to put metadata about a web application. This includes, amongst other things, the ability to specify the name of the web application, links to icons, as well as the preferred URL at which the web application should open when it is launched by the user. With this metadata, user agents can provide, for example, enhanced bookmarking capabilities such as being able to add a web application to the homescreen of a device - as well as the various icons needed to effectively integrate with an OS's task switcher and system preferences. The specification also defines an API to enable bookmarking from within a document, as well as a means to check if an application is running in a special mode called "standalone". This specification also defines the manifest link type, which provides a declarative means for a web document to be associated with a manifest.</abstract>
@@ -517,6 +521,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-05-08">added <a href="http://www.w3.org/TR/service-workers/"><q>Service Workers</q></a></entry>
         <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
         <entry date="2014-04-10">changed status of <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a> from WD to NOTE</entry>
         <entry date="2014-03-18">added <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a>; changed status of <a href="http://www.w3.org/TR/html-templates/"><q>HTML Templates</q></a> from WD to NOTE</entry>
