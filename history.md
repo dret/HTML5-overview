@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* May 29, 2014: added W3C HTML Form HTTP Extensions
 * May 8, 2014: added Service Workers
 * April 28, 2014: changed status of File API: Directories and System and File API: Writer from WD to NOTE
 * April 10, 2014: changed status of Network Information API from WD to NOTE

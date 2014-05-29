@@ -169,6 +169,11 @@
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
         </spec>
+        <spec id="form-http-extensions" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>W3C HTML Form HTTP Extensions</title>
+            <abstract>This is an addendum to the specification of HTML5 forms extending the abilities of configuring HTTP requests through HTML markup. This document has been developed as a result of work contributed in addressing HTML WG ISSUE-195: Enhance http request generation from forms.</abstract>
+        </spec>
         <spec id="encrypted-media" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
             <title>Encrypted Media Extensions</title>
@@ -521,6 +526,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-05-29">added <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a></entry>
         <entry date="2014-05-08">added <a href="http://www.w3.org/TR/service-workers/"><q>Service Workers</q></a></entry>
         <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
         <entry date="2014-04-10">changed status of <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a> from WD to NOTE</entry>
