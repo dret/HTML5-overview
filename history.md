@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* June 25, 2014: moved Ambient Light Events and HTML Media Capture from CR to WD
 * May 29, 2014: added W3C HTML Form HTTP Extensions
 * May 8, 2014: added Service Workers
 * April 28, 2014: changed status of File API: Directories and System and File API: Writer from WD to NOTE

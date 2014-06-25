@@ -64,7 +64,7 @@
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
-        <spec id="ambient-light" status="CR">
+        <spec id="ambient-light" status="WD">
             <class ref="device">Provides access to light sensor of an device.</class>
             <title>Ambient Light Events</title>
             <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
@@ -164,7 +164,7 @@
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
-        <spec id="html-media-capture" status="CR">
+        <spec id="html-media-capture" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
@@ -526,6 +526,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-06-25">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from CR to WD</entry>
         <entry date="2014-05-29">added <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a></entry>
         <entry date="2014-05-08">added <a href="http://www.w3.org/TR/service-workers/"><q>Service Workers</q></a></entry>
         <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
