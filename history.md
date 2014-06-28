@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* June 28, 2014: added IndieUI: User Context 1.0
 * June 25, 2014: moved Ambient Light Events and HTML Media Capture from CR to WD
 * May 29, 2014: added W3C HTML Form HTTP Extensions
 * May 8, 2014: added Service Workers
