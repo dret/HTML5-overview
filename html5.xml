@@ -74,10 +74,10 @@
             <title>Audio Processing API</title>
             <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
         </spec>
-        <spec id="html-picture-element" status="WD">
+        <spec id="html-picture-element" status="NOTE">
             <class ref="media">Introduces the picture element to declare multiple image sources for different media queries.</class>
             <title>The picture Element</title>
-            <abstract>The picture element is an image container whose source content is determined by one or more CSS media queries.</abstract>
+            <abstract>This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.</abstract>
         </spec>
         <spec id="html-longdesc" status="WD">
             <class ref="media">Provides the longdesc attribute to add or link a machine-discoverable description to an image.</class>
@@ -526,6 +526,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-07-22">changed status of <a href="http://www.w3.org/TR/html-picture-element/"><q>The picture Element</q></a> from WD to NOTE (now part of core HTML5)</entry>
         <entry date="2014-05-29">added <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a></entry>
         <entry date="2014-05-08">added <a href="http://www.w3.org/TR/service-workers/"><q>Service Workers</q></a></entry>
         <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
