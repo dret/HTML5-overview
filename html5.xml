@@ -64,7 +64,7 @@
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
-        <spec id="ambient-light" status="CR">
+        <spec id="ambient-light" status="WD">
             <class ref="device">Provides access to light sensor of an device.</class>
             <title>Ambient Light Events</title>
             <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
@@ -164,7 +164,7 @@
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
-        <spec id="html-media-capture" status="CR">
+        <spec id="html-media-capture" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
@@ -272,13 +272,18 @@
         </spec>
         <spec id="ime-api" status="WD">
             <class ref="ui">[[ explanation needed ]]</class>
-            <title>IndieUI: Events 1.0</title>
-            <abstract>IndieUI: Events 1.0 is an abstraction between physical, device-specific user interaction events and inferred user intent such as scrolling or changing values. This provides an intermediate layer between device- and modality-specific user interaction events, and the basic user interface functionality used by web applications. IndieUI: Events focuses on granular user interface interactions such as scrolling the view, canceling an action, changing the value of a user input widget, selecting a range, placing focus on an object, etc. Implementing platforms will combine modality-specific user input, user idiosyncratic heuristics to determine the specific corresponding Indie UI event, and send that to the web application in addition to the modality-specific input such as mouse or keyboard events, should applications wish to process it.</abstract>
+            <title>Input Method Editor API</title>
+            <abstract>This specification defines an "IME API" that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition; and a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events.</abstract>
         </spec>
         <spec id="indie-ui-events" status="WD">
             <class ref="ui">[[ explanation needed ]]</class>
-            <title>Input Method Editor API</title>
-            <abstract>This specification defines an "IME API" that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition; and a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events.</abstract>
+            <title>IndieUI: Events 1.0</title>
+            <abstract>IndieUI: Events 1.0 is an abstraction between physical, device-specific user interaction events and inferred user intent such as scrolling or changing values. This provides an intermediate layer between device- and modality-specific user interaction events, and the basic user interface functionality used by web applications. IndieUI: Events focuses on granular user interface interactions such as scrolling the view, canceling an action, changing the value of a user input widget, selecting a range, placing focus on an object, etc. Implementing platforms will combine modality-specific user input, user idiosyncratic heuristics to determine the specific corresponding Indie UI event, and send that to the web application in addition to the modality-specific input such as mouse or keyboard events, should applications wish to process it.</abstract>
+        </spec>
+        <spec id="indie-ui-context" status="WD">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>IndieUI: User Context 1.0</title>
+            <abstract>IndieUI: User Context defines a set of preferences that users can choose to expose to web applications, and an API for user agents to access the preferences and listen for changes. User can set preferences for features such as screen and font size, color, and typographical preferences. Users with disabilities can provide information about assistive technologies in use, indicate that the display is in an accessibility mode, and indicate whether and what kind of subtitles and audio descriptions they need. Web applications can use this information to optimize the presentation without a requirement to target a specific device, operating system, or locale. While customizations based on these properties benefit users, the information could also be used to make assumptions about users or compromise anonymity. Therefore, the specification includes user agent requirements to allow users to opt out and choose not to expose information on a category basis to preserve privacy.</abstract>
         </spec>
         <spec id="DataCache" status="NOTE">
             <title>Programmable HTTP Caching and Serving</title>
@@ -527,6 +532,8 @@
     </specs>
     <log>
         <entry date="2014-07-22">changed status of <a href="http://www.w3.org/TR/html-picture-element/"><q>The picture Element</q></a> from WD to NOTE (now part of core HTML5)</entry>
+        <entry date="2014-06-28">added <a href="http://www.w3.org/TR/indie-ui-context/"><q>IndieUI: User Context 1.0</q></a></entry>
+        <entry date="2014-06-25">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from CR to WD</entry>
         <entry date="2014-05-29">added <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a></entry>
         <entry date="2014-05-08">added <a href="http://www.w3.org/TR/service-workers/"><q>Service Workers</q></a></entry>
         <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
