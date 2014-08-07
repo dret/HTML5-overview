@@ -1,7 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
-* August 7, 2014: added Content Security Policy 1.0 and Content Security Policy 2.0
+* August 7, 2014: added Content Security Policy 1.0, Content Security Policy 2.0, and Referrer Policy
 * July 22, 2014: changed status of The picture Element from WD to NOTE (now part of core HTML5)
 * June 28, 2014: added IndieUI: User Context 1.0
 * June 25, 2014: moved Ambient Light Events and HTML Media Capture from CR to WD
