@@ -465,6 +465,11 @@
             <title>Manifest for Web Apps and Bookmarks</title>
             <abstract>This specification defines a manifest, which provides developers with a centralized place to put metadata about a web application. This includes, amongst other things, the ability to specify the name of the web application, links to icons, as well as the preferred URL at which the web application should open when it is launched by the user. With this metadata, user agents can provide, for example, enhanced bookmarking capabilities such as being able to add a web application to the homescreen of a device - as well as the various icons needed to effectively integrate with an OS's task switcher and system preferences. The specification also defines an API to enable bookmarking from within a document, as well as a means to check if an application is running in a special mode called "standalone". This specification also defines the manifest link type, which provides a declarative means for a web document to be associated with a manifest.</abstract>
         </spec>
+        <spec id="CSP" status="CR">
+            <class ref="security">Describes a policy language for content restrictions.</class>
+            <title>Content Security Policy 1.0</title>
+            <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
+        </spec>
         <spec id="WebCryptoAPI" status="WD">
             <class ref="security">Describes how to perform cryptographic operations in Web apps.</class>
             <title>Web Cryptography API</title>
@@ -531,6 +536,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-08-07">added <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a></entry>
         <entry date="2014-07-22">changed status of <a href="http://www.w3.org/TR/html-picture-element/"><q>The picture Element</q></a> from WD to NOTE (now part of core HTML5)</entry>
         <entry date="2014-06-28">added <a href="http://www.w3.org/TR/indie-ui-context/"><q>IndieUI: User Context 1.0</q></a></entry>
         <entry date="2014-06-25">moved <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Events</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from CR to WD</entry>
