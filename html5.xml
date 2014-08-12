@@ -79,7 +79,7 @@
             <title>The picture Element</title>
             <abstract>This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.</abstract>
         </spec>
-        <spec id="html-longdesc" status="WD">
+        <spec id="html-longdesc" status="CR">
             <class ref="media">Provides the longdesc attribute to add or link a machine-discoverable description to an image.</class>
             <title>HTML Image Description Extension</title>
             <abstract>This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.</abstract>
@@ -546,6 +546,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-08-12">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension</q></a> from WD to CR</entry>
         <entry date="2014-08-07">added <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a>, <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a>, and <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a></entry>
         <entry date="2014-07-22">changed status of <a href="http://www.w3.org/TR/html-picture-element/"><q>The picture Element</q></a> from WD to NOTE (now part of core HTML5)</entry>
         <entry date="2014-06-28">added <a href="http://www.w3.org/TR/indie-ui-context/"><q>IndieUI: User Context 1.0</q></a></entry>
