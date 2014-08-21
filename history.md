@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* August 21, 2014: changed status of The srcset Attribute from WD to NOTE (now part of core HTML5)
 * August 12, 2014: changed status of HTML Image Description Extension from WD to CR
 * August 7, 2014: added Content Security Policy 1.0, Content Security Policy 2.0, and Referrer Policy
 * July 22, 2014: changed status of The picture Element from WD to NOTE (now part of core HTML5)

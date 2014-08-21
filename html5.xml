@@ -84,7 +84,7 @@
             <title>HTML Image Description Extension</title>
             <abstract>This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.</abstract>
         </spec>
-        <spec id="html-srcset" status="WD">
+        <spec id="html-srcset" status="NOTE">
             <class ref="media">Provides methods to include images in different quality for different viewports (e.g., phones, HD-displays).</class>
             <title>The srcset Attribute</title>
             <abstract>When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.</abstract>
@@ -546,6 +546,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-08-21">changed status of <a href="http://www.w3.org/TR/html-srcset/"><q>The srcset Attribute</q></a> from WD to NOTE (now part of core HTML5)</entry>
         <entry date="2014-08-12">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension</q></a> from WD to CR</entry>
         <entry date="2014-08-07">added <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a>, <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a>, and <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a></entry>
         <entry date="2014-07-22">changed status of <a href="http://www.w3.org/TR/html-picture-element/"><q>The picture Element</q></a> from WD to NOTE (now part of core HTML5)</entry>
