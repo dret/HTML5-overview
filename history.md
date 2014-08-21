@@ -1,13 +1,14 @@
 HTML5 Overview: Change Log
 ==========================
 
-* August 21, 2014: changed status of The srcset Attribute from WD to NOTE (now part of core HTML5)
+* August 21, 2014: changed status of The srcset Attribute from WD to NOTE (now part of core HTML5); changed status of HTML Canvas 2D Context from WD to CR
 * August 12, 2014: changed status of HTML Image Description Extension from WD to CR
 * August 7, 2014: added Content Security Policy 1.0, Content Security Policy 2.0, and Referrer Policy
 * July 22, 2014: changed status of The picture Element from WD to NOTE (now part of core HTML5)
 * June 28, 2014: added IndieUI: User Context 1.0
 * June 25, 2014: moved Ambient Light Events and HTML Media Capture from CR to WD
 * May 29, 2014: added W3C HTML Form HTTP Extensions
+* May 20, 2014: changed status of HTML Canvas 2D Context from CR to WD
 * May 8, 2014: added Service Workers
 * April 28, 2014: changed status of File API: Directories and System and File API: Writer from WD to NOTE
 * April 10, 2014: changed status of Network Information API from WD to NOTE
