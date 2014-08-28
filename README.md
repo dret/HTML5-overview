@@ -26,10 +26,9 @@ Proposed Recommendations (1 Specs)
 
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
 
-Candidate Recommendations (15 Specs)
+Candidate Recommendations (14 Specs)
 ----------------
 
-* [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
 * [Content Security Policy 1.0](http://www.w3.org/TR/CSP "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
 * [HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext "This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.")
 * [HTML Image Description Extension](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.")
@@ -45,11 +44,12 @@ Candidate Recommendations (15 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (57 Specs)
+Working Drafts (58 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
 * [Audio Processing API](http://www.w3.org/TR/audioproc "This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.")
+* [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
 * [Beacon](http://www.w3.org/TR/beacon "This specification defines an interoperable means for site developers to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.")
 * [Clipboard API and Events](http://www.w3.org/TR/clipboard-apis "This document describes APIs for clipboard operations such as copy, cut and paste in web applications.")
 * [Contacts Manager API](http://www.w3.org/TR/contacts-manager-api "This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.")
