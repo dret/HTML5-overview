@@ -546,7 +546,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-08-28">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a>from CR to WD</entry>
+        <entry date="2014-08-28">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to WD</entry>
         <entry date="2014-08-21">changed status of <a href="http://www.w3.org/TR/html-srcset/"><q>The srcset Attribute</q></a> from WD to NOTE (now part of core HTML5); changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
         <entry date="2014-08-12">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension</q></a> from WD to CR</entry>
         <entry date="2014-08-07">added <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a>, <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a>, and <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a></entry>
