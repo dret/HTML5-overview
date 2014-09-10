@@ -164,7 +164,7 @@
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
-        <spec id="html-media-capture" status="WD">
+        <spec id="html-media-capture" status="CR">
             <class ref="media">[[ explanation needed ]]</class>
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
@@ -546,7 +546,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-09-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>
+        <entry date="2014-09-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
         <entry date="2014-08-28">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to WD</entry>
         <entry date="2014-08-21">changed status of <a href="http://www.w3.org/TR/html-srcset/"><q>The srcset Attribute</q></a> from WD to NOTE (now part of core HTML5); changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
         <entry date="2014-08-12">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension</q></a> from WD to CR</entry>
