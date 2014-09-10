@@ -413,7 +413,7 @@
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
-        <spec id="vibration" status="WD">
+        <spec id="vibration" status="CR">
             <class ref="device">Provides access to device vibration capabilities and actions.</class>
             <title>Vibration API</title>
             <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
@@ -546,6 +546,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-09-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from WD to CR</entry>
         <entry date="2014-08-28">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to WD</entry>
         <entry date="2014-08-21">changed status of <a href="http://www.w3.org/TR/html-srcset/"><q>The srcset Attribute</q></a> from WD to NOTE (now part of core HTML5); changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
         <entry date="2014-08-12">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension</q></a> from WD to CR</entry>
