@@ -217,6 +217,11 @@
             <title>MediaStream Recording</title>
             <abstract>This document defines a recording API for use with MediaStreams as defined in Media Capture and Streams.</abstract>
         </spec>
+        <spec id="mediacapture-depth" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Media Capture Depth Stream Extensions</title>
+            <abstract>This specification extends the Media Capture and Streams specification to allow a depth stream to be requested from the web platform using APIs familiar to web authors.</abstract>
+        </spec>
         <spec id="image-capture" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
             <title>Mediastream Image Capture</title>
@@ -546,6 +551,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-10-07">added <a href="http://www.w3.org/TR/mediacapture-depth/"><q>Media Capture Depth Stream Extensions</q></a></entry>
         <entry date="2014-09-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
         <entry date="2014-08-28">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to WD</entry>
         <entry date="2014-08-21">changed status of <a href="http://www.w3.org/TR/html-srcset/"><q>The srcset Attribute</q></a> from WD to NOTE (now part of core HTML5); changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from WD to CR</entry>
