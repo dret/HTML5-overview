@@ -509,6 +509,11 @@
             <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
             <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent over the network to another browser or device implementing the appropriate set of real-time protocols, and media to be received from another browser or device. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
         </spec>
+        <spec id="webrtcstats" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Identifiers for WebRTC's Statistics API</title>
+            <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
+        </spec>
         <spec id="XMLHttpRequest" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>XMLHttpRequest</title>
@@ -534,6 +539,11 @@
             <title>Resource Priorities</title>
             <abstract>This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.</abstract>
         </spec>
+        <spec id="resource-hints" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Resource Hints</title>
+            <abstract>This specification defines preconnect and preload hints that the developer, or the server generating or delivering the resources, can use in an interoperable way to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch to improve page performance.</abstract>
+        </spec>
         <spec id="beacon" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Beacon</title>
@@ -551,6 +561,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-10-21">added <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> and <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a></entry>
         <entry date="2014-10-07">added <a href="http://www.w3.org/TR/mediacapture-depth/"><q>Media Capture Depth Stream Extensions</q></a></entry>
         <entry date="2014-09-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
         <entry date="2014-08-28">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to WD</entry>
