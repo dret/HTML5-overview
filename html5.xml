@@ -312,7 +312,7 @@
         <spec id="screen-orientation" status="WD">
             <class ref="device">Provides access to device screen orientation (portrait/landscape).</class>
             <title>Screen Orientation API</title>
-            <abstract>The Screen Orientation API's goal is to provide an interface for web applications to be able to read the screen orientation state, to be informed when this state changes and to be able to lock the screen orientation to a specific state.</abstract>
+            <abstract>The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.</abstract>
         </spec>
         <spec id="selectors-api" status="WD">
             <class ref="DOM">[[ explanation needed ]]</class>
