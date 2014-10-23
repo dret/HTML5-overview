@@ -3,7 +3,7 @@ HTML5 Overview
 
 An overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 85 current specifications and 19 specifications that were retired as notes (104 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 84 current specifications and 20 specifications that were retired as notes (104 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 104 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
@@ -46,7 +46,7 @@ Candidate Recommendations (16 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (59 Specs)
+Working Drafts (58 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -83,7 +83,6 @@ Working Drafts (59 Specs)
 * [Raw Sockets](http://www.w3.org/TR/raw-sockets "This API provides interfaces to raw UDP sockets, TCP client sockets and TCP server sockets.")
 * [Referrer Policy](http://www.w3.org/TR/referrer-policy "This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.")
 * [Resource Hints](http://www.w3.org/TR/resource-hints "This specification defines preconnect and preload hints that the developer, or the server generating or delivering the resources, can use in an interoperable way to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch to improve page performance.")
-* [Resource Priorities](http://www.w3.org/TR/resource-priorities "This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.")
 * [Runtime and Security Model for Web Applications](http://www.w3.org/TR/runtime "This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.")
 * [Screen Orientation API](http://www.w3.org/TR/screen-orientation "The Screen Orientation API's goal is to provide an interface for web applications to be able to read the screen orientation state, to be informed when this state changes and to be able to lock the screen orientation to a specific state.")
 * [Selectors API Level 1](http://www.w3.org/TR/selectors-api "The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.")
@@ -109,7 +108,7 @@ Working Drafts (59 Specs)
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
 * [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2 "The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.")
 
-Notes (19 Specs)
+Notes (20 Specs)
 ----------------
 
 * [Calendar API](http://www.w3.org/TR/calendar-api "The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.")
@@ -123,6 +122,7 @@ Notes (19 Specs)
 * [Pick Contacts Intent](http://www.w3.org/TR/contacts-api "The Pick Contacts Intent defines a Web Intent that enables access to a user's address book service from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the contacts data that is returned by services implementing this specification.")
 * [Pick Media Intent](http://www.w3.org/TR/gallery "The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. ")
 * [Programmable HTTP Caching and Serving](http://www.w3.org/TR/DataCache "This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.")
+* [Resource Priorities](http://www.w3.org/TR/resource-priorities "This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.")
 * [System Information API](http://www.w3.org/TR/system-info-api "This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.")
 * [The Messaging API](http://www.w3.org/TR/messaging-api "This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.")
 * [The picture Element](http://www.w3.org/TR/html-picture-element "This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.")

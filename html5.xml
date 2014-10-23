@@ -534,7 +534,7 @@
             <title>Cross-Origin Resource Sharing</title>
             <abstract>This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</abstract>
         </spec>
-        <spec id="resource-priorities" status="WD">
+        <spec id="resource-priorities" status="NOTE">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Resource Priorities</title>
             <abstract>This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.</abstract>
@@ -561,6 +561,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-10-23">changed status of <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> from WD to NOTE (mostly superseded by <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>)</entry>
         <entry date="2014-10-21">added <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> and <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a></entry>
         <entry date="2014-10-07">added <a href="http://www.w3.org/TR/mediacapture-depth/"><q>Media Capture Depth Stream Extensions</q></a></entry>
         <entry date="2014-09-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from WD to CR</entry>
