@@ -404,7 +404,7 @@
             <title>Touch Events Extensions</title>
             <abstract>This document defines extensions to the Touch Events specification that have been implemented by one or more browsers. We recommend that user agents implement the Touch Events Recommendation and/or the newer Pointer Events specification instead. This document is no longer being developed.</abstract>
         </spec>
-        <spec id="pointerevents" status="CR">
+        <spec id="pointerevents" status="WD">
             <class ref="device">[[ explanation needed ]]</class>
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
@@ -561,6 +561,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-11-14">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
         <entry date="2014-10-23">changed status of <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> from WD to NOTE (mostly superseded by <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>)</entry>
         <entry date="2014-10-21">added <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> and <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a></entry>
         <entry date="2014-10-07">added <a href="http://www.w3.org/TR/mediacapture-depth/"><q>Media Capture Depth Stream Extensions</q></a></entry>
