@@ -92,7 +92,12 @@
         <spec id="media-source" status="CR">
             <class ref="media">Allows JavaScript to dynamically construct media streams for audio/video element (incl. buffering model etc.).</class>
             <title>Media Source Extensions</title>
-            <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams. </abstract>
+            <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.</abstract>
+        </spec>
+        <spec id="webvtt1" status="WD">
+            <class ref="media">Adds captions or subtitles to tracks.</class>
+            <title>WebVTT: The Web Video Text Tracks Format</title>
+            <abstract>This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML &lt;track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.</abstract>
         </spec>
         <spec id="webmidi" status="WD">
             <class ref="ui">Represents the low-level software protocol of MIDI to build powerful MIDI software on top. Enable developers to enmuerate input/output interfaces and sending/receiving MIDI messages. Not limited to musical uses.</class>
@@ -561,7 +566,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-11-14">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
+        <entry date="2014-11-14">added <a href="http://www.w3.org/TR/webvtt1/"><q>WebVTT: The Web Video Text Tracks Format</q></a>; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
         <entry date="2014-10-23">changed status of <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> from WD to NOTE (mostly superseded by <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>)</entry>
         <entry date="2014-10-21">added <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> and <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a></entry>
         <entry date="2014-10-07">added <a href="http://www.w3.org/TR/mediacapture-depth/"><q>Media Capture Depth Stream Extensions</q></a></entry>
