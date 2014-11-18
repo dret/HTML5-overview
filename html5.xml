@@ -144,7 +144,7 @@
             <title>File API: Writer</title>
             <abstract>This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are <em>File API</em> and <em>Web Workers</em>.</abstract>
         </spec>
-        <spec id="fullscreen" status="WD">
+        <spec id="fullscreen" status="NOTE">
             <class ref="ui">Provides information about fullscreen capabilities and actions.</class>
             <title>Fullscreen</title>
             <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
@@ -566,6 +566,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-11-18">changed status of <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a> from WD to NOTE</entry>
         <entry date="2014-11-14">added <a href="http://www.w3.org/TR/webvtt1/"><q>WebVTT: The Web Video Text Tracks Format</q></a>; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
         <entry date="2014-10-23">changed status of <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> from WD to NOTE (mostly superseded by <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>)</entry>
         <entry date="2014-10-21">added <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> and <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a></entry>

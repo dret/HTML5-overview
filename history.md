@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* November 18, 2014: changed status of Fullscreen from WD to NOTE
 * November 14, 2014: added WebVTT: The Web Video Text Tracks Format; changed status of Pointer Events from CR to WD
 * October 23, 2014: changed status of Resource Priorities from WD to NOTE (mostly superseded by Resource Hints)
 * October 21, 2014: added Identifiers for WebRTC's Statistics API and Resource Hints

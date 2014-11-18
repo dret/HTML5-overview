@@ -3,7 +3,7 @@ HTML5 Overview
 
 An overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 85 current specifications and 20 specifications that were retired as notes (105 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 84 current specifications and 21 specifications that were retired as notes (105 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 105 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
@@ -45,7 +45,7 @@ Candidate Recommendations (15 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (60 Specs)
+Working Drafts (59 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -61,7 +61,6 @@ Working Drafts (60 Specs)
 * [Encoding](http://www.w3.org/TR/encoding "While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge.")
 * [Encrypted Media Extensions](http://www.w3.org/TR/encrypted-media "This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.")
 * [File API](http://www.w3.org/TR/FileAPI "This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.")
-* [Fullscreen](http://www.w3.org/TR/fullscreen "Fullscreen defines the fullscreen API for the web platform.")
 * [Gamepad](http://www.w3.org/TR/gamepad "The Gamepad specification defines a low-level interface that represents gamepad devices.")
 * [HTML Imports](http://www.w3.org/TR/html-imports "HTML Imports are a way to include and reuse HTML documents in other HTML documents.")
 * [High Resolution Time Level 2](http://www.w3.org/TR/hr-time-2 "This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.")
@@ -109,12 +108,13 @@ Working Drafts (60 Specs)
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
 * [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2 "The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.")
 
-Notes (20 Specs)
+Notes (21 Specs)
 ----------------
 
 * [Calendar API](http://www.w3.org/TR/calendar-api "The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.")
 * [File API: Directories and System](http://www.w3.org/TR/file-system-api "This specification defines an API to navigate file system hierarchies, and defines a means by which a user agent may expose sandboxed sections of a user's local filesystem to web applications. It builds on File API: Writer, which in turn built on File API, each adding a different kind of functionality.")
 * [File API: Writer](http://www.w3.org/TR/file-writer-api "This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are File API and Web Workers.")
+* [Fullscreen](http://www.w3.org/TR/fullscreen "Fullscreen defines the fullscreen API for the web platform.")
 * [HTML Microdata](http://www.w3.org/TR/microdata "This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON.")
 * [HTML Templates](http://www.w3.org/TR/html-templates "This specification describes a method for declaring inert DOM subtrees in HTML and manipulating them to instantiate document fragments with identical contents.")
 * [Media Capture API](http://www.w3.org/TR/media-capture-api "This specification defines an Application Programming Interface (API) that provides access to the audio, image and video capture capabilities of the device.")
