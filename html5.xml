@@ -202,7 +202,7 @@
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
-        <spec id="IndexedDB" status="CR">
+        <spec id="IndexedDB" status="PR">
 	        <class ref="storage">Defines API for a key/value database.</class>
             <title>Indexed Database API</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
@@ -566,6 +566,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-11-20">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from CR to PR</entry>
         <entry date="2014-11-18">changed status of <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a> from WD to NOTE</entry>
         <entry date="2014-11-14">added <a href="http://www.w3.org/TR/webvtt1/"><q>WebVTT: The Web Video Text Tracks Format</q></a>; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
         <entry date="2014-10-23">changed status of <a href="http://www.w3.org/TR/resource-priorities/"><q>Resource Priorities</q></a> from WD to NOTE (mostly superseded by <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>)</entry>

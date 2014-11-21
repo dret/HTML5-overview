@@ -21,12 +21,13 @@ Recommendations (9 Specs)
 * [User Timing](http://www.w3.org/TR/user-timing "This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-Proposed Recommendations (1 Specs)
+Proposed Recommendations (2 Specs)
 ----------------
 
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
+* [Indexed Database API](http://www.w3.org/TR/IndexedDB "This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.")
 
-Candidate Recommendations (15 Specs)
+Candidate Recommendations (14 Specs)
 ----------------
 
 * [Content Security Policy 1.0](http://www.w3.org/TR/CSP "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
@@ -34,7 +35,6 @@ Candidate Recommendations (15 Specs)
 * [HTML Image Description Extension](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.")
 * [HTML Media Capture](http://www.w3.org/TR/html-media-capture "This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.")
 * [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging "This specification defines two mechanism for communicating between browsing contexts in HTML documents.")
-* [Indexed Database API](http://www.w3.org/TR/IndexedDB "This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.")
 * [Media Source Extensions](http://www.w3.org/TR/media-source "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.")
 * [Pointer Lock](http://www.w3.org/TR/pointerlock "This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.")
 * [Proximity Events](http://www.w3.org/TR/proximity "This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. ")

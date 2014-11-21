@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* November 20, 2014: changed status of Indexed Database API from CR to PR
 * November 18, 2014: changed status of Fullscreen from WD to NOTE
 * November 14, 2014: added WebVTT: The Web Video Text Tracks Format; changed status of Pointer Events from CR to WD
 * October 23, 2014: changed status of Resource Priorities from WD to NOTE (mostly superseded by Resource Hints)
