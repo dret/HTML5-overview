@@ -448,10 +448,10 @@
             <title>Web Notifications</title>
             <abstract>This document defines an API for displaying simple notifications to the user.</abstract>
         </spec>
-        <spec id="web-alarms" status="WD">
-            <class ref="environment">Provides access to system's alarm settings.</class>
-            <title>Web Alarms API Specification</title>
-            <abstract>This specification defines a System Level API to provide access to the device alarm settings, which can schedule a notification or for an application to be started at a specific time. For example, some applications like alarm-clock, calendar or auto-update might need to utilize Alarm API to trigger particular device behaviors at specified time points.</abstract>
+        <spec id="task-scheduler" status="WD">
+            <class ref="environment">Provides support for scheduling tasks at specific times.</class>
+            <title>Task Scheduler API Specification</title>
+            <abstract>This specification defines an API to schedule a task at a specified time. When the indicated time is reached, the application that scheduled the task will be notified via a functional event on a service worker. A task event will be delivered to a service worker, regardless of whether the application is active on user agent. Applications such as an alarm clock or an auto-updater may utilize this API to perform certain action at a specified time.</abstract>
         </spec>
         <spec id="webdatabase" status="NOTE">
             <class ref="storage">Defines methods to store and query information using SQL.</class>
@@ -566,7 +566,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2014-12-02">renamed <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a> to <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a></entry>
+        <entry date="2014-12-02">renamed <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a> to <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a>; renamed <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> to <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a></entry>
         <entry date="2014-11-20">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from CR to PR</entry>
         <entry date="2014-11-18">changed status of <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a> from WD to NOTE</entry>
         <entry date="2014-11-14">added <a href="http://www.w3.org/TR/webvtt1/"><q>WebVTT: The Web Video Text Tracks Format</q></a>; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
