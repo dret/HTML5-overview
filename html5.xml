@@ -384,10 +384,10 @@
             <title>WebSocket API</title>
             <abstract>This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.</abstract>
         </spec>
-        <spec id="raw-sockets" status="WD">
+        <spec id="tcp-udp-sockets" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
-            <title>Raw Sockets</title>
-            <abstract>This API provides interfaces to raw UDP sockets, TCP client sockets and TCP server sockets.</abstract>
+            <title>TCP and UDP Socket API</title>
+            <abstract>This API provides interfaces to raw UDP sockets, TCP Client sockets and TCP Server sockets.</abstract>
         </spec>
         <spec id="animation-timing" status="CR">
             <class ref="monitoring">[[ explanation needed ]]</class>
@@ -566,6 +566,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-12-02">renamed <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a> to <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a></entry>
         <entry date="2014-11-20">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from CR to PR</entry>
         <entry date="2014-11-18">changed status of <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a> from WD to NOTE</entry>
         <entry date="2014-11-14">added <a href="http://www.w3.org/TR/webvtt1/"><q>WebVTT: The Web Video Text Tracks Format</q></a>; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
