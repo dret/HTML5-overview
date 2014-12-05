@@ -79,10 +79,10 @@
             <title>The picture Element</title>
             <abstract>This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.</abstract>
         </spec>
-        <spec id="html-longdesc" status="CR">
+        <spec id="html-longdesc" status="PR">
             <class ref="media">Provides the longdesc attribute to add or link a machine-discoverable description to an image.</class>
-            <title>HTML Image Description Extension</title>
-            <abstract>This specification defines a longdesc attribute to link extended descriptions with images in HTML5-based content.</abstract>
+            <title>HTML Image Description Extension (longdesc)</title>
+            <abstract>This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.</abstract>
         </spec>
         <spec id="html-srcset" status="NOTE">
             <class ref="media">Provides methods to include images in different quality for different viewports (e.g., phones, HD-displays).</class>
@@ -566,6 +566,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-12-05">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from CR to PR</entry>
         <entry date="2014-12-02">renamed <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a> to <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a>; renamed <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> to <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a></entry>
         <entry date="2014-11-20">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from CR to PR</entry>
         <entry date="2014-11-18">changed status of <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a> from WD to NOTE</entry>

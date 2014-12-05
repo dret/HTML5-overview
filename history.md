@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* December 5, 2014: changed status of HTML Image Description Extension (longdesc) from CR to PR
 * December 2, 2014: renamed Raw Sockets to TCP and UDP Socket API; renamed Web Alarms API Specification to Task Scheduler API Specification
 * November 20, 2014: changed status of Indexed Database API from CR to PR
 * November 18, 2014: changed status of Fullscreen from WD to NOTE
