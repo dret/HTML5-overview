@@ -490,7 +490,7 @@
             <title>Referrer Policy</title>
             <abstract>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.</abstract>
         </spec>
-        <spec id="WebCryptoAPI" status="WD">
+        <spec id="WebCryptoAPI" status="CR">
             <class ref="security">Describes how to perform cryptographic operations in Web apps.</class>
             <title>Web Cryptography API</title>
             <abstract>This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.</abstract>
@@ -566,6 +566,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-12-11">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from WD to CR</entry>
         <entry date="2014-12-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from WD to CR; changed <a href="http://www.w3.org/TR/url/"><q>URL</q></a> identifier from "url" to "url-1"</entry>
         <entry date="2014-12-05">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from CR to PR</entry>
         <entry date="2014-12-02">renamed <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a> to <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a>; renamed <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> to <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a></entry>
