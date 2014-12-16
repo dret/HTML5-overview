@@ -30,7 +30,7 @@ Proposed Recommendations (5 Specs)
 * [Server-Sent Events](http://www.w3.org/TR/eventsource "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
 * [Vibration API](http://www.w3.org/TR/vibration "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.")
 
-Candidate Recommendations (13 Specs)
+Candidate Recommendations (12 Specs)
 ----------------
 
 * [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
@@ -41,13 +41,12 @@ Candidate Recommendations (13 Specs)
 * [Media Source Extensions](http://www.w3.org/TR/media-source "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.")
 * [Pointer Lock](http://www.w3.org/TR/pointerlock "This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.")
 * [Proximity Events](http://www.w3.org/TR/proximity "This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. ")
-* [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
 * [Timing Control for Script-Based Animations](http://www.w3.org/TR/animation-timing "This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.")
 * [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.")
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (57 Specs)
+Working Drafts (58 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -82,6 +81,7 @@ Working Drafts (57 Specs)
 * [Quota Management API](http://www.w3.org/TR/quota-api "This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.")
 * [Referrer Policy](http://www.w3.org/TR/referrer-policy "This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.")
 * [Resource Hints](http://www.w3.org/TR/resource-hints "This specification defines preconnect and preload hints that the developer, or the server generating or delivering the resources, can use in an interoperable way to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch to improve page performance.")
+* [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
 * [Runtime and Security Model for Web Applications](http://www.w3.org/TR/runtime "This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.")
 * [Screen Orientation API](http://www.w3.org/TR/screen-orientation "The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.")
 * [Selectors API Level 1](http://www.w3.org/TR/selectors-api "The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.")

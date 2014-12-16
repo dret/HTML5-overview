@@ -309,7 +309,7 @@
             <title>Quota Management API</title>
             <abstract>This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.</abstract>
         </spec>
-        <spec id="resource-timing" status="CR">
+        <spec id="resource-timing" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Resource Timing</title>
             <abstract>This specification defines an interface for web applications to access timing information related to HTML elements.</abstract>
@@ -566,6 +566,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2014-12-16">changed status of <a href="http://www.w3.org/TR/resource-timing/"><q>Resource Timing</q></a> from CR to WD</entry>
         <entry date="2014-12-11">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from WD to CR</entry>
         <entry date="2014-12-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from WD to CR; changed <a href="http://www.w3.org/TR/url/"><q>URL</q></a> identifier from "url" to "url-1"</entry>
         <entry date="2014-12-05">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from CR to PR</entry>

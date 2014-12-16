@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* December 16, 2014: changed status of Resource Timing from CR to WD
 * December 11, 2014: changed status of Web Cryptography API from WD to CR
 * December 9, 2014: changed status of Vibration API and Server-Sent Events from CR to PR; changed status of Battery Status API from WD to CR; changed URL identifier from "url" to "url-1"
 * December 5, 2014: changed status of HTML Image Description Extension (longdesc) from CR to PR
