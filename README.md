@@ -21,12 +21,13 @@ Recommendations (9 Specs)
 * [User Timing](http://www.w3.org/TR/user-timing "This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-Proposed Recommendations (5 Specs)
+Proposed Recommendations (6 Specs)
 ----------------
 
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
 * [HTML Image Description Extension (longdesc)](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.")
 * [Indexed Database API](http://www.w3.org/TR/IndexedDB "This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.")
+* [Pointer Events](http://www.w3.org/TR/pointerevents "This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.")
 * [Server-Sent Events](http://www.w3.org/TR/eventsource "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
 * [Vibration API](http://www.w3.org/TR/vibration "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.")
 
@@ -46,7 +47,7 @@ Candidate Recommendations (12 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (58 Specs)
+Working Drafts (57 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -76,7 +77,6 @@ Working Drafts (58 Specs)
 * [Navigation Error Logging](http://www.w3.org/TR/navigation-error-logging "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.")
 * [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2 "This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")
-* [Pointer Events](http://www.w3.org/TR/pointerevents "This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.")
 * [Push API](http://www.w3.org/TR/push-api "This specification defines a ”Push API” that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.")
 * [Quota Management API](http://www.w3.org/TR/quota-api "This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.")
 * [Referrer Policy](http://www.w3.org/TR/referrer-policy "This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.")
