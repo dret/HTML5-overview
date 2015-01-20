@@ -261,6 +261,11 @@
             <title>Navigation Error Logging</title>
             <abstract>This specification defines an interface to store and retrieve error data related to the previous navigations of a document.</abstract>
         </spec>
+        <spec id="frame-timing" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Frame Timing</title>
+            <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to frame performance data to facilitate smoothness (i.e. Frames per Second and Time to Frame) measurements.</abstract>
+        </spec>
         <spec id="page-visibility" status="REC">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Page Visibility</title>
@@ -566,6 +571,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-01-20">added <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a></entry>
         <entry date="2015-01-08">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from PR to REC</entry>
         <entry date="2014-12-16">changed status of <a href="http://www.w3.org/TR/resource-timing/"><q>Resource Timing</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from WD to PR</entry>
         <entry date="2014-12-11">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from WD to CR</entry>
