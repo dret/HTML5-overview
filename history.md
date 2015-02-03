@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* February 3, 2015: changed status of Server-Sent Events from PR to REC
 * January 20, 2015: added Frame Timing
 * January 8, 2015: changed status of Indexed Database API from PR to REC
 * December 16, 2014: changed status of Resource Timing from CR to WD; changed status of Pointer Events from WD to PR

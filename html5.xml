@@ -359,7 +359,7 @@
             <title>HTML Imports</title>
             <abstract>HTML Imports are a way to include and reuse HTML documents in other HTML documents.</abstract>
         </spec>
-        <spec id="eventsource" status="PR">
+        <spec id="eventsource" status="REC">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Server-Sent Events</title>
             <abstract>This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</abstract>
@@ -571,6 +571,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-02-03">changed status of <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from PR to REC</entry>
         <entry date="2015-01-20">added <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a></entry>
         <entry date="2015-01-08">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from PR to REC</entry>
         <entry date="2014-12-16">changed status of <a href="http://www.w3.org/TR/resource-timing/"><q>Resource Timing</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from WD to PR</entry>
