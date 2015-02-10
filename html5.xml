@@ -109,6 +109,11 @@
             <title>Battery Status Event Specification</title>
             <abstract>This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.</abstract>
         </spec>
+        <spec id="audio-output" status="WD">
+            <class ref="device">Provides information about available audio output devices.</class>
+            <title>Audio Output Devices API</title>
+            <abstract>This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.</abstract>
+        </spec>
         <spec id="calendar-api" status="NOTE">
             <class ref="environment">Provides access to calender of OS environment.</class>
             <title>Calendar API</title>
@@ -576,7 +581,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC</entry>
+        <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC; added <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a></entry>
         <entry date="2015-02-03">changed status of <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from PR to REC</entry>
         <entry date="2015-01-20">added <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a></entry>
         <entry date="2015-01-08">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from PR to REC</entry>
