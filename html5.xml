@@ -174,6 +174,11 @@
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
         </spec>
+        <spec id="screen-capture" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Screen Capture</title>
+            <abstract>This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.</abstract>
+        </spec>
         <spec id="form-http-extensions" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>W3C HTML Form HTTP Extensions</title>
@@ -571,6 +576,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>
         <entry date="2015-02-03">changed status of <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from PR to REC</entry>
         <entry date="2015-01-20">added <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a></entry>
         <entry date="2015-01-08">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from PR to REC</entry>
