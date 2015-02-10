@@ -433,7 +433,7 @@
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
-        <spec id="vibration" status="PR">
+        <spec id="vibration" status="REC">
             <class ref="device">Provides access to device vibration capabilities and actions.</class>
             <title>Vibration API</title>
             <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
@@ -576,7 +576,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>
+        <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC</entry>
         <entry date="2015-02-03">changed status of <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from PR to REC</entry>
         <entry date="2015-01-20">added <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a></entry>
         <entry date="2015-01-08">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from PR to REC</entry>
