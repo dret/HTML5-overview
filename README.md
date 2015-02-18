@@ -3,9 +3,9 @@ HTML5 Overview
 
 An overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 89 current specifications and 21 specifications that were retired as notes (110 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. it says "more power to the browser" and mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 90 current specifications and 21 specifications that were retired as notes (111 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
-I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 110 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
+I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 111 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
 Recommendations (12 Specs)
@@ -47,7 +47,7 @@ Candidate Recommendations (12 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (62 Specs)
+Working Drafts (63 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -90,6 +90,7 @@ Working Drafts (62 Specs)
 * [Screen Orientation API](http://www.w3.org/TR/screen-orientation "The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.")
 * [Selectors API Level 1](http://www.w3.org/TR/selectors-api "The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.")
 * [Selectors API Level 2](http://www.w3.org/TR/selectors-api2 "The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.")
+* [Server Timing](http://www.w3.org/TR/server-timing "This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.")
 * [Service Workers](http://www.w3.org/TR/service-workers "This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.")
 * [Shadow DOM](http://www.w3.org/TR/shadow-dom "This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.")
 * [Streams API](http://www.w3.org/TR/streams-api "WHATWG Streams API spec provides an API for representing and handling a stream of data in JavaScript. This W3C spec is intended to extend the WHATWG spec to meet requirements specific to the browser environment.")

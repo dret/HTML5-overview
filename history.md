@@ -1,7 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
-* February 17, 2015: added Presentation API
+* February 17, 2015: added Presentation API and Server Timing
 * February 12, 2015: added Wake Lock API
 * February 10, 2015: added Screen Capture; changed status of Vibration API from PR to REC; added Audio Output Devices API
 * February 3, 2015: changed status of Server-Sent Events from PR to REC
