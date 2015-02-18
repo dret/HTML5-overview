@@ -424,6 +424,11 @@
             <title>Touch Events</title>
             <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
         </spec>
+        <spec id="presentation-api" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title> Presentation API</title>
+            <abstract>This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.</abstract>
+        </spec>
         <spec id="touch-events-extensions" status="NOTE">
             <class ref="device">[[ explanation needed ]]</class>
             <title>Touch Events Extensions</title>
@@ -586,6 +591,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-02-17">added <a href="http://www.w3.org/TR/presentation-api"><q>Presentation API</q></a></entry>
         <entry date="2015-02-12">added <a href="http://www.w3.org/TR/wake-lock"><q>Wake Lock API</q></a></entry>
         <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC; added <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a></entry>
         <entry date="2015-02-03">changed status of <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from PR to REC</entry>
