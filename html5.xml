@@ -426,7 +426,7 @@
         </spec>
         <spec id="presentation-api" status="WD">
             <class ref="device">[[ explanation needed ]]</class>
-            <title> Presentation API</title>
+            <title>Presentation API</title>
             <abstract>This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.</abstract>
         </spec>
         <spec id="touch-events-extensions" status="NOTE">
