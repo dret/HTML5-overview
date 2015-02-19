@@ -36,6 +36,7 @@
 ]>
 <html5>
     <classdefs>
+        <classdef id="core" title="Core">Core specifications</classdef>
         <classdef id="device" title="Device">Specifications which provide access to the hardware components of the device</classdef>
         <classdef id="media" title="Media">Specifications which provide multimedia functionality (e.g., audio processing)</classdef>
         <classdef id="environment" title="OS Environment">Specifications which provide access to operating system environment (e.g., contacts)</classdef>
@@ -49,6 +50,11 @@
         <classdef id="ui" title="User Interaction">Specifications which are related to user interface (e.g., notifications) or user interaction (controlling interfaces).</classdef>
     </classdefs>
     <specs>
+        <spec id="html5" status="REC">
+            <class ref="core">HTML5 core specification for vocabulary and associated APIs.</class>
+            <title>HTML5</title>
+            <abstract>This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability.</abstract>
+        </spec>
         <spec id="system-info-api" status="NOTE">
             <class ref="device">Defines an API to access various device characteristics.</class>
             <title>System Information API</title>
@@ -596,6 +602,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a></entry>
         <entry date="2015-02-17">added <a href="http://www.w3.org/TR/presentation-api"><q>Presentation API</q></a> and <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a></entry>
         <entry date="2015-02-12">added <a href="http://www.w3.org/TR/wake-lock"><q>Wake Lock API</q></a></entry>
         <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC; added <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a></entry>
