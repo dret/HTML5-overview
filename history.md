@@ -1,7 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
-* February 19, 2015: added HTML5 and Media Capture from DOM Elements
+* February 19, 2015: added HTML5 and Media Capture from DOM Elements; changed status of Content Security Policy 1.0 from CR to NOTE; changed status of Content Security Policy 2.0 from WD to CR
 * February 17, 2015: added Presentation API and Server Timing
 * February 12, 2015: added Wake Lock API
 * February 10, 2015: added Screen Capture; changed status of Vibration API from PR to REC; added Audio Output Devices API

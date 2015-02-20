@@ -516,12 +516,12 @@
             <title>Manifest for Web Application</title>
             <abstract>This specification defines a JSON-based manifest that provides developers with a centralized place to put metadata associated with a web application. This includes, but is not limited to, the web application's name, links to icons, as well as the preferred URL to open when a user launches the web application. The manifest also allows developers to declare a default orientation for their web application, as well as providing the ability to set the display mode for the application (e.g., in fullscreen). Additionally, the manifest allows a developer to "scope" a web application to a URL. This restricts the URLs to which the application can be navigated and provides a means to "deep link" into a web application from other applications. Using this metadata, user agents can provide developers with means to create user experiences that are more comparable to that of a native application. In addition, this specification defines the manifest link type, which provides a declarative means for a document to be associated with a manifest.</abstract>
         </spec>
-        <spec id="CSP" status="CR">
+        <spec id="CSP" status="NOTE">
             <class ref="security">Describes a policy language for content restrictions.</class>
             <title>Content Security Policy 1.0</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
-        <spec id="CSP2" status="WD">
+        <spec id="CSP2" status="CR">
             <class ref="security">Describes a policy language for content restrictions.</class>
             <title>Content Security Policy 2.0</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
@@ -607,7 +607,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement"><q>Media Capture from DOM Elements</q></a></entry>
+        <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement"><q>Media Capture from DOM Elements</q></a>; changed status of <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a> from WD to CR</entry>
         <entry date="2015-02-17">added <a href="http://www.w3.org/TR/presentation-api"><q>Presentation API</q></a> and <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a></entry>
         <entry date="2015-02-12">added <a href="http://www.w3.org/TR/wake-lock"><q>Wake Lock API</q></a></entry>
         <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC; added <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a></entry>
