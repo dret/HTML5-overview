@@ -248,6 +248,11 @@
             <title>Media Capture Depth Stream Extensions</title>
             <abstract>This specification extends the Media Capture and Streams specification to allow a depth stream to be requested from the web platform using APIs familiar to web authors.</abstract>
         </spec>
+        <spec id="mediacapture-fromelement" status="WD">
+            <class ref="media">[[ explanation needed ]]</class>
+            <title>Media Capture from DOM Elements</title>
+            <abstract>This document defines how a stream of media can be captured from a DOM element, such as a &lt;video>, &lt;audio>, or &lt;canvas> element, in the form of a MediaStream.</abstract>
+        </spec>
         <spec id="image-capture" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
             <title>Mediastream Image Capture</title>
@@ -602,7 +607,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a></entry>
+        <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement"><q>Media Capture from DOM Elements</q></a></entry>
         <entry date="2015-02-17">added <a href="http://www.w3.org/TR/presentation-api"><q>Presentation API</q></a> and <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a></entry>
         <entry date="2015-02-12">added <a href="http://www.w3.org/TR/wake-lock"><q>Wake Lock API</q></a></entry>
         <entry date="2015-02-10">added <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a>; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from PR to REC; added <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a></entry>
