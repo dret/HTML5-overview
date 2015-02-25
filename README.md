@@ -8,7 +8,7 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 113 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
-Recommendations (13 Specs)
+Recommendations (14 Specs)
 ----------------
 
 * [Geolocation API Specification](http://www.w3.org/TR/geolocation-API "This specification defines an API that provides scripted access to geographical location information associated with the hosting device.")
@@ -18,6 +18,7 @@ Recommendations (13 Specs)
 * [Navigation Timing](http://www.w3.org/TR/navigation-timing "This specification defines an interface for web applications to access timing information related to navigation and elements.")
 * [Page Visibility](http://www.w3.org/TR/page-visibility "This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.")
 * [Performance Timeline](http://www.w3.org/TR/performance-timeline "This specification defines an interface for web applications to access timing information related to navigation and elements.")
+* [Pointer Events](http://www.w3.org/TR/pointerevents "This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.")
 * [Progress Events](http://www.w3.org/TR/progress-events "The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.")
 * [Server-Sent Events](http://www.w3.org/TR/eventsource "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
 * [Touch Events](http://www.w3.org/TR/touch-events "The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.")
@@ -25,12 +26,11 @@ Recommendations (13 Specs)
 * [Vibration API](http://www.w3.org/TR/vibration "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-Proposed Recommendations (3 Specs)
+Proposed Recommendations (2 Specs)
 ----------------
 
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
 * [HTML Image Description Extension (longdesc)](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.")
-* [Pointer Events](http://www.w3.org/TR/pointerevents "This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.")
 
 Candidate Recommendations (12 Specs)
 ----------------

@@ -445,7 +445,7 @@
             <title>Touch Events Extensions</title>
             <abstract>This document defines extensions to the Touch Events specification that have been implemented by one or more browsers. We recommend that user agents implement the Touch Events Recommendation and/or the newer Pointer Events specification instead. This document is no longer being developed.</abstract>
         </spec>
-        <spec id="pointerevents" status="PR">
+        <spec id="pointerevents" status="REC">
             <class ref="device">[[ explanation needed ]]</class>
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
@@ -607,6 +607,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>
         <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement"><q>Media Capture from DOM Elements</q></a>; changed status of <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a> from WD to CR</entry>
         <entry date="2015-02-17">added <a href="http://www.w3.org/TR/presentation-api"><q>Presentation API</q></a> and <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a></entry>
         <entry date="2015-02-12">added <a href="http://www.w3.org/TR/wake-lock"><q>Wake Lock API</q></a></entry>
