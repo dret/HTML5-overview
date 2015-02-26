@@ -85,7 +85,7 @@
             <title>The picture Element</title>
             <abstract>This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.</abstract>
         </spec>
-        <spec id="html-longdesc" status="PR">
+        <spec id="html-longdesc" status="REC">
             <class ref="media">Provides the longdesc attribute to add or link a machine-discoverable description to an image.</class>
             <title>HTML Image Description Extension (longdesc)</title>
             <abstract>This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.</abstract>
@@ -607,6 +607,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
         <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>
         <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement"><q>Media Capture from DOM Elements</q></a>; changed status of <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a> from WD to CR</entry>
         <entry date="2015-02-17">added <a href="http://www.w3.org/TR/presentation-api"><q>Presentation API</q></a> and <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a></entry>
