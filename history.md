@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* March 6, 2015: renamed Navigation Error Logging to Network Error Logging
 * February 26, 2015: changed status of HTML Image Description Extension (longdesc) from PR to REC
 * February 25, 2015: changed status of Pointer Events from PR to REC
 * February 19, 2015: added HTML5 and Media Capture from DOM Elements; changed status of Content Security Policy 1.0 from CR to NOTE; changed status of Content Security Policy 2.0 from WD to CR

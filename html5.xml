@@ -282,10 +282,10 @@
             <title>Navigation Timing 2</title>
             <abstract>This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.</abstract>
         </spec>
-        <spec id="navigation-error-logging" status="WD">
+        <spec id="network-error-logging" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
-            <title>Navigation Error Logging</title>
-            <abstract>This specification defines an interface to store and retrieve error data related to the previous navigations of a document.</abstract>
+            <title>Network Error Logging</title>
+            <abstract>This document defines a mechanism enabling web sites to declare a reporting policy that can be used by the user agent to report encountered network errors that prevented it from successfully loading the requested resource, the format of the error reports, and their transmission mechanism.</abstract>
         </spec>
         <spec id="frame-timing" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
@@ -607,6 +607,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
         <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>
         <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement"><q>Media Capture from DOM Elements</q></a>; changed status of <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy 2.0</q></a> from WD to CR</entry>
