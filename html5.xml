@@ -209,7 +209,7 @@
             <title>HTML Microdata</title>
             <abstract>This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON.</abstract>
         </spec>
-        <spec id="webmessaging" status="CR">
+        <spec id="webmessaging" status="PR">
             <title>HTML5 Web Messaging</title>
             <abstract>This specification defines two mechanism for communicating between browsing contexts in HTML documents.</abstract>
         </spec>
@@ -612,7 +612,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a></entry>
+        <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
         <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>
