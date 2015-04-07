@@ -335,6 +335,11 @@
             <title>Proximity Events</title>
             <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
         </spec>
+        <spec id="permissions" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>The Permissions API</title>
+            <abstract>The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.</abstract>
+        </spec>
         <spec id="quota-api" status="WD">
             <class ref="storage">Defines an API to query and manage usage and availability of a user's local storage.</class>
             <title>Quota Management API</title>
@@ -607,6 +612,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a></entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
         <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>

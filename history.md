@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* April 7, 2015: added The Permissions API
 * March 6, 2015: renamed Navigation Error Logging to Network Error Logging
 * February 26, 2015: changed status of HTML Image Description Extension (longdesc) from PR to REC
 * February 25, 2015: changed status of Pointer Events from PR to REC
