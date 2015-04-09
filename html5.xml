@@ -209,7 +209,7 @@
             <title>HTML Microdata</title>
             <abstract>This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON.</abstract>
         </spec>
-        <spec id="webmessaging" status="CR">
+        <spec id="webmessaging" status="PR">
             <title>HTML5 Web Messaging</title>
             <abstract>This specification defines two mechanism for communicating between browsing contexts in HTML documents.</abstract>
         </spec>
@@ -334,6 +334,11 @@
             <class ref="device">Provides access to proximity sensor of an device.</class>
             <title>Proximity Events</title>
             <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
+        </spec>
+        <spec id="permissions" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>The Permissions API</title>
+            <abstract>The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.</abstract>
         </spec>
         <spec id="quota-api" status="WD">
             <class ref="storage">Defines an API to query and manage usage and availability of a user's local storage.</class>
@@ -526,6 +531,11 @@
             <title>Content Security Policy 2.0</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
+        <spec id="SRI" status="WD">
+            <class ref="security">Describes a way to define expected checksums for resources.</class>
+            <title>Subresource Integrity</title>
+            <abstract>This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.</abstract>
+        </spec>
         <spec id="referrer-policy" status="WD">
             <class ref="security">Describes a language for referrer policies.</class>
             <title>Referrer Policy</title>
@@ -607,6 +617,8 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-04-09">added <a href="http://www.w3.org/TR/SRI"><q>Subresource Integrity</q></a></entry>
+        <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
         <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>
