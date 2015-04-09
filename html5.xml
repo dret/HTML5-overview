@@ -610,14 +610,8 @@
             <title>Encoding</title>
             <abstract>While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge.</abstract>
         </spec>
-        <spec id="SRI" status="WD">
-            <class ref="DOM">[[ explanation needed ]]</class>
-            <title>Subresource Integrity</title>
-            <abstract>This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.</abstract>
-        </spec>
     </specs>
     <log>
-        <entry date="2015-04-09">added <a href="http://www.w3.org/TR/SRI"><q>Subresource Integrity</q></a></entry>
         <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>

@@ -1,7 +1,6 @@
 HTML5 Overview: Change Log
 ==========================
 
-* April 9, 2015: added Subresource Integrity
 * April 7, 2015: added The Permissions API; changed status of HTML5 Web Messaging from CR to PR
 * March 6, 2015: renamed Navigation Error Logging to Network Error Logging
 * February 26, 2015: changed status of HTML Image Description Extension (longdesc) from PR to REC
