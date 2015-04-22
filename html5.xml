@@ -285,7 +285,7 @@
         <spec id="network-error-logging" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Network Error Logging</title>
-            <abstract>This document defines a mechanism enabling web sites to declare a reporting policy that can be used by the user agent to report encountered network errors that prevented it from successfully loading the requested resource, the format of the error reports, and their transmission mechanism.</abstract>
+            <abstract>This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.</abstract>
         </spec>
         <spec id="frame-timing" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
@@ -612,7 +612,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a> abstract</entry>
+        <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a> and <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> abstracts</entry>
         <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
