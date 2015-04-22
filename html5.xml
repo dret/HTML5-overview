@@ -280,7 +280,7 @@
         <spec id="navigation-timing-2" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Navigation Timing 2</title>
-            <abstract>This specification defines a unified interface to store and retrieve high resolution performance metric data related to the navigation of a document.</abstract>
+            <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
         <spec id="network-error-logging" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
@@ -612,7 +612,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a> and <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> abstracts</entry>
+        <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>, <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, and <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a> abstracts</entry>
         <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
