@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* April 24, 2015: added Privileged Contexts
 * April 22, 2015: updated Resource Hints, Network Error Logging, and Navigation Timing 2 abstracts
 * April 7, 2015: added The Permissions API; changed status of HTML5 Web Messaging from CR to PR
 * March 6, 2015: renamed Navigation Error Logging to Network Error Logging
