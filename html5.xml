@@ -536,6 +536,11 @@
             <title>Privileged Contexts</title>
             <abstract>This specification provides guidelines for user agent implementors and spec authors for implementing features whose properties dictate that they be exposed to the web only within a trustworthy environment.</abstract>
         </spec>
+        <spec id="upgrade-insecure-requests" status="WD">
+            <class ref="security">Allows authors to upgrade resource requests from insecure to secure.</class>
+            <title>Upgrade Insecure Requests</title>
+            <abstract>This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.</abstract>
+        </spec>
         <spec id="SRI" status="WD">
             <class ref="security">Describes a way to define expected checksums for resources.</class>
             <title>Subresource Integrity</title>
@@ -617,7 +622,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a></entry>
+        <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> and <a href="http://www.w3.org/TR/upgrade-insecure-requests"><q>Upgrade Insecure Requests</q></a></entry>
         <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>, <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, and <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a> abstracts</entry>
         <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
         <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
