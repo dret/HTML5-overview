@@ -398,7 +398,7 @@
         <spec id="push-api" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Push API</title>
-            <abstract>This specification defines a "Push API" that provides webapps with scripted access to server-sent notifications, for simplicity referred to here as push notifications, as delivered by push services. Push services are a way for application servers to send messages to webapps, whether or not the webapp is active in a browser window. Push notifications may be delivered via various methods, either via standardized protocols (e.g. Server-Sent Events, the GSM Short Message Service, SIP MESSAGE, or OMA Push), or via browser-specific methods. The specific method to be used by a webapp is either selected by the user through a push service extension, or by the browser. The Push API is defined to promote compatibility with any delivery method.</abstract>
+            <abstract>The Push API provides webapps with scripted access to server-sent messages, for simplicity referred to here as push messages, as delivered by push services. A push service allows an application server to send messages to a webapp, regardless of whether the webapp is currently active on the user agent. The push message will be delivered to a Service Worker, which could then store the message's data or display a notification to the user. This specification is designed to promote compatibility with any delivery method for push messages from push services to user agents.</abstract>
         </spec>
         <spec id="contacts-api" status="NOTE">
             <class ref="environment">Provides access to contacts stored in system's address book.</class>
@@ -622,6 +622,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-04-27">updated <a href="http://www.w3.org/TR/push-api/"><q>Push API</q></a> abstract</entry>
         <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> and <a href="http://www.w3.org/TR/upgrade-insecure-requests"><q>Upgrade Insecure Requests</q></a></entry>
         <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>, <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, and <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a> abstracts</entry>
         <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
