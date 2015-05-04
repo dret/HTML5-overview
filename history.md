@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* May 4, 2015: added Credential Management Level 1
 * April 27, 2015: updated Push API abstract
 * April 24, 2015: added Privileged Contexts and Upgrade Insecure Requests
 * April 22, 2015: updated Resource Hints, Network Error Logging, and Navigation Timing 2 abstracts

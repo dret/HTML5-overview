@@ -566,6 +566,11 @@
             <title>Runtime and Security Model for Web Applications</title>
             <abstract>This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.</abstract>
         </spec>
+        <spec id="credential-management-1" status="WD">
+            <class ref="security">Describes an API for obtaining user credentials.</class>
+            <title>Credential Management Level 1</title>
+            <abstract>This specification describes an imperative API enabling a website to request a user's credentials from a user agent, and to help the user agent correctly store user credentials for future use.</abstract>
+        </spec>
         <spec id="webdriver" status="WD">
             <title>WebDriver</title>
             <abstract>This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a browser. The WebDriver API is defined by a set of interfaces to discover and manipulate DOM elements on a page, and to control the behaviour of the containing browser. This specification also includes a non-normative reference useful for browser vendors.</abstract>
@@ -622,6 +627,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-05-04">added <a href="http://www.w3.org/TR/credential-management-1"><q>Credential Management Level 1</q></a></entry>
         <entry date="2015-04-27">updated <a href="http://www.w3.org/TR/push-api/"><q>Push API</q></a> abstract</entry>
         <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> and <a href="http://www.w3.org/TR/upgrade-insecure-requests"><q>Upgrade Insecure Requests</q></a></entry>
         <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>, <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, and <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a> abstracts</entry>

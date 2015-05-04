@@ -1,11 +1,11 @@
 HTML5 Overview
 ==============
 
-This is an overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](XSLT/xml2html.xsl), but this may change over time, and the blog version is updated less frequently.
+This is an overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time, and the blog version is updated less frequently.
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 94 current specifications and 22 specifications that were retired as notes (116 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 95 current specifications and 22 specifications that were retired as notes (117 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
-I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 116 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
+I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 117 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
 Recommendations (15 Specs)
@@ -48,7 +48,7 @@ Candidate Recommendations (11 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (66 Specs)
+Working Drafts (67 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -57,6 +57,7 @@ Working Drafts (66 Specs)
 * [Beacon](http://www.w3.org/TR/beacon "This specification defines an interoperable means for site developers to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.")
 * [Clipboard API and Events](http://www.w3.org/TR/clipboard-apis "This document describes APIs for clipboard operations such as copy, cut and paste in web applications.")
 * [Contacts Manager API](http://www.w3.org/TR/contacts-manager-api "This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.")
+* [Credential Management Level 1](http://www.w3.org/TR/credential-management-1 "This specification describes an imperative API enabling a website to request a user's credentials from a user agent, and to help the user agent correctly store user credentials for future use.")
 * [Custom Elements](http://www.w3.org/TR/custom-elements "This specification describes the method for enabling the author to define and use new types of DOM elements in a document.")
 * [DOM Parsing and Serialization](http://www.w3.org/TR/domparsing "This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.")
 * [DeviceOrientation Event Specification](http://www.w3.org/TR/orientation-event "This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.")
