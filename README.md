@@ -8,12 +8,13 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
 I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 117 specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):
 
 
-Recommendations (15 Specs)
+Recommendations (16 Specs)
 ----------------
 
 * [Geolocation API Specification](http://www.w3.org/TR/geolocation-API "This specification defines an API that provides scripted access to geographical location information associated with the hosting device.")
 * [HTML Image Description Extension (longdesc)](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.")
 * [HTML5](http://www.w3.org/TR/html5 "This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability.")
+* [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging "This specification defines two mechanism for communicating between browsing contexts in HTML documents.")
 * [High Resolution Time](http://www.w3.org/TR/hr-time "This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.")
 * [Indexed Database API](http://www.w3.org/TR/IndexedDB "This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.")
 * [Navigation Timing](http://www.w3.org/TR/navigation-timing "This specification defines an interface for web applications to access timing information related to navigation and elements.")
@@ -27,11 +28,10 @@ Recommendations (15 Specs)
 * [Vibration API](http://www.w3.org/TR/vibration "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-Proposed Recommendations (2 Specs)
+Proposed Recommendations (1 Specs)
 ----------------
 
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
-* [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging "This specification defines two mechanism for communicating between browsing contexts in HTML documents.")
 
 Candidate Recommendations (12 Specs)
 ----------------
