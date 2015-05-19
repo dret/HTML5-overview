@@ -1,6 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
+* May 19, 2015: changed status of Web Notifications from WD to CR
 * May 4, 2015: added Credential Management Level 1
 * April 27, 2015: updated Push API abstract
 * April 24, 2015: added Privileged Contexts and Upgrade Insecure Requests

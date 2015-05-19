@@ -489,10 +489,10 @@
             <title>Web Intents</title>
             <abstract>This specification defines a service discovery and light-weight RPC mechanism for web apps called Web Intents. This document defines DOM interfaces and markup used by client and service pages to create, receive, and reply to Web Intents messages, and the procedures the User Agent carries out to facilitate that process.</abstract>
         </spec>
-        <spec id="notifications" status="WD">
+        <spec id="notifications" status="CR">
             <class ref="ui">[[ explanation needed ]]</class>
             <title>Web Notifications</title>
-            <abstract>This document defines an API for displaying simple notifications to the user.</abstract>
+            <abstract>Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.</abstract>
         </spec>
         <spec id="task-scheduler" status="WD">
             <class ref="environment">Provides support for scheduling tasks at specific times.</class>
@@ -627,6 +627,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-05-19">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from WD to CR</entry>
         <entry date="2015-05-04">added <a href="http://www.w3.org/TR/credential-management-1"><q>Credential Management Level 1</q></a></entry>
         <entry date="2015-04-27">updated <a href="http://www.w3.org/TR/push-api/"><q>Push API</q></a> abstract</entry>
         <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> and <a href="http://www.w3.org/TR/upgrade-insecure-requests"><q>Upgrade Insecure Requests</q></a></entry>
