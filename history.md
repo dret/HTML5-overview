@@ -1,7 +1,8 @@
 HTML5 Overview: Change Log
 ==========================
 
-* May 19, 2015: changed status of Web Notifications from WD to CR; ; changed status of HTML5 Web Messaging from PR to REC
+* June 2, 2015: changed status of Contacts Manager API, Web Telephony API, and Messaging API from WD to NOTE
+* May 19, 2015: changed status of Web Notifications from WD to CR; changed status of HTML5 Web Messaging from PR to REC
 * May 4, 2015: added Credential Management Level 1
 * April 27, 2015: updated Push API abstract
 * April 24, 2015: added Privileged Contexts and Upgrade Insecure Requests

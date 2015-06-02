@@ -60,7 +60,7 @@
             <title>System Information API</title>
             <abstract>This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.</abstract>
         </spec>
-        <spec id="telephony" status="WD">
+        <spec id="telephony" status="NOTE">
             <class ref="communications">Defines an API to manage telephone calls (e.g. dialer app).</class>
             <title>Web Telephony API</title>
             <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
@@ -267,7 +267,7 @@
             <title>The Messaging API</title>
             <abstract>This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.</abstract>
         </spec>
-        <spec id="messaging" status="WD">
+        <spec id="messaging" status="NOTE">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Messaging API</title>
             <abstract>This specification defines a System Level API which offers a simple interface to get access to mobile messaging services. A typical use case of the Messaging API is the implementation of a messaging client application that allows the user to send SMS and MMS messages as well as to access and manage the received SMS and MMS messages.</abstract>
@@ -405,7 +405,7 @@
             <title>Pick Contacts Intent</title>
             <abstract>The Pick Contacts Intent defines a Web Intent that enables access to a user's address book service from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the contacts data that is returned by services implementing this specification.</abstract>
         </spec>
-        <spec id="contacts-manager-api" status="WD">
+        <spec id="contacts-manager-api" status="NOTE">
             <class ref="environment">[[ explanation needed ]]</class>
             <title>Contacts Manager API</title>
             <abstract>This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.</abstract>
@@ -627,7 +627,8 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-05-19">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from WD to CR; ; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from PR to REC</entry>
+        <entry date="2015-06-02">changed status of <a href="http://www.w3.org/TR/contacts-manager-api/"><q>Contacts Manager API</q></a>, <a href="http://www.w3.org/TR/telephony/"><q>Web Telephony API</q></a>, and <a href="http://www.w3.org/TR/messaging/"><q>Messaging API</q></a> from WD to NOTE</entry>
+        <entry date="2015-05-19">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from PR to REC</entry>
         <entry date="2015-05-04">added <a href="http://www.w3.org/TR/credential-management-1"><q>Credential Management Level 1</q></a></entry>
         <entry date="2015-04-27">updated <a href="http://www.w3.org/TR/push-api/"><q>Push API</q></a> abstract</entry>
         <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> and <a href="http://www.w3.org/TR/upgrade-insecure-requests"><q>Upgrade Insecure Requests</q></a></entry>
