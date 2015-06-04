@@ -1,7 +1,7 @@
 HTML5 Overview: Change Log
 ==========================
 
-* June 4, 2015: added Accessible Rich Internet Applications (WAI-ARIA) 1.0
+* June 4, 2015: added Accessible Rich Internet Applications (WAI-ARIA) 1.0 and W3C DOM4
 * June 2, 2015: changed status of Contacts Manager API, Web Telephony API, and Messaging API from WD to NOTE
 * May 19, 2015: changed status of Web Notifications from WD to CR; changed status of HTML5 Web Messaging from PR to REC
 * May 4, 2015: added Credential Management Level 1
