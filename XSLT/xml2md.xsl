@@ -10,8 +10,6 @@
             <xsl:text>HTML5 Overview
 ==============
 
-This is an overview of all HTML5 standardization activities. For now, this content is also [published on my blog](http://dret.typepad.com/dretblog/html5-api-overview.html) by [transforming it to HTML](xml2html.xsl), but this may change over time, and the blog version is updated less frequently.
-
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne 'NOTE'])"/>
             <xsl:text> current specifications and </xsl:text>
@@ -20,9 +18,9 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
             <xsl:value-of select="count(//specs/spec)"/>
             <xsl:text> total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
-I am currently working on making this page as complete as the blog page. As a starting point, here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of </xsl:text>
+Here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of </xsl:text>
             <xsl:value-of select="count(//specs/spec)"/>
-            <xsl:text> specs (for a classification and abstracts, [please visit the blog for now](http://dret.typepad.com/dretblog/html5-api-overview.html) or [use the XML source](html5.xml)):&#xa;&#xa;</xsl:text>
+            <xsl:text> specs:&#xa;&#xa;</xsl:text>
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
                 <xsl:text>&#xa;</xsl:text>
