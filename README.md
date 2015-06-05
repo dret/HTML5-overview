@@ -1,9 +1,9 @@
 HTML5 Overview
 ==============
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 94 current specifications and 25 specifications that were retired as notes (119 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 95 current specifications and 25 specifications that were retired as notes (120 total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
-Here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 119 specs:
+Here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of 120 specs:
 
 
 Recommendations (17 Specs)
@@ -48,7 +48,7 @@ Candidate Recommendations (12 Specs)
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-Working Drafts (64 Specs)
+Working Drafts (65 Specs)
 ----------------
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -65,6 +65,7 @@ Working Drafts (64 Specs)
 * [File API](http://www.w3.org/TR/FileAPI "This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.")
 * [Frame Timing](http://www.w3.org/TR/frame-timing "This specification defines an interface to help web developers measure the performance of their applications by giving them access to frame performance data to facilitate smoothness (i.e. Frames per Second and Time to Frame) measurements.")
 * [Gamepad](http://www.w3.org/TR/gamepad "The Gamepad specification defines a low-level interface that represents gamepad devices.")
+* [Geofencing API](http://www.w3.org/TR/geofencing "This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.")
 * [HTML Imports](http://www.w3.org/TR/html-imports "HTML Imports are a way to include and reuse HTML documents in other HTML documents.")
 * [High Resolution Time Level 2](http://www.w3.org/TR/hr-time-2 "This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.")
 * [Identifiers for WebRTC's Statistics API](http://www.w3.org/TR/webrtcstats "This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.")
