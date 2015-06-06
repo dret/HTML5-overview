@@ -37,7 +37,13 @@ Here's a status-ordered list of all HTML5 specs covered in the [XML source for t
                     <xsl:text> "</xsl:text>
                     <xsl:value-of select="replace(abstract,'&quot;', '&#x201d;')"/>
                     <xsl:text>"</xsl:text>
-                    <xsl:text>)&#xa;</xsl:text>
+                    <xsl:text>)</xsl:text>
+                    <xsl:if test="exists(@ed)">
+                        <xsl:text> ([ED](</xsl:text>
+                        <xsl:value-of select="@ed"/>
+                        <xsl:text> "Editor's Draft"))</xsl:text>
+                    </xsl:if>
+                    <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each>
             </xsl:for-each-group>
             <xsl:text>&#xa;&#xa;If you're interested in history, [here's the change log](history.md).</xsl:text>
