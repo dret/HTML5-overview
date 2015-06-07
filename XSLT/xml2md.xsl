@@ -7,8 +7,7 @@
     <xsl:key name="classes" match="/html5/classdefs/classdef" use="@id"/>
     <xsl:template match="html5">
         <xsl:result-document href="README.md" format="md-text">
-            <xsl:text>HTML5 Overview
-==============
+            <xsl:text># HTML5 Overview
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne 'NOTE'])"/>
@@ -23,11 +22,11 @@ Here's a status-ordered list of all HTML5 specs covered in the [XML source for t
             <xsl:text> specs:&#xa;&#xa;</xsl:text>
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
-                <xsl:text>&#xa;</xsl:text>
+                <xsl:text>&#xa;## </xsl:text>
                 <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
                 <xsl:text>s (</xsl:text>
                 <xsl:value-of select="count(current-group())"/>
-                <xsl:text> Specs)&#xa;----------------&#xa;&#xa;</xsl:text>
+                <xsl:text> Specs)&#xa;&#xa;</xsl:text>
                 <xsl:for-each select="current-group()">
                     <xsl:sort select="title/text()"/>
                     <xsl:text>* [</xsl:text>
@@ -49,7 +48,7 @@ Here's a status-ordered list of all HTML5 specs covered in the [XML source for t
             <xsl:text>&#xa;&#xa;If you're interested in history, [here's the change log](history.md).</xsl:text>
         </xsl:result-document>
         <xsl:result-document href="history.md" format="md-text">
-            <xsl:text>HTML5 Overview: Change Log&#xa;==========================&#xa;&#xa;</xsl:text>
+            <xsl:text># HTML5 Overview: Change Log&#xa;&#xa;</xsl:text>
                 <xsl:for-each select="//log/entry">
                 <xsl:sort select="@date" order="descending"/>
                 <xsl:text>* </xsl:text>

@@ -1,5 +1,4 @@
-HTML5 Overview: Change Log
-==========================
+# HTML5 Overview: Change Log
 
 * June 5, 2015: added Geofencing API
 * June 4, 2015: added Accessible Rich Internet Applications (WAI-ARIA) 1.0 and W3C DOM4
