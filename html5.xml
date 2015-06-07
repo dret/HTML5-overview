@@ -7,19 +7,19 @@
   <!ELEMENT classdefs (classdef*) >
   <!ELEMENT classdef (#PCDATA) >
   <!ATTLIST classdef
-    id        ID                                    #REQUIRED
-    title     CDATA                                 #REQUIRED
+    id        ID                                            #REQUIRED
+    title     CDATA                                         #REQUIRED
     >
   <!ELEMENT specs (spec*) >
   <!ELEMENT spec (class?, title, abstract) >
   <!ATTLIST spec
-    id        NMTOKEN                               #REQUIRED
-    status    ( WD | CR | PER | PR | REC | NOTE )   #REQUIRED
-    ed        CDATA                                 #IMPLIED
+    id        CDATA                                         #REQUIRED
+    status    ( WD | CR | PER | PR | REC | NOTE | other )   #REQUIRED
+    ed        CDATA                                         #IMPLIED
     >
   <!ELEMENT class (#PCDATA) >
   <!ATTLIST class
-    ref       IDREF                                 #REQUIRED
+    ref       IDREF                                         #REQUIRED
     >
   <!ELEMENT title (#PCDATA) >
   <!ELEMENT abstract (#PCDATA | q | em)* >
@@ -28,11 +28,11 @@
   <!ELEMENT log (entry*) >
   <!ELEMENT entry (#PCDATA | q | em | a)* >
   <!ATTLIST entry
-    date      CDATA                                 #REQUIRED
+    date      CDATA                                         #REQUIRED
     >
   <!ELEMENT a (#PCDATA | q)* >
   <!ATTLIST a
-    href      CDATA                                 #REQUIRED
+    href      CDATA                                         #REQUIRED
     >
 ]>
 <html5>
@@ -643,6 +643,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-06-06">added ability to list non-W3C-TR publications.</entry>
         <entry date="2015-06-05">added <a href="http://www.w3.org/TR/geofencing"><q>Geofencing API</q></a></entry>
         <entry date="2015-06-04">added <a href="http://www.w3.org/TR/wai-aria"><q>Accessible Rich Internet Applications (WAI-ARIA) 1.0</q></a> and <a href="http://www.w3.org/TR/dom"><q>W3C DOM4</q></a></entry>
         <entry date="2015-06-02">changed status of <a href="http://www.w3.org/TR/contacts-manager-api/"><q>Contacts Manager API</q></a>, <a href="http://www.w3.org/TR/telephony/"><q>Web Telephony API</q></a>, and <a href="http://www.w3.org/TR/messaging/"><q>Messaging API</q></a> from WD to NOTE</entry>
