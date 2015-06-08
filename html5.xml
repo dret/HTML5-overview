@@ -641,6 +641,11 @@
             <title>Encoding</title>
             <abstract>While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge.</abstract>
         </spec>
+        <spec id="https://fetch.spec.whatwg.org/" status="other">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Fetch</title>
+            <abstract>The Fetch standard defines requests, responses, and the process that binds them; fetching.</abstract>
+        </spec>
     </specs>
     <log>
         <entry date="2015-06-06">added ability to list non-W3C-TR publications.</entry>
