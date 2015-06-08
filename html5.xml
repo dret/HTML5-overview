@@ -646,8 +646,14 @@
             <title>Fetch</title>
             <abstract>The Fetch standard defines requests, responses, and the process that binds them; fetching.</abstract>
         </spec>
+        <spec id="https://fullscreen.spec.whatwg.org/" status="other">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>Fullscreen API</title>
+            <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
+        </spec>
     </specs>
     <log>
+        <entry date="2015-06-07">added WHATWG <a href="https://fetch.spec.whatwg.org/"><q>Fetch</q></a> and <a href="https://fullscreen.spec.whatwg.org/"><q>Fullscreen API</q></a>.</entry>
         <entry date="2015-06-06">added ability to list non-W3C-TR publications.</entry>
         <entry date="2015-06-05">added <a href="http://www.w3.org/TR/geofencing"><q>Geofencing API</q></a></entry>
         <entry date="2015-06-04">added <a href="http://www.w3.org/TR/wai-aria"><q>Accessible Rich Internet Applications (WAI-ARIA) 1.0</q></a> and <a href="http://www.w3.org/TR/dom"><q>W3C DOM4</q></a></entry>
