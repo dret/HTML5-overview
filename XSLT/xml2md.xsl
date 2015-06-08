@@ -2,36 +2,56 @@
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into github-friendly markdown. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output name="md-text" method="text" encoding="UTF-8"/>
-    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' )"/>
-    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' )"/>
+    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other' )"/>
+    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other' )"/>
     <xsl:key name="classes" match="/html5/classdefs/classdef" use="@id"/>
     <xsl:template match="html5">
         <xsl:result-document href="README.md" format="md-text">
             <xsl:text># HTML5 Overview
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists </xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status ne 'NOTE'])"/>
+            <xsl:value-of select="count(//specs/spec)"/>
+            <xsl:text> specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists </xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status ne ('NOTE') and @status ne ('other')])"/>
             <xsl:text> current specifications and </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq 'NOTE'])"/>
             <xsl:text> specifications that were retired as notes (</xsl:text>
-            <xsl:value-of select="count(//specs/spec)"/>
-            <xsl:text> total). Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+            <xsl:value-of select="count(//specs/spec[@status ne ('other')])"/>
+            <xsl:text> total).
 
-Here's a status-ordered list of all HTML5 specs covered in the [XML source for this page](html5.xml), containing a total of </xsl:text>
-            <xsl:value-of select="count(//specs/spec)"/>
-            <xsl:text> specs:&#xa;&#xa;</xsl:text>
+HTML5 specifications are also developed in other places, and this page lists </xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status eq ('other')])"/>
+            <xsl:text> of these other specifications.
+
+Here's a list of all HTML5 specs contained in the [XML source for this page](html5.xml), first W3C TR, and then others:
+
+## W3C TR Specifications (</xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status ne 'other'])"/>
+            <xsl:text> Specs)&#xa;</xsl:text>
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
-                <xsl:text>&#xa;## </xsl:text>
-                <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
-                <xsl:text>s (</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="current-grouping-key() ne 'other'">
+                        <xsl:text>&#xa;### </xsl:text>
+                        <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
+                        <xsl:text>s (</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>&#xa;## Other Specifications (</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:value-of select="count(current-group())"/>
                 <xsl:text> Specs)&#xa;&#xa;</xsl:text>
                 <xsl:for-each select="current-group()">
                     <xsl:sort select="title/text()"/>
                     <xsl:text>* [</xsl:text>
                     <xsl:value-of select="title/text()"/>
-                    <xsl:text>](http://www.w3.org/TR/</xsl:text>
+                    <xsl:text>](</xsl:text>
+                    <xsl:if test="current-grouping-key() ne 'other'">
+                        <xsl:text>http://www.w3.org/TR/</xsl:text>
+                    </xsl:if>
                     <xsl:value-of select="@id"/>
                     <xsl:text> "</xsl:text>
                     <xsl:value-of select="replace(abstract,'&quot;', '&#x201d;')"/>

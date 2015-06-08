@@ -1,5 +1,7 @@
 # HTML5 Overview: Change Log
 
+* June 7, 2015: added WHATWG Fetch and Fullscreen API.
+* June 6, 2015: added ability to list non-W3C-TR publications.
 * June 5, 2015: added Geofencing API
 * June 4, 2015: added Accessible Rich Internet Applications (WAI-ARIA) 1.0 and W3C DOM4
 * June 2, 2015: changed status of Contacts Manager API, Web Telephony API, and Messaging API from WD to NOTE
