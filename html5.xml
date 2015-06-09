@@ -651,8 +651,19 @@
             <title>Fullscreen API</title>
             <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
         </spec>
+        <spec id="https://webbluetoothcg.github.io/web-bluetooth/" status="other">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Web Bluetooth</title>
+            <abstract>This document describes an API to discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).</abstract>
+        </spec>
+        <spec id="http://w3c.github.io/web-nfc/" status="other">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>Web NFC API</title>
+            <abstract>Near Field Communication (NFC) enables wireless communication between two devices at close proximity, usually less than a few centimeters. NFC is an international standard (ISO/IEC 18092) defining an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. This specification defines an API to manage selected NFC use-cases from web pages, and to enable new use-cases based on NFC technology.</abstract>
+        </spec>
     </specs>
     <log>
+        <entry date="2015-06-08">added W3C CG <a href="https://webbluetoothcg.github.io/web-bluetooth/"><q>Web Bluetooth</q></a> and <a href="http://w3c.github.io/web-nfc/"><q>Web NFC API</q></a>.</entry>
         <entry date="2015-06-07">added WHATWG <a href="https://fetch.spec.whatwg.org/"><q>Fetch</q></a> and <a href="https://fullscreen.spec.whatwg.org/"><q>Fullscreen API</q></a>.</entry>
         <entry date="2015-06-06">added ability to list non-W3C-TR publications.</entry>
         <entry date="2015-06-05">added <a href="http://www.w3.org/TR/geofencing"><q>Geofencing API</q></a></entry>
