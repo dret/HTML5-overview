@@ -661,8 +661,19 @@
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) enables wireless communication between two devices at close proximity, usually less than a few centimeters. NFC is an international standard (ISO/IEC 18092) defining an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. This specification defines an API to manage selected NFC use-cases from web pages, and to enable new use-cases based on NFC technology.</abstract>
         </spec>
+        <spec id="https://www.khronos.org/registry/webgl/specs/latest/1.0/" status="other">
+            <class ref="graphics">[[ explanation needed ]]</class>
+            <title>WebGL 1.0</title>
+            <abstract>This specification describes an additional rendering context and support objects for the HTML 5 canvas element. This context allows rendering using an API that conforms closely to the OpenGL ES 2.0 API.</abstract>
+        </spec>
+        <spec id="https://www.khronos.org/registry/webgl/specs/latest/2.0/" status="other">
+            <class ref="graphics">[[ explanation needed ]]</class>
+            <title>WebGL 2.0</title>
+            <abstract> This is Version 2.0 of the WebGL Specification. This specification describes an additional rendering context and support objects for the HTML 5 canvas element. This context allows rendering using an API that conforms closely to the OpenGL ES 3.0 API. This document should be read as an extension to the WebGL 1.0 specification. It will only describe the differences from 1.0.</abstract>
+        </spec>
     </specs>
     <log>
+        <entry date="2015-06-09">added Khronos <a href="https://www.khronos.org/registry/webgl/specs/latest/1.0/"><q>WebGL 1.0</q></a> and <a href="https://www.khronos.org/registry/webgl/specs/latest/2.0/"><q>WebGL 2.0</q></a>.</entry>
         <entry date="2015-06-08">added W3C CG <a href="https://webbluetoothcg.github.io/web-bluetooth/"><q>Web Bluetooth</q></a> and <a href="http://w3c.github.io/web-nfc/"><q>Web NFC API</q></a>.</entry>
         <entry date="2015-06-07">added WHATWG <a href="https://fetch.spec.whatwg.org/"><q>Fetch</q></a> and <a href="https://fullscreen.spec.whatwg.org/"><q>Fullscreen API</q></a>.</entry>
         <entry date="2015-06-06">added ability to list non-W3C-TR publications.</entry>
