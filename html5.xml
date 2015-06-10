@@ -176,6 +176,11 @@
             <title>Accessible Rich Internet Applications (WAI-ARIA) 1.0</title>
             <abstract>Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.</abstract>
         </spec>
+        <spec id="html-aam-1.0" status="WD">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>HTML Accessibility API Mappings 1.0</title>
+            <abstract>HTML Accessibility API Mappings (HTML-AAM) defines how user agents map HTML 5.1 elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.1 and the Accessible Name and Description: Computation and API Mappings 1.1 for use with the HTML 5.1 host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.</abstract>
+        </spec>
         <spec id="fullscreen" status="NOTE">
             <class ref="ui">Provides information about fullscreen capabilities and actions.</class>
             <title>Fullscreen</title>
@@ -698,7 +703,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-06-10">added <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a>, <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>, W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>, and WHATWG <a href="https://notifications.spec.whatwg.org/"><q>Notifications API</q></a>.</entry>
+        <entry date="2015-06-10">added <a href="http://www.w3.org/TR/html-aam-1.0/"><q>HTML Accessibility API Mappings 1.0</q></a>, <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a>, <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>, W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>, and WHATWG <a href="https://notifications.spec.whatwg.org/"><q>Notifications API</q></a>.</entry>
         <entry date="2015-06-09">added Khronos <a href="https://www.khronos.org/registry/webgl/specs/latest/1.0/"><q>WebGL 1.0</q></a> and <a href="https://www.khronos.org/registry/webgl/specs/latest/2.0/"><q>WebGL 2.0</q></a>.</entry>
         <entry date="2015-06-08">added W3C CG <a href="https://webbluetoothcg.github.io/web-bluetooth/"><q>Web Bluetooth</q></a> and <a href="http://w3c.github.io/web-nfc/"><q>Web NFC API</q></a>.</entry>
         <entry date="2015-06-07">added WHATWG <a href="https://fetch.spec.whatwg.org/"><q>Fetch</q></a> and <a href="https://fullscreen.spec.whatwg.org/"><q>Fullscreen API</q></a>.</entry>

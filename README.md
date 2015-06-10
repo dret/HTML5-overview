@@ -1,14 +1,14 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 131 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 132 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists 96 current specifications and 25 specifications that were retired as notes (121 total).
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists 97 current specifications and 25 specifications that were retired as notes (122 total).
 
 HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all HTML5 specs contained in the [XML source for this page](html5.xml), first W3C TR, and then others:
 
-## W3C TR Specifications (121 Specs)
+## W3C TR Specifications (122 Specs)
 
 ### Recommendations (17 Specs)
 
@@ -50,7 +50,7 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (65 Specs)
+### Working Drafts (66 Specs)
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
 * [Audio Output Devices API](http://www.w3.org/TR/audio-output "This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.")
@@ -67,6 +67,7 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
 * [Frame Timing](http://www.w3.org/TR/frame-timing "This specification defines an interface to help web developers measure the performance of their applications by giving them access to frame performance data to facilitate smoothness (i.e. Frames per Second and Time to Frame) measurements.")
 * [Gamepad](http://www.w3.org/TR/gamepad "The Gamepad specification defines a low-level interface that represents gamepad devices.")
 * [Geofencing API](http://www.w3.org/TR/geofencing "This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.") ([ED](https://w3c.github.io/geofencing-api/ "Editor's Draft"))
+* [HTML Accessibility API Mappings 1.0](http://www.w3.org/TR/html-aam-1.0 "HTML Accessibility API Mappings (HTML-AAM) defines how user agents map HTML 5.1 elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.1 and the Accessible Name and Description: Computation and API Mappings 1.1 for use with the HTML 5.1 host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.")
 * [HTML Imports](http://www.w3.org/TR/html-imports "HTML Imports are a way to include and reuse HTML documents in other HTML documents.")
 * [High Resolution Time Level 2](http://www.w3.org/TR/hr-time-2 "This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.")
 * [Identifiers for WebRTC's Statistics API](http://www.w3.org/TR/webrtcstats "This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.")
