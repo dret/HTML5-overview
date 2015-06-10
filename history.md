@@ -1,6 +1,6 @@
 # HTML5 Overview: Change Log
 
-* June 10, 2015: added FileSystem API and W3C CG Web Speech API Specification.
+* June 10, 2015: added FileSystem API, Generic Sensor API,  and W3C CG Web Speech API Specification.
 * June 9, 2015: added Khronos WebGL 1.0 and WebGL 2.0.
 * June 8, 2015: added W3C CG Web Bluetooth and Web NFC API.
 * June 7, 2015: added WHATWG Fetch and Fullscreen API.
