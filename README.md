@@ -1,10 +1,10 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 127 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 128 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists 95 current specifications and 25 specifications that were retired as notes (120 total).
 
-HTML5 specifications are also developed in other places, and this page lists 7 of these other specifications.
+HTML5 specifications are also developed in other places, and this page lists 8 of these other specifications.
 
 Here's a list of all HTML5 specs contained in the [XML source for this page](html5.xml), first W3C TR, and then others:
 
@@ -145,9 +145,10 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
 * [Web SQL Database](http://www.w3.org/TR/webdatabase "This specification defines an API for storing data in databases that can be queried using a variant of SQL.")
 * [Web Telephony API](http://www.w3.org/TR/telephony "This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.")
 
-## Other Specifications (7 Specs)
+## Other Specifications (8 Specs)
 
 * [Fetch](https://fetch.spec.whatwg.org/ "The Fetch standard defines requests, responses, and the process that binds them; fetching.")
+* [FileSystem API](http://w3c.github.io/filesystem-api/ "The FileSystem API defines functionality on a local sandboxed file system within the same origin of the Web Application that created it. It exposes standard file system operations to Web Applications, such as creation of files and directories, and reading and writing of them (from and to disk), including other programmatic manipulation of files and directories.")
 * [Fullscreen API](https://fullscreen.spec.whatwg.org/ "Fullscreen defines the fullscreen API for the web platform.")
 * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/ "This document describes an API to discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).")
 * [Web NFC API](http://w3c.github.io/web-nfc/ "Near Field Communication (NFC) enables wireless communication between two devices at close proximity, usually less than a few centimeters. NFC is an international standard (ISO/IEC 18092) defining an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. This specification defines an API to manage selected NFC use-cases from web pages, and to enable new use-cases based on NFC technology.")
