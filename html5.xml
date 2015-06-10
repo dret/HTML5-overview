@@ -520,6 +520,11 @@
             <title>Web Notifications</title>
             <abstract>Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.</abstract>
         </spec>
+        <spec id="https://notifications.spec.whatwg.org/" status="other">
+            <class ref="ui">[[ explanation needed ]]</class>
+            <title>Notifications API</title>
+            <abstract>This standard defines an API to display notifications to the end user, typically outside the top-level browsing context's viewport. It is designed to be compatible with existing notification systems, while remaining platform-independent.</abstract>
+        </spec>
         <spec id="task-scheduler" status="WD">
             <class ref="environment">Provides support for scheduling tasks at specific times.</class>
             <title>Task Scheduler API Specification</title>
@@ -688,7 +693,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-06-10">added <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>,  and W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>.</entry>
+        <entry date="2015-06-10">added <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>, W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>, and WHATWG <a href="https://notifications.spec.whatwg.org/"><q>Notifications API</q></a>.</entry>
         <entry date="2015-06-09">added Khronos <a href="https://www.khronos.org/registry/webgl/specs/latest/1.0/"><q>WebGL 1.0</q></a> and <a href="https://www.khronos.org/registry/webgl/specs/latest/2.0/"><q>WebGL 2.0</q></a>.</entry>
         <entry date="2015-06-08">added W3C CG <a href="https://webbluetoothcg.github.io/web-bluetooth/"><q>Web Bluetooth</q></a> and <a href="http://w3c.github.io/web-nfc/"><q>Web NFC API</q></a>.</entry>
         <entry date="2015-06-07">added WHATWG <a href="https://fetch.spec.whatwg.org/"><q>Fetch</q></a> and <a href="https://fullscreen.spec.whatwg.org/"><q>Fullscreen API</q></a>.</entry>
