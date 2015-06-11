@@ -249,8 +249,13 @@
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
+        <spec id="https://storage.spec.whatwg.org/" status="other">
+            <class ref="storage">[[ explanation needed ]]</class>
+            <title>Storage</title>
+            <abstract>The Storage Standard defines an API for persistent storage and quota estimates, as well as the platform storage architecture.</abstract>
+        </spec>
         <spec id="IndexedDB" status="REC">
-	        <class ref="storage">Defines API for a key/value database.</class>
+            <class ref="storage">Defines API for a key/value database.</class>
             <title>Indexed Database API</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
         </spec>
@@ -703,6 +708,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-06-11">added WHATWG <a href="https://storage.spec.whatwg.org/"><q>Storage</q></a>.</entry>
         <entry date="2015-06-10">added <a href="http://www.w3.org/TR/html-aam-1.0/"><q>HTML Accessibility API Mappings 1.0</q></a>, <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a>, <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>, W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>, and WHATWG <a href="https://notifications.spec.whatwg.org/"><q>Notifications API</q></a>.</entry>
         <entry date="2015-06-09">added Khronos <a href="https://www.khronos.org/registry/webgl/specs/latest/1.0/"><q>WebGL 1.0</q></a> and <a href="https://www.khronos.org/registry/webgl/specs/latest/2.0/"><q>WebGL 2.0</q></a>.</entry>
         <entry date="2015-06-08">added W3C CG <a href="https://webbluetoothcg.github.io/web-bluetooth/"><q>Web Bluetooth</q></a> and <a href="http://w3c.github.io/web-nfc/"><q>Web NFC API</q></a>.</entry>
