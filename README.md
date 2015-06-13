@@ -12,8 +12,6 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
 
 ### Recommendations (17 Specs)
 
-Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
-
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://www.w3.org/TR/wai-aria "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.")
 * [Geolocation API Specification](http://www.w3.org/TR/geolocation-API "This specification defines an API that provides scripted access to geographical location information associated with the hosting device.")
 * [HTML Image Description Extension (longdesc)](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.")
@@ -34,13 +32,9 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 
 ### Proposed Recommendations (1 Specs)
 
-Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
-
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
 
 ### Candidate Recommendations (13 Specs)
-
-Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
 * [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
 * [Content Security Policy 2.0](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
@@ -57,8 +51,6 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
 ### Working Drafts (66 Specs)
-
-Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
 * [Audio Output Devices API](http://www.w3.org/TR/audio-output "This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.")
@@ -129,6 +121,8 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 
 ### Notes (25 Specs)
 
+Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
+
 * [Calendar API](http://www.w3.org/TR/calendar-api "The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.")
 * [Contacts Manager API](http://www.w3.org/TR/contacts-manager-api "This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.")
 * [Content Security Policy 1.0](http://www.w3.org/TR/CSP "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
@@ -156,8 +150,6 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [Web Telephony API](http://www.w3.org/TR/telephony "This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.")
 
 ## Other Specifications (11 Specs)
-
-Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
 * [Fetch](https://fetch.spec.whatwg.org/ "The Fetch standard defines requests, responses, and the process that binds them; fetching.")
 * [FileSystem API](http://w3c.github.io/filesystem-api/ "The FileSystem API defines functionality on a local sandboxed file system within the same origin of the Web Application that created it. It exposes standard file system operations to Web Applications, such as creation of files and directories, and reading and writing of them (from and to disk), including other programmatic manipulation of files and directories.")
