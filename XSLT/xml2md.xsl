@@ -44,6 +44,9 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
                 </xsl:choose>
                 <xsl:value-of select="count(current-group())"/>
                 <xsl:text> Specs)&#xa;&#xa;</xsl:text>
+                <xsl:if test="current-grouping-key() ne 'NOTE'">
+                    <xsl:text>Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).&#xa;&#xa;</xsl:text>
+                </xsl:if>
                 <xsl:for-each select="current-group()">
                     <xsl:sort select="title/text()"/>
                     <xsl:text>* [</xsl:text>
