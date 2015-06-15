@@ -401,7 +401,7 @@
             <title>W3C DOM4</title>
             <abstract>DOM defines a platform-neutral model for events and node trees.</abstract>
         </spec>
-        <spec id="domparsing" status="WD">
+        <spec id="DOM-Parsing" status="WD">
             <class ref="DOM">[[ explanation needed ]]</class>
             <title>DOM Parsing and Serialization</title>
             <abstract>This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.</abstract>
