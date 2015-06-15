@@ -11,7 +11,7 @@
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec)"/>
-            <xsl:text> specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request. Thanks!
+            <xsl:text> specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('NOTE') and @status ne ('other')])"/>
