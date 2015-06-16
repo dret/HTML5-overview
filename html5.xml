@@ -201,7 +201,7 @@
             <title>Geofencing API</title>
             <abstract>This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.</abstract>
         </spec>
-        <spec id="nfc" status="WD">
+        <spec id="nfc" status="NOTE">
             <class ref="device">Provides access to device NFC capabilities.</class>
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
@@ -708,6 +708,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-06-16">changed status of <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a> from WD to NOTE</entry>
         <entry date="2015-06-11">added WHATWG <a href="https://storage.spec.whatwg.org/"><q>Storage</q></a>.</entry>
         <entry date="2015-06-10">added <a href="http://www.w3.org/TR/html-aam-1.0/"><q>HTML Accessibility API Mappings 1.0</q></a>, <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a>, <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>, W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>, and WHATWG <a href="https://notifications.spec.whatwg.org/"><q>Notifications API</q></a>.</entry>
         <entry date="2015-06-09">added Khronos <a href="https://www.khronos.org/registry/webgl/specs/latest/1.0/"><q>WebGL 1.0</q></a> and <a href="https://www.khronos.org/registry/webgl/specs/latest/2.0/"><q>WebGL 2.0</q></a>.</entry>
