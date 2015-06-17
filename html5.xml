@@ -401,7 +401,7 @@
             <title>W3C DOM4</title>
             <abstract>DOM defines a platform-neutral model for events and node trees.</abstract>
         </spec>
-        <spec id="DOM-Parsing" status="WD">
+        <spec id="DOM-Parsing" status="CR">
             <class ref="DOM">[[ explanation needed ]]</class>
             <title>DOM Parsing and Serialization</title>
             <abstract>This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.</abstract>
@@ -708,6 +708,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-06-17">changed status of <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a> from WD to CR</entry>
         <entry date="2015-06-16">changed status of <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a> from WD to NOTE</entry>
         <entry date="2015-06-11">added WHATWG <a href="https://storage.spec.whatwg.org/"><q>Storage</q></a>.</entry>
         <entry date="2015-06-10">added <a href="http://www.w3.org/TR/html-aam-1.0/"><q>HTML Accessibility API Mappings 1.0</q></a>, <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a>, <a href="http://w3c.github.io/filesystem-api/"><q>FileSystem API</q></a>, <a href="http://w3c.github.io/sensors/"><q>Generic Sensor API</q></a>, W3C CG <a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"><q>Web Speech API Specification</q></a>, and WHATWG <a href="https://notifications.spec.whatwg.org/"><q>Notifications API</q></a>.</entry>

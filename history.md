@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* June 17, 2015: changed status of DOM Parsing and Serialization from WD to CR
 * June 16, 2015: changed status of Web NFC API from WD to NOTE
 * June 11, 2015: added WHATWG Storage.
 * June 10, 2015: added HTML Accessibility API Mappings 1.0, Web Storage (Second Edition), FileSystem API, Generic Sensor API, W3C CG Web Speech API Specification, and WHATWG Notifications API.
