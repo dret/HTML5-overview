@@ -646,7 +646,7 @@
             <title>Progress Events</title>
             <abstract>The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.</abstract>
         </spec>
-        <spec id="cors" status="PR">
+        <spec id="cors" status="REC">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Cross-Origin Resource Sharing</title>
             <abstract>This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</abstract>
@@ -708,6 +708,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-06-20">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC</entry>
         <entry date="2015-06-17">changed status of <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a> from WD to CR</entry>
         <entry date="2015-06-16">changed status of <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a> from WD to NOTE</entry>
         <entry date="2015-06-11">added WHATWG <a href="https://storage.spec.whatwg.org/"><q>Storage</q></a>.</entry>
