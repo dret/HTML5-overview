@@ -386,7 +386,7 @@
             <title>Screen Orientation API</title>
             <abstract>The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.</abstract>
         </spec>
-        <spec id="selectors-api" status="WD">
+        <spec id="selectors-api" status="REC">
             <class ref="DOM">[[ explanation needed ]]</class>
             <title>Selectors API Level 1</title>
             <abstract>The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.</abstract>
@@ -708,7 +708,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-06-20">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC</entry>
+        <entry date="2015-06-21">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/selectors-api/"><q>Selectors API Level 1</q></a> from WD to REC</entry>
         <entry date="2015-06-17">changed status of <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a> from WD to CR</entry>
         <entry date="2015-06-16">changed status of <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a> from WD to NOTE</entry>
         <entry date="2015-06-11">added WHATWG <a href="https://storage.spec.whatwg.org/"><q>Storage</q></a>.</entry>

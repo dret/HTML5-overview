@@ -1,6 +1,6 @@
 # HTML5 Overview: Change Log
 
-* June 20, 2015: changed status of Cross-Origin Resource Sharing from PR to REC
+* June 21, 2015: changed status of Cross-Origin Resource Sharing from PR to REC; changed status of Selectors API Level 1 from WD to REC
 * June 17, 2015: changed status of DOM Parsing and Serialization from WD to CR
 * June 16, 2015: changed status of Web NFC API from WD to NOTE
 * June 11, 2015: added WHATWG Storage.
