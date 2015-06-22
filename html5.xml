@@ -391,7 +391,7 @@
             <title>Selectors API Level 1</title>
             <abstract>The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.</abstract>
         </spec>
-        <spec id="selectors-api2" status="WD">
+        <spec id="selectors-api2" status="NOTE">
             <class ref="DOM">[[ explanation needed ]]</class>
             <title>Selectors API Level 2</title>
             <abstract>The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.</abstract>
@@ -708,7 +708,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-06-21">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/selectors-api/"><q>Selectors API Level 1</q></a> from WD to REC</entry>
+        <entry date="2015-06-22">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/selectors-api/"><q>Selectors API Level 1</q></a> from WD to REC; changed status of <a href="http://www.w3.org/TR/selectors-api2/"><q>Selectors API Level 2</q></a> from WD to NOTE</entry>
         <entry date="2015-06-17">changed status of <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a> from WD to CR</entry>
         <entry date="2015-06-16">changed status of <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a> from WD to NOTE</entry>
         <entry date="2015-06-11">added WHATWG <a href="https://storage.spec.whatwg.org/"><q>Storage</q></a>.</entry>
