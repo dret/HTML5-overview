@@ -2,7 +2,7 @@
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 133 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists 95 current specifications and 27 specifications that were retired as notes (122 total).
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists 94 current specifications and 28 specifications that were retired as notes (122 total).
 
 HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
 
@@ -49,7 +49,7 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (62 Specs)
+### Working Drafts (61 Specs)
 
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
 * [Audio Output Devices API](http://www.w3.org/TR/audio-output "This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.")
@@ -112,9 +112,8 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
 * [WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/webrtc "This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent over the network to another browser or device implementing the appropriate set of real-time protocols, and media to be received from another browser or device. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.")
 * [WebVTT: The Web Video Text Tracks Format](http://www.w3.org/TR/webvtt1 "This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML <track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.")
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
-* [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2 "The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.")
 
-### Notes (27 Specs)
+### Notes (28 Specs)
 
 Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
@@ -145,6 +144,7 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [Web NFC API](http://www.w3.org/TR/nfc "Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.")
 * [Web SQL Database](http://www.w3.org/TR/webdatabase "This specification defines an API for storing data in databases that can be queried using a variant of SQL.")
 * [Web Telephony API](http://www.w3.org/TR/telephony "This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.")
+* [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2 "The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.")
 
 ## Other Specifications (11 Specs)
 
