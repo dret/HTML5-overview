@@ -4,6 +4,7 @@
     <xsl:output name="md-text" method="text" encoding="UTF-8"/>
     <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other' )"/>
     <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other' )"/>
+    <xsl:variable name="md-path" select="'MD'"/>
     <xsl:key name="classes" match="/html5/classdefs/classdef" use="@id"/>
     <xsl:template match="html5">
         <xsl:result-document href="README.md" format="md-text">
@@ -68,9 +69,11 @@ Here's a list of all HTML5 specs contained in the [XML source for this page](htm
                     <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each>
             </xsl:for-each-group>
-            <xsl:text>&#xa;&#xa;If you're interested in history, [here's the change log](history.md).</xsl:text>
+            <xsl:text>&#xa;&#xa;If you're interested in history, [here's the change log](</xsl:text>
+            <xsl:value-of select="$md-path"/>
+            <xsl:text>/history.md).</xsl:text>
         </xsl:result-document>
-        <xsl:result-document href="history.md" format="md-text">
+        <xsl:result-document href="{$md-path}/history.md" format="md-text">
             <xsl:text># HTML5 Overview: Change Log&#xa;&#xa;</xsl:text>
                 <xsl:for-each select="//log/entry">
                 <xsl:sort select="@date" order="descending"/>

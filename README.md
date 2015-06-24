@@ -161,4 +161,4 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [WebGL 2.0](https://www.khronos.org/registry/webgl/specs/latest/2.0/ "This is Version 2.0 of the WebGL Specification. This specification describes an additional rendering context and support objects for the HTML 5 canvas element. This context allows rendering using an API that conforms closely to the OpenGL ES 3.0 API. This document should be read as an extension to the WebGL 1.0 specification. It will only describe the differences from 1.0.")
 
 
-If you're interested in history, [here's the change log](history.md).
+If you're interested in history, [here's the change log](MD/history.md).
