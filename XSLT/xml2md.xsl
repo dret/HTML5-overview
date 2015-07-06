@@ -14,7 +14,7 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
             <xsl:value-of select="count(//specs/spec)"/>
             <xsl:text> specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") TR track documents, and of those this page lists </xsl:text>
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('NOTE') and @status ne ('other')])"/>
             <xsl:text> current specifications and </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq 'NOTE'])"/>
