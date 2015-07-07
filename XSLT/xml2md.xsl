@@ -16,9 +16,11 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('NOTE') and @status ne ('other')])"/>
-            <xsl:text> current specifications and </xsl:text>
+            <xsl:text> current specifications, while [a separate page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq 'NOTE'])"/>
-            <xsl:text> specifications that were retired as notes (</xsl:text>
+            <xsl:text> specifications that were retired as notes](</xsl:text>
+            <xsl:value-of select="$md-path"/>
+            <xsl:text>/notes.md) (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('other')])"/>
             <xsl:text> total).
 
