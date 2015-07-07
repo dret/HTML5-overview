@@ -38,40 +38,18 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
                 <xsl:choose>
-                    <xsl:when test="current-grouping-key() ne 'other'">
-                        <xsl:text>&#xa;### </xsl:text>
-                        <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
-                        <xsl:text>s (</xsl:text>
+                    <xsl:when test="@status ne 'NOTE'">
+                        <xsl:call-template name="generate-section"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>&#xa;## Other Specifications (</xsl:text>
+                        <xsl:result-document href="{$md-path}/notes.md" format="md-text">
+                            <xsl:text># HTML5 NOTEs
+
+This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).&#xa;&#xa;</xsl:text>
+                            <xsl:call-template name="generate-section"/>
+                        </xsl:result-document>
                     </xsl:otherwise>
                 </xsl:choose>
-                <xsl:value-of select="count(current-group())"/>
-                <xsl:text> Specs)&#xa;&#xa;</xsl:text>
-                <xsl:if test="current-grouping-key() eq 'NOTE'">
-                    <xsl:text>Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).&#xa;&#xa;</xsl:text>
-                </xsl:if>
-                <xsl:for-each select="current-group()">
-                    <xsl:sort select="title/text()"/>
-                    <xsl:text>* [</xsl:text>
-                    <xsl:value-of select="title/text()"/>
-                    <xsl:text>](</xsl:text>
-                    <xsl:if test="current-grouping-key() ne 'other'">
-                        <xsl:text>http://www.w3.org/TR/</xsl:text>
-                    </xsl:if>
-                    <xsl:value-of select="@id"/>
-                    <xsl:text> "</xsl:text>
-                    <xsl:value-of select="replace(abstract,'&quot;', '&#x201d;')"/>
-                    <xsl:text>"</xsl:text>
-                    <xsl:text>)</xsl:text>
-                    <xsl:if test="exists(@ed)">
-                        <xsl:text> ([ED](</xsl:text>
-                        <xsl:value-of select="@ed"/>
-                        <xsl:text> "Editor's Draft"))</xsl:text>
-                    </xsl:if>
-                    <xsl:text>&#xa;</xsl:text>
-                </xsl:for-each>
             </xsl:for-each-group>
             <xsl:text>&#xa;&#xa;If you're interested in history, [here's the change log](</xsl:text>
             <xsl:value-of select="$md-path"/>
@@ -87,5 +65,42 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
                 <xsl:text>&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
+    </xsl:template>
+    <xsl:template name="generate-section">
+        <xsl:choose>
+            <xsl:when test="current-grouping-key() ne 'other'">
+                <xsl:text>&#xa;### </xsl:text>
+                <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
+                <xsl:text>s (</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>&#xa;## Other Specifications (</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+        <xsl:value-of select="count(current-group())"/>
+        <xsl:text> Specs)&#xa;&#xa;</xsl:text>
+        <xsl:if test="current-grouping-key() eq 'NOTE'">
+            <xsl:text>Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).&#xa;&#xa;</xsl:text>
+        </xsl:if>
+        <xsl:for-each select="current-group()">
+            <xsl:sort select="title/text()"/>
+            <xsl:text>* [</xsl:text>
+            <xsl:value-of select="title/text()"/>
+            <xsl:text>](</xsl:text>
+            <xsl:if test="current-grouping-key() ne 'other'">
+                <xsl:text>http://www.w3.org/TR/</xsl:text>
+            </xsl:if>
+            <xsl:value-of select="@id"/>
+            <xsl:text> "</xsl:text>
+            <xsl:value-of select="replace(abstract,'&quot;', '&#x201d;')"/>
+            <xsl:text>"</xsl:text>
+            <xsl:text>)</xsl:text>
+            <xsl:if test="exists(@ed)">
+                <xsl:text> ([ED](</xsl:text>
+                <xsl:value-of select="@ed"/>
+                <xsl:text> "Editor's Draft"))</xsl:text>
+            </xsl:if>
+            <xsl:text>&#xa;</xsl:text>
+        </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
