@@ -28,7 +28,9 @@ HTML5 specifications are also developed in other places, and this page lists </x
             <xsl:value-of select="count(//specs/spec[@status eq ('other')])"/>
             <xsl:text> of these other specifications.
 
-Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR, and then others:
+Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (except for the [separately listed NOTEs](</xsl:text>
+            <xsl:value-of select="$md-path"/>
+            <xsl:text>/notes.md)), and then others:
 
 ## W3C TR Specifications (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne 'other'])"/>

@@ -6,7 +6,7 @@ Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortiu
 
 HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
 
-Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR, and then others:
+Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (except for the [separately listed NOTEs](MD/notes.md)), and then others:
 
 ## W3C TR Specifications (122 Specs)
 
