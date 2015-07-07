@@ -468,7 +468,7 @@
         </spec>
         <spec id="web-animations" status="WD">
             <class ref="graphics">[[ explanation needed ]]</class>
-            <title>Web Animations 1.0</title>
+            <title>Web Animations</title>
             <abstract>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.</abstract>
         </spec>
         <spec id="touch-events" status="REC">
