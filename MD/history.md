@@ -4,12 +4,12 @@
 * June 22, 2015: changed status of Cross-Origin Resource Sharing from PR to REC; changed status of Selectors API Level 1 from WD to REC; changed status of Selectors API Level 2 and XMLHttpRequest Level 2 from WD to NOTE
 * June 17, 2015: changed status of DOM Parsing and Serialization from WD to CR
 * June 16, 2015: changed status of Web NFC API from WD to NOTE
-* June 11, 2015: added WHATWG Storage.
-* June 10, 2015: added HTML Accessibility API Mappings 1.0, Web Storage (Second Edition), FileSystem API, Generic Sensor API, W3C CG Web Speech API Specification, and WHATWG Notifications API.
-* June 9, 2015: added Khronos WebGL 1.0 and WebGL 2.0.
-* June 8, 2015: added W3C CG Web Bluetooth and Web NFC API.
-* June 7, 2015: added WHATWG Fetch and Fullscreen API.
-* June 6, 2015: added ability to list non-W3C-TR publications.
+* June 11, 2015: added WHATWG Storage
+* June 10, 2015: added HTML Accessibility API Mappings 1.0, Web Storage (Second Edition), FileSystem API, Generic Sensor API, W3C CG Web Speech API Specification, and WHATWG Notifications API
+* June 9, 2015: added Khronos WebGL 1.0 and WebGL 2.0
+* June 8, 2015: added W3C CG Web Bluetooth and Web NFC API
+* June 7, 2015: added WHATWG Fetch and Fullscreen API
+* June 6, 2015: added ability to list non-W3C-TR publications
 * June 5, 2015: added Geofencing API
 * June 4, 2015: added Accessible Rich Internet Applications (WAI-ARIA) 1.0 and W3C DOM4
 * June 2, 2015: changed status of Contacts Manager API, Web Telephony API, and Messaging API from WD to NOTE
