@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* July 9, 2015: added HTML 5.1
 * July 7, 2015: added ARIA in HTML
 * June 22, 2015: changed status of Cross-Origin Resource Sharing from PR to REC; changed status of Selectors API Level 1 from WD to REC; changed status of Selectors API Level 2 and XMLHttpRequest Level 2 from WD to NOTE
 * June 17, 2015: changed status of DOM Parsing and Serialization from WD to CR
