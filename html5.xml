@@ -257,7 +257,7 @@
         <spec id="hr-time-2" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>High Resolution Time Level 2</title>
-            <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
+            <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
         <spec id="https://storage.spec.whatwg.org/" status="other">
             <class ref="storage">[[ explanation needed ]]</class>
