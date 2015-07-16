@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* July 16, 2015: added Performance Timeline Level 2
 * July 11, 2015: added Permissions for Device API Access
 * July 9, 2015: added HTML 5.1
 * July 7, 2015: added ARIA in HTML

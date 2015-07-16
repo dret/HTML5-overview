@@ -343,6 +343,11 @@
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
         </spec>
+        <spec id="performance-timeline-2" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Performance Timeline Level 2</title>
+            <abstract>This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.</abstract>
+        </spec>
         <spec id="gallery" status="NOTE">
             <class ref="media">[[ explanation needed ]]</class>
             <title>Pick Media Intent</title>
@@ -723,6 +728,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>
         <entry date="2015-07-11">added <a href="http://www.w3.org/TR/api-perms"><q>Permissions for Device API Access</q></a></entry>
         <entry date="2015-07-09">added <a href="http://www.w3.org/TR/html51"><q>HTML 5.1</q></a></entry>
         <entry date="2015-07-07">added <a href="http://www.w3.org/TR/html-aria"><q>ARIA in HTML</q></a></entry>

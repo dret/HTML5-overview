@@ -1,14 +1,14 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 136 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 137 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 96 current specifications, while [a separate page lists 29 specifications that were retired as notes](MD/notes.md) (125 total).
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 97 current specifications, while [a separate page lists 29 specifications that were retired as notes](MD/notes.md) (126 total).
 
 HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
 
 Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (except for the [separately listed NOTEs](MD/notes.md)), and then others:
 
-## W3C TR Specifications (125 Specs)
+## W3C TR Specifications (126 Specs)
 
 ### Recommendations (19 Specs)
 
@@ -49,7 +49,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (63 Specs)
+### Working Drafts (64 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -82,6 +82,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2 "This specification defines an interface for web applications to access the complete timing information for navigation of a document.")
 * [Network Error Logging](http://www.w3.org/TR/network-error-logging "This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")
+* [Performance Timeline Level 2](http://www.w3.org/TR/performance-timeline-2 "This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.")
 * [Presentation API](http://www.w3.org/TR/presentation-api "This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.")
 * [Privileged Contexts](http://www.w3.org/TR/powerful-features "This specification provides guidelines for user agent implementors and spec authors for implementing features whose properties dictate that they be exposed to the web only within a trustworthy environment.")
 * [Push API](http://www.w3.org/TR/push-api "The Push API provides webapps with scripted access to server-sent messages, for simplicity referred to here as push messages, as delivered by push services. A push service allows an application server to send messages to a webapp, regardless of whether the webapp is currently active on the user agent. The push message will be delivered to a Service Worker, which could then store the message's data or display a notification to the user. This specification is designed to promote compatibility with any delivery method for push messages from push services to user agents.")
