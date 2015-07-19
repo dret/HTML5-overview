@@ -320,7 +320,7 @@
         </spec>
         <spec id="navigation-timing-2" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
-            <title>Navigation Timing 2</title>
+            <title>Navigation Timing Level 2</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
         <spec id="network-error-logging" status="WD">
