@@ -681,6 +681,11 @@
             <title>Resource Hints</title>
             <abstract>This specification defines the dns-prefetch, preconnect, prefetch, and prerender relationships of the HTML Link Element (&lt;link>). These primitives enable the developer, and the server generating or delivering the resources, to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch and preprocess to improve page performance.</abstract>
         </spec>
+        <spec id="preload" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Preload</title>
+            <abstract>This specification defines the preload relationship of the HTML Link Element (&lt;link>).</abstract>
+        </spec>
         <spec id="beacon" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Beacon</title>
@@ -728,6 +733,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-07-21">added <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a></entry>
         <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>
         <entry date="2015-07-11">added <a href="http://www.w3.org/TR/api-perms"><q>Permissions for Device API Access</q></a></entry>
         <entry date="2015-07-09">added <a href="http://www.w3.org/TR/html51"><q>HTML 5.1</q></a></entry>
