@@ -61,7 +61,7 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
                 <xsl:sort select="@date" order="descending"/>
                 <xsl:text>* </xsl:text>
                 <xsl:value-of select="concat(format-date(@date, '[MNn] [D], [Y]', 'en', (), ()), ': ')"/>
-                <xsl:copy-of select="node()"/>
+                <xsl:apply-templates select="node()"/>
                 <xsl:text>&#xa;</xsl:text>
             </xsl:for-each>
         </xsl:result-document>
@@ -102,5 +102,17 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
             </xsl:if>
             <xsl:text>&#xa;</xsl:text>
         </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="a">
+        <xsl:text>[</xsl:text>
+        <xsl:apply-templates select="node()"/>
+        <xsl:text>](</xsl:text>
+        <xsl:value-of select="@href"/>
+        <xsl:text>)</xsl:text>
+    </xsl:template>
+    <xsl:template match="q">
+        <xsl:text>"</xsl:text>
+        <xsl:apply-templates select="node()"/>
+        <xsl:text>"</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
