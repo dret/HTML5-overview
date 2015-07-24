@@ -151,10 +151,10 @@
             <title>DeviceOrientation Event Specification</title>
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
-        <spec id="app-uri" status="WD">
-            <class ref="filesystem">Replacement technology for the file URL scheme.</class>
-            <title>The app: URI scheme</title>
-            <abstract>This specification defines the app: URI scheme and rules for dereferencing an app: URI, which can be used to address resources inside a package (e.g., a packaged application). The dereferencing model relies on HTTP semantics to return resources in a manner akin to a HTTP GET request. Doing so allows this URI scheme to be used with other technologies that rely on HTTP responses to function as intended, such as XmlHttpRequest.</abstract>
+        <spec id="app-uri" status="NOTE">
+            <class ref="communications">[[ explanation needed ]].</class>
+            <title>The app: URL scheme</title>
+            <abstract>This specification defines the app: URL scheme. The app: URL scheme can be used by packaged applications to obtain resources that are inside a container. These resources can then be used with web platform features that accept URLs.</abstract>
         </spec>
         <spec id="FileAPI" status="WD">
             <class ref="filesystem">Represents file objects. Includes interfaces for File, FileLists, Blobs, FileReader and a URL scheme to reference files within web apps.</class>
@@ -733,6 +733,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> from WD to NOTE</entry>
         <entry date="2015-07-23">changed status of <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a> from WD to NOTE</entry>
         <entry date="2015-07-21">added <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a></entry>
         <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>

@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* July 24, 2015: changed status of ["The app: URL Scheme"](http://www.w3.org/TR/app-uri/) from WD to NOTE
 * July 23, 2015: changed status of ["Task Scheduler API Specification"](http://www.w3.org/TR/task-scheduler/) from WD to NOTE
 * July 21, 2015: added ["Preload"](http://www.w3.org/TR/preload/)
 * July 16, 2015: added ["Performance Timeline Level 2"](http://www.w3.org/TR/performance-timeline-2/)

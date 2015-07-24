@@ -3,7 +3,7 @@
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).
 
 
-### Notes (30 Specs)
+### Notes (31 Specs)
 
 Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
@@ -28,6 +28,7 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [System Information API](http://www.w3.org/TR/system-info-api "This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.")
 * [Task Scheduler API Specification](http://www.w3.org/TR/task-scheduler "This specification defines an API to schedule a task at a specified time. When the indicated time is reached, the application that scheduled the task will be notified via a functional event on a service worker. A task event will be delivered to a service worker, regardless of whether the application is active on user agent. Applications such as an alarm clock or an auto-updater may utilize this API to perform certain action at a specified time.")
 * [The Messaging API](http://www.w3.org/TR/messaging-api "This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.")
+* [The app: URL scheme](http://www.w3.org/TR/app-uri "This specification defines the app: URL scheme. The app: URL scheme can be used by packaged applications to obtain resources that are inside a container. These resources can then be used with web platform features that accept URLs.")
 * [The picture Element](http://www.w3.org/TR/html-picture-element "This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.")
 * [The srcset Attribute](http://www.w3.org/TR/html-srcset "When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.")
 * [Touch Events Extensions](http://www.w3.org/TR/touch-events-extensions "This document defines extensions to the Touch Events specification that have been implemented by one or more browsers. We recommend that user agents implement the Touch Events Recommendation and/or the newer Pointer Events specification instead. This document is no longer being developed.")
