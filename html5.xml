@@ -471,10 +471,10 @@
             <title>WebSocket API</title>
             <abstract>This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.</abstract>
         </spec>
-        <spec id="tcp-udp-sockets" status="WD">
+        <spec id="tcp-udp-sockets" status="NOTE">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>TCP and UDP Socket API</title>
-            <abstract>This API provides interfaces to raw UDP sockets, TCP Client sockets and TCP Server sockets.</abstract>
+            <abstract>This API provides interfaces to raw UDP sockets, TCP Client sockets and TCP Server sockets. As such, this requires a high level of trust in applications that use this API, since raw sockets can be used to work around the same origin security policy.</abstract>
         </spec>
         <spec id="animation-timing" status="CR">
             <class ref="monitoring">[[ explanation needed ]]</class>
@@ -733,7 +733,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> from WD to NOTE</entry>
+        <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a> from WD to NOTE</entry>
         <entry date="2015-07-23">changed status of <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a> from WD to NOTE</entry>
         <entry date="2015-07-21">added <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a></entry>
         <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>

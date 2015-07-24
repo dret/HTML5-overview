@@ -3,7 +3,7 @@
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).
 
 
-### Notes (31 Specs)
+### Notes (32 Specs)
 
 Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
@@ -26,6 +26,7 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [Resource Priorities](http://www.w3.org/TR/resource-priorities "This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.")
 * [Selectors API Level 2](http://www.w3.org/TR/selectors-api2 "The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.")
 * [System Information API](http://www.w3.org/TR/system-info-api "This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.")
+* [TCP and UDP Socket API](http://www.w3.org/TR/tcp-udp-sockets "This API provides interfaces to raw UDP sockets, TCP Client sockets and TCP Server sockets.")
 * [Task Scheduler API Specification](http://www.w3.org/TR/task-scheduler "This specification defines an API to schedule a task at a specified time. When the indicated time is reached, the application that scheduled the task will be notified via a functional event on a service worker. A task event will be delivered to a service worker, regardless of whether the application is active on user agent. Applications such as an alarm clock or an auto-updater may utilize this API to perform certain action at a specified time.")
 * [The Messaging API](http://www.w3.org/TR/messaging-api "This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.")
 * [The app: URL scheme](http://www.w3.org/TR/app-uri "This specification defines the app: URL scheme. The app: URL scheme can be used by packaged applications to obtain resources that are inside a container. These resources can then be used with web platform features that accept URLs.")
