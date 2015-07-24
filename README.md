@@ -1,10 +1,10 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 138 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 139 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 95 current specifications, while [a separate page lists 32 specifications that were retired as notes](MD/notes.md) (127 total).
 
-HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
+HTML5 specifications are also developed in other places, and this page lists 12 of these other specifications.
 
 Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (except for the [separately listed NOTEs](MD/notes.md)), and then others:
 
@@ -114,8 +114,9 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [WebVTT: The Web Video Text Tracks Format](http://www.w3.org/TR/webvtt1 "This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML <track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.")
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
 
-## Other Specifications (11 Specs)
+## Other Specifications (12 Specs)
 
+* [Application Lifecycle and Events](app-lifecycle "This specification extends ServiceWorkerGlobalScope with APIs for managing the lifecycle of an application and associated events.") ([ED](http://sysapps.github.io/app-lifecycle/ "Editor's Draft"))
 * [Fetch](https://fetch.spec.whatwg.org/ "The Fetch standard defines requests, responses, and the process that binds them; fetching.")
 * [FileSystem API](http://w3c.github.io/filesystem-api/ "The FileSystem API defines functionality on a local sandboxed file system within the same origin of the Web Application that created it. It exposes standard file system operations to Web Applications, such as creation of files and directories, and reading and writing of them (from and to disk), including other programmatic manipulation of files and directories.")
 * [Fullscreen API](https://fullscreen.spec.whatwg.org/ "Fullscreen defines the fullscreen API for the web platform.")

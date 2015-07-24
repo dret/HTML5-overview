@@ -81,6 +81,11 @@
             <title>Generic Sensor API</title>
             <abstract>This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.</abstract>
         </spec>
+        <spec id="app-lifecycle" ed="http://sysapps.github.io/app-lifecycle/" status="other">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Application Lifecycle and Events</title>
+            <abstract>This specification extends ServiceWorkerGlobalScope with APIs for managing the lifecycle of an application and associated events.</abstract>
+        </spec>
         <spec id="ambient-light" status="WD">
             <class ref="device">Provides access to light sensor of an device.</class>
             <title>Ambient Light Events</title>
@@ -733,7 +738,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a> from WD to NOTE</entry>
+        <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a> from WD to NOTE, added <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q></a></entry>
         <entry date="2015-07-23">changed status of <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a> from WD to NOTE</entry>
         <entry date="2015-07-21">added <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a></entry>
         <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>
