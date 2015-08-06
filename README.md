@@ -2,7 +2,7 @@
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured on this page lists 140 specifications. Since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 96 current specifications, while [a separate page lists 32 specifications that were retired as notes](MD/notes.md) (128 total).
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 95 current specifications, while [a separate page lists 33 specifications that were retired as notes](MD/notes.md) (128 total).
 
 HTML5 specifications are also developed in other places, and this page lists 12 of these other specifications.
 
@@ -49,7 +49,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Web Workers](http://www.w3.org/TR/workers "This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (63 Specs)
+### Working Drafts (62 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -92,7 +92,6 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Referrer Policy](http://www.w3.org/TR/referrer-policy "This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.")
 * [Resource Hints](http://www.w3.org/TR/resource-hints "This specification defines the dns-prefetch, preconnect, prefetch, and prerender relationships of the HTML Link Element (<link>). These primitives enable the developer, and the server generating or delivering the resources, to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch and preprocess to improve page performance.")
 * [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
-* [Runtime and Security Model for Web Applications](http://www.w3.org/TR/runtime "This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.")
 * [Screen Capture](http://www.w3.org/TR/screen-capture "This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.")
 * [Screen Orientation API](http://www.w3.org/TR/screen-orientation "The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.")
 * [Server Timing](http://www.w3.org/TR/server-timing "This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.")

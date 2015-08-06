@@ -637,7 +637,7 @@
             <title>WebCrypto Key Discovery</title>
             <abstract>This specification describes a JavaScript API for discovering named, origin-specific pre-provisioned cryptographic keys for use with the Web Cryptography API. Pre-provisioned keys are keys which have been made available to the UA by means other than the generation, derivation, import functions of the Web Cryptography API. Origin-specific keys are keys that are available only to a specified origin. Named keys are identified by a name assumed to be known to the origin in question and provisioned with the key itself.</abstract>
         </spec>
-        <spec id="runtime" status="WD">
+        <spec id="runtime" status="NOTE">
             <class ref="security">Describes a security model for Web apps.</class>
             <title>Runtime and Security Model for Web Applications</title>
             <abstract>This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.</abstract>
@@ -743,6 +743,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-08-06">changed status of <a href="http://www.w3.org/TR/runtime/"><q>Runtime and Security Model for Web Applications</q></a> from WD to NOTE</entry>
         <entry date="2015-08-04">added <a href="http://www.w3.org/TR/clear-site-data/"><q>Clear Site Data</q></a></entry>
         <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a> from WD to NOTE; added <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q></a></entry>
         <entry date="2015-07-23">changed status of <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a> from WD to NOTE</entry>
