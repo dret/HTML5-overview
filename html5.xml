@@ -37,6 +37,7 @@
 ]>
 <html5>
     <classdefs>
+        <!-- None of these class definitions is currently used in the MD (it was used for an older version of the HTML5 overview), and not all specifications are labeled with one of those categories. Therefore, these may go away at any time. -->
         <classdef id="core" title="Core">Core specifications</classdef>
         <classdef id="device" title="Device">Specifications which provide access to the hardware components of the device</classdef>
         <classdef id="media" title="Media">Specifications which provide multimedia functionality (e.g., audio processing)</classdef>
