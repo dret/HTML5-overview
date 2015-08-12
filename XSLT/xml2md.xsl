@@ -5,7 +5,6 @@
     <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other' )"/>
     <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other' )"/>
     <xsl:variable name="md-path" select="'MD'"/>
-    <xsl:key name="classes" match="/html5/classdefs/classdef" use="@id"/>
     <xsl:template match="html5">
         <xsl:result-document href="README.md" format="md-text">
             <xsl:text># HTML5 Overview
