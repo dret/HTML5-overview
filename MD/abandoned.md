@@ -1,6 +1,6 @@
-# HTML5 NOTEs
+# Abandoned HTML5 Specifications
 
-This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).
+This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).
 
 
 ### Notes (33 Specs)
@@ -40,3 +40,7 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [Web SQL Database](http://www.w3.org/TR/webdatabase "This specification defines an API for storing data in databases that can be queried using a variant of SQL.")
 * [Web Telephony API](http://www.w3.org/TR/telephony "This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.")
 * [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2 "The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.")
+
+### Abandoned Specifications (1 Specs)
+
+* [Application Lifecycle and Events](http://www.w3.org/TR/app-lifecycle "This specification extends ServiceWorkerGlobalScope with APIs for managing the lifecycle of an application and associated events.") ([ED](http://sysapps.github.io/app-lifecycle/ "Editor's Draft"))

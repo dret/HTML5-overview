@@ -2,8 +2,8 @@
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into github-friendly markdown. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output name="md-text" method="text" encoding="UTF-8"/>
-    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other' )"/>
-    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other' )"/>
+    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other', 'abandoned' )"/>
+    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other', 'Abandoned' )"/>
     <xsl:variable name="md-path" select="'MD'"/>
     <xsl:template match="html5">
         <xsl:result-document href="README.md" format="md-text">
@@ -14,12 +14,12 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
             <xsl:text> specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists </xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status ne ('NOTE') and @status ne ('other')])"/>
+            <xsl:value-of select="count(//specs/spec[@status ne 'NOTE' and @status ne 'other' and @status ne 'abandoned'])"/>
             <xsl:text> current specifications, while [a separate page lists </xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status eq 'NOTE'])"/>
-            <xsl:text> specifications that were retired as notes](</xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status eq 'NOTE' or @status eq 'abandoned'])"/>
+            <xsl:text> specifications where development has stopped](</xsl:text>
             <xsl:value-of select="$md-path"/>
-            <xsl:text>/notes.md) (</xsl:text>
+            <xsl:text>/abandoned.md) (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('other')])"/>
             <xsl:text> total).
 
@@ -29,25 +29,28 @@ HTML5 specifications are also developed in other places, and this page lists </x
 
 Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (except for the [separately listed NOTEs](</xsl:text>
             <xsl:value-of select="$md-path"/>
-            <xsl:text>/notes.md)), and then others:
+            <xsl:text>/abandoned.md)), and then others:
 
 ## W3C TR Specifications (</xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status ne 'other'])"/>
+            <xsl:value-of select="count(//specs/spec[@status ne 'other' and @status ne 'abandoned'])"/>
             <xsl:text> Specs)&#xa;</xsl:text>
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
                 <xsl:choose>
-                    <xsl:when test="@status ne 'NOTE'">
+                    <xsl:when test="@status ne 'NOTE' and @status ne 'abandoned'">
                         <xsl:call-template name="generate-section"/>
                     </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:result-document href="{$md-path}/notes.md" format="md-text">
-                            <xsl:text># HTML5 NOTEs
+                    <xsl:when test="@status eq 'NOTE'">
+                        <xsl:result-document href="{$md-path}/abandoned.md" format="md-text">
+                            <xsl:text># Abandoned HTML5 Specifications
 
-This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).&#xa;&#xa;</xsl:text>
+This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).&#xa;&#xa;</xsl:text>
                             <xsl:call-template name="generate-section"/>
+                            <xsl:for-each-group select="//specs/spec[@status eq 'abandoned']" group-by="@status">
+                                <xsl:call-template name="generate-section"/>
+                            </xsl:for-each-group>
                         </xsl:result-document>
-                    </xsl:otherwise>
+                    </xsl:when>
                 </xsl:choose>
             </xsl:for-each-group>
             <xsl:text>&#xa;&#xa;If you're interested in history, [here's the change log](</xsl:text>
@@ -67,13 +70,16 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
     </xsl:template>
     <xsl:template name="generate-section">
         <xsl:choose>
-            <xsl:when test="current-grouping-key() ne 'other'">
+            <xsl:when test="current-grouping-key() eq 'other'">
+                <xsl:text>&#xa;## Non-W3C Specifications (</xsl:text>
+            </xsl:when>
+            <xsl:when test="current-grouping-key() eq 'abandoned'">
+                <xsl:text>&#xa;### Abandoned Specifications (</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
                 <xsl:text>&#xa;### </xsl:text>
                 <xsl:value-of select="$status-title[index-of($status-index, current-grouping-key())]"/>
                 <xsl:text>s (</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>&#xa;## Other Specifications (</xsl:text>
             </xsl:otherwise>
         </xsl:choose>
         <xsl:value-of select="count(current-group())"/>
