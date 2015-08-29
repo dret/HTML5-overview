@@ -21,15 +21,13 @@ Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortiu
             <xsl:value-of select="$md-path"/>
             <xsl:text>/abandoned.md) (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('other')])"/>
-            <xsl:text> total).
-
-HTML5 specifications are also developed in other places, and this page lists </xsl:text>
+            <xsl:text> total). HTML5 specifications are also developed in other places, and this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq ('other')])"/>
             <xsl:text> of these other specifications.
 
-Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (except for the [separately listed NOTEs](</xsl:text>
+Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (sorted by status), and then others (except for the [separately listed abandoned specs](</xsl:text>
             <xsl:value-of select="$md-path"/>
-            <xsl:text>/abandoned.md)), and then others:
+            <xsl:text>/abandoned.md)):
 
 ## W3C TR Specifications (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne 'other' and @status ne 'abandoned'])"/>
