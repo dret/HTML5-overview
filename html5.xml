@@ -744,6 +744,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-08-27">changed status of <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q> to new "abandoned" status.</a></entry>
         <entry date="2015-08-06">changed status of <a href="http://www.w3.org/TR/runtime/"><q>Runtime and Security Model for Web Applications</q></a> from WD to NOTE</entry>
         <entry date="2015-08-04">added <a href="http://www.w3.org/TR/clear-site-data/"><q>Clear Site Data</q></a></entry>
         <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a> from WD to NOTE; added <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q></a></entry>
