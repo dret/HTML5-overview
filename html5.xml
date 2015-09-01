@@ -695,7 +695,7 @@
         <spec id="preload" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Preload</title>
-            <abstract>This specification defines the preload relationship of the HTML Link Element (&lt;link>) to provide a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
+            <abstract>This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
         </spec>
         <spec id="beacon" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
