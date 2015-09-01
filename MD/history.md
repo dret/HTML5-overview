@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* August 27, 2015: changed status of ["Application Lifecycle and Events" to new "abandoned" status.](http://sysapps.github.io/app-lifecycle/)
 * August 6, 2015: changed status of ["Runtime and Security Model for Web Applications"](http://www.w3.org/TR/runtime/) from WD to NOTE
 * August 4, 2015: added ["Clear Site Data"](http://www.w3.org/TR/clear-site-data/)
 * July 24, 2015: changed status of ["The app: URL Scheme"](http://www.w3.org/TR/app-uri/) and ["TCP and UDP Socket API"](http://www.w3.org/TR/tcp-udp-sockets/) from WD to NOTE; added ["Application Lifecycle and Events"](http://sysapps.github.io/app-lifecycle/)
