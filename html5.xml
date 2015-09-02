@@ -7,19 +7,19 @@
   <!ELEMENT classdefs (classdef*) >
   <!ELEMENT classdef (#PCDATA) >
   <!ATTLIST classdef
-    id        ID                                            #REQUIRED
-    title     CDATA                                         #REQUIRED
+    id        ID                                                        #REQUIRED
+    title     CDATA                                                     #REQUIRED
     >
   <!ELEMENT specs (spec*) >
   <!ELEMENT spec (class?, title, abstract) >
   <!ATTLIST spec
-    id        CDATA                                         #REQUIRED
-    status    ( WD | CR | PER | PR | REC | NOTE | other )   #REQUIRED
-    ed        CDATA                                         #IMPLIED
+    id        CDATA                                                     #REQUIRED
+    status    ( WD | CR | PER | PR | REC | NOTE | other | abandoned )   #REQUIRED
+    ed        CDATA                                                     #IMPLIED
     >
   <!ELEMENT class (#PCDATA) >
   <!ATTLIST class
-    ref       IDREF                                         #REQUIRED
+    ref       IDREF                                                     #REQUIRED
     >
   <!ELEMENT title (#PCDATA) >
   <!ELEMENT abstract (#PCDATA | q | em)* >
@@ -28,7 +28,7 @@
   <!ELEMENT log (entry*) >
   <!ELEMENT entry (#PCDATA | q | em | a)* >
   <!ATTLIST entry
-    date      CDATA                                         #REQUIRED
+    date      CDATA                                                     #REQUIRED
     >
   <!ELEMENT a (#PCDATA | q)* >
   <!ATTLIST a
