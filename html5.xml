@@ -382,7 +382,7 @@
             <title>Programmable HTTP Caching and Serving</title>
             <abstract>This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.</abstract>
         </spec>
-        <spec id="proximity" status="CR">
+        <spec id="proximity" status="WD">
             <class ref="device">Provides access to proximity sensor of an device.</class>
             <title>Proximity Events</title>
             <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
@@ -744,6 +744,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-09-03">changed status of <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from CR to WD</entry>
         <entry date="2015-08-27">changed status of <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q> to new "abandoned" status.</a></entry>
         <entry date="2015-08-06">changed status of <a href="http://www.w3.org/TR/runtime/"><q>Runtime and Security Model for Web Applications</q></a> from WD to NOTE</entry>
         <entry date="2015-08-04">added <a href="http://www.w3.org/TR/clear-site-data/"><q>Clear Site Data</q></a></entry>
