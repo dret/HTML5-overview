@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* September 10, 2015: changed status of ["Web Notifications"](http://www.w3.org/TR/notifications/) from CR to PR
 * September 3, 2015: changed status of ["Proximity Events"](http://www.w3.org/TR/proximity/) from CR to WD
 * August 27, 2015: changed status of ["Application Lifecycle and Events" to new "abandoned" status.](http://sysapps.github.io/app-lifecycle/)
 * August 6, 2015: changed status of ["Runtime and Security Model for Web Applications"](http://www.w3.org/TR/runtime/) from WD to NOTE
