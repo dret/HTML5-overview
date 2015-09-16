@@ -62,6 +62,11 @@
             <title>HTML 5.1</title>
             <abstract>This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.</abstract>
         </spec>
+        <spec id="MathML3" status="REC">
+            <class ref="core">MathML 3 core specification for capturing mathematical structure and content.</class>
+            <title>Mathematical Markup Language (MathML) Version 3.0</title>
+            <abstract> This specification defines the Mathematical Markup Language, or MathML. MathML is a markup language for describing mathematical notation and capturing both its structure and content. The goal of MathML is to enable mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for text. This specification of the markup language MathML is intended primarily for a readership consisting of those who will be developing or implementing renderers or editors using it, or software that will communicate using MathML as a protocol for input or output. It is not a User's Guide but rather a reference document. MathML can be used to encode both mathematical notation and mathematical content. About thirty-eight of the MathML tags describe abstract notational structures, while another about one hundred and seventy provide a way of unambiguously specifying the intended meaning of an expression. Additional chapters discuss how the MathML content and presentation elements interact, and how MathML renderers might be implemented and should interact with browsers. Finally, this document addresses the issue of special characters used for mathematics, their handling in MathML, their presence in Unicode, and their relation to fonts. While MathML is human-readable, authors typically will use equation editors, conversion programs, and other specialized software tools to generate MathML. Several versions of such MathML tools exist, both freely available software and commercial products, and more are under development.</abstract>
+        </spec>
         <spec id="system-info-api" status="NOTE">
             <class ref="device">Defines an API to access various device characteristics.</class>
             <title>System Information API</title>
@@ -744,6 +749,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
         <entry date="2015-09-10">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from CR to PR</entry>
         <entry date="2015-09-03">changed status of <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from CR to WD</entry>
         <entry date="2015-08-27">changed status of <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q> to new "abandoned" status.</a></entry>
