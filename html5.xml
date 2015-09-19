@@ -270,6 +270,11 @@
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
+        <spec id="requestidlecallback" status="WD">
+            <class ref="monitoring">[[ explanation needed ]]</class>
+            <title>Cooperative Scheduling of Background Tasks</title>
+            <abstract>This document defines an API that web page authors can use to cooperatively schedule background tasks such that they do not introduce delays to other high priority tasks that share the same event loop, such as input processing, animations and frame compositing. The user agent is in a better position to determine when background tasks can be run without introducing user-perceptible delays or jank in animations and input response, based on its knowledge of currently scheduled tasks, vsync deadlines, user-interaction and so on. Using this API should therefore result in more appropriate scheduling of background tasks during times when the browser would otherwise be idle.</abstract>
+        </spec>
         <spec id="https://storage.spec.whatwg.org/" status="other">
             <class ref="storage">[[ explanation needed ]]</class>
             <title>Storage</title>
@@ -749,6 +754,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>
         <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
         <entry date="2015-09-10">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from CR to PR</entry>
         <entry date="2015-09-03">changed status of <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from CR to WD</entry>
