@@ -347,7 +347,7 @@
         <spec id="frame-timing" status="WD">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Frame Timing</title>
-            <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to frame performance data to facilitate smoothness (i.e. Frames per Second and Time to Frame) measurements.</abstract>
+            <abstract>This specification defines an interface for web applications to access runtime performance information of the browser event loop, enabling them to identify and fix issues that cause delayed rendering, processing of input, and other critical work necessary to deliver a smooth and responsive user experience.</abstract>
         </spec>
         <spec id="page-visibility" status="REC">
             <class ref="monitoring">[[ explanation needed ]]</class>
@@ -754,7 +754,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE</entry>
+        <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE; updated <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> abstract</entry>
         <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>
         <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
         <entry date="2015-09-10">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from CR to PR</entry>
