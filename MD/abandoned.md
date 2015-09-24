@@ -3,7 +3,7 @@
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).
 
 
-### Notes (33 Specs)
+### Notes (34 Specs)
 
 Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
@@ -33,6 +33,7 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [The app: URL scheme](http://www.w3.org/TR/app-uri "This specification defines the app: URL scheme. The app: URL scheme can be used by packaged applications to obtain resources that are inside a container. These resources can then be used with web platform features that accept URLs.")
 * [The picture Element](http://www.w3.org/TR/html-picture-element "This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.")
 * [The srcset Attribute](http://www.w3.org/TR/html-srcset "When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.")
+* [Timing Control for Script-Based Animations](http://www.w3.org/TR/animation-timing "This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.")
 * [Touch Events Extensions](http://www.w3.org/TR/touch-events-extensions "This document defines extensions to the Touch Events specification that have been implemented by one or more browsers. We recommend that user agents implement the Touch Events Recommendation and/or the newer Pointer Events specification instead. This document is no longer being developed.")
 * [Web Intents](http://www.w3.org/TR/web-intents "This specification defines a service discovery and light-weight RPC mechanism for web apps called Web Intents. This document defines DOM interfaces and markup used by client and service pages to create, receive, and reply to Web Intents messages, and the procedures the User Agent carries out to facilitate that process.")
 * [Web Intents Addendum — Local Services](http://www.w3.org/TR/webintents-local-services "This specification is an addendum to Web Intents, that defines how Web Intents enabled User Agents can discover and communicate with local Web Intents Services.")

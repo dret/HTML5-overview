@@ -492,7 +492,7 @@
             <title>TCP and UDP Socket API</title>
             <abstract>This API provides interfaces to raw UDP sockets, TCP Client sockets and TCP Server sockets. As such, this requires a high level of trust in applications that use this API, since raw sockets can be used to work around the same origin security policy.</abstract>
         </spec>
-        <spec id="animation-timing" status="CR">
+        <spec id="animation-timing" status="NOTE">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Timing Control for Script-Based Animations</title>
             <abstract>This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.</abstract>
@@ -754,6 +754,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE</entry>
         <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>
         <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
         <entry date="2015-09-10">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from CR to PR</entry>

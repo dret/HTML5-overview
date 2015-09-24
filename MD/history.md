@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* September 23, 2015: changed status of ["Timing Control for Script-Based Animations"](http://www.w3.org/TR/animation-timing/) from CR to NOTE
 * September 18, 2015: added ["Cooperative Scheduling of Background Tasks"](http://www.w3.org/TR/requestidlecallback/)
 * September 16, 2015: added ["Mathematical Markup Language (MathML) Version 3.0"](http://www.w3.org/TR/MathML3/)
 * September 10, 2015: changed status of ["Web Notifications"](http://www.w3.org/TR/notifications/) from CR to PR
