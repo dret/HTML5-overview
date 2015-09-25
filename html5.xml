@@ -586,7 +586,7 @@
             <title>Web Storage (Second Edition)</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
-        <spec id="workers" status="CR">
+        <spec id="workers" status="WD">
             <title>Web Workers</title>
             <abstract>This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.</abstract>
         </spec>
@@ -754,6 +754,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD</entry>
         <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE; updated <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> abstract</entry>
         <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>
         <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
