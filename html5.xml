@@ -227,7 +227,7 @@
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
         </spec>
-        <spec id="2dcontext" status="CR">
+        <spec id="2dcontext" status="PR">
             <class ref="graphics">[[ explanation needed ]]</class>
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
@@ -754,7 +754,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD</entry>
+        <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from CR to PR</entry>
         <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE; updated <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> abstract</entry>
         <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>
         <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
