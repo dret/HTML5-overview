@@ -247,10 +247,15 @@
             <title>Screen Capture</title>
             <abstract>This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.</abstract>
         </spec>
-        <spec id="form-http-extensions" status="WD">
+        <spec id="form-http-extensions" status="NOTE">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>W3C HTML Form HTTP Extensions</title>
             <abstract>This is an addendum to the specification of HTML5 forms extending the abilities of configuring HTTP requests through HTML markup. This document has been developed as a result of work contributed in addressing HTML WG ISSUE-195: Enhance http request generation from forms.</abstract>
+        </spec>
+        <spec id="html-json-forms" status="NOTE">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>W3C HTML JSON form submission</title>
+            <abstract>This specification defines a new form encoding algorithm that enables the transmission of form data as JSON. Instead of capturing form data as essentially an array of key-value pairs which is the bread and butter of existing form encodings, it relies on a simple name attribute syntax that makes it possible to capture rich data structures as JSON directly.</abstract>
         </spec>
         <spec id="encrypted-media" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
@@ -759,7 +764,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-09-30">added <a href="http://www.w3.org/TR/2dcontext2/"><q>HTML Canvas 2D Context, Level 2</q></a></entry>
+        <entry date="2015-09-30">added <a href="http://www.w3.org/TR/2dcontext2/"><q>HTML Canvas 2D Context, Level 2</q></a>; changed status of <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a> and <a href="http://www.w3.org/TR/html-json-forms/"><q>W3C HTML JSON form submission</q></a> from WD to NOTE</entry>
         <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from CR to PR</entry>
         <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE; updated <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> abstract</entry>
         <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>

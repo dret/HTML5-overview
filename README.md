@@ -1,12 +1,12 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 143 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 144 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 96 current specifications, while [a separate page lists 36 specifications where development has stopped](MD/abandoned.md) (132 total). HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 95 current specifications, while [a separate page lists 38 specifications where development has stopped](MD/abandoned.md) (133 total). HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
 
 Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (sorted by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (131 Specs)
+## W3C TR Specifications (132 Specs)
 
 ### Recommendations (20 Specs)
 
@@ -48,7 +48,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (65 Specs)
+### Working Drafts (64 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -104,7 +104,6 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [URL](http://www.w3.org/TR/url-1 "The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.")
 * [Upgrade Insecure Requests](http://www.w3.org/TR/upgrade-insecure-requests "This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.")
 * [W3C DOM4](http://www.w3.org/TR/dom "DOM defines a platform-neutral model for events and node trees.")
-* [W3C HTML Form HTTP Extensions](http://www.w3.org/TR/form-http-extensions "This is an addendum to the specification of HTML5 forms extending the abilities of configuring HTTP requests through HTML markup. This document has been developed as a result of work contributed in addressing HTML WG ISSUE-195: Enhance http request generation from forms.")
 * [Wake Lock API](http://www.w3.org/TR/wake-lock "This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).")
 * [Web Animations](http://www.w3.org/TR/web-animations "This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.")
 * [Web Audio API](http://www.w3.org/TR/webaudio "This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly/C/C++ code), but direct JavaScript processing and synthesis is also supported. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (using the responseType and response attributes). For games and interactive applications, it is anticipated to be used with the canvas 2D and WebGL 3D graphics APIs.")
