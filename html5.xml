@@ -232,6 +232,11 @@
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
+        <spec id="2dcontext2" status="NOTE">
+            <class ref="graphics">[[ explanation needed ]]</class>
+            <title>HTML Canvas 2D Context, Level 2</title>
+            <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
+        </spec>
         <spec id="html-media-capture" status="CR">
             <class ref="media">[[ explanation needed ]]</class>
             <title>HTML Media Capture</title>
@@ -754,6 +759,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-09-30">added <a href="http://www.w3.org/TR/2dcontext2/"><q>HTML Canvas 2D Context, Level 2</q></a></entry>
         <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from CR to PR</entry>
         <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE; updated <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> abstract</entry>
         <entry date="2015-09-18">added <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a></entry>

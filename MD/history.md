@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* September 30, 2015: added ["HTML Canvas 2D Context, Level 2"](http://www.w3.org/TR/2dcontext2/)
 * September 24, 2015: changed status of ["Web Workers"](http://www.w3.org/TR/workers/) from CR to WD; changed status of ["HTML Canvas 2D Context"](http://www.w3.org/TR/2dcontext/) from CR to PR
 * September 23, 2015: changed status of ["Timing Control for Script-Based Animations"](http://www.w3.org/TR/animation-timing/) from CR to NOTE; updated ["Frame Timing"](http://www.w3.org/TR/frame-timing/) abstract
 * September 18, 2015: added ["Cooperative Scheduling of Background Tasks"](http://www.w3.org/TR/requestidlecallback/)
