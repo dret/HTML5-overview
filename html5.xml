@@ -102,6 +102,11 @@
             <title>Audio Processing API</title>
             <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
         </spec>
+        <spec id="html-transcript-src" status="NOTE">
+            <class ref="media">Introduces the transcript element for specifying media transcript content.</class>
+            <title>A Transcript Extension for HTML</title>
+            <abstract>This document describes an extension to HTML which explicitly identifies a transcript linked to a media object such as audio or video. It was created to meet requirements for transcriptions that are described in the Media Accessibility User Requirements (MAUR).</abstract>
+        </spec>
         <spec id="html-picture-element" status="NOTE">
             <class ref="media">Introduces the picture element to declare multiple image sources for different media queries.</class>
             <title>The picture Element</title>
@@ -764,6 +769,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-10-01">added <a href="http://www.w3.org/TR/html-transcript-src/"><q>A Transcript Extension for HTML</q></a></entry>
         <entry date="2015-09-30">added <a href="http://www.w3.org/TR/2dcontext2/"><q>HTML Canvas 2D Context, Level 2</q></a>; changed status of <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a> and <a href="http://www.w3.org/TR/html-json-forms/"><q>W3C HTML JSON form submission</q></a> from WD to NOTE</entry>
         <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from CR to PR</entry>
         <entry date="2015-09-23">changed status of <a href="http://www.w3.org/TR/animation-timing/"><q>Timing Control for Script-Based Animations</q></a> from CR to NOTE; updated <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> abstract</entry>
