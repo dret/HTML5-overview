@@ -442,10 +442,10 @@
             <title>Selectors API Level 2</title>
             <abstract>The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.</abstract>
         </spec>
-        <spec id="dom" status="WD">
-            <class ref="DOM">[[ explanation needed ]]</class>
+        <spec id="dom" status="PR">
+            <class ref="DOM">The core DOM specification.</class>
             <title>W3C DOM4</title>
-            <abstract>DOM defines a platform-neutral model for events and node trees.</abstract>
+            <abstract>DOM defines a platform-neutral model for events and node trees. DOM4 adds Mutation Observers as a replacement for Mutation Events.</abstract>
         </spec>
         <spec id="DOM-Parsing" status="CR">
             <class ref="DOM">[[ explanation needed ]]</class>
@@ -769,6 +769,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-10-07">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from WD to PR</entry>
         <entry date="2015-10-01">added <a href="http://www.w3.org/TR/html-transcript-src/"><q>A Transcript Extension for HTML</q></a></entry>
         <entry date="2015-09-30">added <a href="http://www.w3.org/TR/2dcontext2/"><q>HTML Canvas 2D Context, Level 2</q></a>; changed status of <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a> and <a href="http://www.w3.org/TR/html-json-forms/"><q>W3C HTML JSON form submission</q></a> from WD to NOTE</entry>
         <entry date="2015-09-24">changed status of <a href="http://www.w3.org/TR/workers/"><q>Web Workers</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from CR to PR</entry>
