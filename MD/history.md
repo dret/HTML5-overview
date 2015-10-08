@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* October 8, 2015: changed status of ["Upgrade Insecure Requests"](http://www.w3.org/TR/upgrade-insecure-requests/) from WD to CR
 * October 7, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from WD to PR
 * October 1, 2015: added ["A Transcript Extension for HTML"](http://www.w3.org/TR/html-transcript-src/)
 * September 30, 2015: added ["HTML Canvas 2D Context, Level 2"](http://www.w3.org/TR/2dcontext2/); changed status of ["W3C HTML Form HTTP Extensions"](http://www.w3.org/TR/form-http-extensions/) and ["W3C HTML JSON form submission"](http://www.w3.org/TR/html-json-forms/) from WD to NOTE

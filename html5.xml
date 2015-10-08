@@ -638,7 +638,7 @@
             <title>Privileged Contexts</title>
             <abstract>This specification provides guidelines for user agent implementors and spec authors for implementing features whose properties dictate that they be exposed to the web only within a trustworthy environment.</abstract>
         </spec>
-        <spec id="upgrade-insecure-requests" status="WD">
+        <spec id="upgrade-insecure-requests" status="CR">
             <class ref="security">Allows authors to upgrade resource requests from insecure to secure.</class>
             <title>Upgrade Insecure Requests</title>
             <abstract>This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.</abstract>
@@ -769,6 +769,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-10-08">changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a> from WD to CR</entry>
         <entry date="2015-10-07">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from WD to PR</entry>
         <entry date="2015-10-01">added <a href="http://www.w3.org/TR/html-transcript-src/"><q>A Transcript Extension for HTML</q></a></entry>
         <entry date="2015-09-30">added <a href="http://www.w3.org/TR/2dcontext2/"><q>HTML Canvas 2D Context, Level 2</q></a>; changed status of <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a> and <a href="http://www.w3.org/TR/html-json-forms/"><q>W3C HTML JSON form submission</q></a> from WD to NOTE</entry>
