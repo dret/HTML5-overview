@@ -1,12 +1,12 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 146 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 147 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 96 current specifications, while [a separate page lists 39 specifications where development has stopped](MD/abandoned.md) (135 total). HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 97 current specifications, while [a separate page lists 39 specifications where development has stopped](MD/abandoned.md) (136 total). HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
 
 Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (sorted by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (134 Specs)
+## W3C TR Specifications (135 Specs)
 
 ### Recommendations (20 Specs)
 
@@ -51,7 +51,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (62 Specs)
+### Working Drafts (63 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -98,6 +98,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
 * [Screen Capture](http://www.w3.org/TR/screen-capture "This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.")
 * [Screen Orientation API](http://www.w3.org/TR/screen-orientation "The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.")
+* [Selection API](http://www.w3.org/TR/selection-api "This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.")
 * [Server Timing](http://www.w3.org/TR/server-timing "This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.")
 * [Service Workers](http://www.w3.org/TR/service-workers "This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.")
 * [Shadow DOM](http://www.w3.org/TR/shadow-dom "This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.")
