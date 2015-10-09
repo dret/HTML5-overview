@@ -643,6 +643,11 @@
             <title>Upgrade Insecure Requests</title>
             <abstract>This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.</abstract>
         </spec>
+        <spec id="mixed-content" status="CR">
+            <class ref="security">How to mix secure and insecure resources.</class>
+            <title>Mixed Content</title>
+            <abstract>This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.</abstract>
+        </spec>
         <spec id="SRI" status="WD">
             <class ref="security">Describes a way to define expected checksums for resources.</class>
             <title>Subresource Integrity</title>
@@ -769,6 +774,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-10-09">added <a href="http://www.w3.org/TR/mixed-content/"><q>Mixed Content</q></a></entry>
         <entry date="2015-10-08">changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a> from WD to CR</entry>
         <entry date="2015-10-07">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from WD to PR</entry>
         <entry date="2015-10-01">added <a href="http://www.w3.org/TR/html-transcript-src/"><q>A Transcript Extension for HTML</q></a></entry>

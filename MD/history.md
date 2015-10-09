@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* October 9, 2015: added ["Mixed Content"](http://www.w3.org/TR/mixed-content/)
 * October 8, 2015: changed status of ["Upgrade Insecure Requests"](http://www.w3.org/TR/upgrade-insecure-requests/) from WD to CR
 * October 7, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from WD to PR
 * October 1, 2015: added ["A Transcript Extension for HTML"](http://www.w3.org/TR/html-transcript-src/)
