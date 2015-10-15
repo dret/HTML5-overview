@@ -82,7 +82,7 @@
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
-        <spec id="http://w3c.github.io/sensors/" status="other">
+        <spec id="generic-sensor" status="WD">
             <class ref="device">Provides sensor access in a way that is independent from the specific sensor type.</class>
             <title>Generic Sensor API</title>
             <abstract>This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.</abstract>
@@ -784,7 +784,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a></entry>
+        <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> to WD</entry>
         <entry date="2015-10-09">added <a href="http://www.w3.org/TR/mixed-content/"><q>Mixed Content</q></a> and <a href="http://www.w3.org/TR/selection-api/"><q>Selection API</q></a></entry>
         <entry date="2015-10-08">changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a> from WD to CR</entry>
         <entry date="2015-10-07">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from WD to PR</entry>

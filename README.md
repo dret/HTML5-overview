@@ -2,11 +2,11 @@
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 148 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 98 current specifications, while [a separate page lists 39 specifications where development has stopped](MD/abandoned.md) (137 total). HTML5 specifications are also developed in other places, and this page lists 11 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 99 current specifications, while [a separate page lists 39 specifications where development has stopped](MD/abandoned.md) (138 total). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (sorted by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (136 Specs)
+## W3C TR Specifications (137 Specs)
 
 ### Recommendations (20 Specs)
 
@@ -51,7 +51,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (64 Specs)
+### Working Drafts (65 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -70,6 +70,7 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [FindText API](http://www.w3.org/TR/findtext "The FindText API specification describes an API for finding ranges of text in a document or part of a document, using a variety of selection criteria.")
 * [Frame Timing](http://www.w3.org/TR/frame-timing "This specification defines an interface for web applications to access runtime performance information of the browser event loop, enabling them to identify and fix issues that cause delayed rendering, processing of input, and other critical work necessary to deliver a smooth and responsive user experience.")
 * [Gamepad](http://www.w3.org/TR/gamepad "The Gamepad specification defines a low-level interface that represents gamepad devices.")
+* [Generic Sensor API](http://www.w3.org/TR/generic-sensor "This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.")
 * [Geofencing API](http://www.w3.org/TR/geofencing "This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.") ([ED](https://w3c.github.io/geofencing-api/ "Editor's Draft"))
 * [HTML 5.1](http://www.w3.org/TR/html51 "This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.")
 * [HTML Accessibility API Mappings 1.0](http://www.w3.org/TR/html-aam-1.0 "HTML Accessibility API Mappings (HTML-AAM) defines how user agents map HTML 5.1 elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.1 and the Accessible Name and Description: Computation and API Mappings 1.1 for use with the HTML 5.1 host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.")
@@ -118,12 +119,11 @@ Here's a list of all HTML5 specs captured in the [XML source for this page](html
 * [WebVTT: The Web Video Text Tracks Format](http://www.w3.org/TR/webvtt1 "This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML <track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.")
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
 
-## Non-W3C Specifications (11 Specs)
+## Non-W3C Specifications (10 Specs)
 
 * [Fetch](https://fetch.spec.whatwg.org/ "The Fetch standard defines requests, responses, and the process that binds them; fetching.")
 * [FileSystem API](http://w3c.github.io/filesystem-api/ "The FileSystem API defines functionality on a local sandboxed file system within the same origin of the Web Application that created it. It exposes standard file system operations to Web Applications, such as creation of files and directories, and reading and writing of them (from and to disk), including other programmatic manipulation of files and directories.")
 * [Fullscreen API](https://fullscreen.spec.whatwg.org/ "Fullscreen defines the fullscreen API for the web platform.")
-* [Generic Sensor API](http://w3c.github.io/sensors/ "This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.")
 * [Notifications API](https://notifications.spec.whatwg.org/ "This standard defines an API to display notifications to the end user, typically outside the top-level browsing context's viewport. It is designed to be compatible with existing notification systems, while remaining platform-independent.")
 * [Storage](https://storage.spec.whatwg.org/ "The Storage Standard defines an API for persistent storage and quota estimates, as well as the platform storage architecture.")
 * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/ "This document describes an API to discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).")

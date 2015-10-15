@@ -1,6 +1,6 @@
 # HTML5 Overview: Change Log
 
-* October 15, 2015: added ["FindText API"](http://www.w3.org/TR/findtext/)
+* October 15, 2015: added ["FindText API"](http://www.w3.org/TR/findtext/), changed status of ["Generic Sensor API"](http://www.w3.org/TR/generic-sensor/) to WD
 * October 9, 2015: added ["Mixed Content"](http://www.w3.org/TR/mixed-content/) and ["Selection API"](http://www.w3.org/TR/selection-api/)
 * October 8, 2015: changed status of ["Upgrade Insecure Requests"](http://www.w3.org/TR/upgrade-insecure-requests/) from WD to CR
 * October 7, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from WD to PR
