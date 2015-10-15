@@ -653,6 +653,11 @@
             <title>Selection API</title>
             <abstract>This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</abstract>
         </spec>
+        <spec id="findtext" status="WD">
+            <class ref="security">How to find text in a document.</class>
+            <title>FindText API</title>
+            <abstract>The FindText API specification describes an API for finding ranges of text in a document or part of a document, using a variety of selection criteria.</abstract>
+        </spec>
         <spec id="SRI" status="WD">
             <class ref="security">Describes a way to define expected checksums for resources.</class>
             <title>Subresource Integrity</title>
@@ -779,6 +784,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a></entry>
         <entry date="2015-10-09">added <a href="http://www.w3.org/TR/mixed-content/"><q>Mixed Content</q></a> and <a href="http://www.w3.org/TR/selection-api/"><q>Selection API</q></a></entry>
         <entry date="2015-10-08">changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a> from WD to CR</entry>
         <entry date="2015-10-07">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from WD to PR</entry>
