@@ -722,6 +722,11 @@
             <title>Cross-Origin Resource Sharing</title>
             <abstract>This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</abstract>
         </spec>
+        <spec id="cowl" status="WD">
+            <class ref="security">[[ explanation needed ]]</class>
+            <title>Confinement with Origin Web Labels</title>
+            <abstract>This specification defines an API for specifying privacy and integrity policies on data, in the form of origin labels, and a mechanism for confining code according to such policies. This allows Web application authors and server operators to share data with untrusted—buggy but not malicious—code (e.g., in a mashup scenario) yet impose restrictions on how the code can share the data further.</abstract>
+        </spec>
         <spec id="resource-priorities" status="NOTE">
             <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Resource Priorities</title>
@@ -784,7 +789,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> to WD</entry>
+        <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> and <a href="http://www.w3.org/TR/COWL/"><q>Confinement with Origin Web Labels</q></a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> to WD</entry>
         <entry date="2015-10-09">added <a href="http://www.w3.org/TR/mixed-content/"><q>Mixed Content</q></a> and <a href="http://www.w3.org/TR/selection-api/"><q>Selection API</q></a></entry>
         <entry date="2015-10-08">changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a> from WD to CR</entry>
         <entry date="2015-10-07">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from WD to PR</entry>
