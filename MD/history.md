@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* October 23, 2015: changed status of ["Web Notifications"](http://www.w3.org/TR/notifications/) from PR to REC
 * October 15, 2015: added ["FindText API"](http://www.w3.org/TR/findtext/) and ["Confinement with Origin Web Labels"](http://www.w3.org/TR/COWL/), changed status of ["Generic Sensor API"](http://www.w3.org/TR/generic-sensor/) to WD
 * October 9, 2015: added ["Mixed Content"](http://www.w3.org/TR/mixed-content/) and ["Selection API"](http://www.w3.org/TR/selection-api/)
 * October 8, 2015: changed status of ["Upgrade Insecure Requests"](http://www.w3.org/TR/upgrade-insecure-requests/) from WD to CR

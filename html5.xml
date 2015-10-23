@@ -571,7 +571,7 @@
             <title>Web Intents</title>
             <abstract>This specification defines a service discovery and light-weight RPC mechanism for web apps called Web Intents. This document defines DOM interfaces and markup used by client and service pages to create, receive, and reply to Web Intents messages, and the procedures the User Agent carries out to facilitate that process.</abstract>
         </spec>
-        <spec id="notifications" status="PR">
+        <spec id="notifications" status="REC">
             <class ref="ui">[[ explanation needed ]]</class>
             <title>Web Notifications</title>
             <abstract>Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.</abstract>
@@ -789,6 +789,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-10-23">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from PR to REC</entry>
         <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> and <a href="http://www.w3.org/TR/COWL/"><q>Confinement with Origin Web Labels</q></a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> to WD</entry>
         <entry date="2015-10-09">added <a href="http://www.w3.org/TR/mixed-content/"><q>Mixed Content</q></a> and <a href="http://www.w3.org/TR/selection-api/"><q>Selection API</q></a></entry>
         <entry date="2015-10-08">changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a> from WD to CR</entry>
