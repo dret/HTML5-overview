@@ -15,17 +15,17 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne 'NOTE' and @status ne 'other' and @status ne 'abandoned'])"/>
-            <xsl:text> current specifications, while [a separate page lists </xsl:text>
+            <xsl:text> current specifications (grouped by status), while [a separate page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq 'NOTE' or @status eq 'abandoned'])"/>
             <xsl:text> specifications where development has stopped](</xsl:text>
             <xsl:value-of select="$md-path"/>
             <xsl:text>/abandoned.md) (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status ne ('other')])"/>
-            <xsl:text> total). HTML5 specifications are also developed in other places, and this page lists </xsl:text>
+            <xsl:text> W3C documents overall). HTML5 specifications are also developed in other places, and this page lists </xsl:text>
             <xsl:value-of select="count(//specs/spec[@status eq ('other')])"/>
             <xsl:text> of these other specifications.
 
-Here's a list of all HTML5 specs captured in the [XML source for this page](html5.xml), first W3C TR (sorted by status), and then others (except for the [separately listed abandoned specs](</xsl:text>
+Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](</xsl:text>
             <xsl:value-of select="$md-path"/>
             <xsl:text>/abandoned.md)):
 
