@@ -14,15 +14,15 @@ HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) t
             <xsl:text> specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
 Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists </xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status ne 'NOTE' and @status ne 'other' and @status ne 'abandoned'])"/>
+            <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC')])"/>
             <xsl:text> current specifications (grouped by status), while [a separate page lists </xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status eq 'NOTE' or @status eq 'abandoned'])"/>
+            <xsl:value-of select="count(//specs/spec[@status = ('NOTE')])"/>
             <xsl:text> specifications where development has stopped](</xsl:text>
             <xsl:value-of select="$md-path"/>
             <xsl:text>/abandoned.md) (</xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status ne ('other')])"/>
+            <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','NOTE')])"/>
             <xsl:text> W3C documents overall). HTML5 specifications are also developed in other places, and this page lists </xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status eq ('other')])"/>
+            <xsl:value-of select="count(//specs/spec[@status eq 'other'])"/>
             <xsl:text> of these other specifications.
 
 Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](</xsl:text>
@@ -30,7 +30,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
             <xsl:text>/abandoned.md)):
 
 ## W3C TR Specifications (</xsl:text>
-            <xsl:value-of select="count(//specs/spec[@status ne 'other' and @status ne 'abandoned'])"/>
+            <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC')])"/>
             <xsl:text> Specs)&#xa;</xsl:text>
             <xsl:for-each-group select="//specs/spec" group-by="@status">
                 <xsl:sort select="index-of($status-index, current-grouping-key())"/>
