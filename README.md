@@ -37,7 +37,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext "This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.")
 * [W3C DOM4](http://www.w3.org/TR/dom "DOM defines a platform-neutral model for events and node trees. DOM4 adds Mutation Observers as a replacement for Mutation Events.")
 
-### Candidate Recommendations (11 Specs)
+### Candidate Recommendations (12 Specs)
 
 * [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
 * [Content Security Policy 2.0](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
@@ -46,12 +46,13 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Media Source Extensions](http://www.w3.org/TR/media-source "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.")
 * [Mixed Content](http://www.w3.org/TR/mixed-content "This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.")
 * [Pointer Lock](http://www.w3.org/TR/pointerlock "This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.")
+* [Subresource Integrity](http://www.w3.org/TR/SRI "This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.")
 * [Upgrade Insecure Requests](http://www.w3.org/TR/upgrade-insecure-requests "This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.")
 * [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.")
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (66 Specs)
+### Working Drafts (65 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -106,7 +107,6 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Service Workers](http://www.w3.org/TR/service-workers "This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.")
 * [Shadow DOM](http://www.w3.org/TR/shadow-dom "This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.")
 * [Streams API](http://www.w3.org/TR/streams-api "WHATWG Streams API spec provides an API for representing and handling a stream of data in JavaScript. This W3C spec is intended to extend the WHATWG spec to meet requirements specific to the browser environment.")
-* [Subresource Integrity](http://www.w3.org/TR/SRI "This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.")
 * [The Permissions API](http://www.w3.org/TR/permissions "The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.")
 * [URL](http://www.w3.org/TR/url-1 "The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.")
 * [Wake Lock API](http://www.w3.org/TR/wake-lock "This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).")

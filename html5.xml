@@ -658,7 +658,7 @@
             <title>FindText API</title>
             <abstract>The FindText API specification describes an API for finding ranges of text in a document or part of a document, using a variety of selection criteria.</abstract>
         </spec>
-        <spec id="SRI" status="WD">
+        <spec id="SRI" status="CR">
             <class ref="security">Describes a way to define expected checksums for resources.</class>
             <title>Subresource Integrity</title>
             <abstract>This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.</abstract>
@@ -789,6 +789,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-11-12">changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from WD to CR</entry>
         <entry date="2015-10-23">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from PR to REC</entry>
         <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> and <a href="http://www.w3.org/TR/COWL/"><q>Confinement with Origin Web Labels</q></a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> to WD</entry>
         <entry date="2015-10-09">added <a href="http://www.w3.org/TR/mixed-content/"><q>Mixed Content</q></a> and <a href="http://www.w3.org/TR/selection-api/"><q>Selection API</q></a></entry>
