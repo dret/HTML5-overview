@@ -8,11 +8,12 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 
 ## W3C TR Specifications (100 Specs)
 
-### Recommendations (21 Specs)
+### Recommendations (22 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://www.w3.org/TR/wai-aria "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.")
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
 * [Geolocation API Specification](http://www.w3.org/TR/geolocation-API "This specification defines an API that provides scripted access to geographical location information associated with the hosting device.")
+* [HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext "This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.")
 * [HTML Image Description Extension (longdesc)](http://www.w3.org/TR/html-longdesc "This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.")
 * [HTML5](http://www.w3.org/TR/html5 "This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability.")
 * [HTML5 Web Messaging](http://www.w3.org/TR/webmessaging "This specification defines two mechanism for communicating between browsing contexts in HTML documents.")
@@ -32,9 +33,8 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Web Notifications](http://www.w3.org/TR/notifications "Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-### Proposed Recommendations (2 Specs)
+### Proposed Recommendations (1 Specs)
 
-* [HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext "This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.")
 * [W3C DOM4](http://www.w3.org/TR/dom "DOM defines a platform-neutral model for events and node trees. DOM4 adds Mutation Observers as a replacement for Mutation Events.")
 
 ### Candidate Recommendations (12 Specs)

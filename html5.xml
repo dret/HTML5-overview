@@ -232,7 +232,7 @@
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
         </spec>
-        <spec id="2dcontext" status="PR">
+        <spec id="2dcontext" status="REC">
             <class ref="graphics">[[ explanation needed ]]</class>
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
@@ -789,6 +789,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-11-20">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from PR to REC</entry>
         <entry date="2015-11-12">changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from WD to CR</entry>
         <entry date="2015-10-23">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from PR to REC</entry>
         <entry date="2015-10-15">added <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> and <a href="http://www.w3.org/TR/COWL/"><q>Confinement with Origin Web Labels</q></a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> to WD</entry>
