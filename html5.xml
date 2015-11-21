@@ -442,7 +442,7 @@
             <title>Selectors API Level 2</title>
             <abstract>The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.</abstract>
         </spec>
-        <spec id="dom" status="PR">
+        <spec id="dom" status="REC">
             <class ref="DOM">The core DOM specification.</class>
             <title>W3C DOM4</title>
             <abstract>DOM defines a platform-neutral model for events and node trees. DOM4 adds Mutation Observers as a replacement for Mutation Events.</abstract>
@@ -789,6 +789,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-11-21">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from PR to REC</entry>
         <entry date="2015-11-20">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from PR to REC</entry>
         <entry date="2015-11-12">changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from WD to CR</entry>
         <entry date="2015-10-23">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from PR to REC</entry>
