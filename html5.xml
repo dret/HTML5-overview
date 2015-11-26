@@ -596,7 +596,7 @@
             <title>Web Storage</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
-        <spec id="webstorage" status="CR">
+        <spec id="webstorage" status="PR">
             <class ref="storage">Provides an API for persistent storing key/value pairs.</class>
             <title>Web Storage (Second Edition)</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
@@ -789,6 +789,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-11-26">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q> from CR to PR</entry>
         <entry date="2015-11-21">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from PR to REC</entry>
         <entry date="2015-11-20">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from PR to REC</entry>
         <entry date="2015-11-12">changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from WD to CR</entry>
