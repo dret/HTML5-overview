@@ -34,7 +34,11 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Web Notifications](http://www.w3.org/TR/notifications "Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-### Candidate Recommendations (12 Specs)
+### Proposed Recommendations (1 Specs)
+
+* [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
+
+### Candidate Recommendations (11 Specs)
 
 * [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
 * [Content Security Policy 2.0](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
@@ -46,7 +50,6 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Subresource Integrity](http://www.w3.org/TR/SRI "This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.")
 * [Upgrade Insecure Requests](http://www.w3.org/TR/upgrade-insecure-requests "This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.")
 * [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.")
-* [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
 ### Working Drafts (65 Specs)

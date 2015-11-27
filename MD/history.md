@@ -1,6 +1,7 @@
 # HTML5 Overview: Change Log
 
-* November 23, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from PR to REC
+* November 26, 2015: changed status of ["Web Storage (Second Edition)"](http://www.w3.org/TR/webstorage/) from CR to PR
+* November 21, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from PR to REC
 * November 20, 2015: changed status of ["HTML Canvas 2D Context"](http://www.w3.org/TR/2dcontext/) from PR to REC
 * November 12, 2015: changed status of ["Subresource Integrity"](http://www.w3.org/TR/SRI/) from WD to CR
 * October 23, 2015: changed status of ["Web Notifications"](http://www.w3.org/TR/notifications/) from PR to REC
