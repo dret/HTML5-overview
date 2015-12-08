@@ -318,7 +318,7 @@
         <spec id="mediacapture-depth" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
             <title>Media Capture Depth Stream Extensions</title>
-            <abstract>This specification extends the Media Capture and Streams specification to allow a depth stream to be requested from the web platform using APIs familiar to web authors.</abstract>
+            <abstract>This specification extends the Media Capture and Streams specification to allow a depth-only stream or combined depth+video stream to be requested from the web platform using APIs familiar to web authors.</abstract>
         </spec>
         <spec id="mediacapture-fromelement" status="WD">
             <class ref="media">[[ explanation needed ]]</class>
