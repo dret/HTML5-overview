@@ -1,6 +1,6 @@
 # HTML5 Overview: Change Log
 
-* December 15, 2015: added ["UI Events Specification"](http://www.w3.org/TR/uievents/)
+* December 15, 2015: added ["UI Events Specification"](http://www.w3.org/TR/uievents/) and ["UI Events KeyboardEvent code Values"](http://www.w3.org/TR/uievents-code/)
 * November 26, 2015: changed status of ["Web Storage (Second Edition)"](http://www.w3.org/TR/webstorage/) from CR to PR
 * November 21, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from PR to REC
 * November 20, 2015: changed status of ["HTML Canvas 2D Context"](http://www.w3.org/TR/2dcontext/) from PR to REC
