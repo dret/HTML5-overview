@@ -537,6 +537,11 @@
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
+        <spec id="uievents" status="WD">
+            <class ref="device">[[ explanation needed ]]</class>
+            <title>UI Events Specification</title>
+            <abstract>This specification defines UI Events which extend the DOM Event objects defined in DOM4. UI Events are those typically implemented by visual user agents for handling user interaction such as mouse and keyboard input.</abstract>
+        </spec>
         <spec id="url-1" status="WD">
             <title>URL</title>
             <abstract>The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.</abstract>
@@ -789,6 +794,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2015-12-15">added <a href="http://www.w3.org/TR/uievents/"><q>UI Events Specification</q></a></entry>
         <entry date="2015-11-26">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from CR to PR</entry>
         <entry date="2015-11-21">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from PR to REC</entry>
         <entry date="2015-11-20">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from PR to REC</entry>
