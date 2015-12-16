@@ -1,12 +1,12 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 151 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 152 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 102 current specifications (grouped by status), while [a separate page lists 38 specifications where development has stopped](MD/abandoned.md) (140 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 103 current specifications (grouped by status), while [a separate page lists 38 specifications where development has stopped](MD/abandoned.md) (141 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (102 Specs)
+## W3C TR Specifications (103 Specs)
 
 ### Recommendations (23 Specs)
 
@@ -52,7 +52,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (67 Specs)
+### Working Drafts (68 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Events](http://www.w3.org/TR/ambient-light "This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.")
@@ -109,6 +109,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Streams API](http://www.w3.org/TR/streams-api "WHATWG Streams API spec provides an API for representing and handling a stream of data in JavaScript. This W3C spec is intended to extend the WHATWG spec to meet requirements specific to the browser environment.")
 * [The Permissions API](http://www.w3.org/TR/permissions "The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.")
 * [UI Events KeyboardEvent code Values](http://www.w3.org/TR/uievents-code "This specification defines the values for the KeyboardEvent.code attribute, which is defined as part of the UI Events Specification. The code value contains information about the key event that can use used identify the physical key being pressed by the user.")
+* [UI Events KeyboardEvent key Values](http://www.w3.org/TR/uievents-key "This specification defines the values for the KeyboardEvent.key attribute, which is defined as part of the Document Object Model (DOM) Level 3 Events Specification. The key attribute contains information about the character generated by the key event.")
 * [UI Events Specification](http://www.w3.org/TR/uievents "This specification defines UI Events which extend the DOM Event objects defined in DOM4. UI Events are those typically implemented by visual user agents for handling user interaction such as mouse and keyboard input.")
 * [URL](http://www.w3.org/TR/url-1 "The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.")
 * [Wake Lock API](http://www.w3.org/TR/wake-lock "This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).")
