@@ -480,7 +480,7 @@
         <spec id="push-api" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Push API</title>
-            <abstract>The Push API provides webapps with scripted access to server-sent messages, for simplicity referred to here as push messages, as delivered by push services. A push service allows an application server to send messages to a webapp, regardless of whether the webapp is currently active on the user agent. The push message will be delivered to a Service Worker, which could then store the message's data or display a notification to the user. This specification is designed to promote compatibility with any delivery method for push messages from push services to user agents.</abstract>
+            <abstract>The Push API enables sending of a push message to a webapp via a push service. An application server can send a push message at any time, even when a webapp or user agent is inactive. The push service ensures reliable and efficient delivery to the user agent. Push messages are delivered to a Service Worker that runs in the origin of the webapp, which can use the information in the message to update local state or display a notification to the user. This specification is designed for use with the web push protocol, which describes how an application server or user agent interacts with a push service.</abstract>
         </spec>
         <spec id="contacts-api" status="NOTE">
             <class ref="environment">Provides access to contacts stored in system's address book.</class>
