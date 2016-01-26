@@ -648,6 +648,11 @@
             <title>Content Security Policy Level 2</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
+        <spec id="CSP3" status="WD">
+            <class ref="security">Describes a policy language for content restrictions.</class>
+            <title>Content Security Policy Level 3</title>
+            <abstract>This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions.</abstract>
+        </spec>
         <spec id="powerful-features" status="WD">
             <class ref="security">Guidelines for limiting features to secure contexts.</class>
             <title>Privileged Contexts</title>
@@ -804,6 +809,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-01-26">added <a href="http://www.w3.org/TR/CSP3/"><q>Content Security Policy Level 3</q></a></entry>
         <entry date="2015-12-15">added <a href="http://www.w3.org/TR/uievents/"><q>UI Events Specification</q></a>, <a href="http://www.w3.org/TR/uievents-code/"><q>UI Events KeyboardEvent code Values</q></a>, and <a href="http://www.w3.org/TR/uievents-key/"><q>UI Events KeyboardEvent key Values</q></a></entry>
         <entry date="2015-11-26">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from CR to PR</entry>
         <entry date="2015-11-21">changed status of <a href="http://www.w3.org/TR/dom/"><q>W3C DOM4</q></a> from PR to REC</entry>

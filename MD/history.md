@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* January 26, 2016: added ["Content Security Policy Level 3"](http://www.w3.org/TR/CSP3/)
 * December 15, 2015: added ["UI Events Specification"](http://www.w3.org/TR/uievents/), ["UI Events KeyboardEvent code Values"](http://www.w3.org/TR/uievents-code/), and ["UI Events KeyboardEvent key Values"](http://www.w3.org/TR/uievents-key/)
 * November 26, 2015: changed status of ["Web Storage (Second Edition)"](http://www.w3.org/TR/webstorage/) from CR to PR
 * November 21, 2015: changed status of ["W3C DOM4"](http://www.w3.org/TR/dom/) from PR to REC
@@ -49,7 +50,7 @@
 * March 6, 2015: renamed ["Navigation Error Logging"](http://www.w3.org/TR/navigation-error-logging/) to ["Network Error Logging"](http://www.w3.org/TR/network-error-logging/)
 * February 26, 2015: changed status of ["HTML Image Description Extension (longdesc)"](http://www.w3.org/TR/html-longdesc/) from PR to REC
 * February 25, 2015: changed status of ["Pointer Events"](http://www.w3.org/TR/pointerevents/) from PR to REC
-* February 19, 2015: added ["HTML5"](http://www.w3.org/TR/html5) and ["Media Capture from DOM Elements"](http://www.w3.org/TR/mediacapture-fromelement); changed status of ["Content Security Policy 1.0"](http://www.w3.org/TR/CSP/) from CR to NOTE; changed status of ["Content Security Policy 2.0"](http://www.w3.org/TR/CSP2/) from WD to CR
+* February 19, 2015: added ["HTML5"](http://www.w3.org/TR/html5) and ["Media Capture from DOM Elements"](http://www.w3.org/TR/mediacapture-fromelement); changed status of ["Content Security Policy 1.0"](http://www.w3.org/TR/CSP/) from CR to NOTE; changed status of ["Content Security Policy Level 2"](http://www.w3.org/TR/CSP2/) from WD to CR
 * February 17, 2015: added ["Presentation API"](http://www.w3.org/TR/presentation-api) and ["Server Timing"](http://www.w3.org/TR/server-timing)
 * February 12, 2015: added ["Wake Lock API"](http://www.w3.org/TR/wake-lock)
 * February 10, 2015: added ["Screen Capture"](http://www.w3.org/TR/screen-capture/); changed status of ["Vibration API"](http://www.w3.org/TR/vibration/) from PR to REC; added ["Audio Output Devices API"](http://www.w3.org/TR/audio-output/)
@@ -71,7 +72,7 @@
 * August 28, 2014: changed status of ["Battery Status API"](http://www.w3.org/TR/battery-status) from CR to WD
 * August 21, 2014: changed status of ["The srcset Attribute"](http://www.w3.org/TR/html-srcset/) from WD to NOTE (now part of core HTML5); changed status of ["HTML Canvas 2D Context"](http://www.w3.org/TR/2dcontext/) from WD to CR
 * August 12, 2014: changed status of ["HTML Image Description Extension"](http://www.w3.org/TR/html-longdesc/) from WD to CR
-* August 7, 2014: added ["Content Security Policy 1.0"](http://www.w3.org/TR/CSP/), ["Content Security Policy 2.0"](http://www.w3.org/TR/CSP2/), and ["Referrer Policy"](http://www.w3.org/TR/referrer-policy/)
+* August 7, 2014: added ["Content Security Policy 1.0"](http://www.w3.org/TR/CSP/), ["Content Security Policy Level 2"](http://www.w3.org/TR/CSP2/), and ["Referrer Policy"](http://www.w3.org/TR/referrer-policy/)
 * July 22, 2014: changed status of ["The picture Element"](http://www.w3.org/TR/html-picture-element/) from WD to NOTE (now part of core HTML5)
 * June 28, 2014: added ["IndieUI: User Context 1.0"](http://www.w3.org/TR/indie-ui-context/)
 * June 25, 2014: moved ["Ambient Light Events"](http://www.w3.org/TR/ambient-light/) and ["HTML Media Capture"](http://www.w3.org/TR/html-media-capture/) from CR to WD
