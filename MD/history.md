@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* January 28, 2016: added ["Micropub"](http://www.w3.org/TR/micropub/)
 * January 26, 2016: added ["Content Security Policy Level 3"](http://www.w3.org/TR/CSP3/)
 * December 15, 2015: added ["UI Events Specification"](http://www.w3.org/TR/uievents/), ["UI Events KeyboardEvent code Values"](http://www.w3.org/TR/uievents-code/), and ["UI Events KeyboardEvent key Values"](http://www.w3.org/TR/uievents-key/)
 * November 26, 2015: changed status of ["Web Storage (Second Edition)"](http://www.w3.org/TR/webstorage/) from CR to PR

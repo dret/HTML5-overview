@@ -762,6 +762,11 @@
             <title>Preload</title>
             <abstract>This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
         </spec>
+        <spec id="micropub" status="WD">
+            <class ref="communications">[[ explanation needed ]]</class>
+            <title>Micropub</title>
+            <abstract>Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</abstract>
+        </spec>
         <spec id="beacon" status="WD">
             <class ref="communications">[[ explanation needed ]]</class>
             <title>Beacon</title>
@@ -809,6 +814,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-01-28">added <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a></entry>
         <entry date="2016-01-26">added <a href="http://www.w3.org/TR/CSP3/"><q>Content Security Policy Level 3</q></a></entry>
         <entry date="2015-12-15">added <a href="http://www.w3.org/TR/uievents/"><q>UI Events Specification</q></a>, <a href="http://www.w3.org/TR/uievents-code/"><q>UI Events KeyboardEvent code Values</q></a>, and <a href="http://www.w3.org/TR/uievents-key/"><q>UI Events KeyboardEvent key Values</q></a></entry>
         <entry date="2015-11-26">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from CR to PR</entry>
