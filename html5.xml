@@ -671,7 +671,7 @@
         <spec id="selection-api" status="WD">
             <class ref="security">How to select a portion of a document for subsequent operations.</class>
             <title>Selection API</title>
-            <abstract>This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</abstract>
+            <abstract>This document is a preliminary draft of a specification for the Selection API and selection related functionality. It replaces a couple of old sections of the HTML specification, the selection part of the old DOM Range specification. This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</abstract>
         </spec>
         <spec id="findtext" status="WD">
             <class ref="security">How to find text in a document.</class>
