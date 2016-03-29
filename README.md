@@ -34,13 +34,13 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Web Notifications](http://www.w3.org/TR/notifications "Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.")
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-### Proposed Recommendations (1 Specs)
+### Proposed Recommendations (2 Specs)
 
+* [Battery Status API](http://www.w3.org/TR/battery-status "This specification defines an API that provides information about the battery status of the hosting device.")
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-### Candidate Recommendations (11 Specs)
+### Candidate Recommendations (10 Specs)
 
-* [Battery Status Event Specification](http://www.w3.org/TR/battery-status "This specification defines a new DOM event type that provides information about the battery status of the hosting device and associated auxiliary devices.")
 * [Content Security Policy Level 2](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
 * [DOM Parsing and Serialization](http://www.w3.org/TR/DOM-Parsing "This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.")
 * [HTML Media Capture](http://www.w3.org/TR/html-media-capture "This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.")
@@ -104,7 +104,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
 * [Screen Capture](http://www.w3.org/TR/screen-capture "This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.")
 * [Screen Orientation API](http://www.w3.org/TR/screen-orientation "The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.")
-* [Selection API](http://www.w3.org/TR/selection-api "This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.")
+* [Selection API](http://www.w3.org/TR/selection-api "This document is a preliminary draft of a specification for the Selection API and selection related functionality. It replaces a couple of old sections of the HTML specification, the selection part of the old DOM Range specification. This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.")
 * [Server Timing](http://www.w3.org/TR/server-timing "This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.")
 * [Service Workers](http://www.w3.org/TR/service-workers "This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.")
 * [Shadow DOM](http://www.w3.org/TR/shadow-dom "This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.")
