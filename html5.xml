@@ -94,8 +94,8 @@
         </spec>
         <spec id="ambient-light" status="WD">
             <class ref="device">Provides access to light sensor of an device.</class>
-            <title>Ambient Light Events</title>
-            <abstract>This specification defines a means to receive events that correspond to a light sensor detecting the presence of a light.</abstract>
+            <title>Ambient Light Sensor</title>
+            <abstract>This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.</abstract>
         </spec>
         <spec id="audioproc" status="WD">
             <class ref="media">Extends browser capabilities to add advanced audio features.</class>
