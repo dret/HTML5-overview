@@ -693,10 +693,10 @@
             <title>Web Cryptography API</title>
             <abstract>This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.</abstract>
         </spec>
-        <spec id="webcrypto-key-discovery" status="WD">
+        <spec id="webcrypto-key-discovery" status="NOTE">
             <class ref="security">Provides methods to generate, derive, or import cryptographic key objects.</class>
             <title>WebCrypto Key Discovery</title>
-            <abstract>This specification describes a JavaScript API for discovering named, origin-specific pre-provisioned cryptographic keys for use with the Web Cryptography API. Pre-provisioned keys are keys which have been made available to the UA by means other than the generation, derivation, import functions of the Web Cryptography API. Origin-specific keys are keys that are available only to a specified origin. Named keys are identified by a name assumed to be known to the origin in question and provisioned with the key itself.</abstract>
+            <abstract>This note describes a JavaScript API for discovering named, origin-specific pre-provisioned cryptographic keys for use with the Web Cryptography API. Pre-provisioned keys are keys which have been made available to the UA by means other than the generation, derivation, importation and unwrapping functions of the Web Cryptography API. Origin-specific keys are keys that are available only to a specified origin. Named keys are identified by a name assumed to be known to the origin in question and provisioned with the key itself. This note concerns only keys which have all three of these properties.</abstract>
         </spec>
         <spec id="runtime" status="NOTE">
             <class ref="security">Describes a security model for Web apps.</class>
@@ -814,7 +814,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to PR</entry>
+        <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-01-28">added <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a></entry>
         <entry date="2016-01-26">added <a href="http://www.w3.org/TR/CSP3/"><q>Content Security Policy Level 3</q></a></entry>
         <entry date="2015-12-15">added <a href="http://www.w3.org/TR/uievents/"><q>UI Events Specification</q></a>, <a href="http://www.w3.org/TR/uievents-code/"><q>UI Events KeyboardEvent code Values</q></a>, and <a href="http://www.w3.org/TR/uievents-key/"><q>UI Events KeyboardEvent key Values</q></a></entry>
