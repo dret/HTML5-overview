@@ -650,7 +650,7 @@
     </specs>
     <log>
         <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
-        <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a> from WD to NOTE</entry>
+        <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-01-28">added <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a></entry>
         <entry date="2016-01-26">added <a href="http://www.w3.org/TR/CSP3/"><q>Content Security Policy Level 3</q></a></entry>
         <entry date="2015-12-15">added <a href="http://www.w3.org/TR/uievents/"><q>UI Events Specification</q></a>, <a href="http://www.w3.org/TR/uievents-code/"><q>UI Events KeyboardEvent code Values</q></a>, and <a href="http://www.w3.org/TR/uievents-key/"><q>UI Events KeyboardEvent key Values</q></a></entry>
