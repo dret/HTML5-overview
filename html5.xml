@@ -271,6 +271,10 @@
             <title>Navigation Timing Level 2</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
+        <spec id="reporting-1" status="WD">
+            <title>Reporting API 1</title>
+            <abstract>This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.</abstract>
+        </spec>
         <spec id="network-error-logging" status="WD">
             <title>Network Error Logging</title>
             <abstract>This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.</abstract>
@@ -645,6 +649,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
         <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status"><q>Battery Status API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-01-28">added <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a></entry>
         <entry date="2016-01-26">added <a href="http://www.w3.org/TR/CSP3/"><q>Content Security Policy Level 3</q></a></entry>
