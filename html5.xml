@@ -3,23 +3,13 @@
 <!-- This is free and unencumbered data released into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute this data, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. Enjoy! -->
 <?xml-stylesheet type="text/xsl" href="XSLT/xml2md.xsl"?>
 <!DOCTYPE html5 [
-  <!ELEMENT html5 (classdefs, specs, log) >
-  <!ELEMENT classdefs (classdef*) >
-  <!ELEMENT classdef (#PCDATA) >
-  <!ATTLIST classdef
-    id        ID                                                        #REQUIRED
-    title     CDATA                                                     #REQUIRED
-    >
+  <!ELEMENT html5 (specs, log) >
   <!ELEMENT specs (spec*) >
-  <!ELEMENT spec (class?, title, abstract) >
+  <!ELEMENT spec (title, abstract) >
   <!ATTLIST spec
     id        CDATA                                                     #REQUIRED
     status    ( WD | CR | PER | PR | REC | NOTE | other | abandoned )   #REQUIRED
     ed        CDATA                                                     #IMPLIED
-    >
-  <!ELEMENT class (#PCDATA) >
-  <!ATTLIST class
-    ref       IDREF                                                     #REQUIRED
     >
   <!ELEMENT title (#PCDATA) >
   <!ELEMENT abstract (#PCDATA | q | em)* >
@@ -36,234 +26,176 @@
     >
 ]>
 <html5>
-    <classdefs>
-        <!-- None of these class definitions is currently used in the MD (it was used for an older version of the HTML5 overview), and not all specifications are labeled with one of those categories. Therefore, these may go away at any time. -->
-        <classdef id="core" title="Core">Core specifications</classdef>
-        <classdef id="device" title="Device">Specifications which provide access to the hardware components of the device</classdef>
-        <classdef id="media" title="Media">Specifications which provide multimedia functionality (e.g., audio processing)</classdef>
-        <classdef id="environment" title="OS Environment">Specifications which provide access to operating system environment (e.g., contacts)</classdef>
-        <classdef id="filesystem" title="File System">Specifications to access the local file system such as reading, writing and navigating through it.</classdef>
-        <classdef id="graphics" title="Graphics">Graphical specifications. (e.g., canvas)</classdef>
-        <classdef id="storage" title="Storage">Specifications to manage or use temporary/persistent storage resources.</classdef>
-        <classdef id="DOM" title="DOM">Specifications to access or manipulate the document structure</classdef>
-        <classdef id="communications" title="Communications/Networking">Specifications which provide networking-features for communicating and transferring data between clients and servers</classdef>
-        <classdef id="security" title="Security">Specifications which provide security features (e.g., hashing, key-management etc.)</classdef>
-        <classdef id="monitoring" title="Monitoring">Specifications which are related to monitoring and application performance.</classdef>
-        <classdef id="ui" title="User Interaction">Specifications which are related to user interface (e.g., notifications) or user interaction (controlling interfaces).</classdef>
-    </classdefs>
     <specs>
         <spec id="html5" status="REC">
-            <class ref="core">HTML 5 core specification for vocabulary and associated APIs.</class>
             <title>HTML5</title>
             <abstract>This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability.</abstract>
         </spec>
         <spec id="html51" status="WD">
-            <class ref="core">HTML 5.1 core specification for vocabulary and associated APIs.</class>
             <title>HTML 5.1</title>
             <abstract>This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.</abstract>
         </spec>
         <spec id="MathML3" status="REC">
-            <class ref="core">MathML 3 core specification for capturing mathematical structure and content.</class>
             <title>Mathematical Markup Language (MathML) Version 3.0</title>
             <abstract> This specification defines the Mathematical Markup Language, or MathML. MathML is a markup language for describing mathematical notation and capturing both its structure and content. The goal of MathML is to enable mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for text. This specification of the markup language MathML is intended primarily for a readership consisting of those who will be developing or implementing renderers or editors using it, or software that will communicate using MathML as a protocol for input or output. It is not a User's Guide but rather a reference document. MathML can be used to encode both mathematical notation and mathematical content. About thirty-eight of the MathML tags describe abstract notational structures, while another about one hundred and seventy provide a way of unambiguously specifying the intended meaning of an expression. Additional chapters discuss how the MathML content and presentation elements interact, and how MathML renderers might be implemented and should interact with browsers. Finally, this document addresses the issue of special characters used for mathematics, their handling in MathML, their presence in Unicode, and their relation to fonts. While MathML is human-readable, authors typically will use equation editors, conversion programs, and other specialized software tools to generate MathML. Several versions of such MathML tools exist, both freely available software and commercial products, and more are under development.</abstract>
         </spec>
         <spec id="system-info-api" status="NOTE">
-            <class ref="device">Defines an API to access various device characteristics.</class>
             <title>System Information API</title>
             <abstract>This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.</abstract>
         </spec>
         <spec id="telephony" status="NOTE">
-            <class ref="communications">Defines an API to manage telephone calls (e.g. dialer app).</class>
             <title>Web Telephony API</title>
             <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
         </spec>
         <spec id="discovery-api" status="WD">
-            <class ref="communications">Defines methods for an HTML document to communicate with HTTP services.</class>
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
         <spec id="generic-sensor" status="WD">
-            <class ref="device">Provides sensor access in a way that is independent from the specific sensor type.</class>
             <title>Generic Sensor API</title>
             <abstract>This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.</abstract>
         </spec>
         <spec id="app-lifecycle" ed="http://sysapps.github.io/app-lifecycle/" status="abandoned">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Application Lifecycle and Events</title>
             <abstract>This specification extends ServiceWorkerGlobalScope with APIs for managing the lifecycle of an application and associated events.</abstract>
         </spec>
         <spec id="ambient-light" status="WD">
-            <class ref="device">Provides access to light sensor of an device.</class>
             <title>Ambient Light Sensor</title>
             <abstract>This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.</abstract>
         </spec>
         <spec id="audioproc" status="WD">
-            <class ref="media">Extends browser capabilities to add advanced audio features.</class>
             <title>Audio Processing API</title>
             <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
         </spec>
         <spec id="html-transcript-src" status="NOTE">
-            <class ref="media">Introduces the transcript element for specifying media transcript content.</class>
             <title>A Transcript Extension for HTML</title>
             <abstract>This document describes an extension to HTML which explicitly identifies a transcript linked to a media object such as audio or video. It was created to meet requirements for transcriptions that are described in the Media Accessibility User Requirements (MAUR).</abstract>
         </spec>
         <spec id="html-picture-element" status="NOTE">
-            <class ref="media">Introduces the picture element to declare multiple image sources for different media queries.</class>
             <title>The picture Element</title>
             <abstract>This specification defines the HTML picture element and extends the img and source elements to allow authors to declaratively control or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.</abstract>
         </spec>
         <spec id="html-longdesc" status="REC">
-            <class ref="media">Provides the longdesc attribute to add or link a machine-discoverable description to an image.</class>
             <title>HTML Image Description Extension (longdesc)</title>
             <abstract>This specification defines a longdesc attribute (based on the longdesc attribute of HTML 4) to link descriptions to images in HTML5 content. By allowing a hyperlink inside another one, this document explicitly redefines the HTML concept of hyperlink in a limited set of circumstances.</abstract>
         </spec>
         <spec id="html-srcset" status="NOTE">
-            <class ref="media">Provides methods to include images in different quality for different viewports (e.g., phones, HD-displays).</class>
             <title>The srcset Attribute</title>
             <abstract>When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.</abstract>
         </spec>
         <spec id="media-source" status="CR">
-            <class ref="media">Allows JavaScript to dynamically construct media streams for audio/video element (incl. buffering model etc.).</class>
             <title>Media Source Extensions</title>
             <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.</abstract>
         </spec>
         <spec id="webvtt1" status="WD">
-            <class ref="media">Adds captions or subtitles to tracks.</class>
             <title>WebVTT: The Web Video Text Tracks Format</title>
             <abstract>This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML &lt;track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.</abstract>
         </spec>
         <spec id="webmidi" status="WD">
-            <class ref="ui">Represents the low-level software protocol of MIDI to build powerful MIDI software on top. Enable developers to enmuerate input/output interfaces and sending/receiving MIDI messages. Not limited to musical uses.</class>
             <title>Web MIDI API</title>
             <abstract> Some user agents have connected music devices, such as synthesizers, keyboard and other controllers, and drum machines. The widely adopted Musical Instrument Digital Interface (MIDI) protocol enables electronic musical instruments, controllers and computers to communicate and synchronize with each other. MIDI does not transmit audio signals: instead, it sends event messages about musical notes, controller signals for parameters such as volume, vibrato and panning, cues and clock signals to set the tempo, and system-specific MIDI communications (e.g. to remotely store synthesizer-specific patch data). This same protocol has become a standard for non-musical uses, such as show control, lighting and special effects control. This specification defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages. It is intended to enable non-music MIDI applications as well as music ones, by providing low-level access to the MIDI devices available on the users' systems. At the same time, the Web MIDI API is not intended to become a semantic controller platform; it is designed to expose the mechanics of MIDI input and output interfaces, and the practical aspects of sending and receiving MIDI messages, without identifying what those actions might mean semantically. To some users, "MIDI" has become synonymous with Standard MIDI Files and General MIDI. That is not the intent of this API; the use case of simply playing back a .SMF file is not within the purview of this specification (it could be considered a different format to be supported by the HTML5 &lt;audio> element, for example). The Web MIDI API is intended to enable direct access to devices that respond to MIDI - external synthesizers or lighting systems, for example, or even the software synthesizers that are built in to many common operating systems. The Web MIDI API is also explicitly designed to enable a new class of applications on the web that can respond to MIDI controller inputs - using external hardware controllers with physical buttons, knobs and sliders (as well as musical controllers like keyboard, guitar or wind instrument controllers) to control web applications. The Web MIDI API is also expected to be used in conjunction with other APIs and elements of the web platform, notably the Web Audio API and High-Resolution Time. This API is also intended to be familiar to users of MIDI APIs on other systems, such as Apple's CoreMIDI and Microsoft's Windows MIDI API.</abstract>
         </spec>
         <spec id="battery-status" status="PR">
-            <class ref="device">Provides information about battery status of an device.</class>
             <title>Battery Status API</title>
             <abstract>This specification defines an API that provides information about the battery status of the hosting device.</abstract>
         </spec>
         <spec id="wake-lock" status="WD">
-            <class ref="device">Allows application to request a wake lock.</class>
             <title>Wake Lock API</title>
             <abstract>This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).</abstract>
         </spec>
         <spec id="audio-output" status="WD">
-            <class ref="device">Provides information about available audio output devices.</class>
             <title>Audio Output Devices API</title>
             <abstract>This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.</abstract>
         </spec>
         <spec id="calendar-api" status="NOTE">
-            <class ref="environment">Provides access to calender of OS environment.</class>
             <title>Calendar API</title>
             <abstract>The Calendar API defines the high-level interfaces required to obtain read access to a user's calendaring service.</abstract>
         </spec>
         <spec id="clipboard-apis" status="WD">
-            <class ref="environment">Provides methods to redefine clipboard operations in web apps. (e.g., to reformat/cleanup rich content)</class>
             <title>Clipboard API and Events</title>
             <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
         </spec>
         <spec id="orientation-event" status="WD">
-            <class ref="device">Provides information about physical device orientation and motion (e.g., compass).</class>
             <title>DeviceOrientation Event Specification</title>
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
         <spec id="app-uri" status="NOTE">
-            <class ref="communications">[[ explanation needed ]].</class>
             <title>The app: URL scheme</title>
             <abstract>This specification defines the app: URL scheme. The app: URL scheme can be used by packaged applications to obtain resources that are inside a container. These resources can then be used with web platform features that accept URLs.</abstract>
         </spec>
         <spec id="FileAPI" status="WD">
-            <class ref="filesystem">Represents file objects. Includes interfaces for File, FileLists, Blobs, FileReader and a URL scheme to reference files within web apps.</class>
             <title>File API</title>
             <abstract>This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.</abstract>
         </spec>
         <spec id="file-system-api" status="NOTE">
-            <class ref="filesystem">Defines an API to navigate file system hierarchies.</class>
             <title>File API: Directories and System</title>
             <abstract>This specification defines an API to navigate file system hierarchies, and defines a means by which a user agent may expose sandboxed sections of a user's local filesystem to web applications. It builds on <q>File API: Writer</q>, which in turn built on <q>File API</q>, each adding a different kind of functionality.</abstract>
         </spec>
         <spec id="file-writer-api" status="NOTE">
-            <class ref="filesystem">Defines an API through which user agents can permit applications to write generated or downloaded files.</class>
             <title>File API: Writer</title>
             <abstract>This specification defines an API for writing to files from web applications. This API is designed to be used in conjunction with, and depends on definitions in, other APIs and elements on the web platform. Most relevant among these are <em>File API</em> and <em>Web Workers</em>.</abstract>
         </spec>
         <spec id="http://w3c.github.io/filesystem-api/" status="other">
-            <class ref="filesystem">Defines an API that allows creation of files and directories, and reading and writing of them.</class>
             <title>FileSystem API</title>
             <abstract>The FileSystem API defines functionality on a local sandboxed file system within the same origin of the Web Application that created it. It exposes standard file system operations to Web Applications, such as creation of files and directories, and reading and writing of them (from and to disk), including other programmatic manipulation of files and directories.</abstract>
         </spec>
         <spec id="wai-aria" status="REC">
-            <class ref="ui">Makes advanced Web applications accessible and usable to people with disabilities.</class>
             <title>Accessible Rich Internet Applications (WAI-ARIA) 1.0</title>
             <abstract>Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.</abstract>
         </spec>
         <spec id="html-aam-1.0" status="WD">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>HTML Accessibility API Mappings 1.0</title>
             <abstract>HTML Accessibility API Mappings (HTML-AAM) defines how user agents map HTML 5.1 elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.1 and the Accessible Name and Description: Computation and API Mappings 1.1 for use with the HTML 5.1 host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.</abstract>
         </spec>
         <spec id="html-aria" status="WD">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>ARIA in HTML</title>
             <abstract>This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.</abstract>
         </spec>
         <spec id="fullscreen" status="NOTE">
-            <class ref="ui">Provides information about fullscreen capabilities and actions.</class>
             <title>Fullscreen</title>
             <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
         </spec>
         <spec id="gamepad" status="WD">
-            <class ref="ui">Specifies interfaces to allow Web apps to act on gamepad data.</class>
             <title>Gamepad</title>
             <abstract>The Gamepad specification defines a low-level interface that represents gamepad devices.</abstract>
         </spec>
         <spec id="geolocation-API" status="REC">
-            <class ref="device">Provides access to device geolocation information.</class>
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
         </spec>
         <spec id="geofencing" status="WD" ed="https://w3c.github.io/geofencing-api/">
-            <class ref="device">Provides access to device geolocation information.</class>
             <title>Geofencing API</title>
             <abstract>This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.</abstract>
         </spec>
         <spec id="nfc" status="NOTE">
-            <class ref="device">Provides access to device NFC capabilities.</class>
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
         </spec>
         <spec id="2dcontext" status="REC">
-            <class ref="graphics">[[ explanation needed ]]</class>
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
         <spec id="2dcontext2" status="NOTE">
-            <class ref="graphics">[[ explanation needed ]]</class>
             <title>HTML Canvas 2D Context, Level 2</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
         <spec id="html-media-capture" status="CR">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
         </spec>
         <spec id="screen-capture" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Screen Capture</title>
             <abstract>This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.</abstract>
         </spec>
         <spec id="form-http-extensions" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>W3C HTML Form HTTP Extensions</title>
             <abstract>This is an addendum to the specification of HTML5 forms extending the abilities of configuring HTTP requests through HTML markup. This document has been developed as a result of work contributed in addressing HTML WG ISSUE-195: Enhance http request generation from forms.</abstract>
         </spec>
         <spec id="html-json-forms" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>W3C HTML JSON form submission</title>
             <abstract>This specification defines a new form encoding algorithm that enables the transmission of form data as JSON. Instead of capturing form data as essentially an array of key-value pairs which is the bread and butter of existing form encodings, it relies on a simple name attribute syntax that makes it possible to capture rich data structures as JSON directly.</abstract>
         </spec>
         <spec id="encrypted-media" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Encrypted Media Extensions</title>
             <abstract>This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.</abstract>
         </spec>
@@ -276,57 +208,46 @@
             <abstract>This specification defines two mechanism for communicating between browsing contexts in HTML documents.</abstract>
         </spec>
         <spec id="hr-time" status="REC">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>High Resolution Time</title>
             <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
         <spec id="hr-time-2" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
         <spec id="requestidlecallback" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Cooperative Scheduling of Background Tasks</title>
             <abstract>This document defines an API that web page authors can use to cooperatively schedule background tasks such that they do not introduce delays to other high priority tasks that share the same event loop, such as input processing, animations and frame compositing. The user agent is in a better position to determine when background tasks can be run without introducing user-perceptible delays or jank in animations and input response, based on its knowledge of currently scheduled tasks, vsync deadlines, user-interaction and so on. Using this API should therefore result in more appropriate scheduling of background tasks during times when the browser would otherwise be idle.</abstract>
         </spec>
         <spec id="https://storage.spec.whatwg.org/" status="other">
-            <class ref="storage">[[ explanation needed ]]</class>
             <title>Storage</title>
             <abstract>The Storage Standard defines an API for persistent storage and quota estimates, as well as the platform storage architecture.</abstract>
         </spec>
         <spec id="IndexedDB" status="REC">
-            <class ref="storage">Defines API for a key/value database.</class>
             <title>Indexed Database API</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
         </spec>
         <spec id="media-capture-api" status="NOTE">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Media Capture API</title>
             <abstract>This specification defines an Application Programming Interface (API) that provides access to the audio, image and video capture capabilities of the device.</abstract>
         </spec>
         <spec id="streamproc" status="NOTE">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>MediaStream Processing API</title>
             <abstract>A number of existing or proposed features for the Web platform deal with continuous real-time media: HTML media elements, Synchronization of multiple HTML media elements (e.g. proposed HTML MediaController), Capture and recording of local audio and video input (e.g. proposed HTML Streams), Peer-to-peer streaming of audio and video streams (e.g. proposed WebRTC and HTML Streams), and Advanced audio APIs that allow complex mixing and effects processing (e.g. Mozilla's AudioData, Chrome's AudioNode). Many use-cases require these features to work together. This proposal makes HTML Streams the foundation for integrated Web media processing by creating a mixing and effects processing API for HTML Streams.</abstract>
         </spec>
         <spec id="mediastream-recording" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>MediaStream Recording</title>
             <abstract>This document defines a recording API for use with MediaStreams as defined in Media Capture and Streams.</abstract>
         </spec>
         <spec id="mediacapture-depth" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Media Capture Depth Stream Extensions</title>
             <abstract>This specification extends the Media Capture and Streams specification to allow a depth-only stream or combined depth+video stream to be requested from the web platform using APIs familiar to web authors.</abstract>
         </spec>
         <spec id="mediacapture-fromelement" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Media Capture from DOM Elements</title>
             <abstract>This document defines how a stream of media can be captured from a DOM element, such as a &lt;video>, &lt;audio>, or &lt;canvas> element, in the form of a MediaStream.</abstract>
         </spec>
         <spec id="image-capture" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Mediastream Image Capture</title>
             <abstract>This document specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams as defined in Media Capture and Streams.</abstract>
         </spec>
@@ -335,52 +256,42 @@
             <abstract>WHATWG Streams API spec provides an API for representing and handling a stream of data in JavaScript. This W3C spec is intended to extend the WHATWG spec to meet requirements specific to the browser environment.</abstract>
         </spec>
         <spec id="messaging-api" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>The Messaging API</title>
             <abstract>This specification defines an API that provides access to messaging functionality in the device, including SMS, MMS and email.</abstract>
         </spec>
         <spec id="messaging" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Messaging API</title>
             <abstract>This specification defines a System Level API which offers a simple interface to get access to mobile messaging services. A typical use case of the Messaging API is the implementation of a messaging client application that allows the user to send SMS and MMS messages as well as to access and manage the received SMS and MMS messages.</abstract>
         </spec>
         <spec id="navigation-timing" status="REC">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Navigation Timing</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
         </spec>
         <spec id="navigation-timing-2" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Navigation Timing Level 2</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
         <spec id="network-error-logging" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Network Error Logging</title>
             <abstract>This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.</abstract>
         </spec>
         <spec id="frame-timing" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Frame Timing</title>
             <abstract>This specification defines an interface for web applications to access runtime performance information of the browser event loop, enabling them to identify and fix issues that cause delayed rendering, processing of input, and other critical work necessary to deliver a smooth and responsive user experience.</abstract>
         </spec>
         <spec id="page-visibility" status="REC">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Page Visibility</title>
             <abstract>This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.</abstract>
         </spec>
         <spec id="performance-timeline" status="REC">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
         </spec>
         <spec id="performance-timeline-2" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Performance Timeline Level 2</title>
             <abstract>This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.</abstract>
         </spec>
         <spec id="gallery" status="NOTE">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Pick Media Intent</title>
             <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. </abstract>
         </spec>
@@ -389,17 +300,14 @@
             <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.</abstract>
         </spec>
         <spec id="ime-api" status="WD">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>Input Method Editor API</title>
             <abstract>This specification defines an "IME API" that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition; and a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events.</abstract>
         </spec>
         <spec id="indie-ui-events" status="WD">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>IndieUI: Events 1.0</title>
             <abstract>IndieUI: Events 1.0 is an abstraction between physical, device-specific user interaction events and inferred user intent such as scrolling or changing values. This provides an intermediate layer between device- and modality-specific user interaction events, and the basic user interface functionality used by web applications. IndieUI: Events focuses on granular user interface interactions such as scrolling the view, canceling an action, changing the value of a user input widget, selecting a range, placing focus on an object, etc. Implementing platforms will combine modality-specific user input, user idiosyncratic heuristics to determine the specific corresponding Indie UI event, and send that to the web application in addition to the modality-specific input such as mouse or keyboard events, should applications wish to process it.</abstract>
         </spec>
         <spec id="indie-ui-context" status="WD">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>IndieUI: User Context 1.0</title>
             <abstract>IndieUI: User Context defines a set of preferences that users can choose to expose to web applications, and an API for user agents to access the preferences and listen for changes. User can set preferences for features such as screen and font size, color, and typographical preferences. Users with disabilities can provide information about assistive technologies in use, indicate that the display is in an accessibility mode, and indicate whether and what kind of subtitles and audio descriptions they need. Web applications can use this information to optimize the presentation without a requirement to target a specific device, operating system, or locale. While customizations based on these properties benefit users, the information could also be used to make assumptions about users or compromise anonymity. Therefore, the specification includes user agent requirements to allow users to opt out and choose not to expose information on a category basis to preserve privacy.</abstract>
         </spec>
@@ -408,147 +316,118 @@
             <abstract>This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.</abstract>
         </spec>
         <spec id="proximity" status="WD">
-            <class ref="device">Provides access to proximity sensor of an device.</class>
             <title>Proximity Events</title>
             <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
         </spec>
         <spec id="permissions" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>The Permissions API</title>
             <abstract>The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.</abstract>
         </spec>
         <spec id="quota-api" status="WD">
-            <class ref="storage">Defines an API to query and manage usage and availability of a user's local storage.</class>
             <title>Quota Management API</title>
             <abstract>This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.</abstract>
         </spec>
         <spec id="resource-timing" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Resource Timing</title>
             <abstract>This specification defines an interface for web applications to access timing information related to HTML elements.</abstract>
         </spec>
         <spec id="screen-orientation" status="WD">
-            <class ref="device">Provides access to device screen orientation (portrait/landscape).</class>
             <title>Screen Orientation API</title>
             <abstract>The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.</abstract>
         </spec>
         <spec id="selectors-api" status="REC">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>Selectors API Level 1</title>
             <abstract>The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.</abstract>
         </spec>
         <spec id="selectors-api2" status="NOTE">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>Selectors API Level 2</title>
             <abstract>The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.</abstract>
         </spec>
         <spec id="dom" status="REC">
-            <class ref="DOM">The core DOM specification.</class>
             <title>W3C DOM4</title>
             <abstract>DOM defines a platform-neutral model for events and node trees. DOM4 adds Mutation Observers as a replacement for Mutation Events.</abstract>
         </spec>
         <spec id="DOM-Parsing" status="CR">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>DOM Parsing and Serialization</title>
             <abstract>This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.</abstract>
         </spec>
         <spec id="html-templates" status="NOTE">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>HTML Templates</title>
             <abstract>This specification describes a method for declaring inert DOM subtrees in HTML and manipulating them to instantiate document fragments with identical contents.</abstract>
         </spec>
         <spec id="shadow-dom" status="WD">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>Shadow DOM</title>
             <abstract>This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.</abstract>
         </spec>
         <spec id="custom-elements" status="WD">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>Custom Elements</title>
             <abstract>This specification describes the method for enabling the author to define and use new types of DOM elements in a document.</abstract>
         </spec>
         <spec id="html-imports" status="WD">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>HTML Imports</title>
             <abstract>HTML Imports are a way to include and reuse HTML documents in other HTML documents.</abstract>
         </spec>
         <spec id="eventsource" status="REC">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Server-Sent Events</title>
             <abstract>This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</abstract>
         </spec>
         <spec id="push-api" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Push API</title>
             <abstract>The Push API enables sending of a push message to a webapp via a push service. An application server can send a push message at any time, even when a webapp or user agent is inactive. The push service ensures reliable and efficient delivery to the user agent. Push messages are delivered to a Service Worker that runs in the origin of the webapp, which can use the information in the message to update local state or display a notification to the user. This specification is designed for use with the web push protocol, which describes how an application server or user agent interacts with a push service.</abstract>
         </spec>
         <spec id="contacts-api" status="NOTE">
-            <class ref="environment">Provides access to contacts stored in system's address book.</class>
             <title>Pick Contacts Intent</title>
             <abstract>The Pick Contacts Intent defines a Web Intent that enables access to a user's address book service from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the contacts data that is returned by services implementing this specification.</abstract>
         </spec>
         <spec id="contacts-manager-api" status="NOTE">
-            <class ref="environment">[[ explanation needed ]]</class>
             <title>Contacts Manager API</title>
             <abstract>This specification defines a System Level API which offers a simple interface to manage user's contacts stored in the system's address book. A typical use case of the Contacts API is the implementation of an application to manage said address book.</abstract>
         </spec>
         <spec id="netinfo-api" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Network Information API</title>
             <abstract>The Network Information API provides an interface for web applications to access the underlying connection information of the device.</abstract>
         </spec>
         <spec id="websockets" status="CR">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>WebSocket API</title>
             <abstract>This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.</abstract>
         </spec>
         <spec id="tcp-udp-sockets" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>TCP and UDP Socket API</title>
             <abstract>This API provides interfaces to raw UDP sockets, TCP Client sockets and TCP Server sockets. As such, this requires a high level of trust in applications that use this API, since raw sockets can be used to work around the same origin security policy.</abstract>
         </spec>
         <spec id="animation-timing" status="NOTE">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Timing Control for Script-Based Animations</title>
             <abstract>This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.</abstract>
         </spec>
         <spec id="web-animations" status="WD">
-            <class ref="graphics">[[ explanation needed ]]</class>
             <title>Web Animations</title>
             <abstract>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.</abstract>
         </spec>
         <spec id="touch-events" status="REC">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>Touch Events</title>
             <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
         </spec>
         <spec id="presentation-api" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>Presentation API</title>
             <abstract>This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.</abstract>
         </spec>
         <spec id="touch-events-extensions" status="NOTE">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>Touch Events Extensions</title>
             <abstract>This document defines extensions to the Touch Events specification that have been implemented by one or more browsers. We recommend that user agents implement the Touch Events Recommendation and/or the newer Pointer Events specification instead. This document is no longer being developed.</abstract>
         </spec>
         <spec id="pointerevents" status="REC">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
         <spec id="uievents" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>UI Events Specification</title>
             <abstract>This specification defines UI Events which extend the DOM Event objects defined in DOM4. UI Events are those typically implemented by visual user agents for handling user interaction such as mouse and keyboard input.</abstract>
         </spec>
         <spec id="uievents-code" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>UI Events KeyboardEvent code Values</title>
             <abstract>This specification defines the values for the KeyboardEvent.code attribute, which is defined as part of the UI Events Specification. The code value contains information about the key event that can use used identify the physical key being pressed by the user.</abstract>
         </spec>
         <spec id="uievents-key" status="WD">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>UI Events KeyboardEvent key Values</title>
             <abstract>This specification defines the values for the KeyboardEvent.key attribute, which is defined as part of the Document Object Model (DOM) Level 3 Events Specification. The key attribute contains information about the character generated by the key event.</abstract>
         </spec>
@@ -557,62 +436,50 @@
             <abstract>The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.</abstract>
         </spec>
         <spec id="server-timing" status="WD">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Server Timing</title>
             <abstract>This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.</abstract>
         </spec>
         <spec id="user-timing" status="REC">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
         <spec id="vibration" status="REC">
-            <class ref="device">Provides access to device vibration capabilities and actions.</class>
             <title>Vibration API</title>
             <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
         </spec>
         <spec id="webaudio" status="WD">
-            <class ref="media">[[ explanation needed ]]</class>
             <title>Web Audio API</title>
             <abstract>This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly/C/C++ code), but direct JavaScript processing and synthesis is also supported. This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: XMLHttpRequest (using the responseType and response attributes). For games and interactive applications, it is anticipated to be used with the canvas 2D and WebGL 3D graphics APIs.</abstract>
         </spec>
         <spec id="webintents-local-services" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Web Intents Addendum &#8212; Local Services</title>
             <abstract>This specification is an addendum to Web Intents, that defines how Web Intents enabled User Agents can discover and communicate with local Web Intents Services.</abstract>
         </spec>
         <spec id="web-intents" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Web Intents</title>
             <abstract>This specification defines a service discovery and light-weight RPC mechanism for web apps called Web Intents. This document defines DOM interfaces and markup used by client and service pages to create, receive, and reply to Web Intents messages, and the procedures the User Agent carries out to facilitate that process.</abstract>
         </spec>
         <spec id="notifications" status="REC">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>Web Notifications</title>
             <abstract>Web notifications defines an API for end-user notifications. A notification allows alerting the user outside the context of a web page of an occurrence, such as the delivery of email.</abstract>
         </spec>
         <spec id="https://notifications.spec.whatwg.org/" status="other">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>Notifications API</title>
             <abstract>This standard defines an API to display notifications to the end user, typically outside the top-level browsing context's viewport. It is designed to be compatible with existing notification systems, while remaining platform-independent.</abstract>
         </spec>
         <spec id="task-scheduler" status="NOTE">
-            <class ref="environment">Provides support for scheduling tasks at specific times.</class>
             <title>Task Scheduler API Specification</title>
             <abstract>This specification defines an API to schedule a task at a specified time. When the indicated time is reached, the application that scheduled the task will be notified via a functional event on a service worker. A task event will be delivered to a service worker, regardless of whether the application is active on user agent. Applications such as an alarm clock or an auto-updater may utilize this API to perform certain action at a specified time.</abstract>
         </spec>
         <spec id="webdatabase" status="NOTE">
-            <class ref="storage">Defines methods to store and query information using SQL.</class>
             <title>Web SQL Database</title>
             <abstract>This specification defines an API for storing data in databases that can be queried using a variant of SQL.</abstract>
         </spec>
         <spec id="webstorage" status="REC">
-            <class ref="storage">Provides an API for persistent storing key/value pairs.</class>
             <title>Web Storage</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
         <spec id="webstorage" status="PR">
-            <class ref="storage">Provides an API for persistent storing key/value pairs.</class>
             <title>Web Storage (Second Edition)</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
@@ -629,82 +496,66 @@
             <abstract>This specification defines a JSON-based manifest that provides developers with a centralized place to put metadata associated with a web application. This includes, but is not limited to, the web application's name, links to icons, as well as the preferred URL to open when a user launches the web application. The manifest also allows developers to declare a default orientation for their web application, as well as providing the ability to set the display mode for the application (e.g., in fullscreen). Additionally, the manifest allows a developer to "scope" a web application to a URL. This restricts the URLs to which the application can be navigated and provides a means to "deep link" into a web application from other applications. Using this metadata, user agents can provide developers with means to create user experiences that are more comparable to that of a native application. In addition, this specification defines the manifest link type, which provides a declarative means for a document to be associated with a manifest.</abstract>
         </spec>
         <spec id="clear-site-data" status="WD">
-            <class ref="security">Allows to instruct a user agent to clear a user's locally stored data.</class>
             <title>Clear Site Data</title>
             <abstract>This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user's locally stored data related to a host and its subdomains.</abstract>
         </spec>
         <spec id="api-perms" status="NOTE">
-            <class ref="security">Describes permissions for device APIs.</class>
             <title>Permissions for Device API Access</title>
             <abstract>This document identifies the permissions that are needed to use specific client-side APIs which grant access to sensitive data and operations.</abstract>
         </spec>
         <spec id="CSP" status="NOTE">
-            <class ref="security">Describes a policy language for content restrictions.</class>
             <title>Content Security Policy 1.0</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
         <spec id="CSP2" status="CR">
-            <class ref="security">Describes a policy language for content restrictions.</class>
             <title>Content Security Policy Level 2</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
         <spec id="CSP3" status="WD">
-            <class ref="security">Describes a policy language for content restrictions.</class>
             <title>Content Security Policy Level 3</title>
             <abstract>This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions.</abstract>
         </spec>
         <spec id="powerful-features" status="WD">
-            <class ref="security">Guidelines for limiting features to secure contexts.</class>
             <title>Privileged Contexts</title>
             <abstract>This specification provides guidelines for user agent implementors and spec authors for implementing features whose properties dictate that they be exposed to the web only within a trustworthy environment.</abstract>
         </spec>
         <spec id="upgrade-insecure-requests" status="CR">
-            <class ref="security">Allows authors to upgrade resource requests from insecure to secure.</class>
             <title>Upgrade Insecure Requests</title>
             <abstract>This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.</abstract>
         </spec>
         <spec id="mixed-content" status="CR">
-            <class ref="security">How to mix secure and insecure resources.</class>
             <title>Mixed Content</title>
             <abstract>This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.</abstract>
         </spec>
         <spec id="selection-api" status="WD">
-            <class ref="security">How to select a portion of a document for subsequent operations.</class>
             <title>Selection API</title>
             <abstract>This document is a preliminary draft of a specification for the Selection API and selection related functionality. It replaces a couple of old sections of the HTML specification, the selection part of the old DOM Range specification. This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</abstract>
         </spec>
         <spec id="findtext" status="WD">
-            <class ref="security">How to find text in a document.</class>
             <title>FindText API</title>
             <abstract>The FindText API specification describes an API for finding ranges of text in a document or part of a document, using a variety of selection criteria.</abstract>
         </spec>
         <spec id="SRI" status="CR">
-            <class ref="security">Describes a way to define expected checksums for resources.</class>
             <title>Subresource Integrity</title>
             <abstract>This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.</abstract>
         </spec>
         <spec id="referrer-policy" status="WD">
-            <class ref="security">Describes a language for referrer policies.</class>
             <title>Referrer Policy</title>
             <abstract>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.</abstract>
         </spec>
         <spec id="WebCryptoAPI" status="CR">
-            <class ref="security">Describes how to perform cryptographic operations in Web apps.</class>
             <title>Web Cryptography API</title>
             <abstract>This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.</abstract>
         </spec>
         <spec id="webcrypto-key-discovery" status="NOTE">
-            <class ref="security">Provides methods to generate, derive, or import cryptographic key objects.</class>
             <title>WebCrypto Key Discovery</title>
             <abstract>This note describes a JavaScript API for discovering named, origin-specific pre-provisioned cryptographic keys for use with the Web Cryptography API. Pre-provisioned keys are keys which have been made available to the UA by means other than the generation, derivation, importation and unwrapping functions of the Web Cryptography API. Origin-specific keys are keys that are available only to a specified origin. Named keys are identified by a name assumed to be known to the origin in question and provisioned with the key itself. This note concerns only keys which have all three of these properties.</abstract>
         </spec>
         <spec id="runtime" status="NOTE">
-            <class ref="security">Describes a security model for Web apps.</class>
             <title>Runtime and Security Model for Web Applications</title>
             <abstract>This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.</abstract>
         </spec>
         <spec id="credential-management-1" status="WD">
-            <class ref="security">Describes an API for obtaining user credentials.</class>
             <title>Credential Management Level 1</title>
             <abstract>This specification describes an imperative API enabling a website to request a user's credentials from a user agent, and to help the user agent correctly store user credentials for future use.</abstract>
         </spec>
@@ -713,102 +564,82 @@
             <abstract>This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a browser. The WebDriver API is defined by a set of interfaces to discover and manipulate DOM elements on a page, and to control the behaviour of the containing browser. This specification also includes a non-normative reference useful for browser vendors.</abstract>
         </spec>
         <spec id="webrtc" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
             <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent over the network to another browser or device implementing the appropriate set of real-time protocols, and media to be received from another browser or device. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
         </spec>
         <spec id="webrtcstats" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Identifiers for WebRTC's Statistics API</title>
             <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
         </spec>
         <spec id="XMLHttpRequest" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>XMLHttpRequest</title>
             <abstract>The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.</abstract>
         </spec>
         <spec id="XMLHttpRequest2" status="NOTE">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>XMLHttpRequest Level 2</title>
             <abstract>The XMLHttpRequest Level 2 specification enhances the XMLHttpRequest object with new features, such as cross-origin requests, progress events, and the handling of byte streams for both sending and receiving.</abstract>
         </spec>
         <spec id="progress-events" status="REC">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Progress Events</title>
             <abstract>The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.</abstract>
         </spec>
         <spec id="cors" status="REC">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Cross-Origin Resource Sharing</title>
             <abstract>This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.</abstract>
         </spec>
         <spec id="cowl" status="WD">
-            <class ref="security">[[ explanation needed ]]</class>
             <title>Confinement with Origin Web Labels</title>
             <abstract>This specification defines an API for specifying privacy and integrity policies on data, in the form of origin labels, and a mechanism for confining code according to such policies. This allows Web application authors and server operators to share data with untrusted—buggy but not malicious—code (e.g., in a mashup scenario) yet impose restrictions on how the code can share the data further.</abstract>
         </spec>
         <spec id="resource-priorities" status="NOTE">
-            <class ref="monitoring">[[ explanation needed ]]</class>
             <title>Resource Priorities</title>
             <abstract>This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.</abstract>
         </spec>
         <spec id="resource-hints" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Resource Hints</title>
             <abstract>This specification defines the dns-prefetch, preconnect, prefetch, and prerender relationships of the HTML Link Element (&lt;link>). These primitives enable the developer, and the server generating or delivering the resources, to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch and preprocess to improve page performance.</abstract>
         </spec>
         <spec id="preload" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Preload</title>
             <abstract>This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
         </spec>
         <spec id="micropub" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Micropub</title>
             <abstract>Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</abstract>
         </spec>
         <spec id="beacon" status="WD">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Beacon</title>
             <abstract>This specification defines an interoperable means for site developers to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.</abstract>
         </spec>
         <spec id="encoding" status="WD">
-            <class ref="DOM">[[ explanation needed ]]</class>
             <title>Encoding</title>
             <abstract>While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge.</abstract>
         </spec>
         <spec id="https://fetch.spec.whatwg.org/" status="other">
-            <class ref="communications">[[ explanation needed ]]</class>
             <title>Fetch</title>
             <abstract>The Fetch standard defines requests, responses, and the process that binds them; fetching.</abstract>
         </spec>
         <spec id="https://fullscreen.spec.whatwg.org/" status="other">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>Fullscreen API</title>
             <abstract>Fullscreen defines the fullscreen API for the web platform.</abstract>
         </spec>
         <spec id="https://webbluetoothcg.github.io/web-bluetooth/" status="other">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>Web Bluetooth</title>
             <abstract>This document describes an API to discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).</abstract>
         </spec>
         <spec id="http://w3c.github.io/web-nfc/" status="other">
-            <class ref="device">[[ explanation needed ]]</class>
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) enables wireless communication between two devices at close proximity, usually less than a few centimeters. NFC is an international standard (ISO/IEC 18092) defining an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. This specification defines an API to manage selected NFC use-cases from web pages, and to enable new use-cases based on NFC technology.</abstract>
         </spec>
         <spec id="https://www.khronos.org/registry/webgl/specs/latest/1.0/" status="other">
-            <class ref="graphics">[[ explanation needed ]]</class>
             <title>WebGL 1.0</title>
             <abstract>This specification describes an additional rendering context and support objects for the HTML 5 canvas element. This context allows rendering using an API that conforms closely to the OpenGL ES 2.0 API.</abstract>
         </spec>
         <spec id="https://www.khronos.org/registry/webgl/specs/latest/2.0/" status="other">
-            <class ref="graphics">[[ explanation needed ]]</class>
             <title>WebGL 2.0</title>
             <abstract>This is Version 2.0 of the WebGL Specification. This specification describes an additional rendering context and support objects for the HTML 5 canvas element. This context allows rendering using an API that conforms closely to the OpenGL ES 3.0 API. This document should be read as an extension to the WebGL 1.0 specification. It will only describe the differences from 1.0.</abstract>
         </spec>
         <spec id="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html" status="other">
-            <class ref="ui">[[ explanation needed ]]</class>
             <title>Web Speech API Specification</title>
             <abstract>This specification defines a JavaScript API to enable web developers to incorporate speech recognition and synthesis into their web pages. It enables developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control. The JavaScript API allows web pages to control activation and timing and to handle results and alternatives.</abstract>
         </spec>
