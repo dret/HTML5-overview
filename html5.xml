@@ -171,6 +171,18 @@
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
         </spec>
+        <spec id="payment-request" status="WD">
+            <title>Payment Request API</title>
+            <abstract>This specification describes a web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration. User agents (e.g. browsers) will facilitate the payment flow between merchant and user.</abstract>
+        </spec>
+        <spec id="payment-method-id" status="WD">
+            <title>Payment Method Identifiers</title>
+            <abstract>The Payment Request API requires that merchants supply a list identifiers for supported payment methods. This document defines those identifier strings and how they are created.</abstract>
+        </spec>
+        <spec id="payment-method-basic-card" status="WD">
+            <title>Basic Card Payment</title>
+            <abstract>The Basic Card Payment specification describes the data formats used by the PaymentRequest API to support payment by payment cards such as credit or debit cards.</abstract>
+        </spec>
         <spec id="2dcontext" status="REC">
             <title>HTML Canvas 2D Context</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
@@ -649,6 +661,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
         <entry date="2016-04-19">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from PR to REC</entry>
         <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
         <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a> from WD to NOTE</entry>

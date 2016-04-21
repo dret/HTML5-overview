@@ -1,12 +1,12 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 155 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 158 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 105 current specifications (grouped by status), while [a separate page lists 39 specifications where development has stopped](MD/abandoned.md) (144 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 108 current specifications (grouped by status), while [a separate page lists 39 specifications where development has stopped](MD/abandoned.md) (147 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (105 Specs)
+## W3C TR Specifications (108 Specs)
 
 ### Recommendations (24 Specs)
 
@@ -52,12 +52,13 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 
-### Working Drafts (70 Specs)
+### Working Drafts (73 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Sensor](http://www.w3.org/TR/ambient-light "This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.")
 * [Audio Output Devices API](http://www.w3.org/TR/audio-output "This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.")
 * [Audio Processing API](http://www.w3.org/TR/audioproc "This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.")
+* [Basic Card Payment](http://www.w3.org/TR/payment-method-basic-card "The Basic Card Payment specification describes the data formats used by the PaymentRequest API to support payment by payment cards such as credit or debit cards.")
 * [Beacon](http://www.w3.org/TR/beacon "This specification defines an interoperable means for site developers to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.")
 * [Clear Site Data](http://www.w3.org/TR/clear-site-data "This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user's locally stored data related to a host and its subdomains.")
 * [Clipboard API and Events](http://www.w3.org/TR/clipboard-apis "This document describes APIs for clipboard operations such as copy, cut and paste in web applications.")
@@ -92,6 +93,8 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Navigation Timing Level 2](http://www.w3.org/TR/navigation-timing-2 "This specification defines an interface for web applications to access the complete timing information for navigation of a document.")
 * [Network Error Logging](http://www.w3.org/TR/network-error-logging "This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")
+* [Payment Method Identifiers](http://www.w3.org/TR/payment-method-id "The Payment Request API requires that merchants supply a list identifiers for supported payment methods. This document defines those identifier strings and how they are created.")
+* [Payment Request API](http://www.w3.org/TR/payment-request "This specification describes a web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration. User agents (e.g. browsers) will facilitate the payment flow between merchant and user.")
 * [Performance Timeline Level 2](http://www.w3.org/TR/performance-timeline-2 "This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.")
 * [Preload](http://www.w3.org/TR/preload "This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.")
 * [Presentation API](http://www.w3.org/TR/presentation-api "This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.")
