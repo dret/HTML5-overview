@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* April 26, 2016: renaming ["Privileged Contexts"](http://www.w3.org/TR/powerful-features) to ["Secure Contexts"](http://www.w3.org/TR/secure-contexts)
 * April 21, 2016: added ["Payment Request API"](http://www.w3.org/TR/payment-request/), ["Payment Method Identifiers"](http://www.w3.org/TR/payment-method-id/), and ["Basic Card Payment"](http://www.w3.org/TR/payment-method-basic-card/)
 * April 19, 2016: changed status of ["Web Storage (Second Edition)"](http://www.w3.org/TR/webstorage/) from PR to REC
 * April 7, 2016: added ["Reporting API 1"](http://www.w3.org/TR/reporting-1/)

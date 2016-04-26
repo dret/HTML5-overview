@@ -531,9 +531,9 @@
             <title>Content Security Policy Level 3</title>
             <abstract>This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions.</abstract>
         </spec>
-        <spec id="powerful-features" status="WD">
-            <title>Privileged Contexts</title>
-            <abstract>This specification provides guidelines for user agent implementors and spec authors for implementing features whose properties dictate that they be exposed to the web only within a trustworthy environment.</abstract>
+        <spec id="secure-contexts" status="WD">
+            <title>Secure Contexts</title>
+            <abstract>This specification defines "secure contexts", thereby allowing user agent implementers and specification authors to enable certain features only when certain minimum standards of authentication and confidentiality are met.</abstract>
         </spec>
         <spec id="upgrade-insecure-requests" status="CR">
             <title>Upgrade Insecure Requests</title>
@@ -661,6 +661,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-04-26">renaming <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> to <a href="http://www.w3.org/TR/secure-contexts"><q>Secure Contexts</q></a></entry>
         <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
         <entry date="2016-04-19">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from PR to REC</entry>
         <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
