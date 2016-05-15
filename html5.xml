@@ -315,7 +315,7 @@
             <title>Pointer Lock</title>
             <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.</abstract>
         </spec>
-        <spec id="ime-api" status="WD">
+        <spec id="ime-api" status="NOTE">
             <title>Input Method Editor API</title>
             <abstract>This specification defines an "IME API" that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition; and a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events.</abstract>
         </spec>
@@ -339,7 +339,7 @@
             <title>The Permissions API</title>
             <abstract>The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.</abstract>
         </spec>
-        <spec id="quota-api" status="WD">
+        <spec id="quota-api" status="NOTE">
             <title>Quota Management API</title>
             <abstract>This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.</abstract>
         </spec>
@@ -661,6 +661,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-05-15">changed status of <a href="http://www.w3.org/TR/quota-api/"><q>Quota Management API</q></a> and <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a> from WD to NOTE</entry>
         <entry date="2016-04-26">renaming <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> to <a href="http://www.w3.org/TR/secure-contexts"><q>Secure Contexts</q></a></entry>
         <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
         <entry date="2016-04-19">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from PR to REC</entry>
