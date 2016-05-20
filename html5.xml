@@ -247,6 +247,10 @@
             <title>MediaStream Processing API</title>
             <abstract>A number of existing or proposed features for the Web platform deal with continuous real-time media: HTML media elements, Synchronization of multiple HTML media elements (e.g. proposed HTML MediaController), Capture and recording of local audio and video input (e.g. proposed HTML Streams), Peer-to-peer streaming of audio and video streams (e.g. proposed WebRTC and HTML Streams), and Advanced audio APIs that allow complex mixing and effects processing (e.g. Mozilla's AudioData, Chrome's AudioNode). Many use-cases require these features to work together. This proposal makes HTML Streams the foundation for integrated Web media processing by creating a mixing and effects processing API for HTML Streams.</abstract>
         </spec>
+        <spec id="mediastream-streams" status="CR">
+            <title>Media Capture and Streams</title>
+            <abstract>This document defines a set of JavaScript APIs that allow local media, including audio and video, to be requested from a platform.</abstract>
+        </spec>
         <spec id="mediastream-recording" status="WD">
             <title>MediaStream Recording</title>
             <abstract>This document defines a recording API for use with MediaStreams as defined in Media Capture and Streams.</abstract>
@@ -661,6 +665,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-05-19">added <a href="http://www.w3.org/TR/mediacapture-streams/"><q>Media Capture and Streams</q></a></entry>
         <entry date="2016-05-15">changed status of <a href="http://www.w3.org/TR/quota-api/"><q>Quota Management API</q></a> and <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a> from WD to NOTE</entry>
         <entry date="2016-04-26">renaming <a href="http://www.w3.org/TR/powerful-features"><q>Privileged Contexts</q></a> to <a href="http://www.w3.org/TR/secure-contexts"><q>Secure Contexts</q></a></entry>
         <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
