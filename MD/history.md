@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* May 24, 2016: added ["Webmention"](http://www.w3.org/TR/webmention/)
 * May 19, 2016: added ["Media Capture and Streams"](http://www.w3.org/TR/mediacapture-streams/)
 * May 15, 2016: changed status of ["Quota Management API"](http://www.w3.org/TR/quota-api/) and ["Input Method Editor API"](http://www.w3.org/TR/ime-api/) from WD to NOTE
 * April 26, 2016: renaming ["Privileged Contexts"](http://www.w3.org/TR/powerful-features) to ["Secure Contexts"](http://www.w3.org/TR/secure-contexts)
