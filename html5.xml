@@ -291,11 +291,11 @@
             <title>Reporting API 1</title>
             <abstract>This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.</abstract>
         </spec>
-        <spec id="network-error-logging" status="WD">
+        <spec id="network-error-logging" status="NOTE">
             <title>Network Error Logging</title>
             <abstract>This document defines a mechanism that enables developers to declare a network error reporting policy for a web application. A user agent can use this policy to report encountered network errors that prevented it from successfully fetching requested resources.</abstract>
         </spec>
-        <spec id="frame-timing" status="WD">
+        <spec id="frame-timing" status="NOTE">
             <title>Frame Timing</title>
             <abstract>This specification defines an interface for web applications to access runtime performance information of the browser event loop, enabling them to identify and fix issues that cause delayed rendering, processing of input, and other critical work necessary to deliver a smooth and responsive user experience.</abstract>
         </spec>
@@ -459,7 +459,7 @@
             <title>URL</title>
             <abstract>The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.</abstract>
         </spec>
-        <spec id="server-timing" status="WD">
+        <spec id="server-timing" status="NOTE">
             <title>Server Timing</title>
             <abstract>This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.</abstract>
         </spec>
@@ -669,6 +669,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-05-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a>, and <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> from WD to NOTE</entry>
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
         <entry date="2016-05-19">added <a href="http://www.w3.org/TR/mediacapture-streams/"><q>Media Capture and Streams</q></a></entry>
         <entry date="2016-05-15">changed status of <a href="http://www.w3.org/TR/quota-api/"><q>Quota Management API</q></a> and <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a> from WD to NOTE</entry>
