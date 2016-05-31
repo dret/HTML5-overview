@@ -551,6 +551,10 @@
             <title>Mixed Content</title>
             <abstract>This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.</abstract>
         </spec>
+        <spec id="webauthn" status="WD">
+            <title>Web Authentication: A Web API for accessing scoped credentials</title>
+            <abstract>This specification defines an API that enables web pages to access WebAuthn compliant strong cryptographic credentials through browser script. Conceptually, one or more credentials are stored on an authenticator, and each credential is scoped to a single Relying Party. Authenticators are responsible for ensuring that no operation is performed without the user’s consent. The user agent mediates access to credentials in order to preserve user privacy. Authenticators use attestation to provide cryptographic proof of their properties to the relying party. This specification also describes a functional model of a WebAuthn compliant authenticator, including its signature and attestation functionality.</abstract>
+        </spec>
         <spec id="selection-api" status="WD">
             <title>Selection API</title>
             <abstract>This document is a preliminary draft of a specification for the Selection API and selection related functionality. It replaces a couple of old sections of the HTML specification, the selection part of the old DOM Range specification. This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</abstract>
@@ -669,6 +673,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
         <entry date="2016-05-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a>, and <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> from WD to NOTE</entry>
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
         <entry date="2016-05-19">added <a href="http://www.w3.org/TR/mediacapture-streams/"><q>Media Capture and Streams</q></a></entry>
