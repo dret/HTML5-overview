@@ -569,7 +569,7 @@
         </spec>
         <spec id="referrer-policy" status="WD">
             <title>Referrer Policy</title>
-            <abstract>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.</abstract>
+            <abstract>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the Referer HTTP header for outgoing requests and navigations.</abstract>
         </spec>
         <spec id="WebCryptoAPI" status="CR">
             <title>Web Cryptography API</title>
