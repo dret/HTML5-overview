@@ -3,7 +3,7 @@
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. For a list of stable or currently developed HTML5 documents, please visit the [HTML5 Overview's main page](../).
 
 
-### Notes (44 Specs)
+### Notes (45 Specs)
 
 Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
@@ -29,6 +29,7 @@ Please keep in mind that [W3C NOTE documents have no official standing and often
 * [Pick Media Intent](http://www.w3.org/TR/gallery "The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. ")
 * [Programmable HTTP Caching and Serving](http://www.w3.org/TR/DataCache "This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.")
 * [Quota Management API](http://www.w3.org/TR/quota-api "This specification defines an API to manage usage and availability of local storage resources, and defines a means by which a user agent (UA) may grant Web applications permission to use more local space, temporarily or persistently, via various different storage APIs.")
+* [Reporting API 1](http://www.w3.org/TR/reporting-1 "This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.")
 * [Resource Priorities](http://www.w3.org/TR/resource-priorities "This specification defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource. This will allow User Agents to more efficiently manage the order in which resources are downloaded.")
 * [Runtime and Security Model for Web Applications](http://www.w3.org/TR/runtime "This document specifies a runtime and security model for Web Applications. It describes how an application is defined through an application manifest, and how it can be installed, updated and packaged. It also specifies how such an application can be put into the background, be put back in the foreground or woken up. Finally, the document describes the security model for such applications. This includes the permission model and the different security rules that would apply.")
 * [Selectors API Level 2](http://www.w3.org/TR/selectors-api2 "The Selectors API specification defines methods for retrieving element nodes from the DOM by matching against a group of selectors, and for testing if a given element matches a particular selector.")

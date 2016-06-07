@@ -2,11 +2,11 @@
 
 HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 161 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 106 current specifications (grouped by status), while [a separate page lists 44 specifications where development has stopped](MD/abandoned.md) (150 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 105 current specifications (grouped by status), while [a separate page lists 45 specifications where development has stopped](MD/abandoned.md) (150 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (106 Specs)
+## W3C TR Specifications (105 Specs)
 
 ### Recommendations (24 Specs)
 
@@ -54,7 +54,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 * [Webmention](http://www.w3.org/TR/webmention "Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.")
 
-### Working Drafts (69 Specs)
+### Working Drafts (68 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Sensor](http://www.w3.org/TR/ambient-light "This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.")
@@ -99,8 +99,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Presentation API](http://www.w3.org/TR/presentation-api "This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.")
 * [Proximity Events](http://www.w3.org/TR/proximity "This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. ")
 * [Push API](http://www.w3.org/TR/push-api "The Push API enables sending of a push message to a webapp via a push service. An application server can send a push message at any time, even when a webapp or user agent is inactive. The push service ensures reliable and efficient delivery to the user agent. Push messages are delivered to a Service Worker that runs in the origin of the webapp, which can use the information in the message to update local state or display a notification to the user. This specification is designed for use with the web push protocol, which describes how an application server or user agent interacts with a push service.")
-* [Referrer Policy](http://www.w3.org/TR/referrer-policy "This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the referer HTTP header for outgoing requests and navigations.")
-* [Reporting API 1](http://www.w3.org/TR/reporting-1 "This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.")
+* [Referrer Policy](http://www.w3.org/TR/referrer-policy "This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the Referer HTTP header for outgoing requests and navigations.")
 * [Resource Hints](http://www.w3.org/TR/resource-hints "This specification defines the dns-prefetch, preconnect, prefetch, and prerender relationships of the HTML Link Element (<link>). These primitives enable the developer, and the server generating or delivering the resources, to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch and preprocess to improve page performance.")
 * [Resource Timing](http://www.w3.org/TR/resource-timing "This specification defines an interface for web applications to access timing information related to HTML elements.")
 * [Screen Capture](http://www.w3.org/TR/screen-capture "This document defines how a user's display, or parts thereof, can be used as the source of a media stream using getOutputMedia, an extension to the Media Capture API.")

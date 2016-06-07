@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* June 7, 2016: changed status of ["Reporting API 1"](http://www.w3.org/TR/reporting-1/) from WD to NOTE
 * May 31, 2016: added ["Web Authentication: A Web API for accessing scoped credentials"](http://www.w3.org/TR/webauthn/)
 * May 25, 2016: changed status of ["Network Error Logging"](http://www.w3.org/TR/network-error-logging/), ["Server Timing"](http://www.w3.org/TR/server-timing), and ["Frame Timing"](http://www.w3.org/TR/frame-timing/) from WD to NOTE
 * May 24, 2016: added ["Webmention"](http://www.w3.org/TR/webmention/)

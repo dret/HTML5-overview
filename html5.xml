@@ -287,7 +287,7 @@
             <title>Navigation Timing Level 2</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
-        <spec id="reporting-1" status="WD">
+        <spec id="reporting-1" status="NOTE">
             <title>Reporting API 1</title>
             <abstract>This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.</abstract>
         </spec>
@@ -673,6 +673,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-06-07">changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from WD to NOTE</entry>
         <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
         <entry date="2016-05-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a>, and <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> from WD to NOTE</entry>
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
