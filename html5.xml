@@ -511,6 +511,10 @@
             <title>Web Workers</title>
             <abstract>This specification defines an API that allows Web application authors to spawn background workers running scripts in parallel to their main page. This allows for thread-like operation with message-passing as the coordination mechanism.</abstract>
         </spec>
+        <spec id="worklets-1" status="WD">
+            <title>Worklets Level 1</title>
+            <abstract>This specification defines an API for running scripts in stages of the rendering pipeline independent of the main JavaScript execution environment.</abstract>
+        </spec>
         <spec id="service-workers" status="WD">
             <title>Service Workers</title>
             <abstract>This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.</abstract>
@@ -673,7 +677,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-06-07">changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from WD to NOTE</entry>
+        <entry date="2016-06-07">added <a href="http://www.w3.org/TR/worklets-1/"><q>Worklets Level 1</q></a>; changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from WD to NOTE</entry>
         <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
         <entry date="2016-05-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, <a href="http://www.w3.org/TR/server-timing"><q>Server Timing</q></a>, and <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> from WD to NOTE</entry>
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>

@@ -1,12 +1,12 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 161 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 162 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 105 current specifications (grouped by status), while [a separate page lists 45 specifications where development has stopped](MD/abandoned.md) (150 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 106 current specifications (grouped by status), while [a separate page lists 45 specifications where development has stopped](MD/abandoned.md) (151 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (105 Specs)
+## W3C TR Specifications (106 Specs)
 
 ### Recommendations (24 Specs)
 
@@ -54,7 +54,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 * [Webmention](http://www.w3.org/TR/webmention "Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.")
 
-### Working Drafts (68 Specs)
+### Working Drafts (69 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Sensor](http://www.w3.org/TR/ambient-light "This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.")
@@ -123,6 +123,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [WebDriver](http://www.w3.org/TR/webdriver "This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a browser. The WebDriver API is defined by a set of interfaces to discover and manipulate DOM elements on a page, and to control the behaviour of the containing browser. This specification also includes a non-normative reference useful for browser vendors.")
 * [WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/webrtc "This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent over the network to another browser or device implementing the appropriate set of real-time protocols, and media to be received from another browser or device. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.")
 * [WebVTT: The Web Video Text Tracks Format](http://www.w3.org/TR/webvtt1 "This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML <track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.")
+* [Worklets Level 1](http://www.w3.org/TR/worklets-1 "This specification defines an API for running scripts in stages of the rendering pipeline independent of the main JavaScript execution environment.")
 * [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest "The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.")
 
 ## Non-W3C Specifications (10 Specs)
