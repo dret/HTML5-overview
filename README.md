@@ -39,10 +39,11 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 
 * [Battery Status API](http://www.w3.org/TR/battery-status "This specification defines an API that provides information about the battery status of the hosting device.")
 
-### Candidate Recommendations (12 Specs)
+### Candidate Recommendations (13 Specs)
 
 * [Content Security Policy Level 2](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
 * [DOM Parsing and Serialization](http://www.w3.org/TR/DOM-Parsing "This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.")
+* [HTML 5.1](http://www.w3.org/TR/html51 "This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.")
 * [HTML Media Capture](http://www.w3.org/TR/html-media-capture "This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.")
 * [Media Capture and Streams](http://www.w3.org/TR/mediastream-streams "This document defines a set of JavaScript APIs that allow local media, including audio and video, to be requested from a platform.")
 * [Media Source Extensions](http://www.w3.org/TR/media-source "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.")
@@ -54,7 +55,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 * [Webmention](http://www.w3.org/TR/webmention "Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.")
 
-### Working Drafts (70 Specs)
+### Working Drafts (69 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Sensor](http://www.w3.org/TR/ambient-light "This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.")
@@ -77,7 +78,6 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Gamepad](http://www.w3.org/TR/gamepad "The Gamepad specification defines a low-level interface that represents gamepad devices.")
 * [Generic Sensor API](http://www.w3.org/TR/generic-sensor "This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.")
 * [Geofencing API](http://www.w3.org/TR/geofencing "This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.") ([ED](https://w3c.github.io/geofencing-api/ "Editor's Draft"))
-* [HTML 5.1](http://www.w3.org/TR/html51 "This specification defines the 5th major version, first minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.")
 * [HTML Accessibility API Mappings 1.0](http://www.w3.org/TR/html-aam-1.0 "HTML Accessibility API Mappings (HTML-AAM) defines how user agents map HTML 5.1 elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.1 and the Accessible Name and Description: Computation and API Mappings 1.1 for use with the HTML 5.1 host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.")
 * [HTML Imports](http://www.w3.org/TR/html-imports "HTML Imports are a way to include and reuse HTML documents in other HTML documents.")
 * [High Resolution Time Level 2](http://www.w3.org/TR/hr-time-2 "This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.")
