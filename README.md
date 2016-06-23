@@ -8,7 +8,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 
 ## W3C TR Specifications (108 Specs)
 
-### Recommendations (24 Specs)
+### Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://www.w3.org/TR/wai-aria "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.")
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors "This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.")
@@ -27,6 +27,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Progress Events](http://www.w3.org/TR/progress-events "The Progress Events specification defines an event interface that can be used for measuring progress; e.g. HTTP entity body transfers. This specification is primarily meant to be used by other specifications.")
 * [Selectors API Level 1](http://www.w3.org/TR/selectors-api "The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors.")
 * [Server-Sent Events](http://www.w3.org/TR/eventsource "This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.")
+* [Subresource Integrity](http://www.w3.org/TR/SRI "This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.")
 * [Touch Events](http://www.w3.org/TR/touch-events "The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.")
 * [User Timing](http://www.w3.org/TR/user-timing "This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.")
 * [Vibration API](http://www.w3.org/TR/vibration "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.")
@@ -39,7 +40,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 
 * [Battery Status API](http://www.w3.org/TR/battery-status "This specification defines an API that provides information about the battery status of the hosting device.")
 
-### Candidate Recommendations (13 Specs)
+### Candidate Recommendations (12 Specs)
 
 * [Content Security Policy Level 2](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
 * [DOM Parsing and Serialization](http://www.w3.org/TR/DOM-Parsing "This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.")
@@ -49,7 +50,6 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Media Source Extensions](http://www.w3.org/TR/media-source "This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.")
 * [Mixed Content](http://www.w3.org/TR/mixed-content "This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.")
 * [Pointer Lock](http://www.w3.org/TR/pointerlock "This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.")
-* [Subresource Integrity](http://www.w3.org/TR/SRI "This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.")
 * [Upgrade Insecure Requests](http://www.w3.org/TR/upgrade-insecure-requests "This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.")
 * [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI "This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.")
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")

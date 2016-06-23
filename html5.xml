@@ -575,7 +575,7 @@
             <title>FindText API</title>
             <abstract>The FindText API specification describes an API for finding ranges of text in a document or part of a document, using a variety of selection criteria.</abstract>
         </spec>
-        <spec id="SRI" status="CR">
+        <spec id="SRI" status="REC">
             <title>Subresource Integrity</title>
             <abstract>This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.</abstract>
         </spec>
@@ -685,7 +685,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-06-23">added <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a></entry>
+        <entry date="2016-06-23">added <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a>; changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from CR to REC</entry>
         <entry date="2016-06-22">changed status of <a href="http://www.w3.org/TR/html51"><q>HTML 5.1</q></a> from WD to CR</entry>
         <entry date="2016-06-07">added <a href="http://www.w3.org/TR/worklets-1/"><q>Worklets Level 1</q></a> and <a href="http://www.w3.org/TR/UISecurity/"><q>User Interface Security and the Visibility API</q></a>; changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from WD to NOTE</entry>
         <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
