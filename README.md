@@ -1,12 +1,12 @@
 # HTML5 Overview
 
-HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 163 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
+HTML5 is more a movement (or maybe it's more appropriate to call it a *brand*) than it is a technology. It says "more power to the browser" but mostly means "more power to the browser *as a programming platform*". Given this focus of HTML5, it is surprisingly hard to find a good place where all the APIs under development are listed. This collection is an attempt to have all that information in one place. The current status captured here lists 164 specifications. However, since the HTML5 landscape is changing fairly quickly, it is likely that some information on this page is outdated. If that is the case, please submit an issue or create a pull request (please keep in mind that the [MD](README.md) is generated from [XML](html5.xml) via [XSLT](XSLT/xml2md.xsl)). Thanks!
 
-Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 107 current specifications (grouped by status), while [a separate page lists 45 specifications where development has stopped](MD/abandoned.md) (152 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
+Most HTML5 specifications are [W3C](http://www.w3.org/ "World Wide Web Consortium") [TR track documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), and of those this page lists 108 current specifications (grouped by status), while [a separate page lists 45 specifications where development has stopped](MD/abandoned.md) (153 W3C documents overall). HTML5 specifications are also developed in other places, and this page lists 10 of these other specifications.
 
 Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), first W3C TR (grouped by status), and then others (except for the [separately listed abandoned specs](MD/abandoned.md)):
 
-## W3C TR Specifications (107 Specs)
+## W3C TR Specifications (108 Specs)
 
 ### Recommendations (24 Specs)
 
@@ -55,7 +55,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [WebSocket API](http://www.w3.org/TR/websockets "This specification defines an API that enables Web pages to use the WebSocket protocol (defined by the IETF) for two-way communication with a remote host.")
 * [Webmention](http://www.w3.org/TR/webmention "Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.")
 
-### Working Drafts (69 Specs)
+### Working Drafts (70 Specs)
 
 * [ARIA in HTML](http://www.w3.org/TR/html-aria "This specification defines the web developer rules (author conformance requirements) for the use of WAI-ARIA attributes on HTML 5.1 elements. It also defines requirements for Conformance Checking tools.")
 * [Ambient Light Sensor](http://www.w3.org/TR/ambient-light "This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.")
@@ -92,6 +92,7 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Micropub](http://www.w3.org/TR/micropub "Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.")
 * [Navigation Timing Level 2](http://www.w3.org/TR/navigation-timing-2 "This specification defines an interface for web applications to access the complete timing information for navigation of a document.")
 * [Network Service Discovery](http://www.w3.org/TR/discovery-api "This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.")
+* [Page Visibility 2](http://www.w3.org/TR/page-visibility-2 "This specification defines a means to programmatically determine the visibility state of a document. This can aid in the development of power and CPU efficient web applications.")
 * [Payment Method Identifiers](http://www.w3.org/TR/payment-method-id "The Payment Request API requires that merchants supply a list identifiers for supported payment methods. This document defines those identifier strings and how they are created.")
 * [Payment Request API](http://www.w3.org/TR/payment-request "This specification describes a web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration. User agents (e.g. browsers) will facilitate the payment flow between merchant and user.")
 * [Performance Timeline Level 2](http://www.w3.org/TR/performance-timeline-2 "This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.")
