@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* July 5, 2016: changed status of ["Encrypted Media Extensions"](http://www.w3.org/TR/encrypted-media/) from WD to CR
 * June 23, 2016: added ["Page Visibility 2"](http://www.w3.org/TR/page-visibility-2/); changed status of ["Subresource Integrity"](http://www.w3.org/TR/SRI/) from CR to REC
 * June 22, 2016: changed status of ["HTML 5.1"](http://www.w3.org/TR/html51) from WD to CR
 * June 7, 2016: added ["Worklets Level 1"](http://www.w3.org/TR/worklets-1/) and ["User Interface Security and the Visibility API"](http://www.w3.org/TR/UISecurity/); changed status of ["Reporting API 1"](http://www.w3.org/TR/reporting-1/) from WD to NOTE
