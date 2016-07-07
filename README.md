@@ -36,12 +36,9 @@ Here's a list of all current HTML5 specs (generated from [XML](html5.xml)), firs
 * [Web Storage](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage "This specification defines an API for persistent data storage of key-value pair data in Web clients.")
 
-### Proposed Recommendations (1 Specs)
+### Candidate Recommendations (14 Specs)
 
 * [Battery Status API](http://www.w3.org/TR/battery-status "This specification defines an API that provides information about the battery status of the hosting device.")
-
-### Candidate Recommendations (13 Specs)
-
 * [Content Security Policy Level 2](http://www.w3.org/TR/CSP2 "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.")
 * [DOM Parsing and Serialization](http://www.w3.org/TR/DOM-Parsing "This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.")
 * [Encrypted Media Extensions](http://www.w3.org/TR/encrypted-media "This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.")

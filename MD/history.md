@@ -1,5 +1,6 @@
 # HTML5 Overview: Change Log
 
+* July 7, 2016: changed status of ["Battery Status API"](http://www.w3.org/TR/battery-status/) from PR to CR
 * July 5, 2016: changed status of ["Encrypted Media Extensions"](http://www.w3.org/TR/encrypted-media/) from WD to CR
 * June 23, 2016: added ["Page Visibility 2"](http://www.w3.org/TR/page-visibility-2/); changed status of ["Subresource Integrity"](http://www.w3.org/TR/SRI/) from CR to REC
 * June 22, 2016: changed status of ["HTML 5.1"](http://www.w3.org/TR/html51) from WD to CR
