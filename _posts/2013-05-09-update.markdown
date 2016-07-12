@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Touch Events from WD to PR; changed status of Pointer Events and HTML Media Capture from WD to CR"
+date:   2013-05-09
+---
+
+changed status of <a href="http://www.w3.org/TR/touch-events/">Touch Events</a> from WD to PR; changed status of <a href="http://www.w3.org/TR/pointerevents/">Pointer Events</a> and <a href="http://www.w3.org/TR/html-media-capture/">HTML Media Capture</a> from WD to CR

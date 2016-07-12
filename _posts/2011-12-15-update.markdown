@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Web Audio API and Audio Processing API"
+date:   2011-12-15
+---
+
+added <a href="http://www.w3.org/TR/webaudio/">Web Audio API</a> and <a href="http://www.w3.org/TR/audioproc/">Audio Processing API</a>

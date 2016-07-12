@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Upgrade Insecure Requests from WD to CR"
+date:   2015-10-08
+---
+
+changed status of <a href="http://www.w3.org/TR/upgrade-insecure-requests/">Upgrade Insecure Requests</a> from WD to CR

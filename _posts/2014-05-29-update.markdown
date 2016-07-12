@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added W3C HTML Form HTTP Extensions"
+date:   2014-05-29
+---
+
+added <a href="http://www.w3.org/TR/form-http-extensions/">W3C HTML Form HTTP Extensions</a>

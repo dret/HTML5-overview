@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Server-Sent Events from PR to REC"
+date:   2015-02-03
+---
+
+changed status of <a href="http://www.w3.org/TR/eventsource/">Server-Sent Events</a> from PR to REC

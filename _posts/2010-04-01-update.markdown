@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Capture API"
+date:   2010-04-01
+---
+
+added <a href="http://dret.typepad.com/dretblog/2010/04/html5-capture-api.html">Capture API</a>

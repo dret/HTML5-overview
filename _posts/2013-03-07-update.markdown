@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Contacts Manager API"
+date:   2013-03-07
+---
+
+added <a href="http://www.w3.org/TR/contacts-manager-api/">Contacts Manager API</a>

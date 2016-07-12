@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Encoding"
+date:   2014-01-29
+---
+
+added <a href="http://www.w3.org/TR/encoding/">Encoding</a>

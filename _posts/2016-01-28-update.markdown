@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Micropub"
+date:   2016-01-28
+---
+
+added <a href="http://www.w3.org/TR/micropub/">Micropub</a>

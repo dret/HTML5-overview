@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added HTML5 and Media Capture from DOM Elements; changed status of Content Security Policy 1.0 from CR to NOTE; changed status of Content Security Policy Level 2 from WD to CR"
+date:   2015-02-19
+---
+
+added <a href="http://www.w3.org/TR/html5">HTML5</a> and <a href="http://www.w3.org/TR/mediacapture-fromelement">Media Capture from DOM Elements</a>; changed status of <a href="http://www.w3.org/TR/CSP/">Content Security Policy 1.0</a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/CSP2/">Content Security Policy Level 2</a> from WD to CR

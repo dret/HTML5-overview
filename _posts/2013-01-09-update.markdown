@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added WebCrypto Key Discovery"
+date:   2013-01-09
+---
+
+added <a href="http://www.w3.org/TR/webcrypto-key-discovery/">WebCrypto Key Discovery</a>

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Contacts Manager API, Web Telephony API, and Messaging API from WD to NOTE"
+date:   2015-06-02
+---
+
+changed status of <a href="http://www.w3.org/TR/contacts-manager-api/">Contacts Manager API</a>, <a href="http://www.w3.org/TR/telephony/">Web Telephony API</a>, and <a href="http://www.w3.org/TR/messaging/">Messaging API</a> from WD to NOTE

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Manifest for Web Apps and Bookmarks; changed status of Pointer Lock from WD to CR"
+date:   2013-12-18
+---
+
+added <a href="http://www.w3.org/TR/appmanifest/">Manifest for Web Apps and Bookmarks</a>; changed status of <a href="http://www.w3.org/TR/pointerlock/">Pointer Lock</a> from WD to CR

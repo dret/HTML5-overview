@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Web Notifications from CR to PR"
+date:   2015-09-10
+---
+
+changed status of <a href="http://www.w3.org/TR/notifications/">Web Notifications</a> from CR to PR

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added A Transcript Extension for HTML"
+date:   2015-10-01
+---
+
+added <a href="http://www.w3.org/TR/html-transcript-src/">A Transcript Extension for HTML</a>

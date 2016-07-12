@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Accessible Rich Internet Applications (WAI-ARIA) 1.0 and W3C DOM4"
+date:   2015-06-04
+---
+
+added <a href="http://www.w3.org/TR/wai-aria">Accessible Rich Internet Applications (WAI-ARIA) 1.0</a> and <a href="http://www.w3.org/TR/dom">W3C DOM4</a>

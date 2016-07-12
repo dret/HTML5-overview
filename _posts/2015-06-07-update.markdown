@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added WHATWG Fetch and Fullscreen API"
+date:   2015-06-07
+---
+
+added WHATWG <a href="https://fetch.spec.whatwg.org/">Fetch</a> and <a href="https://fullscreen.spec.whatwg.org/">Fullscreen API</a>

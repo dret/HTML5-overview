@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "moved Ambient Light Events and HTML Media Capture from CR to WD"
+date:   2014-06-25
+---
+
+moved <a href="http://www.w3.org/TR/ambient-light/">Ambient Light Events</a> and <a href="http://www.w3.org/TR/html-media-capture/">HTML Media Capture</a> from CR to WD

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Wake Lock API"
+date:   2015-02-12
+---
+
+added <a href="http://www.w3.org/TR/wake-lock">Wake Lock API</a>

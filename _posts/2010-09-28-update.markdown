@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added HTML Media Capture and changed title and permalink of Media Capture API (previously Capture API)"
+date:   2010-09-28
+---
+
+added <a href="http://www.w3.org/TR/html-media-capture/">HTML Media Capture</a> and changed title and permalink of <a href="http://www.w3.org/TR/media-capture-api/">Media Capture API</a> (previously <a href="http://www.w3.org/TR/capture-api/">Capture API</a>)

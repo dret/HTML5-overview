@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added High Resolution Time"
+date:   2012-03-13
+---
+
+added <a href="http://www.w3.org/TR/hr-time/">High Resolution Time</a>

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of HTML Canvas 2D Context from CR to WD"
+date:   2014-05-20
+---
+
+changed status of <a href="http://www.w3.org/TR/2dcontext/">HTML Canvas 2D Context</a> from CR to WD

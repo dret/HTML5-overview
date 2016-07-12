@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Web Storage from PR to REC"
+date:   2013-07-30
+---
+
+changed status of <a href="http://www.w3.org/TR/webstorage/">Web Storage</a> from PR to REC

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Network Error Logging, Server Timing, and Frame Timing from WD to NOTE"
+date:   2016-05-25
+---
+
+changed status of <a href="http://www.w3.org/TR/network-error-logging/">Network Error Logging</a>, <a href="http://www.w3.org/TR/server-timing">Server Timing</a>, and <a href="http://www.w3.org/TR/frame-timing/">Frame Timing</a> from WD to NOTE

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of DOM Parsing and Serialization from WD to CR"
+date:   2015-06-17
+---
+
+changed status of <a href="http://www.w3.org/TR/DOM-Parsing/">DOM Parsing and Serialization</a> from WD to CR

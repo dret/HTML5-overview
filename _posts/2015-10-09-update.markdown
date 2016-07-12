@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Mixed Content and Selection API"
+date:   2015-10-09
+---
+
+added <a href="http://www.w3.org/TR/mixed-content/">Mixed Content</a> and <a href="http://www.w3.org/TR/selection-api/">Selection API</a>

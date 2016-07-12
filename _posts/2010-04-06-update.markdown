@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added File API: Writer"
+date:   2010-04-06
+---
+
+added <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html">File API: Writer</a>

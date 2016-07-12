@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Web Intents Addendum — Local Services; updated title and abstract of Network Service Discovery"
+date:   2012-10-04
+---
+
+added <a href="http://www.w3.org/TR/webintents-local-services/">Web Intents Addendum — Local Services</a>; updated title and abstract of <a href="http://www.w3.org/TR/discovery-api/">Network Service Discovery</a>

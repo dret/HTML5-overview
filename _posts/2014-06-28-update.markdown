@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added IndieUI: User Context 1.0"
+date:   2014-06-28
+---
+
+added <a href="http://www.w3.org/TR/indie-ui-context/">IndieUI: User Context 1.0</a>

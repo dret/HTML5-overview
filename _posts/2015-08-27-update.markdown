@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Application Lifecycle and Events to new &#34;abandoned&#34; status."
+date:   2015-08-27
+---
+
+changed status of <a href="http://sysapps.github.io/app-lifecycle/">Application Lifecycle and Events to new "abandoned" status.</a>

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "added Reporting API 1"
+date:   2016-04-07
+---
+
+added <a href="http://www.w3.org/TR/reporting-1/">Reporting API 1</a>

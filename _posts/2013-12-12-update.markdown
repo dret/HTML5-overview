@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Progress Events from CR to PR; changed status of User Timing and Performance Timeline from PR to REC"
+date:   2013-12-12
+---
+
+changed status of <a href="http://www.w3.org/TR/progress-events/">Progress Events</a> from CR to PR; changed status of <a href="http://www.w3.org/TR/user-timing/">User Timing</a> and <a href="http://www.w3.org/TR/performance-timeline/">Performance Timeline</a> from PR to REC

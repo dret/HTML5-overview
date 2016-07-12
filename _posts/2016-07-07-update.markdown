@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Battery Status API from PR to CR"
+date:   2016-07-07
+---
+
+changed status of <a href="http://www.w3.org/TR/battery-status/">Battery Status API</a> from PR to CR

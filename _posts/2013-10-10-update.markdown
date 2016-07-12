@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "changed status of Touch Events from PR to REC"
+date:   2013-10-10
+---
+
+changed status of <a href="http://www.w3.org/TR/touch-events/">Touch Events</a> from PR to REC
