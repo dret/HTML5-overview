@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added The Permissions API; changed status of HTML5 Web Messaging from CR to PR"
-date:   2015-04-07
----
-
-added <a href="http://www.w3.org/TR/permissions">The Permissions API</a>; changed status of <a href="http://www.w3.org/TR/webmessaging/">HTML5 Web Messaging</a> from CR to PR

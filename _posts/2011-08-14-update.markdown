@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added User Timing and Performance Timeline"
-date:   2011-08-14
----
-
-added <a href="http://www.w3.org/TR/user-timing/">User Timing</a> and <a href="http://www.w3.org/TR/performance-timeline/">Performance Timeline</a>

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "updated status of Page Visibility, User Timing, and Performance Timeline to CR, and Navigation Timing to PR"
-date:   2012-07-26
----
-
-updated status of <a href="http://www.w3.org/TR/page-visibility/">Page Visibility</a>, <a href="http://www.w3.org/TR/user-timing/">User Timing</a>, and <a href="http://www.w3.org/TR/performance-timeline/">Performance Timeline</a> to CR, and <a href="http://www.w3.org/TR/navigation-timing/">Navigation Timing</a> to PR

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Web Authentication: A Web API for accessing scoped credentials"
-date:   2016-05-31
----
-
-added <a href="http://www.w3.org/TR/webauthn/">Web Authentication: A Web API for accessing scoped credentials</a>

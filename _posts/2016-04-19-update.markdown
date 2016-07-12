@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Web Storage (Second Edition) from PR to REC"
-date:   2016-04-19
----
-
-changed status of <a href="http://www.w3.org/TR/webstorage/">Web Storage (Second Edition)</a> from PR to REC

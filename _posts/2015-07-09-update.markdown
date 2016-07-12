@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added HTML 5.1"
-date:   2015-07-09
----
-
-added <a href="http://www.w3.org/TR/html51">HTML 5.1</a>

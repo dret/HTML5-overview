@@ -7,7 +7,7 @@
     <xsl:template match="/">
         <xsl:for-each select="//log/entry">
             <xsl:variable name="date" select="format-date(@date, '[Y0001]-[M01]-[D01]')"/>
-            <xsl:result-document href="{$post-dir}/{$date}-update.markdown" format="jekyll">
+            <xsl:result-document href="{$post-dir}/{$date}-update.md" format="jekyll">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: post&#xa;</xsl:text>
                 <xsl:text>title:  "</xsl:text>
@@ -18,6 +18,7 @@
                 <xsl:text>&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
                 <xsl:apply-templates select="node()"/>
+                <xsl:text>&#xa;&#xa;</xsl:text>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>

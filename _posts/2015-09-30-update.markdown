@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added HTML Canvas 2D Context, Level 2; changed status of W3C HTML Form HTTP Extensions and W3C HTML JSON form submission from WD to NOTE"
-date:   2015-09-30
----
-
-added <a href="http://www.w3.org/TR/2dcontext2/">HTML Canvas 2D Context, Level 2</a>; changed status of <a href="http://www.w3.org/TR/form-http-extensions/">W3C HTML Form HTTP Extensions</a> and <a href="http://www.w3.org/TR/html-json-forms/">W3C HTML JSON form submission</a> from WD to NOTE

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Web Cryptography API from WD to CR"
-date:   2014-12-11
----
-
-changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/">Web Cryptography API</a> from WD to CR

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Credential Management Level 1"
-date:   2015-05-04
----
-
-added <a href="http://www.w3.org/TR/credential-management-1">Credential Management Level 1</a>

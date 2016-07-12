@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of User Timing and Performance Timeline from CR to PR; changed status of Timing Control for Script-Based Animations from WD to CR; changed status of HTML Microdata from WD to NOTE; added Touch Events Extensions"
-date:   2013-10-31
----
-
-changed status of <a href="http://www.w3.org/TR/user-timing/">User Timing</a> and <a href="http://www.w3.org/TR/performance-timeline/">Performance Timeline</a> from CR to PR; changed status of <a href="http://www.w3.org/TR/animation-timing/">Timing Control for Script-Based Animations</a> from WD to CR; changed status of <a href="http://www.w3.org/TR/microdata/">HTML Microdata</a> from WD to NOTE; added <a href="http://www.w3.org/TR/touch-events-extensions">Touch Events Extensions</a>

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Media Source Extensions from WD to CR"
-date:   2014-01-09
----
-
-changed status of <a href="http://www.w3.org/TR/media-source/">Media Source Extensions</a> from WD to CR

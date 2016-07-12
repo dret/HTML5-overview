@@ -1,7 +1,0 @@
----
-layout: post
-title:  "updated Resource Hints, Network Error Logging, and Navigation Timing 2 abstracts"
-date:   2015-04-22
----
-
-updated <a href="http://www.w3.org/TR/resource-hints/">Resource Hints</a>, <a href="http://www.w3.org/TR/network-error-logging/">Network Error Logging</a>, and <a href="http://www.w3.org/TR/navigation-timing-2/">Navigation Timing 2</a> abstracts

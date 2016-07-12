@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Vibration API and Server-Sent Events from CR to PR; changed status of Battery Status API from WD to CR; changed URL identifier from &#34;url&#34; to &#34;url-1&#34;"
-date:   2014-12-09
----
-
-changed status of <a href="http://www.w3.org/TR/vibration/">Vibration API</a> and <a href="http://www.w3.org/TR/eventsource/">Server-Sent Events</a> from CR to PR; changed status of <a href="http://www.w3.org/TR/battery-status">Battery Status API</a> from WD to CR; changed <a href="http://www.w3.org/TR/url/">URL</a> identifier from "url" to "url-1"

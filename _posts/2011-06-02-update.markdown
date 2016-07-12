@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Page Visibility, Timing Control for Script-Based Animations, Navigation Timing, and Resource Timing"
-date:   2011-06-02
----
-
-added <a href="http://www.w3.org/TR/page-visibility/">Page Visibility</a>, <a href="http://www.w3.org/TR/animation-timing/">Timing Control for Script-Based Animations</a>, <a href="http://www.w3.org/TR/navigation-timing/">Navigation Timing</a>, and <a href="http://www.w3.org/TR/resource-timing/">Resource Timing</a>

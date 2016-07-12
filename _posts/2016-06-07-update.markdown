@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Worklets Level 1 and User Interface Security and the Visibility API; changed status of Reporting API 1 from WD to NOTE"
-date:   2016-06-07
----
-
-added <a href="http://www.w3.org/TR/worklets-1/">Worklets Level 1</a> and <a href="http://www.w3.org/TR/UISecurity/">User Interface Security and the Visibility API</a>; changed status of <a href="http://www.w3.org/TR/reporting-1/">Reporting API 1</a> from WD to NOTE

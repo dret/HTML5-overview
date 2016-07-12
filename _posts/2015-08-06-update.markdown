@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Runtime and Security Model for Web Applications from WD to NOTE"
-date:   2015-08-06
----
-
-changed status of <a href="http://www.w3.org/TR/runtime/">Runtime and Security Model for Web Applications</a> from WD to NOTE

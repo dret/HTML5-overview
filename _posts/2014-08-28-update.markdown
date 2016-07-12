@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Battery Status API from CR to WD"
-date:   2014-08-28
----
-
-changed status of <a href="http://www.w3.org/TR/battery-status">Battery Status API</a> from CR to WD

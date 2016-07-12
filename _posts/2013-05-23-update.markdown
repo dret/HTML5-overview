@@ -1,7 +1,0 @@
----
-layout: post
-title:  "moved Web Intents from active to inactive list (WD to NOTE); changed status of Vibration API from CR to WD"
-date:   2013-05-23
----
-
-moved <a href="http://www.w3.org/TR/web-intents/">Web Intents</a> from active to inactive list (WD to NOTE); changed status of <a href="http://www.w3.org/TR/vibration/">Vibration API</a> from CR to WD

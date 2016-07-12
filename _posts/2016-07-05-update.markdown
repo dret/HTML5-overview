@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Encrypted Media Extensions from WD to CR"
-date:   2016-07-05
----
-
-changed status of <a href="http://www.w3.org/TR/encrypted-media/">Encrypted Media Extensions</a> from WD to CR

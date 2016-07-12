@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Proximity Events from CR to WD"
-date:   2015-09-03
----
-
-changed status of <a href="http://www.w3.org/TR/proximity/">Proximity Events</a> from CR to WD

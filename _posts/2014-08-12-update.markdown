@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of HTML Image Description Extension from WD to CR"
-date:   2014-08-12
----
-
-changed status of <a href="http://www.w3.org/TR/html-longdesc/">HTML Image Description Extension</a> from WD to CR

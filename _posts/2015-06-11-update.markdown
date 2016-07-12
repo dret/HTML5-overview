@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added WHATWG Storage"
-date:   2015-06-11
----
-
-added WHATWG <a href="https://storage.spec.whatwg.org/">Storage</a>

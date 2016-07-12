@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of HTML Image Description Extension (longdesc) from CR to PR"
-date:   2014-12-05
----
-
-changed status of <a href="http://www.w3.org/TR/html-longdesc/">HTML Image Description Extension (longdesc)</a> from CR to PR

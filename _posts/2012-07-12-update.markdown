@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Proximity Events and Pick Media Intent"
-date:   2012-07-12
----
-
-added <a href="http://www.w3.org/TR/proximity/">Proximity Events</a> and <a href="http://www.w3.org/TR/gallery/">Pick Media Intent</a>

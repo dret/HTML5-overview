@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Navigation Error Logging; changed status of Progress Events from PR to REC; changed status of Vibration API from CR to WD"
-date:   2014-02-11
----
-
-added <a href="http://www.w3.org/TR/navigation-error-logging/">Navigation Error Logging</a>; changed status of <a href="http://www.w3.org/TR/progress-events/">Progress Events</a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/">Vibration API</a> from CR to WD

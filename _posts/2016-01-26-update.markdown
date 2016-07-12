@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Content Security Policy Level 3"
-date:   2016-01-26
----
-
-added <a href="http://www.w3.org/TR/CSP3/">Content Security Policy Level 3</a>

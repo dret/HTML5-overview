@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Preload"
-date:   2015-07-21
----
-
-added <a href="http://www.w3.org/TR/preload/">Preload</a>

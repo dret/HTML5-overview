@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of W3C DOM4 from PR to REC"
-date:   2015-11-21
----
-
-changed status of <a href="http://www.w3.org/TR/dom/">W3C DOM4</a> from PR to REC

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Quota Management API and Fullscreen"
-date:   2012-07-03
----
-
-added <a href="http://www.w3.org/TR/quota-api/">Quota Management API</a> and <a href="http://www.w3.org/TR/fullscreen/">Fullscreen</a>

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Navigation Timing 2"
-date:   2013-01-31
----
-
-added <a href="http://www.w3.org/TR/navigation-timing-2/">Navigation Timing 2</a>

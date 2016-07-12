@@ -1,7 +1,0 @@
----
-layout: post
-title:  "initial version"
-date:   2010-01-21
----
-
-<a href="http://dret.typepad.com/dretblog/2010/01/hunting-html5-apis.html">initial version</a>

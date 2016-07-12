@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added High Resolution Time Level 2"
-date:   2013-12-03
----
-
-added <a href="http://www.w3.org/TR/hr-time-2/">High Resolution Time Level 2</a>

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of The picture Element from WD to NOTE (now part of core HTML5)"
-date:   2014-07-22
----
-
-changed status of <a href="http://www.w3.org/TR/html-picture-element/">The picture Element</a> from WD to NOTE (now part of core HTML5)

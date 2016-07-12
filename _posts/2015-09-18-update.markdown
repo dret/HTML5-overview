@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Cooperative Scheduling of Background Tasks"
-date:   2015-09-18
----
-
-added <a href="http://www.w3.org/TR/requestidlecallback/">Cooperative Scheduling of Background Tasks</a>

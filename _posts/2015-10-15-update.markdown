@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added FindText API and Confinement with Origin Web Labels, changed status of Generic Sensor API to WD"
-date:   2015-10-15
----
-
-added <a href="http://www.w3.org/TR/findtext/">FindText API</a> and <a href="http://www.w3.org/TR/COWL/">Confinement with Origin Web Labels</a>, changed status of <a href="http://www.w3.org/TR/generic-sensor/">Generic Sensor API</a> to WD

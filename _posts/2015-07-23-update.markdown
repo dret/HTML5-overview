@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Task Scheduler API Specification from WD to NOTE"
-date:   2015-07-23
----
-
-changed status of <a href="http://www.w3.org/TR/task-scheduler/">Task Scheduler API Specification</a> from WD to NOTE

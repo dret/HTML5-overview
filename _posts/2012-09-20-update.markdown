@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added DOM Parsing and Serialization; updated status of WebSocket API to CR; added experimental classification of specs"
-date:   2012-09-20
----
-
-added <a href="http://www.w3.org/TR/DOM-Parsing/">DOM Parsing and Serialization</a>; updated status of <a href="http://www.w3.org/TR/websockets/">WebSocket API</a> to CR; added experimental classification of specs

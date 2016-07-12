@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Streams API and HTML Templates"
-date:   2013-02-19
----
-
-added <a href="http://www.w3.org/TR/streams-api/">Streams API</a> and <a href="http://www.w3.org/TR/html-templates/">HTML Templates</a>

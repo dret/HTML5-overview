@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Media Source Extensions"
-date:   2013-01-29
----
-
-added <a href="http://www.w3.org/TR/media-source/">Media Source Extensions</a>

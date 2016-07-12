@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of The srcset Attribute from WD to NOTE (now part of core HTML5); changed status of HTML Canvas 2D Context from WD to CR"
-date:   2014-08-21
----
-
-changed status of <a href="http://www.w3.org/TR/html-srcset/">The srcset Attribute</a> from WD to NOTE (now part of core HTML5); changed status of <a href="http://www.w3.org/TR/2dcontext/">HTML Canvas 2D Context</a> from WD to CR

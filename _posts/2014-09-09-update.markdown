@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Vibration API and HTML Media Capture from WD to CR"
-date:   2014-09-09
----
-
-changed status of <a href="http://www.w3.org/TR/vibration/">Vibration API</a> and <a href="http://www.w3.org/TR/html-media-capture/">HTML Media Capture</a> from WD to CR

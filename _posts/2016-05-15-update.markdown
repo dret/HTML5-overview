@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Quota Management API and Input Method Editor API from WD to NOTE"
-date:   2016-05-15
----
-
-changed status of <a href="http://www.w3.org/TR/quota-api/">Quota Management API</a> and <a href="http://www.w3.org/TR/ime-api/">Input Method Editor API</a> from WD to NOTE

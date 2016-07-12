@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of Web Notifications from PR to REC"
-date:   2015-10-23
----
-
-changed status of <a href="http://www.w3.org/TR/notifications/">Web Notifications</a> from PR to REC

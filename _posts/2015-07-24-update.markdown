@@ -1,7 +1,0 @@
----
-layout: post
-title:  "changed status of The app: URL Scheme and TCP and UDP Socket API from WD to NOTE; added Application Lifecycle and Events"
-date:   2015-07-24
----
-
-changed status of <a href="http://www.w3.org/TR/app-uri/">The app: URL Scheme</a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/">TCP and UDP Socket API</a> from WD to NOTE; added <a href="http://sysapps.github.io/app-lifecycle/">Application Lifecycle and Events</a>

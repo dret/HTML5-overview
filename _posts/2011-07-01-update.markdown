@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added DeviceOrientation Event Specification"
-date:   2011-07-01
----
-
-added <a href="http://www.w3.org/TR/orientation-event/">DeviceOrientation Event Specification</a>

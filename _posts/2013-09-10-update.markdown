@@ -1,7 +1,0 @@
----
-layout: post
-title:  "published source on github; working on complete markdown formatting"
-date:   2013-09-10
----
-
-published source on <a href="https://github.com/dret/HTML5-overview">github</a>; working on complete markdown formatting

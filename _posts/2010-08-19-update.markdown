@@ -1,7 +1,0 @@
----
-layout: post
-title:  "updated abstract for Indexed Database API"
-date:   2010-08-19
----
-
-updated abstract for <a href="http://www.w3.org/TR/2010/WD-IndexedDB-20100819/">Indexed Database API</a>

@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added Page Visibility 2; changed status of Subresource Integrity from CR to REC"
-date:   2016-06-23
----
-
-added <a href="http://www.w3.org/TR/page-visibility-2/">Page Visibility 2</a>; changed status of <a href="http://www.w3.org/TR/SRI/">Subresource Integrity</a> from CR to REC

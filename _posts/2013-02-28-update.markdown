@@ -1,7 +1,0 @@
----
-layout: post
-title:  "added The srcset Attribute"
-date:   2013-02-28
----
-
-added <a href="http://www.w3.org/TR/html-srcset/">The srcset Attribute</a>
