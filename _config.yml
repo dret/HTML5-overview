@@ -11,7 +11,7 @@ email: erik.wilde@dret.net
 description: > # this means to ignore newlines until "baseurl:"
   Keep track of the evolving HTML5 landscape! New specifications and
   specification updates are tracked faithfully on this site.
-baseurl: "/HTML5-Overview" # the subpath of your site, e.g. /blog
+baseurl: "/HTML5-overview" # the subpath of your site, e.g. /blog
 url: "http://dret.github.io" # the base hostname & protocol for your site
 twitter_username: dret
 github_username:  dret
