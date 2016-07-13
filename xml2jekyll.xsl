@@ -23,10 +23,10 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="a">
-        <xsl:text>&lt;a href="</xsl:text>
-        <xsl:value-of select="@href"/>
-        <xsl:text>"&gt;</xsl:text>
+        <xsl:text>[</xsl:text>
         <xsl:value-of select=".//text()"/>
-        <xsl:text>&lt;/a&gt;</xsl:text>
+        <xsl:text>](</xsl:text>
+        <xsl:value-of select="@href"/>
+        <xsl:text>)</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
