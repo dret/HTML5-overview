@@ -50,8 +50,9 @@
         </xsl:result-document>
         <xsl:result-document href="current.md" method="text">
             <xsl:text>---&#xa;</xsl:text>
-            <xsl:text>layout: page&#xa;</xsl:text>
-            <xsl:text>title:  "Current HTML5 Specifications"&#xa;</xsl:text>
+            <xsl:text>layout:   page&#xa;</xsl:text>
+            <xsl:text>category: specs&#xa;</xsl:text>
+            <xsl:text>title:    "Current HTML5 Specifications"&#xa;</xsl:text>
             <xsl:text>&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
             <xsl:text>This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by status), and then [others](#others):
@@ -68,8 +69,9 @@
                     <xsl:when test="@status eq 'NOTE'">
                         <xsl:result-document href="abandoned.md" method="text">
                             <xsl:text>---&#xa;</xsl:text>
-                            <xsl:text>layout: page&#xa;</xsl:text>
-                            <xsl:text>title:  "Abandoned HTML5 Specifications"&#xa;</xsl:text>
+                            <xsl:text>layout:   page&#xa;</xsl:text>
+                            <xsl:text>category: specs&#xa;</xsl:text>
+                            <xsl:text>title:    "Abandoned HTML5 Specifications"&#xa;</xsl:text>
                             <xsl:text>&#xa;</xsl:text>
                             <xsl:text>---&#xa;&#xa;</xsl:text>
                             <xsl:text>This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).&#xa;&#xa;</xsl:text>
@@ -82,6 +84,29 @@
                 </xsl:choose>
             </xsl:for-each-group>
         </xsl:result-document>
+        <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','NOTE')][empty(@edition)]">
+            <xsl:result-document href="spec/{@id}.md" format="jekyll">
+                <xsl:text>---&#xa;</xsl:text>
+                <xsl:text>layout:   page&#xa;</xsl:text>
+                <xsl:text>category: spec&#xa;</xsl:text>
+                <xsl:text>title:    "</xsl:text>
+                <xsl:value-of select="replace(title/text(), '&#34;', '&amp;#34;')"/>
+                <xsl:text>"&#xa;</xsl:text>
+                <xsl:text>---&#xa;&#xa;</xsl:text>
+                <xsl:text>| Current Status | </xsl:text>
+                <xsl:value-of select="$status-title[index-of($status-index, current()/@status)]"/>
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="@status"/>
+                <xsl:text>)&#xa;</xsl:text>
+                <xsl:text>| Canonical URI | [`http://www.w3.org/TR/</xsl:text>
+                <xsl:value-of select="@id"/>
+                <xsl:text>`](http://www.w3.org/TR/</xsl:text>
+                <xsl:value-of select="@id"/>
+                <xsl:text>)&#xa;</xsl:text>
+                <xsl:text>| Abstract | </xsl:text>
+                <xsl:value-of select="abstract/text()"/>
+            </xsl:result-document>
+        </xsl:for-each>
         <xsl:for-each select="//log/entry">
             <xsl:variable name="date" select="format-date(@date, '[Y0001]-[M01]-[D01]')"/>
             <xsl:result-document href="{$post-dir}/{$date}-update.md" format="jekyll">
