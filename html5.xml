@@ -856,7 +856,7 @@
         <entry date="2010-11-19">added <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a>, marked <a href="http://www.w3.org/TR/webdatabase/"><q>Web SQL Database</q></a> as deprecated</entry>
         <entry date="2010-10-26">added <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a></entry>
         <entry date="2010-09-28">added <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> and changed title and permalink of <a href="http://www.w3.org/TR/media-capture-api/"><q>Media Capture API</q></a> (previously <a href="http://www.w3.org/TR/capture-api/"><q>Capture API</q></a>)</entry>
-        <entry date="2010-08-19">updated abstract for <a href="http://www.w3.org/TR/2010/WD-IndexedDB-20100819/"><q>Indexed Database API</q></a></entry>
+        <entry date="2010-08-19">updated abstract for <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a></entry>
         <entry date="2010-08-10">added <a href="http://dret.typepad.com/dretblog/2010/08/html5-messaging-api.html"><q>Messaging API</q></a></entry>
         <entry date="2010-04-06">added <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a></entry>
         <entry date="2010-04-01">added <a href="http://dret.typepad.com/dretblog/2010/04/html5-capture-api.html"><q>Capture API</q></a></entry>
