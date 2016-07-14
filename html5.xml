@@ -10,6 +10,7 @@
     id        CDATA                                                     #REQUIRED
     status    ( WD | CR | PER | PR | REC | NOTE | other | abandoned )   #REQUIRED
     ed        CDATA                                                     #IMPLIED
+    edition   CDATA                                                     #IMPLIED
     >
   <!ELEMENT title (#PCDATA) >
   <!ELEMENT abstract (#PCDATA | q | em)* >
@@ -507,7 +508,7 @@
             <title>Web Storage</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
-        <spec id="webstorage" status="REC">
+        <spec id="webstorage" status="REC" edition="2">
             <title>Web Storage (Second Edition)</title>
             <abstract>This specification defines an API for persistent data storage of key-value pair data in Web clients.</abstract>
         </spec>
