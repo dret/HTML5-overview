@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Source: https://github.com/dret/HTML5-overview -->
 <!-- This is free and unencumbered data released into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute this data, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means. Enjoy! -->
-<?xml-stylesheet type="text/xsl" href="XSLT/xml2md.xsl"?>
+<?xml-stylesheet type="text/xsl" href="xml2jekyll.xsl"?>
 <!DOCTYPE html5 [
   <!ELEMENT html5 (specs, log) >
   <!ELEMENT specs (spec*) >
