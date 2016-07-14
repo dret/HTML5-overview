@@ -128,7 +128,15 @@
         <xsl:text>[</xsl:text>
         <xsl:value-of select=".//text()"/>
         <xsl:text>](</xsl:text>
-        <xsl:value-of select="@href"/>
+        <xsl:choose>
+            <xsl:when test="starts-with(@href, 'http://www.w3.org/TR/')">
+                <xsl:text>/spec/</xsl:text>
+                <xsl:value-of select="substring-before(substring-after(@href, 'http://www.w3.org/TR/'), '/')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="@href"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>)</xsl:text>
     </xsl:template>
     <xsl:template name="generate-section">
