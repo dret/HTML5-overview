@@ -155,7 +155,7 @@
             <xsl:value-of select="title/text()"/>
             <xsl:text>](</xsl:text>
             <xsl:if test="current-grouping-key() ne 'other'">
-                <xsl:text>http://www.w3.org/TR/</xsl:text>
+                <xsl:text>spec/</xsl:text>
             </xsl:if>
             <xsl:value-of select="@id"/>
             <xsl:text>)</xsl:text>
