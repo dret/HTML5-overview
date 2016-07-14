@@ -5,6 +5,47 @@
     <xsl:variable name="post-dir" select="'_posts'"/>
     <!-- -->
     <xsl:template match="/">
+        <xsl:result-document href="_includes/specs.html" method="xhtml">
+            <div class="specs">
+                <p>
+                    <xsl:text>Currently this site tracks </xsl:text>
+                    <xsl:value-of select="count(//specs/spec)"/>
+                    <xsl:text> specifications, </xsl:text>
+                    <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','other')])"/>
+                    <xsl:text> of which are active, while the remaining </xsl:text>
+                    <xsl:value-of select="count(//specs/spec[@status = ('NOTE', 'abandoned')])"/>
+                    <xsl:text> have been abandoned. </xsl:text>
+                    <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','NOTE')])"/>
+                    <xsl:text> are W3C specifications, and the remaining </xsl:text>
+                    <xsl:value-of select="count(//specs/spec[@status = ('other','abandoned')])"/>
+                    <xsl:text> are published/developed elsewhere. Two separate lists are published here:</xsl:text>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','other')])"/>
+                                <xsl:text> current specifications</xsl:text>
+                            </a>
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC')])"/>
+                            <xsl:text> W3C, </xsl:text>
+                            <xsl:value-of select="count(//specs/spec[@status = ('other')])"/>
+                            <xsl:text> other)</xsl:text>
+                        </li>
+                        <li>
+                            <a href="">
+                                <xsl:value-of select="count(//specs/spec[@status = ('NOTE','abandoned')])"/>
+                                <xsl:text> abandoned specifications</xsl:text>
+                            </a>
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="count(//specs/spec[@status = ('NOTE')])"/>
+                            <xsl:text> W3C, </xsl:text>
+                            <xsl:value-of select="count(//specs/spec[@status = ('abandoned')])"/>
+                            <xsl:text> other)</xsl:text>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </xsl:result-document>
         <xsl:for-each select="//log/entry">
             <xsl:variable name="date" select="format-date(@date, '[Y0001]-[M01]-[D01]')"/>
             <xsl:result-document href="{$post-dir}/{$date}-update.md" format="jekyll">
