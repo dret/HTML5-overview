@@ -1,7 +1,7 @@
 ---
 layout:   page
 category: spec
-title:    "Web Storage"
+title:    "Web Storage (Second Edition)"
 ---
 
 | Current Status | Recommendation (REC)

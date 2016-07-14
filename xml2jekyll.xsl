@@ -84,7 +84,7 @@
                 </xsl:choose>
             </xsl:for-each-group>
         </xsl:result-document>
-        <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','NOTE')][empty(@edition)]">
+        <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','NOTE')]">
             <xsl:result-document href="spec/{@id}.md" format="jekyll">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout:   page&#xa;</xsl:text>

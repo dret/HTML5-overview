@@ -7,9 +7,9 @@ title:    "Current HTML5 Specifications"
 
 This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by status), and then [others](#others):
 
-## <a name="TR"/>W3C TR Specifications (108 Specs)
+## <a name="TR"/>W3C TR Specifications (107 Specs)
 
-### <a name="REC"/>Recommendations (25 Specs)
+### <a name="REC"/>Recommendations (24 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://www.w3.org/TR/wai-aria)
 * [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors)
@@ -34,7 +34,6 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [Vibration API](http://www.w3.org/TR/vibration)
 * [W3C DOM4](http://www.w3.org/TR/dom)
 * [Web Notifications](http://www.w3.org/TR/notifications)
-* [Web Storage](http://www.w3.org/TR/webstorage)
 * [Web Storage (Second Edition)](http://www.w3.org/TR/webstorage)
 
 ### <a name="CR"/>Candidate Recommendations (14 Specs)
