@@ -7,7 +7,7 @@ title:    "Current HTML5 Specifications"
 
 This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by status), and then [others](#others):
 
-## <a name="TR"/>W3C TR Specifications (107 Specs)
+## <a name="TR"/>W3C TR Specifications (108 Specs)
 
 ### <a name="REC"/>Recommendations (24 Specs)
 
@@ -53,7 +53,7 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (69 Specs)
+### <a name="WD"/>Working Drafts (70 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -98,6 +98,7 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [Proximity Events](spec/proximity)
 * [Push API](spec/push-api)
 * [Referrer Policy](spec/referrer-policy)
+* [Remote Playback API](spec/remote-playback)
 * [Resource Hints](spec/resource-hints)
 * [Resource Timing](spec/resource-timing)
 * [Screen Capture](spec/screen-capture)

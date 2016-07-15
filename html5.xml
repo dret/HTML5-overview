@@ -84,6 +84,10 @@
             <title>Media Source Extensions</title>
             <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.</abstract>
         </spec>
+        <spec id="remote-playback" status="WD">
+            <title>Remote Playback API</title>
+            <abstract>This specification defines an API extending the HTMLMediaElement that enables controlling remote playback of media from a web page.</abstract>
+        </spec>
         <spec id="webvtt1" status="WD">
             <title>WebVTT: The Web Video Text Tracks Format</title>
             <abstract>This specification defines WebVTT, the Web Video Text Tracks format. Its main use is for marking up external text track resources in connection with the HTML &lt;track> element. WebVTT files provide captions or subtitles for video content, and also text video descriptions, chapters for content navigation, and more generally any form of metadata that is time-aligned with audio or video content.</abstract>
@@ -678,6 +682,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a></entry>
         <entry date="2016-07-07">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from PR to CR</entry>
         <entry date="2016-07-05">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from WD to CR</entry>
         <entry date="2016-06-23">added <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a>; changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from CR to REC</entry>
