@@ -436,7 +436,7 @@
             <title>Touch Events</title>
             <abstract>The Touch Events specification defines a set of low-level events that represent one or more points of contact with a touch-sensitive surface, and changes of those points with respect to the surface and any DOM elements displayed upon it (e.g. for touch screens) or associated with it (e.g. for drawing tablets without displays). It also addresses pen-tablet devices, such as drawing tablets, with consideration toward stylus capabilities.</abstract>
         </spec>
-        <spec id="presentation-api" status="WD">
+        <spec id="presentation-api" status="CR">
             <title>Presentation API</title>
             <abstract>This specification defines an API to enable web content to access external presentation-type displays and use them for presenting web content.</abstract>
         </spec>
@@ -682,7 +682,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a></entry>
+        <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a>; changed status of <a href="http://www.w3.org/TR/presentation-api/"><q>Presentation API</q></a> from WD to CR</entry>
         <entry date="2016-07-07">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from PR to CR</entry>
         <entry date="2016-07-05">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from WD to CR</entry>
         <entry date="2016-06-23">added <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a>; changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from CR to REC</entry>

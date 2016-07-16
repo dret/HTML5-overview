@@ -36,7 +36,7 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="CR"/>Candidate Recommendations (14 Specs)
+### <a name="CR"/>Candidate Recommendations (15 Specs)
 
 * [Battery Status API](spec/battery-status)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -48,12 +48,13 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [Media Source Extensions](spec/media-source)
 * [Mixed Content](spec/mixed-content)
 * [Pointer Lock](spec/pointerlock)
+* [Presentation API](spec/presentation-api)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [Web Cryptography API](spec/WebCryptoAPI)
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (70 Specs)
+### <a name="WD"/>Working Drafts (69 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -94,7 +95,6 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [Payment Request API](spec/payment-request)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
 * [Preload](spec/preload)
-* [Presentation API](spec/presentation-api)
 * [Proximity Events](spec/proximity)
 * [Push API](spec/push-api)
 * [Referrer Policy](spec/referrer-policy)
