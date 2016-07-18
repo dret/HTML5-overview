@@ -693,7 +693,7 @@
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
         <entry date="2016-05-19">added <a href="http://www.w3.org/TR/mediacapture-streams/"><q>Media Capture and Streams</q></a></entry>
         <entry date="2016-05-15">changed status of <a href="http://www.w3.org/TR/quota-api/"><q>Quota Management API</q></a> and <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a> from WD to NOTE</entry>
-        <entry date="2016-04-26">renaming <a href="http://www.w3.org/TR/powerful-features/"><q>Privileged Contexts</q></a> to <a href="http://www.w3.org/TR/secure-contexts/"><q>Secure Contexts</q></a></entry>
+        <entry date="2016-04-26">renamed <a href="http://www.w3.org/TR/powerful-features/"><q>Privileged Contexts</q></a> to <a href="http://www.w3.org/TR/secure-contexts/"><q>Secure Contexts</q></a></entry>
         <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
         <entry date="2016-04-19">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from PR to REC</entry>
         <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
