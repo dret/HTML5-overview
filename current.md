@@ -1,7 +1,8 @@
 ---
-layout:   page
-category: specs
-title:    "Current HTML5 Specifications"
+layout:      page
+category:    specs
+title:       "Current HTML5 Specifications"
+short_title: "Current Specs"
 
 ---
 
