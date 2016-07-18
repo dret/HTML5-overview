@@ -120,6 +120,14 @@
                 <xsl:text>date:   </xsl:text>
                 <xsl:value-of select="$date"/>
                 <xsl:text>&#xa;</xsl:text>
+                <xsl:text>tags:   </xsl:text>
+                <xsl:for-each select=".//a[starts-with(@href, 'http://www.w3.org/TR/')]">
+                    <xsl:value-of select="substring-before(substring-after(@href, 'http://www.w3.org/TR/'), '/')"/>
+                    <xsl:if test="position() ne last()">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+                <xsl:text>&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
                 <xsl:apply-templates select="node()"/>
                 <xsl:text>&#xa;&#xa;</xsl:text>
