@@ -6,7 +6,7 @@ short_title: "Current Specs"
 
 ---
 
-This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by status), and then [others](#others):
+This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped by status), and then [10 others](#others):
 
 ## <a name="TR"/>W3C TR Specifications (109 Specs)
 

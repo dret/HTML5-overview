@@ -56,7 +56,13 @@
             <xsl:text>short_title: "Current Specs"&#xa;</xsl:text>
             <xsl:text>&#xa;</xsl:text>
             <xsl:text>---&#xa;&#xa;</xsl:text>
-            <xsl:text>This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by status), and then [others](#others):
+            <xsl:text>This is a list of all </xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','other')])"/>
+            <xsl:text> current HTML5 specs, first [</xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC')])"/>
+            <xsl:text> W3C TR](#TR) (grouped by status), and then [</xsl:text>
+            <xsl:value-of select="count(//specs/spec[@status = ('other')])"/>
+            <xsl:text> others](#others):
 
 ## &lt;a name="TR"/>W3C TR Specifications (</xsl:text>
             <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC')])"/>
