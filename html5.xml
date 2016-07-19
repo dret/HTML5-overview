@@ -448,6 +448,10 @@
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
+        <spec id="pointerevents2" status="WD">
+            <title>Pointer Events - Level 2</title>
+            <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
+        </spec>
         <spec id="uievents" status="WD">
             <title>UI Events Specification</title>
             <abstract>This specification defines UI Events which extend the DOM Event objects defined in DOM4. UI Events are those typically implemented by visual user agents for handling user interaction such as mouse and keyboard input.</abstract>
@@ -682,7 +686,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-07-19">updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
+        <entry date="2016-07-19">added <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>; updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
         <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a>; changed status of <a href="http://www.w3.org/TR/presentation-api/"><q>Presentation API</q></a> from WD to CR</entry>
         <entry date="2016-07-07">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from PR to CR</entry>
         <entry date="2016-07-05">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from WD to CR</entry>
