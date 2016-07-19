@@ -96,7 +96,7 @@ This is a list of all current HTML5 specs, first [W3C TR](#TR) (grouped by statu
 * [Payment Request API](spec/payment-request)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
 * [Preload](spec/preload)
-* [Proximity Events](spec/proximity)
+* [Proximity Sensor](spec/proximity)
 * [Push API](spec/push-api)
 * [Referrer Policy](spec/referrer-policy)
 * [Remote Playback API](spec/remote-playback)

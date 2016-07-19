@@ -318,7 +318,7 @@
         </spec>
         <spec id="gallery" status="NOTE">
             <title>Pick Media Intent</title>
-            <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification. </abstract>
+            <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification.</abstract>
         </spec>
         <spec id="pointerlock" status="CR">
             <title>Pointer Lock</title>
@@ -341,8 +341,8 @@
             <abstract>This document defines APIs for off-line serving of requests to HTTP resources using static and dynamic responses. It extends the function of application caches defined in HTML5.</abstract>
         </spec>
         <spec id="proximity" status="WD">
-            <title>Proximity Events</title>
-            <abstract>This specification defines a means to receive events that correspond to a proximity sensor detecting the presence of a physical object. </abstract>
+            <title>Proximity Sensor</title>
+            <abstract>This specification defines a concrete sensor interface to monitor the presence of nearby objects without physical contact.</abstract>
         </spec>
         <spec id="permissions" status="WD">
             <title>The Permissions API</title>
@@ -682,6 +682,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-07-19">updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
         <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a>; changed status of <a href="http://www.w3.org/TR/presentation-api/"><q>Presentation API</q></a> from WD to CR</entry>
         <entry date="2016-07-07">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from PR to CR</entry>
         <entry date="2016-07-05">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from WD to CR</entry>
