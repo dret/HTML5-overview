@@ -38,7 +38,7 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="CR"/>Candidate Recommendations (15 Specs)
+### <a name="CR"/>Candidate Recommendations (16 Specs)
 
 * [Battery Status API](spec/battery-status)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -51,12 +51,13 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [Mixed Content](spec/mixed-content)
 * [Pointer Lock](spec/pointerlock)
 * [Presentation API](spec/presentation-api)
+* [Resource Timing Level 1](spec/resource-timing-1)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [Web Cryptography API](spec/WebCryptoAPI)
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (70 Specs)
+### <a name="WD"/>Working Drafts (69 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -103,7 +104,6 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [Referrer Policy](spec/referrer-policy)
 * [Remote Playback API](spec/remote-playback)
 * [Resource Hints](spec/resource-hints)
-* [Resource Timing](spec/resource-timing)
 * [Screen Capture](spec/screen-capture)
 * [Screen Orientation API](spec/screen-orientation)
 * [Secure Contexts](spec/secure-contexts)
