@@ -38,7 +38,7 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="CR"/>Candidate Recommendations (16 Specs)
+### <a name="CR"/>Candidate Recommendations (17 Specs)
 
 * [Battery Status API](spec/battery-status)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -48,6 +48,7 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [HTML Media Capture](spec/html-media-capture)
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Media Source Extensions](spec/media-source)
+* [Micropub](spec/micropub)
 * [Mixed Content](spec/mixed-content)
 * [Pointer Lock](spec/pointerlock)
 * [Presentation API](spec/presentation-api)
@@ -57,7 +58,7 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (69 Specs)
+### <a name="WD"/>Working Drafts (68 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -90,7 +91,6 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [Media Capture from DOM Elements](spec/mediacapture-fromelement)
 * [MediaStream Recording](spec/mediastream-recording)
 * [Mediastream Image Capture](spec/image-capture)
-* [Micropub](spec/micropub)
 * [Navigation Timing Level 2](spec/navigation-timing-2)
 * [Network Service Discovery](spec/discovery-api)
 * [Page Visibility 2](spec/page-visibility-2)

@@ -644,7 +644,7 @@
             <title>Preload</title>
             <abstract>This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
         </spec>
-        <spec id="micropub" status="WD">
+        <spec id="micropub" status="CR">
             <title>Micropub</title>
             <abstract>Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</abstract>
         </spec>
@@ -686,6 +686,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-08-16">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from WD to CR</entry>
         <entry date="2016-07-21">changed status of <a href="http://www.w3.org/TR/resource-timing-1/"><q>Resource Timing Level 1</q></a> from WD to CR</entry>
         <entry date="2016-07-19">added <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>; updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
         <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a>; changed status of <a href="http://www.w3.org/TR/presentation-api/"><q>Presentation API</q></a> from WD to CR</entry>
