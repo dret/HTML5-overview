@@ -103,17 +103,17 @@
                 <xsl:value-of select="replace(title/text(), '&#34;', '&amp;#34;')"/>
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
-                <xsl:text>| Current Status | </xsl:text>
+                <xsl:text>| *Current&#160;Status:* | </xsl:text>
                 <xsl:value-of select="$status-title[index-of($status-index, current()/@status)]"/>
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="@status"/>
                 <xsl:text>)&#xa;</xsl:text>
-                <xsl:text>| Canonical URI | [`http://www.w3.org/TR/</xsl:text>
+                <xsl:text>| *Canonical&#160;URI:* | [`http://www.w3.org/TR/</xsl:text>
                 <xsl:value-of select="@id"/>
                 <xsl:text>`](http://www.w3.org/TR/</xsl:text>
                 <xsl:value-of select="@id"/>
                 <xsl:text>)&#xa;</xsl:text>
-                <xsl:text>| Abstract | </xsl:text>
+                <xsl:text>| *Abstract:* | </xsl:text>
                 <xsl:value-of select="abstract/text()"/>
             </xsl:result-document>
         </xsl:for-each>
