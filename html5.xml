@@ -23,7 +23,7 @@
     >
   <!ELEMENT a (#PCDATA | q)* >
   <!ATTLIST a
-    href      CDATA                                         #REQUIRED
+    href      CDATA                                                     #REQUIRED
     >
 ]>
 <html5>
