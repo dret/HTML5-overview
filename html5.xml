@@ -120,7 +120,7 @@
             <title>Clipboard API and Events</title>
             <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
         </spec>
-        <spec id="orientation-event" status="WD">
+        <spec id="orientation-event" status="CR">
             <title>DeviceOrientation Event Specification</title>
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
@@ -694,7 +694,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a>; added <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a></entry>
+        <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
         <entry date="2016-08-16">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from WD to CR</entry>
         <entry date="2016-07-21">changed status of <a href="http://www.w3.org/TR/resource-timing-1/"><q>Resource Timing Level 1</q></a> from WD to CR</entry>
         <entry date="2016-07-19">added <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>; updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>

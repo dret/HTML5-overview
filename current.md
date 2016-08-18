@@ -38,11 +38,12 @@ This is a list of all 121 current HTML5 specs, first [111 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="CR"/>Candidate Recommendations (17 Specs)
+### <a name="CR"/>Candidate Recommendations (18 Specs)
 
 * [Battery Status API](spec/battery-status)
 * [Content Security Policy Level 2](spec/CSP2)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
+* [DeviceOrientation Event Specification](spec/orientation-event)
 * [Encrypted Media Extensions](spec/encrypted-media)
 * [HTML 5.1](spec/html51)
 * [HTML Media Capture](spec/html-media-capture)
@@ -58,7 +59,7 @@ This is a list of all 121 current HTML5 specs, first [111 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (70 Specs)
+### <a name="WD"/>Working Drafts (69 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -73,7 +74,6 @@ This is a list of all 121 current HTML5 specs, first [111 W3C TR](#TR) (grouped 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [Credential Management Level 1](spec/credential-management-1)
 * [Custom Elements](spec/custom-elements)
-* [DeviceOrientation Event Specification](spec/orientation-event)
 * [Encoding](spec/encoding)
 * [File API](spec/FileAPI)
 * [FindText API](spec/findtext)
