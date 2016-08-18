@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 120 current HTML5 specs, first [110 W3C TR](#TR) (grouped by status), and then [10 others](#others):
+This is a list of all 121 current HTML5 specs, first [111 W3C TR](#TR) (grouped by status), and then [10 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (110 Specs)
+## <a name="TR"/>W3C TR Specifications (111 Specs)
 
 ### <a name="REC"/>Recommendations (24 Specs)
 
@@ -58,7 +58,7 @@ This is a list of all 120 current HTML5 specs, first [110 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (69 Specs)
+### <a name="WD"/>Working Drafts (70 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -80,6 +80,7 @@ This is a list of all 120 current HTML5 specs, first [110 W3C TR](#TR) (grouped 
 * [Gamepad](spec/gamepad)
 * [Generic Sensor API](spec/generic-sensor)
 * [Geofencing API](spec/geofencing) ([ED](https://w3c.github.io/geofencing-api/ "Editor's Draft"))
+* [HTML 5.2](spec/html52)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
 * [High Resolution Time Level 2](spec/hr-time-2)
