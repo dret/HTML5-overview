@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped by status), and then [10 others](#others):
+This is a list of all 120 current HTML5 specs, first [110 W3C TR](#TR) (grouped by status), and then [10 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (109 Specs)
+## <a name="TR"/>W3C TR Specifications (110 Specs)
 
 ### <a name="REC"/>Recommendations (24 Specs)
 
@@ -58,7 +58,7 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (68 Specs)
+### <a name="WD"/>Working Drafts (69 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -84,6 +84,7 @@ This is a list of all 119 current HTML5 specs, first [109 W3C TR](#TR) (grouped 
 * [HTML Imports](spec/html-imports)
 * [High Resolution Time Level 2](spec/hr-time-2)
 * [Identifiers for WebRTC's Statistics API](spec/webrtcstats)
+* [Indexed Database API 2.0](spec/IndexedDB-2)
 * [IndieUI: Events 1.0](spec/indie-ui-events)
 * [IndieUI: User Context 1.0](spec/indie-ui-context)
 * [Manifest for Web Application](spec/appmanifest)

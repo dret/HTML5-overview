@@ -240,6 +240,10 @@
             <title>Indexed Database API</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
         </spec>
+        <spec id="IndexedDB-2" status="WD">
+            <title>Indexed Database API 2.0</title>
+            <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
+        </spec>
         <spec id="media-capture-api" status="NOTE">
             <title>Media Capture API</title>
             <abstract>This specification defines an Application Programming Interface (API) that provides access to the audio, image and video capture capabilities of the device.</abstract>
@@ -686,6 +690,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a></entry>
         <entry date="2016-08-16">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from WD to CR</entry>
         <entry date="2016-07-21">changed status of <a href="http://www.w3.org/TR/resource-timing-1/"><q>Resource Timing Level 1</q></a> from WD to CR</entry>
         <entry date="2016-07-19">added <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>; updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
