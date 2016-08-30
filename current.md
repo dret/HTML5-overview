@@ -38,7 +38,11 @@ This is a list of all 121 current HTML5 specs, first [111 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="CR"/>Candidate Recommendations (18 Specs)
+### <a name="PR"/>Proposed Recommendations (1 Specs)
+
+* [Pointer Lock](spec/pointerlock)
+
+### <a name="CR"/>Candidate Recommendations (17 Specs)
 
 * [Battery Status API](spec/battery-status)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -51,7 +55,6 @@ This is a list of all 121 current HTML5 specs, first [111 W3C TR](#TR) (grouped 
 * [Media Source Extensions](spec/media-source)
 * [Micropub](spec/micropub)
 * [Mixed Content](spec/mixed-content)
-* [Pointer Lock](spec/pointerlock)
 * [Presentation API](spec/presentation-api)
 * [Resource Timing Level 1](spec/resource-timing-1)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)

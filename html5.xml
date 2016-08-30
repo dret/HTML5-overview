@@ -328,7 +328,7 @@
             <title>Pick Media Intent</title>
             <abstract>The Pick Media Intent defines a Web Intent that enables access to a user's media gallery from inside a Web application. It defines both an Intent action/type pair that selects this operation, and the format of the media data that is returned by services implementing this specification.</abstract>
         </spec>
-        <spec id="pointerlock" status="CR">
+        <spec id="pointerlock" status="PR">
             <title>Pointer Lock</title>
             <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modeling software.</abstract>
         </spec>
@@ -694,6 +694,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-08-30">changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from CR to PR</entry>
         <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
         <entry date="2016-08-16">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from WD to CR</entry>
         <entry date="2016-07-21">changed status of <a href="http://www.w3.org/TR/resource-timing-1/"><q>Resource Timing Level 1</q></a> from WD to CR</entry>
