@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into a jekyll site. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
-    <xsl:output name="jekyll" method="text" encoding="UTF-8"/>
+    <xsl:output name="markdown" method="text" encoding="UTF-8"/>
+    <xsl:output name="markup" method="xhtml" encoding="UTF-8"/>
     <xsl:variable name="post-dir" select="'_posts'"/>
     <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other', 'abandoned' )"/>
     <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other', 'Abandoned' )"/>
     <!-- -->
     <xsl:template match="/">
-        <xsl:result-document href="_includes/specs.html" method="xhtml">
+        <xsl:result-document href="_includes/specs.html" format="markup">
             <div class="specs">
                 <p>
                     <xsl:text>Currently this site tracks </xsl:text>
@@ -48,7 +49,7 @@
                 </p>
             </div>
         </xsl:result-document>
-        <xsl:result-document href="current.md" format="jekyll">
+        <xsl:result-document href="current.md" format="markdown">
             <xsl:text>---&#xa;</xsl:text>
             <xsl:text>layout:      page&#xa;</xsl:text>
             <xsl:text>category:    specs&#xa;</xsl:text>
@@ -75,7 +76,7 @@
                         <xsl:call-template name="generate-section"/>
                     </xsl:when>
                     <xsl:when test="@status eq 'NOTE'">
-                        <xsl:result-document href="abandoned.md" method="text">
+                        <xsl:result-document href="abandoned.md" format="markdown">
                             <xsl:text>---&#xa;</xsl:text>
                             <xsl:text>layout:      page&#xa;</xsl:text>
                             <xsl:text>category:    specs&#xa;</xsl:text>
@@ -95,7 +96,7 @@
             </xsl:for-each-group>
         </xsl:result-document>
         <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','NOTE')]">
-            <xsl:result-document href="spec/{@id}.md" format="jekyll">
+            <xsl:result-document href="spec/{@id}.md" format="markdown">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout:   page&#xa;</xsl:text>
                 <xsl:text>category: spec&#xa;</xsl:text>
@@ -119,7 +120,7 @@
         </xsl:for-each>
         <xsl:for-each select="//log/entry">
             <xsl:variable name="date" select="format-date(@date, '[Y0001]-[M01]-[D01]')"/>
-            <xsl:result-document href="{$post-dir}/{$date}-update.md" format="jekyll">
+            <xsl:result-document href="{$post-dir}/{$date}-update.md" format="markdown">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: post&#xa;</xsl:text>
                 <xsl:text>title:  "</xsl:text>
