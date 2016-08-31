@@ -48,7 +48,7 @@
                 </p>
             </div>
         </xsl:result-document>
-        <xsl:result-document href="current.md" method="text">
+        <xsl:result-document href="current.md" format="jekyll">
             <xsl:text>---&#xa;</xsl:text>
             <xsl:text>layout:      page&#xa;</xsl:text>
             <xsl:text>category:    specs&#xa;</xsl:text>
