@@ -2,7 +2,7 @@
 <!-- This XSLT transforms https://github.com/dret/HTML5-overview into a jekyll site. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
     <xsl:output name="markdown" method="text" encoding="UTF-8"/>
-    <xsl:output name="markup" method="xhtml" encoding="UTF-8"/>
+    <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <xsl:variable name="post-dir" select="'_posts'"/>
     <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other', 'abandoned' )"/>
     <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other', 'Abandoned' )"/>
@@ -96,7 +96,7 @@
             </xsl:for-each-group>
         </xsl:result-document>
         <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','NOTE')]">
-            <xsl:result-document href="spec/{@id}.md" format="markdown">
+            <xsl:result-document href="spec/{@id}.html" format="markup">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout:   page&#xa;</xsl:text>
                 <xsl:text>category: spec&#xa;</xsl:text>
@@ -104,18 +104,34 @@
                 <xsl:value-of select="replace(title/text(), '&#34;', '&amp;#34;')"/>
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
-                <xsl:text>| *Current&#160;Status:* | </xsl:text>
-                <xsl:value-of select="$status-title[index-of($status-index, current()/@status)]"/>
-                <xsl:text> (</xsl:text>
-                <xsl:value-of select="@status"/>
-                <xsl:text>)&#xa;</xsl:text>
-                <xsl:text>| *Canonical&#160;URI:* | [`http://www.w3.org/TR/</xsl:text>
-                <xsl:value-of select="@id"/>
-                <xsl:text>`](http://www.w3.org/TR/</xsl:text>
-                <xsl:value-of select="@id"/>
-                <xsl:text>)&#xa;</xsl:text>
-                <xsl:text>| *Abstract:* | </xsl:text>
-                <xsl:value-of select="abstract/text()"/>
+                <table>
+                    <tr>
+                        <th valign="top" align="right"><em>Current&#160;Status:</em></th>
+                        <td>
+                            <xsl:value-of select="$status-title[index-of($status-index, current()/@status)]"/>
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="@status"/>
+                            <xsl:text>)</xsl:text>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top" align="right"><em>Canonical&#160;URI:</em></th>
+                        <td>
+                            <code>
+                                <a href="http://www.w3.org/TR/{@id}">
+                                    <xsl:text>http://www.w3.org/TR/</xsl:text>
+                                    <xsl:value-of select="@id"/>
+                                </a>
+                            </code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top" align="right"><em>Abstract:</em></th>
+                        <td>
+                            <xsl:value-of select="abstract/text()"/>
+                        </td>
+                    </tr>
+                </table>
             </xsl:result-document>
         </xsl:for-each>
         <xsl:for-each select="//log/entry">
