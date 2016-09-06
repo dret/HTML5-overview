@@ -799,7 +799,7 @@
         <entry date="2014-05-29">added <a href="http://www.w3.org/TR/form-http-extensions/"><q>W3C HTML Form HTTP Extensions</q></a></entry>
         <entry date="2014-05-20">changed status of <a href="http://www.w3.org/TR/2dcontext/"><q>HTML Canvas 2D Context</q></a> from CR to WD</entry>
         <entry date="2014-05-08">added <a href="http://www.w3.org/TR/service-workers/"><q>Service Workers</q></a></entry>
-        <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a> from WD to NOTE</entry>
+        <entry date="2014-04-28">changed status of <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a> and <a href="http://www.w3.org/TR/file-writer-api/"><q>File API: Writer</q></a> from WD to NOTE</entry>
         <entry date="2014-04-10">changed status of <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a> from WD to NOTE</entry>
         <entry date="2014-03-18">added <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a>; changed status of <a href="http://www.w3.org/TR/html-templates/"><q>HTML Templates</q></a> from WD to NOTE</entry>
         <entry date="2014-02-11">added <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a>; changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
@@ -884,10 +884,10 @@
         <entry date="2010-10-26">added <a href="http://www.w3.org/TR/file-system-api/"><q>File API: Directories and System</q></a></entry>
         <entry date="2010-09-28">added <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> and changed title and permalink of <a href="http://www.w3.org/TR/media-capture-api/"><q>Media Capture API</q></a> (previously <a href="http://www.w3.org/TR/capture-api/"><q>Capture API</q></a>)</entry>
         <entry date="2010-08-19">updated abstract for <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a></entry>
-        <entry date="2010-08-10">added <a href="http://dret.typepad.com/dretblog/2010/08/html5-messaging-api.html"><q>Messaging API</q></a></entry>
-        <entry date="2010-04-06">added <a href="http://dret.typepad.com/dretblog/2010/04/html5-file-writer-api.html"><q>File API: Writer</q></a></entry>
-        <entry date="2010-04-01">added <a href="http://dret.typepad.com/dretblog/2010/04/html5-capture-api.html"><q>Capture API</q></a></entry>
-        <entry date="2010-03-04">added <a href="http://dret.typepad.com/dretblog/2010/03/html5-canvas-2d-context.html"><q>HTML Canvas 2D Context</q></a> and <a href="http://dret.typepad.com/dretblog/2010/03/html5-microdata.html"><q>HTML Microdata</q></a></entry>
+        <entry date="2010-08-10">added <a href="http://www.w3.org/TR/messaging-api/"><q>Messaging API</q></a></entry>
+        <entry date="2010-04-06">added <a href="http://www.w3.org/TR/file-writer-api/"><q>File API: Writer</q></a></entry>
+        <entry date="2010-04-01">added <a href="http://www.w3.org/TR/capture-api/"><q>Capture API</q></a></entry>
+        <entry date="2010-03-04">added <a href="http://www.w3.org/TR/canvas-2d-context/"><q>HTML Canvas 2D Context</q></a> and <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a></entry>
         <entry date="2010-01-21"><a href="http://dret.typepad.com/dretblog/2010/01/hunting-html5-apis.html">initial version</a></entry>
     </log>
 </html5>
