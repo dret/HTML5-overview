@@ -34,3 +34,18 @@ title:    "WebRTC 1.0: Real-time Communication Between Browsers"
       </td>
    </tr>
 </table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>WebRTC 1.0: Real-time Communication Between Browsers</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "webrtc" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

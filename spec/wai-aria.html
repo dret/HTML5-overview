@@ -35,3 +35,18 @@ title:    "Accessible Rich Internet Applications (WAI-ARIA) 1.0"
       </td>
    </tr>
 </table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Accessible Rich Internet Applications (WAI-ARIA) 1.0</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "wai-aria" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

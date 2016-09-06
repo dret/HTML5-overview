@@ -28,3 +28,18 @@ title:    "Fullscreen"
       <td>Fullscreen defines the fullscreen API for the web platform.</td>
    </tr>
 </table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Fullscreen</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "fullscreen" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

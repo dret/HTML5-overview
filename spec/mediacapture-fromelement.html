@@ -30,3 +30,18 @@ title:    "Media Capture from DOM Elements"
       </td>
    </tr>
 </table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Media Capture from DOM Elements</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "mediacapture-fromelement" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

@@ -32,3 +32,18 @@ title:    "Reporting API 1"
       </td>
    </tr>
 </table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Reporting API 1</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "reporting-1" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

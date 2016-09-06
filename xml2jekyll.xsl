@@ -132,6 +132,26 @@
                         </td>
                     </tr>
                 </table>
+                <br/>
+                <hr/>
+                <br/>
+                <h3 id="history">
+                    <q>
+                        <xsl:value-of select="title/text()"/>
+                    </q>
+                    <xsl:text> Updates:</xsl:text>
+                </h3>
+                <ul>
+                    <xsl:text>&#xa;{% for post in site.posts %}&#xa;</xsl:text>
+                    <xsl:text>{% if post.tags contains "</xsl:text>
+                    <xsl:value-of select="@id"/>
+                    <xsl:text>" %}</xsl:text>
+                    <li>
+                        <a href="{{{{ post.url | prepend: site.baseurl }}}}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+                    </li>
+                    <xsl:text>&#xa;{% endif %}&#xa;</xsl:text>
+                    <xsl:text>{% endfor %}</xsl:text>
+                </ul>
             </xsl:result-document>
         </xsl:for-each>
         <xsl:for-each select="//log/entry">
@@ -145,14 +165,14 @@
                 <xsl:text>date:   </xsl:text>
                 <xsl:value-of select="$date"/>
                 <xsl:text>&#xa;</xsl:text>
-                <xsl:text>tags:   </xsl:text>
+                <xsl:text>tags:   [ </xsl:text>
                 <xsl:for-each select=".//a[starts-with(@href, 'http://www.w3.org/TR/')]">
                     <xsl:value-of select="substring-before(substring-after(@href, 'http://www.w3.org/TR/'), '/')"/>
                     <xsl:if test="position() ne last()">
-                        <xsl:text>, </xsl:text>
+                        <xsl:text> , </xsl:text>
                     </xsl:if>
                 </xsl:for-each>
-                <xsl:text>&#xa;</xsl:text>
+                <xsl:text> ]&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
                 <xsl:apply-templates select="node()"/>
                 <xsl:text>&#xa;&#xa;</xsl:text>
