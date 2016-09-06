@@ -104,7 +104,7 @@
                 <xsl:value-of select="replace(title/text(), '&#34;', '&amp;#34;')"/>
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
-                <table>
+                <table cellpadding="5">
                     <tr>
                         <th valign="top" align="right"><em>Current&#160;Status:</em></th>
                         <td>
