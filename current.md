@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 122 current HTML5 specs, first [112 W3C TR](#TR) (grouped by status), and then [10 others](#others):
+This is a list of all 123 current HTML5 specs, first [113 W3C TR](#TR) (grouped by status), and then [10 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (112 Specs)
+## <a name="TR"/>W3C TR Specifications (113 Specs)
 
 ### <a name="REC"/>Recommendations (24 Specs)
 
@@ -62,7 +62,7 @@ This is a list of all 122 current HTML5 specs, first [112 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (70 Specs)
+### <a name="WD"/>Working Drafts (71 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -74,6 +74,7 @@ This is a list of all 122 current HTML5 specs, first [112 W3C TR](#TR) (grouped 
 * [Clipboard API and Events](spec/clipboard-apis)
 * [Confinement with Origin Web Labels](spec/cowl)
 * [Content Security Policy Level 3](spec/CSP3)
+* [Content Security Policy: Embedded Enforcement](spec/csp-embedded-enforcement)
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [Credential Management Level 1](spec/credential-management-1)
 * [Custom Elements](spec/custom-elements)

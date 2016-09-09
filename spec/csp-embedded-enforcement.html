@@ -1,0 +1,48 @@
+---
+layout:   page
+category: spec
+title:    "Content Security Policy: Embedded Enforcement"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/csp-embedded-enforcement">http://www.w3.org/TR/csp-embedded-enforcement</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a mechanism by which a web page can embed a nested browsing
+         context if and only if it agrees to enforce a particular set of restrictions upon
+         itself.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Content Security Policy: Embedded Enforcement</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "csp-embedded-enforcement" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

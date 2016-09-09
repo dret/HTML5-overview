@@ -564,6 +564,10 @@
             <title>Content Security Policy Level 3</title>
             <abstract>This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions.</abstract>
         </spec>
+        <spec id="csp-embedded-enforcement" status="WD">
+            <title>Content Security Policy: Embedded Enforcement</title>
+            <abstract>This document defines a mechanism by which a web page can embed a nested browsing context if and only if it agrees to enforce a particular set of restrictions upon itself.</abstract>
+        </spec>
         <spec id="secure-contexts" status="WD">
             <title>Secure Contexts</title>
             <abstract>This specification defines "secure contexts", thereby allowing user agent implementers and specification authors to enable certain features only when certain minimum standards of authentication and confidentiality are met.</abstract>
@@ -698,6 +702,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-09-09">added <a href="http://www.w3.org/TR/csp-embedded-enforcement/"><q>Content Security Policy: Embedded Enforcement</q></a></entry>
         <entry date="2016-08-30">added <a href="http://www.w3.org/TR/input-events/"><q>Input Events</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from CR to PR</entry>
         <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
         <entry date="2016-08-16">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from WD to CR</entry>
