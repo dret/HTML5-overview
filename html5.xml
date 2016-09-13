@@ -436,7 +436,7 @@
             <title>Timing Control for Script-Based Animations</title>
             <abstract>This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.</abstract>
         </spec>
-        <spec id="web-animations" status="WD">
+        <spec id="web-animations-1" status="WD">
             <title>Web Animations</title>
             <abstract>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.</abstract>
         </spec>
@@ -753,7 +753,7 @@
         <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>
         <entry date="2015-07-11">added <a href="http://www.w3.org/TR/api-perms/"><q>Permissions for Device API Access</q></a></entry>
         <entry date="2015-07-09">added <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a></entry>
-        <entry date="2015-07-07">added <a href="http://www.w3.org/TR/html-aria/"><q>ARIA in HTML</q></a></entry>
+        <entry date="2015-07-07">added <a href="http://www.w3.org/TR/html-aria/"><q>ARIA in HTML</q></a>; renamed <a href="http://www.w3.org/TR/web-animations/"><q>Web Animations 1.0</q></a> to <a href="http://www.w3.org/TR/web-animations-1/"><q>Web Animations 1.0</q></a></entry>
         <entry date="2015-06-22">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/selectors-api/"><q>Selectors API Level 1</q></a> from WD to REC; changed status of <a href="http://www.w3.org/TR/selectors-api2/"><q>Selectors API Level 2</q></a> and <a href="http://www.w3.org/TR/XMLHttpRequest2/"><q>XMLHttpRequest Level 2</q></a> from WD to NOTE</entry>
         <entry date="2015-06-17">changed status of <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a> from WD to CR</entry>
         <entry date="2015-06-16">changed status of <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a> from WD to NOTE</entry>
