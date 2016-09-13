@@ -436,7 +436,7 @@
             <title>Timing Control for Script-Based Animations</title>
             <abstract>This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.</abstract>
         </spec>
-        <spec id="web-animations" status="WD">
+        <spec id="web-animations-1" status="WD">
             <title>Web Animations</title>
             <abstract>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features.</abstract>
         </spec>
