@@ -702,10 +702,6 @@
         </spec>
     </specs>
     <log>
-        <rename date="2016-09-12">
-            <old id="web-animations" title="Web Animations"/>
-            <new id="web-animations-1" title="Web Animations"/>
-        </rename>
         <entry date="2016-09-09">added <a href="http://www.w3.org/TR/csp-embedded-enforcement/"><q>Content Security Policy: Embedded Enforcement</q></a></entry>
         <entry date="2016-08-30">added <a href="http://www.w3.org/TR/input-events/"><q>Input Events</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from CR to PR</entry>
         <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
@@ -760,6 +756,10 @@
         <entry date="2015-07-16">added <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a></entry>
         <entry date="2015-07-11">added <a href="http://www.w3.org/TR/api-perms/"><q>Permissions for Device API Access</q></a></entry>
         <entry date="2015-07-09">added <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a></entry>
+        <rename date="2015-07-08">
+            <old id="web-animations" title="Web Animations"/>
+            <new id="web-animations-1" title="Web Animations"/>
+        </rename>
         <entry date="2015-07-07">added <a href="http://www.w3.org/TR/html-aria/"><q>ARIA in HTML</q></a></entry>
         <entry date="2015-06-22">changed status of <a href="http://www.w3.org/TR/cors/"><q>Cross-Origin Resource Sharing</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/selectors-api/"><q>Selectors API Level 1</q></a> from WD to REC; changed status of <a href="http://www.w3.org/TR/selectors-api2/"><q>Selectors API Level 2</q></a> and <a href="http://www.w3.org/TR/XMLHttpRequest2/"><q>XMLHttpRequest Level 2</q></a> from WD to NOTE</entry>
         <entry date="2015-06-17">changed status of <a href="http://www.w3.org/TR/DOM-Parsing/"><q>DOM Parsing and Serialization</q></a> from WD to CR</entry>
