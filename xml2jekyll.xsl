@@ -178,6 +178,44 @@
                 <xsl:text>&#xa;&#xa;</xsl:text>
             </xsl:result-document>
         </xsl:for-each>
+        <xsl:for-each select="//log/rename">
+            <xsl:variable name="date" select="format-date(@date, '[Y0001]-[M01]-[D01]')"/>
+            <xsl:result-document href="{$post-dir}/{$date}-update.md" format="markdown">
+                <xsl:text>---&#xa;</xsl:text>
+                <xsl:text>layout: post&#xa;</xsl:text>
+                <xsl:text>title:  "renamed </xsl:text>
+                <xsl:value-of select="old/@title"/>
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="old/@id"/>
+                <xsl:text>) to </xsl:text>
+                <xsl:value-of select="new/@title"/>
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="new/@id"/>
+                <xsl:text>)"&#xa;</xsl:text>
+                <xsl:text>date:   </xsl:text>
+                <xsl:value-of select="$date"/>
+                <xsl:text>&#xa;</xsl:text>
+                <xsl:text>tags:   [ </xsl:text>
+                <xsl:value-of select="old/@id"/>
+                <xsl:text> , </xsl:text>
+                <xsl:value-of select="new/@id"/>
+                <xsl:text> ]&#xa;</xsl:text>
+                <xsl:text>---&#xa;&#xa;</xsl:text>
+                <xsl:text>renamed [</xsl:text>
+                <xsl:value-of select="old/@title"/>
+                <xsl:text> (`</xsl:text>
+                <xsl:value-of select="old/@id"/>
+                <xsl:text>`)](/spec/</xsl:text>
+                <xsl:value-of select="old/@id"/>
+                <xsl:text>) to [</xsl:text>
+                <xsl:value-of select="new/@title"/>
+                <xsl:text> (`</xsl:text>
+                <xsl:value-of select="new/@id"/>
+                <xsl:text>`)](/spec/</xsl:text>
+                <xsl:value-of select="new/@id"/>
+                <xsl:text>)&#xa;&#xa;</xsl:text>
+            </xsl:result-document>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="a">
         <xsl:text>[</xsl:text>

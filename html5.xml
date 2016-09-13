@@ -702,6 +702,10 @@
         </spec>
     </specs>
     <log>
+        <rename date="2016-09-12">
+            <old id="web-animations" title="Web Animations"/>
+            <new id="web-animations-1" title="Web Animations"/>
+        </rename>
         <entry date="2016-09-09">added <a href="http://www.w3.org/TR/csp-embedded-enforcement/"><q>Content Security Policy: Embedded Enforcement</q></a></entry>
         <entry date="2016-08-30">added <a href="http://www.w3.org/TR/input-events/"><q>Input Events</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from CR to PR</entry>
         <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
@@ -719,7 +723,10 @@
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
         <entry date="2016-05-19">added <a href="http://www.w3.org/TR/mediacapture-streams/"><q>Media Capture and Streams</q></a></entry>
         <entry date="2016-05-15">changed status of <a href="http://www.w3.org/TR/quota-api/"><q>Quota Management API</q></a> and <a href="http://www.w3.org/TR/ime-api/"><q>Input Method Editor API</q></a> from WD to NOTE</entry>
-        <entry date="2016-04-26">renamed <a href="http://www.w3.org/TR/powerful-features/"><q>Privileged Contexts</q></a> to <a href="http://www.w3.org/TR/secure-contexts/"><q>Secure Contexts</q></a></entry>
+        <rename date="2016-04-26">
+            <old id="powerful-features" title="Privileged Contexts"/>
+            <new id="secure-contexts" title="Secure Contexts"/>
+        </rename>
         <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
         <entry date="2016-04-19">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from PR to REC</entry>
         <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
@@ -772,7 +779,10 @@
         <entry date="2015-04-24">added <a href="http://www.w3.org/TR/powerful-features/"><q>Privileged Contexts</q></a> and <a href="http://www.w3.org/TR/upgrade-insecure-requests/"><q>Upgrade Insecure Requests</q></a></entry>
         <entry date="2015-04-22">updated <a href="http://www.w3.org/TR/resource-hints/"><q>Resource Hints</q></a>, <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, and <a href="http://www.w3.org/TR/navigation-timing-2/"><q>Navigation Timing 2</q></a> abstracts</entry>
         <entry date="2015-04-07">added <a href="http://www.w3.org/TR/permissions/"><q>The Permissions API</q></a>; changed status of <a href="http://www.w3.org/TR/webmessaging/"><q>HTML5 Web Messaging</q></a> from CR to PR</entry>
-        <entry date="2015-03-06">renamed <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a> to <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a></entry>
+        <rename date="2015-03-06">
+            <old id="navigation-error-logging" title="Navigation Error Logging"/>
+            <new id="network-error-logging" title="Network Error Logging"/>
+        </rename>
         <entry date="2015-02-26">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from PR to REC</entry>
         <entry date="2015-02-25">changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from PR to REC</entry>
         <entry date="2015-02-19">added <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> and <a href="http://www.w3.org/TR/mediacapture-fromelement/"><q>Media Capture from DOM Elements</q></a>; changed status of <a href="http://www.w3.org/TR/CSP/"><q>Content Security Policy 1.0</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from WD to CR</entry>
@@ -786,7 +796,14 @@
         <entry date="2014-12-11">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from WD to CR</entry>
         <entry date="2014-12-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from WD to CR; changed <a href="http://www.w3.org/TR/url/"><q>URL</q></a> identifier from "url" to "url-1"</entry>
         <entry date="2014-12-05">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from CR to PR</entry>
-        <entry date="2014-12-02">renamed <a href="http://www.w3.org/TR/raw-sockets/"><q>Raw Sockets</q></a> to <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a>; renamed <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> to <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a></entry>
+        <rename date="2014-12-03">
+            <old id="raw-sockets" title="Raw Sockets"/>
+            <new id="tcp-udp-sockets" title="TCP and UDP Socket API"/>renamed <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> to <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a>
+        </rename>
+        <rename date="2014-12-02">
+            <old id="web-alarms" title="Web Alarms API Specification"/>
+            <new id="task-scheduler" title="Task Scheduler API Specification"/>
+        </rename>
         <entry date="2014-11-20">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from CR to PR</entry>
         <entry date="2014-11-18">changed status of <a href="http://www.w3.org/TR/fullscreen/"><q>Fullscreen</q></a> from WD to NOTE</entry>
         <entry date="2014-11-14">added <a href="http://www.w3.org/TR/webvtt1/"><q>WebVTT: The Web Video Text Tracks Format</q></a>; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from CR to WD</entry>
