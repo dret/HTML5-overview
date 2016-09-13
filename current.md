@@ -125,7 +125,7 @@ This is a list of all 123 current HTML5 specs, first [113 W3C TR](#TR) (grouped 
 * [URL](spec/url-1)
 * [User Interface Security and the Visibility API](spec/UISecurity)
 * [Wake Lock API](spec/wake-lock)
-* [Web Animations](spec/web-animations)
+* [Web Animations](spec/web-animations-1)
 * [Web Audio API](spec/webaudio)
 * [Web Authentication: A Web API for accessing scoped credentials](spec/webauthn)
 * [Web MIDI API](spec/webmidi)
