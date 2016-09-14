@@ -1,0 +1,50 @@
+---
+layout:   page
+category: spec
+title:    "Entry Point Regulation"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Note (NOTE)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/epr">http://www.w3.org/TR/epr</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This Note provides a historical reference for a proposed mechanism to mitigate the
+         risk of reflected cross-site scripting (XSS), cross-site script inclusion (XSSI),
+         and cross-site request forgery (CSRF) attacks by demarcating the areas of an application
+         which are intended to be externally referencable. A specified policy is applied on
+         external requests for all non-demarcated resources.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Entry Point Regulation</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "epr" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
