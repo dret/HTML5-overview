@@ -1,0 +1,26 @@
+---
+layout:   page
+category: spec
+title:    "URL"
+---
+
+<p>Old Name/id for 
+   <a href="url-1">URL (
+      <code>url-1</code>)
+   </a>.
+</p>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>URL</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "url" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

@@ -819,7 +819,11 @@
         <entry date="2015-01-08">changed status of <a href="http://www.w3.org/TR/IndexedDB/"><q>Indexed Database API</q></a> from PR to REC</entry>
         <entry date="2014-12-16">changed status of <a href="http://www.w3.org/TR/resource-timing-1/"><q>Resource Timing</q></a> from CR to WD; changed status of <a href="http://www.w3.org/TR/pointerevents/"><q>Pointer Events</q></a> from WD to PR</entry>
         <entry date="2014-12-11">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from WD to CR</entry>
-        <entry date="2014-12-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from WD to CR; changed <a href="http://www.w3.org/TR/url/"><q>URL</q></a> identifier from "url" to "url-1"</entry>
+        <rename date="2014-12-10">
+            <old id="url" title="URL"/>
+            <new id="url-1" title="URL"/>
+        </rename>
+        <entry date="2014-12-09">changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> and <a href="http://www.w3.org/TR/eventsource/"><q>Server-Sent Events</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from WD to CR</entry>
         <entry date="2014-12-05">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from CR to PR</entry>
         <rename date="2014-12-03">
             <old id="raw-sockets" title="Raw Sockets"/>
