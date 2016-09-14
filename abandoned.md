@@ -10,12 +10,13 @@ permalink:   /abandoned
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
 
-### <a name="NOTE"/>Notes (45 Specs)
+### <a name="NOTE"/>Notes (46 Specs)
 
 * [A Transcript Extension for HTML](spec/html-transcript-src)
 * [Calendar API](spec/calendar-api)
 * [Contacts Manager API](spec/contacts-manager-api)
 * [Content Security Policy 1.0](spec/CSP)
+* [Content Security Policy: Cookie Controls](spec/csp-cookies)
 * [File API: Directories and System](spec/file-system-api)
 * [File API: Writer](spec/file-writer-api)
 * [Frame Timing](spec/frame-timing)
