@@ -160,7 +160,7 @@
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: post&#xa;</xsl:text>
                 <xsl:text>title:  "</xsl:text>
-                <xsl:value-of select="replace(string-join(.//text()), '&#34;', '&amp;#34;')"/>
+                <xsl:apply-templates select="node()" mode="md-title"/>
                 <xsl:text>"&#xa;</xsl:text>
                 <xsl:text>date:   </xsl:text>
                 <xsl:value-of select="$date"/>
@@ -248,7 +248,7 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="a">
-        <xsl:text>[</xsl:text>
+        <xsl:text>"[</xsl:text>
         <xsl:value-of select=".//text()"/>
         <xsl:text>](</xsl:text>
         <xsl:choose>
@@ -260,7 +260,13 @@
                 <xsl:value-of select="@href"/>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:text>)</xsl:text>
+        <xsl:text>)"</xsl:text>
+    </xsl:template>
+    <xsl:template match="a" mode="md-title">
+        <xsl:text>\"</xsl:text>
+        <xsl:variable name="apos" select='"&apos;"'/>
+        <xsl:value-of select="replace(string-join(.//text()), '&#34;', $apos)"/>
+        <xsl:text>\"</xsl:text>
     </xsl:template>
     <xsl:template name="generate-section">
         <xsl:choose>
