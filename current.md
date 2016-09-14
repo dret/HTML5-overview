@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 123 current HTML5 specs, first [113 W3C TR](#TR) (grouped by status), and then [10 others](#others):
+This is a list of all 125 current HTML5 specs, first [115 W3C TR](#TR) (grouped by status), and then [10 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (113 Specs)
+## <a name="TR"/>W3C TR Specifications (115 Specs)
 
 ### <a name="REC"/>Recommendations (24 Specs)
 
@@ -62,7 +62,7 @@ This is a list of all 123 current HTML5 specs, first [113 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (71 Specs)
+### <a name="WD"/>Working Drafts (73 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -84,6 +84,7 @@ This is a list of all 123 current HTML5 specs, first [113 W3C TR](#TR) (grouped 
 * [Gamepad](spec/gamepad)
 * [Generic Sensor API](spec/generic-sensor)
 * [Geofencing API](spec/geofencing) ([ED](https://w3c.github.io/geofencing-api/ "Editor's Draft"))
+* [Gyroscope Sensor](spec/gyroscope)
 * [HTML 5.2](spec/html52)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
@@ -93,6 +94,7 @@ This is a list of all 123 current HTML5 specs, first [113 W3C TR](#TR) (grouped 
 * [IndieUI: Events 1.0](spec/indie-ui-events)
 * [IndieUI: User Context 1.0](spec/indie-ui-context)
 * [Input Events](spec/input-events)
+* [Magnetometer Sensor](spec/magnetometer)
 * [Manifest for Web Application](spec/appmanifest)
 * [Media Capture Depth Stream Extensions](spec/mediacapture-depth)
 * [Media Capture from DOM Elements](spec/mediacapture-fromelement)

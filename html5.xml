@@ -64,6 +64,14 @@
             <title>Ambient Light Sensor</title>
             <abstract>This specification defines a concrete sensor interface to monitor the ambient light level or illuminance of the device's environment.</abstract>
         </spec>
+        <spec id="magnetometer" status="WD">
+            <title>Magnetometer Sensor</title>
+            <abstract>This specification defines a concrete sensor interface to measure magnetic field in the X, Y and Z axis.</abstract>
+        </spec>
+        <spec id="gyroscope" status="WD">
+            <title>Gyroscope Sensor</title>
+            <abstract>This specification defines a concrete sensor interface to monitor the rate of rotation around the device's local three primary axes.</abstract>
+        </spec>
         <spec id="audioproc" status="WD">
             <title>Audio Processing API</title>
             <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
@@ -702,6 +710,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-09-13">added <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer Sensor</q></a> and <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope Sensor</q></a></entry>
         <entry date="2016-09-09">added <a href="http://www.w3.org/TR/csp-embedded-enforcement/"><q>Content Security Policy: Embedded Enforcement</q></a></entry>
         <entry date="2016-08-30">added <a href="http://www.w3.org/TR/input-events/"><q>Input Events</q></a>; changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from CR to PR</entry>
         <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
