@@ -823,7 +823,7 @@
         <entry date="2014-12-05">changed status of <a href="http://www.w3.org/TR/html-longdesc/"><q>HTML Image Description Extension (longdesc)</q></a> from CR to PR</entry>
         <rename date="2014-12-03">
             <old id="raw-sockets" title="Raw Sockets"/>
-            <new id="tcp-udp-sockets" title="TCP and UDP Socket API"/>renamed <a href="http://www.w3.org/TR/web-alarms/"><q>Web Alarms API Specification</q></a> to <a href="http://www.w3.org/TR/task-scheduler/"><q>Task Scheduler API Specification</q></a>
+            <new id="tcp-udp-sockets" title="TCP and UDP Socket API"/>
         </rename>
         <rename date="2014-12-02">
             <old id="web-alarms" title="Web Alarms API Specification"/>
