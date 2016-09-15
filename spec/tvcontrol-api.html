@@ -1,0 +1,49 @@
+---
+layout:   page
+category: spec
+title:    "TV Control API Specification"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/tvcontrol-api">http://www.w3.org/TR/tvcontrol-api</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification defines an API for sourcing audio and video media, such as TV and
+         radio from broadcast, IPTV, or other sources, with associated channel and program
+         metadata, and allows presentation of the media using the &lt;video&gt; and &lt;audio&gt; HTML
+         elements. The API is agnostic of any underlying audio or video sourcing technologies.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>TV Control API Specification</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "tvcontrol-api" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

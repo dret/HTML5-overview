@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 128 current HTML5 specs, first [118 W3C TR](#TR) (grouped by status), and then [10 others](#others):
+This is a list of all 129 current HTML5 specs, first [119 W3C TR](#TR) (grouped by status), and then [10 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (118 Specs)
+## <a name="TR"/>W3C TR Specifications (119 Specs)
 
 ### <a name="REC"/>Recommendations (24 Specs)
 
@@ -62,7 +62,7 @@ This is a list of all 128 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (76 Specs)
+### <a name="WD"/>Working Drafts (77 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -121,6 +121,7 @@ This is a list of all 128 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [Service Workers](spec/service-workers)
 * [Shadow DOM](spec/shadow-dom)
 * [Streams API](spec/streams-api)
+* [TV Control API Specification](spec/tvcontrol-api)
 * [The Permissions API](spec/permissions)
 * [UI Events KeyboardEvent code Values](spec/uievents-code)
 * [UI Events KeyboardEvent key Values](spec/uievents-key)
