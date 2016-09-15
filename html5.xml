@@ -16,7 +16,7 @@
   <!ELEMENT abstract (#PCDATA | q | em)* >
   <!ELEMENT q (#PCDATA) >
   <!ELEMENT em (#PCDATA) >
-  <!ELEMENT log (entry*) >
+  <!ELEMENT log (entry|rename)* >
   <!ELEMENT entry (#PCDATA | q | em | a)* >
   <!ATTLIST entry
     date      CDATA                                                     #REQUIRED
@@ -24,6 +24,20 @@
   <!ELEMENT a (#PCDATA | q)* >
   <!ATTLIST a
     href      CDATA                                                     #REQUIRED
+    >
+  <!ELEMENT rename (old, new) >
+  <!ATTLIST rename
+    date      CDATA                                                     #REQUIRED
+    >
+  <!ELEMENT old EMPTY >
+  <!ATTLIST old
+    id        CDATA                                                     #REQUIRED
+    title     CDATA                                                     #REQUIRED
+    >
+  <!ELEMENT new EMPTY >
+  <!ATTLIST new
+    id        CDATA                                                     #REQUIRED
+    title     CDATA                                                     #REQUIRED
     >
 ]>
 <html5>
