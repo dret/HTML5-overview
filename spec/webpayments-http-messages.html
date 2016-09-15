@@ -1,0 +1,48 @@
+---
+layout:   page
+category: spec
+title:    "Web Payments HTTP Messages 1.0"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/webpayments-http-messages">http://www.w3.org/TR/webpayments-http-messages</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document specifies the Web Payments messages that are used to initiate and acknowledge
+         a payment request via the HTTP protocol. The messages are typically passed between
+         the software ecosystem that initiates, executes, and finalizes Web Payments.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Web Payments HTTP Messages 1.0</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "webpayments-http-messages" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
