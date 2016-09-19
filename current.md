@@ -7,7 +7,7 @@ permalink:   /current
 
 ---
 
-This is a list of all 129 current HTML5 specs, first [119 W3C TR](#TR) (grouped by status), and then [10 others](#others):
+This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped by status), and then [11 others](#others):
 
 ## <a name="TR"/>W3C TR Specifications (119 Specs)
 
@@ -142,7 +142,7 @@ This is a list of all 129 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Worklets Level 1](spec/worklets-1)
 * [XMLHttpRequest](spec/XMLHttpRequest)
 
-## <a name="others"/>Non-W3C Specifications (10 Specs)
+## <a name="others"/>Non-W3C Specifications (11 Specs)
 
 * [Fetch](https://fetch.spec.whatwg.org/)
 * [FileSystem API](http://w3c.github.io/filesystem-api/)
@@ -154,3 +154,4 @@ This is a list of all 129 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Web Speech API Specification](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html)
 * [WebGL 1.0](https://www.khronos.org/registry/webgl/specs/latest/1.0/)
 * [WebGL 2.0](https://www.khronos.org/registry/webgl/specs/latest/2.0/)
+* [WebVR](http://w3c.github.io/webvr/)
