@@ -635,7 +635,7 @@
             <abstract>This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.</abstract>
         </spec>
         <spec id="webauthn" status="WD">
-            <title>Web Authentication: A Web API for accessing scoped credentials</title>
+            <title>Web Authentication: An API for accessing Scoped Credentials</title>
             <abstract>This specification defines an API enabling the creation and use of strong, attested, cryptographic scoped credentials by web applications, for the purpose of strongly authenticating users. Conceptually, one or more credentials, each scoped to a given Relying Party, are created and stored on an authenticator by the user agent in conjunction with the web application. The user agent mediates access to scoped credentials in order to preserve user privacy. Authenticators are responsible for ensuring that no operation is performed without user consent. Authenticators provide cryptographic proof of their properties to relying parties via attestation. This specification also describes the functional model for WebAuthn conformant authenticators, including their signature and attestation functionality.</abstract>
         </spec>
         <spec id="selection-api" status="WD">
@@ -756,6 +756,10 @@
         </spec>
     </specs>
     <log>
+        <rename date="2016-09-28">
+            <old id="webauthn" title="Web Authentication: A Web API for accessing scoped credentials"/>
+            <new id="webauthn" title="Web Authentication: An API for accessing Scoped Credentials"/>
+        </rename>
         <entry date="2016-09-19">added <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a></entry>
         <entry date="2016-09-15">added <a href="http://www.w3.org/TR/webpayments-http-api/"><q>Web Payments HTTP API 1.0</q></a>, <a href="http://www.w3.org/TR/webpayments-http-messages/"><q>Web Payments HTTP Messages 1.0</q></a>, and <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a>, changed status of <a href="http://www.w3.org/TR/secure-contexts/"><q>Secure Contexts</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from CR to PR</entry>
         <entry date="2016-09-13">added <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer Sensor</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope Sensor</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer Sensor</q></a>, <a href="http://www.w3.org/TR/csp-cookies/"><q>Content Security Policy: Cookie Controls</q></a>, <a href="http://www.w3.org/TR/csp-pinning/"><q>Content Security Policy Pinning</q></a>, and <a href="http://www.w3.org/TR/epr/"><q>Entry Point Regulation</q></a></entry>
