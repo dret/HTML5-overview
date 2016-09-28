@@ -183,15 +183,15 @@
             <xsl:result-document href="{$post-dir}/{$date}-update.md" format="markdown">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout: post&#xa;</xsl:text>
-                <xsl:text>title:  "renamed </xsl:text>
+                <xsl:text>title:  "renamed \"</xsl:text>
                 <xsl:value-of select="old/@title"/>
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="old/@id"/>
-                <xsl:text>) to </xsl:text>
+                <xsl:text>)\" to \"</xsl:text>
                 <xsl:value-of select="new/@title"/>
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="new/@id"/>
-                <xsl:text>)"&#xa;</xsl:text>
+                <xsl:text>)\""&#xa;</xsl:text>
                 <xsl:text>date:   </xsl:text>
                 <xsl:value-of select="$date"/>
                 <xsl:text>&#xa;</xsl:text>
@@ -201,19 +201,19 @@
                 <xsl:value-of select="new/@id"/>
                 <xsl:text> ]&#xa;</xsl:text>
                 <xsl:text>---&#xa;&#xa;</xsl:text>
-                <xsl:text>renamed [</xsl:text>
+                <xsl:text>renamed "[</xsl:text>
                 <xsl:value-of select="old/@title"/>
                 <xsl:text> (`</xsl:text>
                 <xsl:value-of select="old/@id"/>
                 <xsl:text>`)](/spec/</xsl:text>
                 <xsl:value-of select="old/@id"/>
-                <xsl:text>) to [</xsl:text>
+                <xsl:text>)" to "[</xsl:text>
                 <xsl:value-of select="new/@title"/>
                 <xsl:text> (`</xsl:text>
                 <xsl:value-of select="new/@id"/>
                 <xsl:text>`)](/spec/</xsl:text>
                 <xsl:value-of select="new/@id"/>
-                <xsl:text>)&#xa;&#xa;</xsl:text>
+                <xsl:text>)"&#xa;&#xa;</xsl:text>
             </xsl:result-document>
             <xsl:if test="new/@id ne old/@id">
                 <xsl:result-document href="spec/{old/@id}.html" format="markup">
