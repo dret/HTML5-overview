@@ -215,36 +215,38 @@
                 <xsl:value-of select="new/@id"/>
                 <xsl:text>)&#xa;&#xa;</xsl:text>
             </xsl:result-document>
-            <xsl:result-document href="spec/{old/@id}.html" format="markup">
-                <xsl:text>---&#xa;</xsl:text>
-                <xsl:text>layout:   page&#xa;</xsl:text>
-                <xsl:text>category: spec&#xa;</xsl:text>
-                <xsl:text>title:    "</xsl:text>
-                <xsl:value-of select="old/@title"/>
-                <xsl:text>"&#xa;</xsl:text>
-                <xsl:text>---&#xa;&#xa;</xsl:text>
-                <p>Old Name/id for <a href="{new/@id}"><xsl:value-of select="new/@title"/> (<code><xsl:value-of select="new/@id"/></code>)</a>.</p>
-                <br/>
-                <hr/>
-                <br/>
-                <h3 id="history">
-                    <q>
-                        <xsl:value-of select="old/@title"/>
-                    </q>
-                    <xsl:text> Updates:</xsl:text>
-                </h3>
-                <ul>
-                    <xsl:text>&#xa;{% for post in site.posts %}&#xa;</xsl:text>
-                    <xsl:text>{% if post.tags contains "</xsl:text>
-                    <xsl:value-of select="old/@id"/>
-                    <xsl:text>" %}</xsl:text>
-                    <li>
-                        <a href="{{{{ post.url | prepend: site.baseurl }}}}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
-                    </li>
-                    <xsl:text>&#xa;{% endif %}&#xa;</xsl:text>
-                    <xsl:text>{% endfor %}</xsl:text>
-                </ul>
-            </xsl:result-document>
+            <xsl:if test="new/@id ne old/@id">
+                <xsl:result-document href="spec/{old/@id}.html" format="markup">
+                    <xsl:text>---&#xa;</xsl:text>
+                    <xsl:text>layout:   page&#xa;</xsl:text>
+                    <xsl:text>category: spec&#xa;</xsl:text>
+                    <xsl:text>title:    "</xsl:text>
+                    <xsl:value-of select="old/@title"/>
+                    <xsl:text>"&#xa;</xsl:text>
+                    <xsl:text>---&#xa;&#xa;</xsl:text>
+                    <p>Old Name/id for <a href="{new/@id}"><xsl:value-of select="new/@title"/> (<code><xsl:value-of select="new/@id"/></code>)</a>.</p>
+                    <br/>
+                    <hr/>
+                    <br/>
+                    <h3 id="history">
+                        <q>
+                            <xsl:value-of select="old/@title"/>
+                        </q>
+                        <xsl:text> Updates:</xsl:text>
+                    </h3>
+                    <ul>
+                        <xsl:text>&#xa;{% for post in site.posts %}&#xa;</xsl:text>
+                        <xsl:text>{% if post.tags contains "</xsl:text>
+                        <xsl:value-of select="old/@id"/>
+                        <xsl:text>" %}</xsl:text>
+                        <li>
+                            <a href="{{{{ post.url | prepend: site.baseurl }}}}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+                        </li>
+                        <xsl:text>&#xa;{% endif %}&#xa;</xsl:text>
+                        <xsl:text>{% endfor %}</xsl:text>
+                    </ul>
+                </xsl:result-document>
+            </xsl:if>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="a">
