@@ -683,7 +683,7 @@
             <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
         </spec>
         <spec id="XMLHttpRequest" status="NOTE">
-            <title>XMLHttpRequest</title>
+            <title>XMLHttpRequest Level 1</title>
             <abstract>The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.</abstract>
         </spec>
         <spec id="XMLHttpRequest2" status="NOTE">
@@ -892,6 +892,10 @@
         <entry date="2014-04-10">changed status of <a href="http://www.w3.org/TR/netinfo-api/"><q>Network Information API</q></a> from WD to NOTE</entry>
         <entry date="2014-03-18">added <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a>; changed status of <a href="http://www.w3.org/TR/html-templates/"><q>HTML Templates</q></a> from WD to NOTE</entry>
         <entry date="2014-02-11">added <a href="http://www.w3.org/TR/navigation-error-logging/"><q>Navigation Error Logging</q></a>; changed status of <a href="http://www.w3.org/TR/progress-events/"><q>Progress Events</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/vibration/"><q>Vibration API</q></a> from CR to WD</entry>
+        <rename date="2014-01-30">
+            <old id="XMLHttpRequest" title="XMLHttpRequest"/>
+            <new id="XMLHttpRequest" title="XMLHttpRequest Level 1"/>
+        </rename>
         <entry date="2014-01-29">added <a href="http://www.w3.org/TR/encoding/"><q>Encoding</q></a></entry>
         <entry date="2014-01-14">added <a href="http://www.w3.org/TR/nfc/"><q>Web NFC API</q></a>; changed status of <a href="http://www.w3.org/TR/webintents-local-services/"><q>Web Intents Addendum &#8212; Local Services</q></a>, <a href="http://www.w3.org/TR/gallery/"><q>Pick Media Intent</q></a>, <a href="http://www.w3.org/TR/contacts-api/"><q>Pick Contacts Intent</q></a>, <a href="http://www.w3.org/TR/calendar-api/"><q>Calendar API</q></a>, <a href="http://www.w3.org/TR/system-info-api/"><q>System Information API</q></a>, and <a href="http://www.w3.org/TR/messaging-api/"><q>The Messaging API</q></a> from WD to NOTE</entry>
         <entry date="2014-01-09">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from WD to CR</entry>

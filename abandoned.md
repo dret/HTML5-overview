@@ -59,5 +59,5 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
 * [Web SQL Database](spec/webdatabase)
 * [Web Telephony API](spec/telephony)
 * [WebCrypto Key Discovery](spec/webcrypto-key-discovery)
-* [XMLHttpRequest](spec/XMLHttpRequest)
+* [XMLHttpRequest Level 1](spec/XMLHttpRequest)
 * [XMLHttpRequest Level 2](spec/XMLHttpRequest2)
