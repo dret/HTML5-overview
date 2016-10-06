@@ -682,7 +682,7 @@
             <title>Identifiers for WebRTC's Statistics API</title>
             <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
         </spec>
-        <spec id="XMLHttpRequest" status="WD">
+        <spec id="XMLHttpRequest" status="NOTE">
             <title>XMLHttpRequest</title>
             <abstract>The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.</abstract>
         </spec>
@@ -756,6 +756,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-10-06">changed status of <a href="http://www.w3.org/TR/XMLHttpRequest/"><q>XMLHttpRequest Level 1</q></a> from WD to NOTE</entry>
         <entry date="2016-10-04">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from CR to PR</entry>
         <rename date="2016-09-28">
             <old id="webauthn" title="Web Authentication: A Web API for accessing scoped credentials"/>
