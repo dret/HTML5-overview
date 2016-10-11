@@ -118,7 +118,7 @@ This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [Screen Capture](spec/screen-capture)
 * [Screen Orientation API](spec/screen-orientation)
 * [Selection API](spec/selection-api)
-* [Service Workers](spec/service-workers)
+* [Service Workers 1](spec/service-workers-1)
 * [Shadow DOM](spec/shadow-dom)
 * [Streams API](spec/streams-api)
 * [TV Control API Specification](spec/tvcontrol-api)

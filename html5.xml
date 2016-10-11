@@ -578,8 +578,8 @@
             <title>Worklets Level 1</title>
             <abstract>This specification defines an API for running scripts in stages of the rendering pipeline independent of the main JavaScript execution environment.</abstract>
         </spec>
-        <spec id="service-workers" status="WD">
-            <title>Service Workers</title>
+        <spec id="service-workers-1" status="WD">
+            <title>Service Workers 1</title>
             <abstract>This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.</abstract>
         </spec>
         <spec id="appmanifest" status="WD">
@@ -756,6 +756,10 @@
         </spec>
     </specs>
     <log>
+        <rename date="2016-10-11">
+            <old id="service-workers" title="Service Workers"/>
+            <new id="service-workers-1" title="Service Workers 1"/>
+        </rename>
         <entry date="2016-10-06">changed status of <a href="http://www.w3.org/TR/XMLHttpRequest/"><q>XMLHttpRequest Level 1</q></a> from WD to NOTE</entry>
         <entry date="2016-10-04">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from CR to PR</entry>
         <rename date="2016-09-28">
