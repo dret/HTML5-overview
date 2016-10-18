@@ -33,7 +33,7 @@ This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [Subresource Integrity](spec/SRI)
 * [Touch Events](spec/touch-events)
 * [User Timing](spec/user-timing)
-* [Vibration API](spec/vibration)
+* [Vibration API (Second Edition)](spec/vibration)
 * [W3C DOM4](spec/dom)
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
