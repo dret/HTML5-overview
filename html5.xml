@@ -720,7 +720,7 @@
         </spec>
         <spec id="beacon" status="WD">
             <title>Beacon</title>
-            <abstract>This specification defines an interoperable means for site developers to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.</abstract>
+            <abstract>This specification defines an interface that web developers can use to schedule asynchronous and non-blocking delivery of data that minimizes resource contention with other time-critical operations, while ensuring that such requests are still processed and delivered to destination.</abstract>
         </spec>
         <spec id="encoding" status="WD">
             <title>Encoding</title>
@@ -756,6 +756,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-10-26">updated abstract of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
         <rename date="2016-10-18">
             <old id="vibration" title="Vibration API"/>
             <new id="vibration" title="Vibration API (Second Edition)"/>
