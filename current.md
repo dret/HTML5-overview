@@ -11,7 +11,7 @@ This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 
 ## <a name="TR"/>W3C TR Specifications (118 Specs)
 
-### <a name="REC"/>Recommendations (24 Specs)
+### <a name="REC"/>Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Cross-Origin Resource Sharing](spec/cors)
@@ -27,6 +27,7 @@ This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [Page Visibility](spec/page-visibility)
 * [Performance Timeline](spec/performance-timeline)
 * [Pointer Events](spec/pointerevents)
+* [Pointer Lock](spec/pointerlock)
 * [Progress Events](spec/progress-events)
 * [Selectors API Level 1](spec/selectors-api)
 * [Server-Sent Events](spec/eventsource)
@@ -38,11 +39,10 @@ This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="PR"/>Proposed Recommendations (3 Specs)
+### <a name="PR"/>Proposed Recommendations (2 Specs)
 
 * [HTML 5.1](spec/html51)
 * [Media Source Extensions](spec/media-source)
-* [Pointer Lock](spec/pointerlock)
 
 ### <a name="CR"/>Candidate Recommendations (16 Specs)
 
