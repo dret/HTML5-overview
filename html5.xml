@@ -178,6 +178,10 @@
             <title>Accessible Rich Internet Applications (WAI-ARIA) 1.0</title>
             <abstract>Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.</abstract>
         </spec>
+        <spec id="wai-aria-1.1" status="CR">
+            <title>Accessible Rich Internet Applications (WAI-ARIA) 1.1</title>
+            <abstract>Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup. This version adds features new since WAI-ARIA 1.0 to improve interoperability with assistive technologies to form a more consistent accessibility model for HTML5 and SVG2. This specification complements both HTML5 and SVG2.</abstract>
+        </spec>
         <spec id="html-aam-1.0" status="WD">
             <title>HTML Accessibility API Mappings 1.0</title>
             <abstract>HTML Accessibility API Mappings (HTML-AAM) defines how user agents map HTML 5.1 elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.1 and the Accessible Name and Description: Computation and API Mappings 1.1 for use with the HTML 5.1 host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.</abstract>
@@ -756,6 +760,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-10-28">added <a href="http://www.w3.org/TR/wai-aria-1.1/"><q>Accessible Rich Internet Applications (WAI-ARIA) 1.1</q></a></entry>
         <entry date="2016-10-27">changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from PR to REC</entry>
         <entry date="2016-10-26">updated abstract of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
         <rename date="2016-10-18">

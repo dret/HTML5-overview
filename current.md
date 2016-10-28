@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped by status), and then [11 others](#others):
+This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped by status), and then [11 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (118 Specs)
+## <a name="TR"/>W3C TR Specifications (119 Specs)
 
 ### <a name="REC"/>Recommendations (25 Specs)
 
@@ -44,8 +44,9 @@ This is a list of all 129 current HTML5 specs, first [118 W3C TR](#TR) (grouped 
 * [HTML 5.1](spec/html51)
 * [Media Source Extensions](spec/media-source)
 
-### <a name="CR"/>Candidate Recommendations (16 Specs)
+### <a name="CR"/>Candidate Recommendations (17 Specs)
 
+* [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
 * [Content Security Policy Level 2](spec/CSP2)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)

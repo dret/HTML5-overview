@@ -1,0 +1,55 @@
+---
+layout:   page
+category: spec
+title:    "Accessible Rich Internet Applications (WAI-ARIA) 1.1"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Candidate Recommendation (CR)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/wai-aria-1.1">http://www.w3.org/TR/wai-aria-1.1</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>Accessibility of web content requires semantic information about widgets, structures,
+         and behaviors, in order to allow assistive technologies to convey appropriate information
+         to persons with disabilities. This specification provides an ontology of roles, states,
+         and properties that define accessible user interface elements and can be used to improve
+         the accessibility and interoperability of web content and applications. These semantics
+         are designed to allow an author to properly convey user interface behaviors and structural
+         information to assistive technologies in document-level markup. This version adds
+         features new since WAI-ARIA 1.0 to improve interoperability with assistive technologies
+         to form a more consistent accessibility model for HTML5 and SVG2. This specification
+         complements both HTML5 and SVG2.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Accessible Rich Internet Applications (WAI-ARIA) 1.1</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "wai-aria-1.1" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
