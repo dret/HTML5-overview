@@ -11,11 +11,12 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 
 ## <a name="TR"/>W3C TR Specifications (119 Specs)
 
-### <a name="REC"/>Recommendations (25 Specs)
+### <a name="REC"/>Recommendations (26 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Cross-Origin Resource Sharing](spec/cors)
 * [Geolocation API Specification](spec/geolocation-API)
+* [HTML 5.1](spec/html51)
 * [HTML Canvas 2D Context](spec/2dcontext)
 * [HTML Image Description Extension (longdesc)](spec/html-longdesc)
 * [HTML5](spec/html5)
@@ -39,9 +40,8 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (1 Specs)
 
-* [HTML 5.1](spec/html51)
 * [Media Source Extensions](spec/media-source)
 
 ### <a name="CR"/>Candidate Recommendations (17 Specs)
