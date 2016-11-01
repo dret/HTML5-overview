@@ -44,7 +44,7 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 
 * [Media Source Extensions](spec/media-source)
 
-### <a name="CR"/>Candidate Recommendations (17 Specs)
+### <a name="CR"/>Candidate Recommendations (18 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -53,6 +53,7 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [DeviceOrientation Event Specification](spec/orientation-event)
 * [Encrypted Media Extensions](spec/encrypted-media)
 * [HTML Media Capture](spec/html-media-capture)
+* [High Resolution Time Level 2](spec/hr-time-2)
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Micropub](spec/micropub)
 * [Mixed Content](spec/mixed-content)
@@ -64,7 +65,7 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [WebSocket API](spec/websockets)
 * [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (75 Specs)
+### <a name="WD"/>Working Drafts (74 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -91,7 +92,6 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [HTML 5.2](spec/html52)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
-* [High Resolution Time Level 2](spec/hr-time-2)
 * [Identifiers for WebRTC's Statistics API](spec/webrtcstats)
 * [Indexed Database API 2.0](spec/IndexedDB-2)
 * [IndieUI: Events 1.0](spec/indie-ui-events)
