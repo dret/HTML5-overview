@@ -1,7 +1,7 @@
 ---
 layout:   page
 category: spec
-title:    "Webmention"
+title:    "User Timing Level 2"
 ---
 
 <table cellpadding="5">
@@ -9,7 +9,7 @@ title:    "Webmention"
       <th valign="top" align="right">
          <em>Current Status:</em>
       </th>
-      <td>Proposed Recommendation (PR)</td>
+      <td>Working Draft (WD)</td>
    </tr>
    <tr>
       <th valign="top" align="right">
@@ -17,7 +17,7 @@ title:    "Webmention"
       </th>
       <td>
          <code>
-            <a href="http://www.w3.org/TR/webmention">http://www.w3.org/TR/webmention</a>
+            <a href="http://www.w3.org/TR/user-timing-2">http://www.w3.org/TR/user-timing-2</a>
          </code>
       </td>
    </tr>
@@ -25,9 +25,8 @@ title:    "Webmention"
       <th valign="top" align="right">
          <em>Abstract:</em>
       </th>
-      <td>Webmention is a simple way to notify any URL when you link to it on your site. From
-         the receiver's perspective, it's a way to request notifications when other sites link
-         to it.
+      <td>This specification defines an interface to help web developers measure the performance
+         of their applications by giving them access to high precision timestamps.
       </td>
    </tr>
 </table>
@@ -35,11 +34,11 @@ title:    "Webmention"
 <hr></hr>
 <br></br>
 <h3 id="history">
-   <q>Webmention</q> Updates:
+   <q>User Timing Level 2</q> Updates:
 </h3>
 <ul>
    {% for post in site.posts %}
-   {% if post.tags contains "webmention" %}
+   {% if post.tags contains "user-timing-2" %}
    <li>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
    </li>

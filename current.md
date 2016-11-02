@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped by status), and then [11 others](#others):
+This is a list of all 131 current HTML5 specs, first [120 W3C TR](#TR) (grouped by status), and then [11 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (119 Specs)
+## <a name="TR"/>W3C TR Specifications (120 Specs)
 
 ### <a name="REC"/>Recommendations (26 Specs)
 
@@ -40,11 +40,12 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="PR"/>Proposed Recommendations (1 Specs)
+### <a name="PR"/>Proposed Recommendations (2 Specs)
 
 * [Media Source Extensions](spec/media-source)
+* [Webmention](spec/webmention)
 
-### <a name="CR"/>Candidate Recommendations (18 Specs)
+### <a name="CR"/>Candidate Recommendations (17 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -63,9 +64,8 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [Web Cryptography API](spec/WebCryptoAPI)
 * [WebSocket API](spec/websockets)
-* [Webmention](spec/webmention)
 
-### <a name="WD"/>Working Drafts (74 Specs)
+### <a name="WD"/>Working Drafts (75 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -129,6 +129,7 @@ This is a list of all 130 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [UI Events Specification](spec/uievents)
 * [URL](spec/url-1)
 * [User Interface Security and the Visibility API](spec/UISecurity)
+* [User Timing Level 2](spec/user-timing-2)
 * [Wake Lock API](spec/wake-lock)
 * [Web Animations](spec/web-animations-1)
 * [Web Audio API](spec/webaudio)

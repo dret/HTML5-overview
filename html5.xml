@@ -450,7 +450,7 @@
             <title>Server-Sent Events</title>
             <abstract>This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</abstract>
         </spec>
-        <spec id="webmention" status="CR">
+        <spec id="webmention" status="PR">
             <title>Webmention</title>
             <abstract>Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.</abstract>
         </spec>
@@ -536,6 +536,10 @@
         </spec>
         <spec id="user-timing" status="REC">
             <title>User Timing</title>
+            <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
+        </spec>
+        <spec id="user-timing-2" status="WD">
+            <title>User Timing Level 2</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
         <spec id="vibration" status="REC">
@@ -760,7 +764,8 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-11-01">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from WD to CR</entry>
+        <entry date="2016-11-02">added <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a></entry>
+        <entry date="2016-11-01">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from CR to PR</entry>
         <entry date="2016-10-28">added <a href="http://www.w3.org/TR/wai-aria-1.1/"><q>Accessible Rich Internet Applications (WAI-ARIA) 1.1</q></a></entry>
         <entry date="2016-10-27">changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from PR to REC</entry>
         <entry date="2016-10-26">updated abstract of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
