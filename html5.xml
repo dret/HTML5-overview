@@ -410,6 +410,10 @@
             <title>Resource Timing Level 1</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for resources in a document.</abstract>
         </spec>
+        <spec id="resource-timing-2" status="WD">
+            <title>Resource Timing Level 1</title>
+            <abstract>This specification defines an interface for web applications to access the complete timing information for resources in a document.</abstract>
+        </spec>
         <spec id="screen-orientation" status="WD">
             <title>Screen Orientation API</title>
             <abstract>The Screen Orientation API provides the ability to read the screen orientation type and angle, to be informed when the screen orientation state changes, and be able to lock the screen orientation to a specific state.</abstract>
@@ -764,6 +768,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-11-03">added <a href="http://www.w3.org/TR/resource-timing-2/"><q>Resource Timing Level 2</q></a></entry>
         <entry date="2016-11-02">added <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a></entry>
         <entry date="2016-11-01">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from CR to PR</entry>
         <entry date="2016-10-28">added <a href="http://www.w3.org/TR/wai-aria-1.1/"><q>Accessible Rich Internet Applications (WAI-ARIA) 1.1</q></a></entry>
