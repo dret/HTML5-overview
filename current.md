@@ -116,7 +116,7 @@ This is a list of all 132 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [Referrer Policy](spec/referrer-policy)
 * [Remote Playback API](spec/remote-playback)
 * [Resource Hints](spec/resource-hints)
-* [Resource Timing Level 1](spec/resource-timing-2)
+* [Resource Timing Level 2](spec/resource-timing-2)
 * [Screen Capture](spec/screen-capture)
 * [Screen Orientation API](spec/screen-orientation)
 * [Selection API](spec/selection-api)

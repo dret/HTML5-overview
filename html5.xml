@@ -411,7 +411,7 @@
             <abstract>This specification defines an interface for web applications to access the complete timing information for resources in a document.</abstract>
         </spec>
         <spec id="resource-timing-2" status="WD">
-            <title>Resource Timing Level 1</title>
+            <title>Resource Timing Level 2</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for resources in a document.</abstract>
         </spec>
         <spec id="screen-orientation" status="WD">
