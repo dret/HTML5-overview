@@ -40,16 +40,16 @@ This is a list of all 132 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (3 Specs)
 
+* [Content Security Policy Level 2](spec/CSP2)
 * [Media Source Extensions](spec/media-source)
 * [Webmention](spec/webmention)
 
-### <a name="CR"/>Candidate Recommendations (17 Specs)
+### <a name="CR"/>Candidate Recommendations (16 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
-* [Content Security Policy Level 2](spec/CSP2)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
 * [DeviceOrientation Event Specification](spec/orientation-event)
 * [Encrypted Media Extensions](spec/encrypted-media)

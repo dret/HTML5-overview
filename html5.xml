@@ -610,7 +610,7 @@
             <title>Content Security Policy 1.0</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
-        <spec id="CSP2" status="CR">
+        <spec id="CSP2" status="PR">
             <title>Content Security Policy Level 2</title>
             <abstract>This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced.</abstract>
         </spec>
@@ -768,6 +768,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-11-09">changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from CR to PR</entry>
         <entry date="2016-11-03">added <a href="http://www.w3.org/TR/resource-timing-2/"><q>Resource Timing Level 2</q></a></entry>
         <entry date="2016-11-02">added <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a></entry>
         <entry date="2016-11-01">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from CR to PR</entry>
