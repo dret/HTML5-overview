@@ -570,6 +570,10 @@
             <title>Notifications API</title>
             <abstract>This standard defines an API to display notifications to the end user, typically outside the top-level browsing context's viewport. It is designed to be compatible with existing notification systems, while remaining platform-independent.</abstract>
         </spec>
+        <spec id="https://infra.spec.whatwg.org/" status="other">
+            <title>Infra</title>
+            <abstract>The Infra Standard aims to define the fundamental concepts upon which standards are built.</abstract>
+        </spec>
         <spec id="task-scheduler" status="NOTE">
             <title>Task Scheduler API Specification</title>
             <abstract>This specification defines an API to schedule a task at a specified time. When the indicated time is reached, the application that scheduled the task will be notified via a functional event on a service worker. A task event will be delivered to a service worker, regardless of whether the application is active on user agent. Applications such as an alarm clock or an auto-updater may utilize this API to perform certain action at a specified time.</abstract>
@@ -768,6 +772,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-11-16">added <a href="https://infra.spec.whatwg.org/"><q>Infra</q></a></entry>
         <entry date="2016-11-09">changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from CR to PR</entry>
         <entry date="2016-11-03">added <a href="http://www.w3.org/TR/resource-timing-2/"><q>Resource Timing Level 2</q></a></entry>
         <entry date="2016-11-02">added <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a></entry>

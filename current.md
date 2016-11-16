@@ -7,7 +7,7 @@ permalink:   /current
 
 ---
 
-This is a list of all 132 current HTML5 specs, first [121 W3C TR](#TR) (grouped by status), and then [11 others](#others):
+This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
 ## <a name="TR"/>W3C TR Specifications (121 Specs)
 
@@ -144,11 +144,12 @@ This is a list of all 132 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [WebVTT: The Web Video Text Tracks Format](spec/webvtt1)
 * [Worklets Level 1](spec/worklets-1)
 
-## <a name="others"/>Non-W3C Specifications (11 Specs)
+## <a name="others"/>Non-W3C Specifications (12 Specs)
 
 * [Fetch](https://fetch.spec.whatwg.org/)
 * [FileSystem API](http://w3c.github.io/filesystem-api/)
 * [Fullscreen API](https://fullscreen.spec.whatwg.org/)
+* [Infra](https://infra.spec.whatwg.org/)
 * [Notifications API](https://notifications.spec.whatwg.org/)
 * [Storage](https://storage.spec.whatwg.org/)
 * [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
