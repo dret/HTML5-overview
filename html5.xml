@@ -358,7 +358,7 @@
             <title>Page Visibility</title>
             <abstract>This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.</abstract>
         </spec>
-        <spec id="page-visibility-2" status="WD">
+        <spec id="page-visibility-2" status="CR">
             <title>Page Visibility 2</title>
             <abstract>This specification defines a means to programmatically determine the visibility state of a document. This can aid in the development of power and CPU efficient web applications.</abstract>
         </spec>
@@ -776,7 +776,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2016-11-22">added <a href="http://www.w3.org/TR/pointerlock-2/"><q>Pointer Lock 2.0</q></a></entry>
+        <entry date="2016-11-22">added <a href="http://www.w3.org/TR/pointerlock-2/"><q>Pointer Lock 2.0</q></a>; changed status of <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a> from WD to CR</entry>
         <entry date="2016-11-17">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from PR to REC</entry>
         <entry date="2016-11-16">added <a href="https://infra.spec.whatwg.org/"><q>Infra</q></a></entry>
         <entry date="2016-11-09">changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from CR to PR</entry>
