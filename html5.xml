@@ -378,6 +378,10 @@
             <title>Pointer Lock</title>
             <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modeling software.</abstract>
         </spec>
+        <spec id="pointerlock-2" status="REC">
+            <title>Pointer Lock 2.0</title>
+            <abstract>This specification defines an API that provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modeling software.</abstract>
+        </spec>
         <spec id="ime-api" status="NOTE">
             <title>Input Method Editor API</title>
             <abstract>This specification defines an "IME API" that provides Web applications with scripted access to an IME (input-method editor) associated with a hosting user agent. This IME API includes: an InputMethodContext interface, which provides methods to retrieve detailed data from an in-progress IME composition; and a Composition dictionary, which represents read-only attributes about the current composition, such as the actual text and its style. This API is designed to be used in conjunction with DOM events.</abstract>
@@ -772,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-11-22">added <a href="http://www.w3.org/TR/pointerlock-2/"><q>Pointer Lock 2.0</q></a></entry>
         <entry date="2016-11-17">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from PR to REC</entry>
         <entry date="2016-11-16">added <a href="https://infra.spec.whatwg.org/"><q>Infra</q></a></entry>
         <entry date="2016-11-09">changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from CR to PR</entry>

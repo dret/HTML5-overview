@@ -7,11 +7,11 @@ permalink:   /current
 
 ---
 
-This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 134 current HTML5 specs, first [122 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (121 Specs)
+## <a name="TR"/>W3C TR Specifications (122 Specs)
 
-### <a name="REC"/>Recommendations (27 Specs)
+### <a name="REC"/>Recommendations (28 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Cross-Origin Resource Sharing](spec/cors)
@@ -30,6 +30,7 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [Performance Timeline](spec/performance-timeline)
 * [Pointer Events](spec/pointerevents)
 * [Pointer Lock](spec/pointerlock)
+* [Pointer Lock 2.0](spec/pointerlock-2)
 * [Progress Events](spec/progress-events)
 * [Selectors API Level 1](spec/selectors-api)
 * [Server-Sent Events](spec/eventsource)
