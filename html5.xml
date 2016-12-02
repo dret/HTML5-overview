@@ -318,7 +318,7 @@
             <title>Mediastream Image Capture</title>
             <abstract>This document specifies the takePhoto()and grabFrame()methods, and corresponding camera settings for use with MediaStreamTracks (as defined in Media Capture and Streams).</abstract>
         </spec>
-        <spec id="streams-api" status="WD">
+        <spec id="streams-api" status="NOTE">
             <title>Streams API</title>
             <abstract>WHATWG Streams API spec provides an API for representing and handling a stream of data in JavaScript. This W3C spec is intended to extend the WHATWG spec to meet requirements specific to the browser environment.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-11-30">changed status of <a href="http://www.w3.org/TR/streams-api/"><q>Streams API</q></a> from WD to NOTE</entry>
         <entry date="2016-11-22">added <a href="http://www.w3.org/TR/pointerlock-2/"><q>Pointer Lock 2.0</q></a>; changed status of <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a> from WD to CR</entry>
         <entry date="2016-11-17">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from PR to REC</entry>
         <entry date="2016-11-16">added <a href="https://infra.spec.whatwg.org/"><q>Infra</q></a></entry>
