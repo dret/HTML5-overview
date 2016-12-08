@@ -366,7 +366,7 @@
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
         </spec>
-        <spec id="performance-timeline-2" status="WD">
+        <spec id="performance-timeline-2" status="CR">
             <title>Performance Timeline Level 2</title>
             <abstract>This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-12-08">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from WD to CR</entry>
         <entry date="2016-12-06">changed status of <a href="http://www.w3.org/TR/url-1/"><q>URL</q></a> from WD to NOTE</entry>
         <entry date="2016-11-30">changed status of <a href="http://www.w3.org/TR/streams-api/"><q>Streams API</q></a> from WD to NOTE</entry>
         <entry date="2016-11-22">added <a href="http://www.w3.org/TR/pointerlock-2/"><q>Pointer Lock 2.0</q></a>; changed status of <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a> from WD to CR</entry>
