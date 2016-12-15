@@ -674,7 +674,7 @@
             <title>Referrer Policy</title>
             <abstract>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the Referer HTTP header for outgoing requests and navigations.</abstract>
         </spec>
-        <spec id="WebCryptoAPI" status="CR">
+        <spec id="WebCryptoAPI" status="PR">
             <title>Web Cryptography API</title>
             <abstract>This specification describes a JavaScript API for performing basic cryptographic operations in web applications, such as hashing, signature generation and verification, and encryption and decryption. Additionally, it describes an API for applications to generate and/or manage the keying material necessary to perform these operations. Uses for this API range from user or service authentication, document or code signing, and the confidentiality and integrity of communications.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2016-12-15">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from CR to PR</entry>
         <entry date="2016-12-08">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from WD to CR</entry>
         <entry date="2016-12-06">changed status of <a href="http://www.w3.org/TR/url-1/"><q>URL</q></a> from WD to NOTE</entry>
         <entry date="2016-11-30">changed status of <a href="http://www.w3.org/TR/streams-api/"><q>Streams API</q></a> from WD to NOTE</entry>

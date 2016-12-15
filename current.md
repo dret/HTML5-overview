@@ -42,12 +42,13 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (3 Specs)
 
 * [Content Security Policy Level 2](spec/CSP2)
+* [Web Cryptography API](spec/WebCryptoAPI)
 * [Webmention](spec/webmention)
 
-### <a name="CR"/>Candidate Recommendations (18 Specs)
+### <a name="CR"/>Candidate Recommendations (17 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -65,7 +66,6 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Resource Timing Level 1](spec/resource-timing-1)
 * [Secure Contexts](spec/secure-contexts)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
-* [Web Cryptography API](spec/WebCryptoAPI)
 * [WebSocket API](spec/websockets)
 
 ### <a name="WD"/>Working Drafts (72 Specs)
