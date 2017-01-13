@@ -66,7 +66,7 @@
             <title>Web Telephony API</title>
             <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
         </spec>
-        <spec id="discovery-api" status="WD">
+        <spec id="discovery-api" status="NOTE">
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-01-12">changed status of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-12-15">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from PR to REC</entry>
         <entry date="2016-12-08">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from WD to CR</entry>
         <entry date="2016-12-06">changed status of <a href="http://www.w3.org/TR/url-1/"><q>URL</q></a> from WD to NOTE</entry>
