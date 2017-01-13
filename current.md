@@ -11,7 +11,7 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 
 ## <a name="TR"/>W3C TR Specifications (119 Specs)
 
-### <a name="REC"/>Recommendations (29 Specs)
+### <a name="REC"/>Recommendations (30 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -42,11 +42,11 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [W3C DOM4](spec/dom)
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
+* [Webmention](spec/webmention)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (1 Specs)
 
 * [Web Cryptography API](spec/WebCryptoAPI)
-* [Webmention](spec/webmention)
 
 ### <a name="CR"/>Candidate Recommendations (17 Specs)
 

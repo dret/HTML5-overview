@@ -458,7 +458,7 @@
             <title>Server-Sent Events</title>
             <abstract>This specification defines an API for opening an HTTP connection for receiving push notifications from a server in the form of DOM events. The API is designed such that it can be extended to work with other push notification schemes such as Push SMS.</abstract>
         </spec>
-        <spec id="webmention" status="PR">
+        <spec id="webmention" status="REC">
             <title>Webmention</title>
             <abstract>Webmention is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it.</abstract>
         </spec>
@@ -776,7 +776,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-01-12">changed status of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a> from WD to NOTE</entry>
+        <entry date="2017-01-12">changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-12-15">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from PR to REC</entry>
         <entry date="2016-12-08">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from WD to CR</entry>
         <entry date="2016-12-06">changed status of <a href="http://www.w3.org/TR/url-1/"><q>URL</q></a> from WD to NOTE</entry>
