@@ -48,7 +48,7 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 
 * [Web Cryptography API](spec/WebCryptoAPI)
 
-### <a name="CR"/>Candidate Recommendations (17 Specs)
+### <a name="CR"/>Candidate Recommendations (18 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -63,12 +63,13 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Page Visibility 2](spec/page-visibility-2)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
 * [Presentation API](spec/presentation-api)
+* [Referrer Policy](spec/referrer-policy)
 * [Resource Timing Level 1](spec/resource-timing-1)
 * [Secure Contexts](spec/secure-contexts)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (71 Specs)
+### <a name="WD"/>Working Drafts (70 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -113,7 +114,6 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Preload](spec/preload)
 * [Proximity Sensor](spec/proximity)
 * [Push API](spec/push-api)
-* [Referrer Policy](spec/referrer-policy)
 * [Remote Playback API](spec/remote-playback)
 * [Resource Hints](spec/resource-hints)
 * [Resource Timing Level 2](spec/resource-timing-2)

@@ -670,7 +670,7 @@
             <title>Subresource Integrity</title>
             <abstract>This specification defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation.</abstract>
         </spec>
-        <spec id="referrer-policy" status="WD">
+        <spec id="referrer-policy" status="CR">
             <title>Referrer Policy</title>
             <abstract>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the Referer HTTP header for outgoing requests and navigations.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-01-26">changed status of <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a> from WD to CR</entry>
         <entry date="2017-01-12">changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-12-15">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from PR to REC</entry>
         <entry date="2016-12-08">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from WD to CR</entry>
