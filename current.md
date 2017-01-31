@@ -45,10 +45,11 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
 
-### <a name="CR"/>Candidate Recommendations (18 Specs)
+### <a name="CR"/>Candidate Recommendations (19 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
+* [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
 * [DeviceOrientation Event Specification](spec/orientation-event)
 * [Encrypted Media Extensions](spec/encrypted-media)
@@ -66,7 +67,7 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (70 Specs)
+### <a name="WD"/>Working Drafts (69 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -80,7 +81,6 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Confinement with Origin Web Labels](spec/cowl)
 * [Content Security Policy Level 3](spec/CSP3)
 * [Content Security Policy: Embedded Enforcement](spec/csp-embedded-enforcement)
-* [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [Credential Management Level 1](spec/credential-management-1)
 * [Custom Elements](spec/custom-elements)
 * [Encoding](spec/encoding)

@@ -274,7 +274,7 @@
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
-        <spec id="requestidlecallback" status="WD">
+        <spec id="requestidlecallback" status="CR">
             <title>Cooperative Scheduling of Background Tasks</title>
             <abstract>This document defines an API that web page authors can use to cooperatively schedule background tasks such that they do not introduce delays to other high priority tasks that share the same event loop, such as input processing, animations and frame compositing. The user agent is in a better position to determine when background tasks can be run without introducing user-perceptible delays or jank in animations and input response, based on its knowledge of currently scheduled tasks, vsync deadlines, user-interaction and so on. Using this API should therefore result in more appropriate scheduling of background tasks during times when the browser would otherwise be idle.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-01-31">changed status of <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a> from WD to CR</entry>
         <entry date="2017-01-26">changed status of <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from PR to REC</entry>
         <entry date="2017-01-12">changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-12-15">changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/CSP2/"><q>Content Security Policy Level 2</q></a> from PR to REC</entry>
