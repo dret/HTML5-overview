@@ -254,7 +254,7 @@
             <title>W3C HTML JSON form submission</title>
             <abstract>This specification defines a new form encoding algorithm that enables the transmission of form data as JSON. Instead of capturing form data as essentially an array of key-value pairs which is the bread and butter of existing form encodings, it relies on a simple name attribute syntax that makes it possible to capture rich data structures as JSON directly.</abstract>
         </spec>
-        <spec id="encrypted-media" status="CR">
+        <spec id="encrypted-media" status="PR">
             <title>Encrypted Media Extensions</title>
             <abstract>This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.</abstract>
         </spec>
@@ -776,6 +776,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-03-16">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from CR to PR</entry>
         <entry date="2017-01-31">changed status of <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a> from WD to CR</entry>
         <entry date="2017-01-26">changed status of <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from PR to REC</entry>
         <entry date="2017-01-12">changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/discovery-api/"><q>Network Service Discovery</q></a> from WD to NOTE</entry>

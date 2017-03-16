@@ -45,14 +45,17 @@ This is a list of all 131 current HTML5 specs, first [119 W3C TR](#TR) (grouped 
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
 
-### <a name="CR"/>Candidate Recommendations (19 Specs)
+### <a name="PR"/>Proposed Recommendations (1 Specs)
+
+* [Encrypted Media Extensions](spec/encrypted-media)
+
+### <a name="CR"/>Candidate Recommendations (18 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
 * [DeviceOrientation Event Specification](spec/orientation-event)
-* [Encrypted Media Extensions](spec/encrypted-media)
 * [HTML Media Capture](spec/html-media-capture)
 * [High Resolution Time Level 2](spec/hr-time-2)
 * [Media Capture and Streams](spec/mediastream-streams)
