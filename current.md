@@ -100,7 +100,7 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Indexed Database API 2.0](spec/IndexedDB-2)
 * [IndieUI: Events 1.0](spec/indie-ui-events)
 * [IndieUI: User Context 1.0](spec/indie-ui-context)
-* [Input Events](spec/input-events)
+* [Input Events Level 1](spec/input-events-1)
 * [Input Events Level 2](spec/input-events-2)
 * [Magnetometer Sensor](spec/magnetometer)
 * [Manifest for Web Application](spec/appmanifest)
