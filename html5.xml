@@ -530,6 +530,10 @@
             <title>Input Events</title>
             <abstract>This specification defines additions to events for text and related input to allow for the monitoring and manipulation of default browser behavior in the context of text editor applications and other applications that deal with text input and text formatting. This specification builds on the UI events spec.</abstract>
         </spec>
+        <spec id="input-events-2" status="WD">
+            <title>Input Events Level 2</title>
+            <abstract>This specification defines additions to events for text and related input to allow for the monitoring and manipulation of default browser behavior in the context of text editor applications and other applications that deal with text input and text formatting. This specification builds on the UI events spec.</abstract>
+        </spec>
         <spec id="UISecurity" status="WD">
             <title>User Interface Security and the Visibility API</title>
             <abstract>UI Security and the Visibility API defines both a declarative and imperative means for resources displayed in an embedded context to protect themselves against having their content obscured, moved, or otherwise displayed in a misleading manner.</abstract>
@@ -776,6 +780,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-03-21">added <a href="http://www.w3.org/TR/input-events-2/"><q>Input Events Level 2</q></a></entry>
         <entry date="2017-03-16">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from CR to PR</entry>
         <entry date="2017-01-31">changed status of <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a> from WD to CR</entry>
         <entry date="2017-01-26">changed status of <a href="http://www.w3.org/TR/referrer-policy/"><q>Referrer Policy</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/WebCryptoAPI/"><q>Web Cryptography API</q></a> from PR to REC</entry>
