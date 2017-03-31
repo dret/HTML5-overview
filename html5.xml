@@ -694,7 +694,7 @@
             <title>Credential Management Level 1</title>
             <abstract>This specification describes an imperative API enabling a website to request a user's credentials from a user agent, and to help the user agent correctly store user credentials for future use.</abstract>
         </spec>
-        <spec id="webdriver" status="WD">
+        <spec id="webdriver" status="CR">
             <title>WebDriver</title>
             <abstract>This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a browser. The WebDriver API is defined by a set of interfaces to discover and manipulate DOM elements on a page, and to control the behaviour of the containing browser. This specification also includes a non-normative reference useful for browser vendors.</abstract>
         </spec>
@@ -780,6 +780,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-03-31">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from WD to CR</entry>
         <entry date="2017-03-21">added <a href="http://www.w3.org/TR/input-events-2/"><q>Input Events Level 2</q></a></entry>
         <rename date="2017-03-20">
             <old id="input-events" title="Input Events"/>
