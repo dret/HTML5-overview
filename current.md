@@ -45,11 +45,12 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
 
-### <a name="PR"/>Proposed Recommendations (1 Specs)
+### <a name="PR"/>Proposed Recommendations (2 Specs)
 
 * [Encrypted Media Extensions](spec/encrypted-media)
+* [Micropub](spec/micropub)
 
-### <a name="CR"/>Candidate Recommendations (19 Specs)
+### <a name="CR"/>Candidate Recommendations (18 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -59,7 +60,6 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [HTML Media Capture](spec/html-media-capture)
 * [High Resolution Time Level 2](spec/hr-time-2)
 * [Media Capture and Streams](spec/mediastream-streams)
-* [Micropub](spec/micropub)
 * [Mixed Content](spec/mixed-content)
 * [Page Visibility 2](spec/page-visibility-2)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
