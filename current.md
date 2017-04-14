@@ -50,10 +50,11 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Encrypted Media Extensions](spec/encrypted-media)
 * [Micropub](spec/micropub)
 
-### <a name="CR"/>Candidate Recommendations (18 Specs)
+### <a name="CR"/>Candidate Recommendations (19 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
+* [Beacon](spec/beacon)
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
 * [DeviceOrientation Event Specification](spec/orientation-event)
@@ -71,7 +72,7 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (69 Specs)
+### <a name="WD"/>Working Drafts (68 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -79,7 +80,6 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Audio Output Devices API](spec/audio-output)
 * [Audio Processing API](spec/audioproc)
 * [Basic Card Payment](spec/payment-method-basic-card)
-* [Beacon](spec/beacon)
 * [Clear Site Data](spec/clear-site-data)
 * [Clipboard API and Events](spec/clipboard-apis)
 * [Confinement with Origin Web Labels](spec/cowl)

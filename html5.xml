@@ -742,7 +742,7 @@
             <title>Micropub</title>
             <abstract>Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</abstract>
         </spec>
-        <spec id="beacon" status="WD">
+        <spec id="beacon" status="CR">
             <title>Beacon</title>
             <abstract>This specification defines an interface that web developers can use to schedule asynchronous and non-blocking delivery of data that minimizes resource contention with other time-critical operations, while ensuring that such requests are still processed and delivered to destination.</abstract>
         </spec>
@@ -780,6 +780,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-04-14">changed status of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a> from WD to CR</entry>
         <entry date="2017-04-13">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from CR to PR</entry>
         <entry date="2017-03-31">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from WD to CR</entry>
         <entry date="2017-03-21">added <a href="http://www.w3.org/TR/input-events-2/"><q>Input Events Level 2</q></a></entry>
