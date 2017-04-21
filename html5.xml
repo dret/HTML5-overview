@@ -434,6 +434,10 @@
             <title>W3C DOM4</title>
             <abstract>DOM defines a platform-neutral model for events and node trees. DOM4 adds Mutation Observers as a replacement for Mutation Events.</abstract>
         </spec>
+        <spec id="dom41" status="WD">
+            <title>W3C DOM4.1</title>
+            <abstract>DOM defines a platform-neutral model for events and node trees.</abstract>
+        </spec>
         <spec id="DOM-Parsing" status="CR">
             <title>DOM Parsing and Serialization</title>
             <abstract>This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.</abstract>
@@ -780,6 +784,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-04-21">added <a href="http://www.w3.org/TR/dom41/"><q>W3C DOM 4.1</q></a></entry>
         <entry date="2017-04-14">changed status of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a> from WD to CR</entry>
         <entry date="2017-04-13">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from CR to PR</entry>
         <entry date="2017-03-31">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from WD to CR</entry>

@@ -1,0 +1,45 @@
+---
+layout:   page
+category: spec
+title:    "W3C DOM4.1"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/dom41">http://www.w3.org/TR/dom41</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>DOM defines a platform-neutral model for events and node trees.</td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>W3C DOM4.1</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "dom41" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
