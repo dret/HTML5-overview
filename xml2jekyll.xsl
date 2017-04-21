@@ -224,7 +224,7 @@
                     <xsl:value-of select="old/@title"/>
                     <xsl:text>"&#xa;</xsl:text>
                     <xsl:text>---&#xa;&#xa;</xsl:text>
-                    <p>Old Name/id for <a href="{new/@id}"><xsl:value-of select="new/@title"/> (<code><xsl:value-of select="new/@id"/></code>)</a>.</p>
+                    <p>Old name/id for <a href="{new/@id}"><xsl:value-of select="new/@title"/> (<code><xsl:value-of select="new/@id"/></code>)</a>.</p>
                     <br/>
                     <hr/>
                     <br/>
