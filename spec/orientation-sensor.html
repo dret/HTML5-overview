@@ -1,0 +1,48 @@
+---
+layout:   page
+category: spec
+title:    "Orientation Sensor"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/orientation-sensor">http://www.w3.org/TR/orientation-sensor</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification defines a base orientation sensor interface and concrete sensor
+         subclasses to monitor the device's physical orientation in relation to a stationary
+         three dimensional Cartesian coordinate system.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Orientation Sensor</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "orientation-sensor" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

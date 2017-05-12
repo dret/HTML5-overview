@@ -90,6 +90,10 @@
             <title>Accelerometer Sensor</title>
             <abstract>This specification defines accelerometer sensor interface for obtaining information about acceleration applied to the X, Y and Z axis of a device that hosts the sensor.</abstract>
         </spec>
+        <spec id="orientation-sensor" status="WD">
+            <title>Orientation Sensor</title>
+            <abstract>This specification defines a base orientation sensor interface and concrete sensor subclasses to monitor the device's physical orientation in relation to a stationary three dimensional Cartesian coordinate system.</abstract>
+        </spec>
         <spec id="audioproc" status="WD">
             <title>Audio Processing API</title>
             <abstract>This specification introduces and compares two client-side APIs for processing and synthesizing real-time audio streams in the browser.</abstract>
@@ -784,6 +788,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-05-12">added <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a></entry>
         <entry date="2017-04-21">added <a href="http://www.w3.org/TR/dom41/"><q>W3C DOM 4.1</q></a></entry>
         <entry date="2017-04-14">changed status of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a> from WD to CR</entry>
         <entry date="2017-04-13">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from CR to PR</entry>
