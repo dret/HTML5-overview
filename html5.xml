@@ -326,7 +326,7 @@
             <title>Streams API</title>
             <abstract>This specification provides APIs for creating, composing, and consuming streams of data. These streams are designed to map efficiently to low-level I/O primitives, and allow easy composition with built-in backpressure and queuing. On top of streams, the web platform can build higher-level abstractions, such as filesystem or socket APIs, while at the same time users can use the supplied tools to build their own streams which integrate well with those of the web platform.</abstract>
         </spec>
-        <spec id="tvcontrol-api" status="WD">
+        <spec id="tvcontrol-api" status="NOTE">
             <title>TV Control API Specification</title>
             <abstract>This specification defines an API for sourcing audio and video media, such as TV and radio from broadcast, IPTV, or other sources, with associated channel and program metadata, and allows presentation of the media using the &lt;video> and &lt;audio> HTML elements. The API is agnostic of any underlying audio or video sourcing technologies.</abstract>
         </spec>
@@ -788,6 +788,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-05-18">changed status of <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a> from WD to NOTE</entry>
         <entry date="2017-05-12">added <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a></entry>
         <entry date="2017-04-21">added <a href="http://www.w3.org/TR/dom41/"><q>W3C DOM 4.1</q></a></entry>
         <entry date="2017-04-14">changed status of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a> from WD to CR</entry>
