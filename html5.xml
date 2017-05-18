@@ -218,6 +218,10 @@
             <title>Payment Request API</title>
             <abstract>This specification describes a web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration. User agents (e.g. browsers) will facilitate the payment flow between merchant and user.</abstract>
         </spec>
+        <spec id="payment-handler" status="WD">
+            <title>Payment Handler API</title>
+            <abstract>The Payment Request API provides a standard way to initiate payment requests from Web pages and applications. User agents implementing that API prompt the user to select a way to handle the payment request, after which the user agent returns a payment response to the originating site. This specification defines capabilities that enable Web applications to handle payment requests.</abstract>
+        </spec>
         <spec id="payment-method-id" status="WD">
             <title>Payment Method Identifiers</title>
             <abstract>The Payment Request API requires that merchants supply a list identifiers for supported payment methods. This document defines those identifier strings and how they are created.</abstract>
@@ -788,7 +792,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-05-18">changed status of <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a> from WD to NOTE</entry>
+        <entry date="2017-05-18">added <a href="http://www.w3.org/TR/payment-handler/"><q>Payment Handler API</q></a>; changed status of <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a> from WD to NOTE</entry>
         <entry date="2017-05-12">added <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a></entry>
         <entry date="2017-04-21">added <a href="http://www.w3.org/TR/dom41/"><q>W3C DOM 4.1</q></a></entry>
         <entry date="2017-04-14">changed status of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a> from WD to CR</entry>

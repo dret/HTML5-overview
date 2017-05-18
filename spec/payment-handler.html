@@ -1,0 +1,50 @@
+---
+layout:   page
+category: spec
+title:    "Payment Handler API"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/payment-handler">http://www.w3.org/TR/payment-handler</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>The Payment Request API provides a standard way to initiate payment requests from
+         Web pages and applications. User agents implementing that API prompt the user to select
+         a way to handle the payment request, after which the user agent returns a payment
+         response to the originating site. This specification defines capabilities that enable
+         Web applications to handle payment requests.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Payment Handler API</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "payment-handler" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
