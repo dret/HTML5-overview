@@ -750,7 +750,7 @@
             <title>Preload</title>
             <abstract>This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
         </spec>
-        <spec id="micropub" status="PR">
+        <spec id="micropub" status="REC">
             <title>Micropub</title>
             <abstract>Micropub is an open API standard that is used to create posts on one's own domain using third-party clients. Web apps and native apps (e.g. iPhone, Android) can use Micropub to post short notes, photos, events or other posts to your own site.</abstract>
         </spec>
@@ -792,6 +792,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-05-23">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from PR to REC</entry>
         <entry date="2017-05-18">added <a href="http://www.w3.org/TR/payment-handler/"><q>Payment Handler API</q></a>; changed status of <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a> from WD to NOTE</entry>
         <entry date="2017-05-12">added <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a></entry>
         <entry date="2017-04-21">added <a href="http://www.w3.org/TR/dom41/"><q>W3C DOM 4.1</q></a></entry>
