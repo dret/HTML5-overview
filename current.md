@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 134 current HTML5 specs, first [122 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (122 Specs)
+## <a name="TR"/>W3C TR Specifications (120 Specs)
 
 ### <a name="REC"/>Recommendations (32 Specs)
 
@@ -50,14 +50,13 @@ This is a list of all 134 current HTML5 specs, first [122 W3C TR](#TR) (grouped 
 
 * [Encrypted Media Extensions](spec/encrypted-media)
 
-### <a name="CR"/>Candidate Recommendations (19 Specs)
+### <a name="CR"/>Candidate Recommendations (18 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
 * [Beacon](spec/beacon)
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
-* [DeviceOrientation Event Specification](spec/orientation-event)
 * [HTML Media Capture](spec/html-media-capture)
 * [High Resolution Time Level 2](spec/hr-time-2)
 * [Media Capture and Streams](spec/mediastream-streams)
@@ -72,7 +71,7 @@ This is a list of all 134 current HTML5 specs, first [122 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (70 Specs)
+### <a name="WD"/>Working Drafts (69 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -92,7 +91,6 @@ This is a list of all 134 current HTML5 specs, first [122 W3C TR](#TR) (grouped 
 * [FindText API](spec/findtext)
 * [Gamepad](spec/gamepad)
 * [Generic Sensor API](spec/generic-sensor)
-* [Geofencing API](spec/geofencing) ([ED](https://w3c.github.io/geofencing-api/ "Editor's Draft"))
 * [Gyroscope Sensor](spec/gyroscope)
 * [HTML 5.2](spec/html52)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)

@@ -150,7 +150,7 @@
             <title>Clipboard API and Events</title>
             <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
         </spec>
-        <spec id="orientation-event" status="CR">
+        <spec id="orientation-event" status="NOTE">
             <title>DeviceOrientation Event Specification</title>
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
@@ -206,7 +206,7 @@
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
         </spec>
-        <spec id="geofencing" status="WD" ed="https://w3c.github.io/geofencing-api/">
+        <spec id="geofencing" status="NOTE">
             <title>Geofencing API</title>
             <abstract>This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.</abstract>
         </spec>
@@ -792,6 +792,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-05-30">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/geofencing/"><q>Geofencing API</q></a> from WD to NOTE</entry>
         <entry date="2017-05-23">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from PR to REC</entry>
         <entry date="2017-05-18">added <a href="http://www.w3.org/TR/payment-handler/"><q>Payment Handler API</q></a>; changed status of <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a> from WD to NOTE</entry>
         <entry date="2017-05-12">added <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a></entry>
