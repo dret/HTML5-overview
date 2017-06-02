@@ -50,7 +50,7 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 
 * [Encrypted Media Extensions](spec/encrypted-media)
 
-### <a name="CR"/>Candidate Recommendations (18 Specs)
+### <a name="CR"/>Candidate Recommendations (20 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -67,11 +67,13 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Referrer Policy](spec/referrer-policy)
 * [Resource Timing Level 1](spec/resource-timing-1)
 * [Secure Contexts](spec/secure-contexts)
+* [UI Events KeyboardEvent code Values](spec/uievents-code)
+* [UI Events KeyboardEvent key Values](spec/uievents-key)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (69 Specs)
+### <a name="WD"/>Working Drafts (67 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -125,8 +127,6 @@ This is a list of all 132 current HTML5 specs, first [120 W3C TR](#TR) (grouped 
 * [Service Workers 1](spec/service-workers-1)
 * [Shadow DOM](spec/shadow-dom)
 * [The Permissions API](spec/permissions)
-* [UI Events KeyboardEvent code Values](spec/uievents-code)
-* [UI Events KeyboardEvent key Values](spec/uievents-key)
 * [UI Events Specification](spec/uievents)
 * [User Interface Security and the Visibility API](spec/UISecurity)
 * [User Timing Level 2](spec/user-timing-2)
