@@ -678,7 +678,7 @@
             <title>Selection API</title>
             <abstract>This document is a preliminary draft of a specification for the Selection API and selection related functionality. It replaces a couple of old sections of the HTML specification, the selection part of the old DOM Range specification. This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</abstract>
         </spec>
-        <spec id="findtext" status="WD">
+        <spec id="findtext" status="NOTE">
             <title>FindText API</title>
             <abstract>The FindText API specification describes an API for finding ranges of text in a document or part of a document, using a variety of selection criteria.</abstract>
         </spec>
@@ -792,6 +792,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-06-20">changed status of <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> from WD to NOTE</entry>
         <entry date="2017-06-01">changed status of <a href="http://www.w3.org/TR/uievents-code/"><q>UI Events KeyboardEvent code Values</q></a> and <a href="http://www.w3.org/TR/uievents-key/"><q>UI Events KeyboardEvent key Values</q></a> from WD to CR</entry>
         <entry date="2017-05-30">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from CR to NOTE; changed status of <a href="http://www.w3.org/TR/geofencing/"><q>Geofencing API</q></a> from WD to NOTE</entry>
         <entry date="2017-05-23">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from PR to REC</entry>
