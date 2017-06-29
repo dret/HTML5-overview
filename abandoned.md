@@ -10,7 +10,7 @@ permalink:   /abandoned
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
 
-### <a name="NOTE"/>Notes (56 Specs)
+### <a name="NOTE"/>Notes (55 Specs)
 
 * [A Transcript Extension for HTML](spec/html-transcript-src)
 * [Calendar API](spec/calendar-api)
@@ -27,7 +27,6 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
 * [Fullscreen](spec/fullscreen)
 * [Geofencing API](spec/geofencing)
 * [HTML Canvas 2D Context, Level 2](spec/2dcontext2)
-* [HTML Microdata](spec/microdata)
 * [HTML Templates](spec/html-templates)
 * [Input Method Editor API](spec/ime-api)
 * [Media Capture API](spec/media-capture-api)
