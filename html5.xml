@@ -206,6 +206,10 @@
             <title>Geolocation API Specification</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device.</abstract>
         </spec>
+        <spec id="geolocation-API-v2" status="NOTE">
+            <title>Geolocation API Specification Level 2</title>
+            <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device, and this Level 2 version extends the capability of the Geolocation API Specification by adding the ability to get location represented as a civil address.</abstract>
+        </spec>
         <spec id="geofencing" status="NOTE">
             <title>Geofencing API</title>
             <abstract>This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.</abstract>
@@ -792,6 +796,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-07-06">added <a href="http://www.w3.org/TR/geolocation-API-v2/"><q>Geolocation API Specification Level 2</q></a></entry>
         <entry date="2017-06-29">changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from NOTE to WD</entry>
         <entry date="2017-06-20">changed status of <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> from WD to NOTE</entry>
         <entry date="2017-06-01">changed status of <a href="http://www.w3.org/TR/uievents-code/"><q>UI Events KeyboardEvent code Values</q></a> and <a href="http://www.w3.org/TR/uievents-key/"><q>UI Events KeyboardEvent key Values</q></a> from WD to CR</entry>
