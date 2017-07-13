@@ -558,9 +558,9 @@
             <title>URL</title>
             <abstract>The URL Standard defines URLs, domains, IP addresses, the application/x-www-form-urlencoded format, and their API.</abstract>
         </spec>
-        <spec id="server-timing" status="NOTE">
+        <spec id="server-timing" status="WD">
             <title>Server Timing</title>
-            <abstract>This specification introduces Server Timing, which enables the server to communicate performance metrics about the request-response cycle to the user agent, and a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.</abstract>
+            <abstract>This specification enables a server to communicate performance metrics about the request-response cycle to the user agent. It also standardizes a JavaScript interface to enable applications to collect, process, and act on these metrics to optimize application delivery.</abstract>
         </spec>
         <spec id="user-timing" status="REC">
             <title>User Timing</title>
@@ -796,6 +796,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-07-13">changed status of <a href="http://www.w3.org/TR/server-timing/"><q>Server Timing</q></a> from NOTE to WD</entry>
         <entry date="2017-07-06">added <a href="http://www.w3.org/TR/geolocation-API-v2/"><q>Geolocation API Specification Level 2</q></a></entry>
         <entry date="2017-06-29">changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from NOTE to WD</entry>
         <entry date="2017-06-20">changed status of <a href="http://www.w3.org/TR/findtext/"><q>FindText API</q></a> from WD to NOTE</entry>
