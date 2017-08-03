@@ -286,6 +286,10 @@
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
+        <spec id="hr-time-3" status="NOTE">
+            <title>High Resolution Time Level 3</title>
+            <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
+        </spec>
         <spec id="requestidlecallback" status="CR">
             <title>Cooperative Scheduling of Background Tasks</title>
             <abstract>This document defines an API that web page authors can use to cooperatively schedule background tasks such that they do not introduce delays to other high priority tasks that share the same event loop, such as input processing, animations and frame compositing. The user agent is in a better position to determine when background tasks can be run without introducing user-perceptible delays or jank in animations and input response, based on its knowledge of currently scheduled tasks, vsync deadlines, user-interaction and so on. Using this API should therefore result in more appropriate scheduling of background tasks during times when the browser would otherwise be idle.</abstract>
@@ -796,6 +800,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-08-03">changed status of <a href="http://www.w3.org/TR/hr-time-3/"><q>High Resolution Time Level 3</q></a> from WD to NOTE</entry>
         <entry date="2017-07-13">changed status of <a href="http://www.w3.org/TR/server-timing/"><q>Server Timing</q></a> from NOTE to WD</entry>
         <entry date="2017-07-06">added <a href="http://www.w3.org/TR/geolocation-API-v2/"><q>Geolocation API Specification Level 2</q></a></entry>
         <entry date="2017-06-29">changed status of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a> from NOTE to WD</entry>
@@ -829,6 +834,7 @@
         <entry date="2016-11-03">added <a href="http://www.w3.org/TR/resource-timing-2/"><q>Resource Timing Level 2</q></a></entry>
         <entry date="2016-11-02">added <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a></entry>
         <entry date="2016-11-01">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from PR to REC; changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a> from CR to PR</entry>
+        <entry date="2016-10-31">added <a href="http://www.w3.org/TR/hr-time-3/"><q>High Resolution Time Level 3</q></a></entry>
         <entry date="2016-10-28">added <a href="http://www.w3.org/TR/wai-aria-1.1/"><q>Accessible Rich Internet Applications (WAI-ARIA) 1.1</q></a></entry>
         <entry date="2016-10-27">changed status of <a href="http://www.w3.org/TR/pointerlock/"><q>Pointer Lock</q></a> from PR to REC</entry>
         <entry date="2016-10-26">updated abstract of <a href="http://www.w3.org/TR/beacon/"><q>Beacon</q></a></entry>
