@@ -50,13 +50,14 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 
 * [Encrypted Media Extensions](spec/encrypted-media)
 
-### <a name="CR"/>Candidate Recommendations (21 Specs)
+### <a name="CR"/>Candidate Recommendations (22 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
 * [Beacon](spec/beacon)
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
+* [HTML 5.2](spec/html52)
 * [HTML Media Capture](spec/html-media-capture)
 * [High Resolution Time Level 2](spec/hr-time-2)
 * [Indexed Database API 2.0](spec/IndexedDB-2)
@@ -74,7 +75,7 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (67 Specs)
+### <a name="WD"/>Working Drafts (66 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -94,7 +95,6 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [Gamepad](spec/gamepad)
 * [Generic Sensor API](spec/generic-sensor)
 * [Gyroscope Sensor](spec/gyroscope)
-* [HTML 5.2](spec/html52)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
 * [HTML Microdata](spec/microdata)
