@@ -90,6 +90,10 @@
             <title>Accelerometer Sensor</title>
             <abstract>This specification defines accelerometer sensor interface for obtaining information about acceleration applied to the X, Y and Z axis of a device that hosts the sensor.</abstract>
         </spec>
+        <spec id="motion-sensors" status="NOTE">
+            <title>Motion Sensors Explainer</title>
+            <abstract>This explainer is an introduction to low-level and high-level motion sensors, their relationship, inner workings and common use-cases. Common cases of event filtering and sensor fusion are introduced with examples, showing how to apply that on sensors following the Generic Sensor API specification.</abstract>
+        </spec>
         <spec id="orientation-sensor" status="WD">
             <title>Orientation Sensor</title>
             <abstract>This specification defines a base orientation sensor interface and concrete sensor subclasses to monitor the device's physical orientation in relation to a stationary three dimensional Cartesian coordinate system.</abstract>
@@ -800,6 +804,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-08-26">added <a href="http://www.w3.org/TR/motion-sensors/"><q>Motion Sensors Explainer</q></a></entry>
         <entry date="2017-08-10">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from WD to CR</entry>
         <entry date="2017-08-03">changed status of <a href="http://www.w3.org/TR/hr-time-3/"><q>High Resolution Time Level 3</q></a> from WD to NOTE</entry>
         <entry date="2017-07-13">changed status of <a href="http://www.w3.org/TR/server-timing/"><q>Server Timing</q></a> from NOTE to WD</entry>
