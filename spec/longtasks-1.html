@@ -1,0 +1,48 @@
+---
+layout:   page
+category: spec
+title:    "Long Tasks API 1"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/longtasks-1">http://www.w3.org/TR/longtasks-1</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines an API that web page authors can use to detect presence of "long
+         tasks" that monopolize the UI thread for extended periods of time and block other
+         critical tasks from being executed - e.g. reacting to user input.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Long Tasks API 1</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "longtasks-1" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>

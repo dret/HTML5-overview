@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (121 Specs)
+## <a name="TR"/>W3C TR Specifications (123 Specs)
 
 ### <a name="REC"/>Recommendations (32 Specs)
 
@@ -75,7 +75,7 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (66 Specs)
+### <a name="WD"/>Working Drafts (68 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -103,6 +103,7 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [IndieUI: User Context 1.0](spec/indie-ui-context)
 * [Input Events Level 1](spec/input-events-1)
 * [Input Events Level 2](spec/input-events-2)
+* [Long Tasks API 1](spec/longtasks-1)
 * [Magnetometer Sensor](spec/magnetometer)
 * [Manifest for Web Application](spec/appmanifest)
 * [Media Capture Depth Stream Extensions](spec/mediacapture-depth)
@@ -111,6 +112,7 @@ This is a list of all 133 current HTML5 specs, first [121 W3C TR](#TR) (grouped 
 * [Mediastream Image Capture](spec/image-capture)
 * [Navigation Timing Level 2](spec/navigation-timing-2)
 * [Orientation Sensor](spec/orientation-sensor)
+* [Paint Timing 1](spec/paint-timing)
 * [Payment Handler API](spec/payment-handler)
 * [Payment Method Identifiers](spec/payment-method-id)
 * [Payment Request API](spec/payment-request)
