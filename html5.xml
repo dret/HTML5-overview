@@ -812,7 +812,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-09-08">added <a href="http://www.w3.org/TR/paint-timing/"><q>Paint Timing 1</q></a> and <a href="http://www.w3.org/TR/longtasks-1/"><q>Log Tasks API 1</q></a></entry>
+        <entry date="2017-09-08">added <a href="http://www.w3.org/TR/paint-timing/"><q>Paint Timing 1</q></a> and <a href="http://www.w3.org/TR/longtasks-1/"><q>Long Tasks API 1</q></a></entry>
         <entry date="2017-08-26">added <a href="http://www.w3.org/TR/motion-sensors/"><q>Motion Sensors Explainer</q></a></entry>
         <entry date="2017-08-10">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from WD to CR</entry>
         <entry date="2017-08-03">changed status of <a href="http://www.w3.org/TR/hr-time-3/"><q>High Resolution Time Level 3</q></a> from WD to NOTE</entry>
