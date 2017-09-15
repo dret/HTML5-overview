@@ -470,6 +470,10 @@
             <title>DOM Parsing and Serialization</title>
             <abstract>This specification defines various APIs for programmatic access to HTML and generic XML parsers by web applications for use in parsing and serializing DOM nodes.</abstract>
         </spec>
+        <spec id="intersection-observer" status="WD">
+            <title>W3C DOM4</title>
+            <abstract>This specification describes an API that can be used to understand the visibility and position of DOM elements ("targets") relative to a containing element or to the top-level viewport ("root"). The position is delivered asynchronously and is useful for understanding the visibility of elements and implementing pre-loading and deferred loading of DOM content.</abstract>
+        </spec>
         <spec id="html-templates" status="NOTE">
             <title>HTML Templates</title>
             <abstract>This specification describes a method for declaring inert DOM subtrees in HTML and manipulating them to instantiate document fragments with identical contents.</abstract>
@@ -812,7 +816,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-09-14">changed status of <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a> and <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a></entry>
+        <entry date="2017-09-14">changed status of <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a> and <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>; added <a href="http://www.w3.org/TR/intersection-observer/"><q>Intersection Observer</q></a></entry>
         <entry date="2017-09-08">added <a href="http://www.w3.org/TR/paint-timing/"><q>Paint Timing 1</q></a> and <a href="http://www.w3.org/TR/longtasks-1/"><q>Long Tasks API 1</q></a></entry>
         <entry date="2017-08-26">added <a href="http://www.w3.org/TR/motion-sensors/"><q>Motion Sensors Explainer</q></a></entry>
         <entry date="2017-08-10">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from WD to CR</entry>
