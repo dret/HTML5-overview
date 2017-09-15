@@ -50,7 +50,7 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 
 * [Encrypted Media Extensions](spec/encrypted-media)
 
-### <a name="CR"/>Candidate Recommendations (22 Specs)
+### <a name="CR"/>Candidate Recommendations (24 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Battery Status API](spec/battery-status)
@@ -64,6 +64,8 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Mixed Content](spec/mixed-content)
 * [Page Visibility 2](spec/page-visibility-2)
+* [Payment Method Identifiers](spec/payment-method-id)
+* [Payment Request API](spec/payment-request)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
 * [Presentation API](spec/presentation-api)
 * [Referrer Policy](spec/referrer-policy)
@@ -75,7 +77,7 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (68 Specs)
+### <a name="WD"/>Working Drafts (66 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -114,8 +116,6 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [Orientation Sensor](spec/orientation-sensor)
 * [Paint Timing 1](spec/paint-timing)
 * [Payment Handler API](spec/payment-handler)
-* [Payment Method Identifiers](spec/payment-method-id)
-* [Payment Request API](spec/payment-request)
 * [Pointer Events - Level 2](spec/pointerevents2)
 * [Preload](spec/preload)
 * [Proximity Sensor](spec/proximity)

@@ -222,7 +222,7 @@
             <title>Web NFC API</title>
             <abstract>Near Field Communication (NFC) is an international standard (ISO/IEC 18092) that specifies an interface and protocol for simple wireless interconnection of closely coupled devices operating at 13.56 MHz. There are three groups of application scenarios for NFC: The first one is to hold a device close to a wireless tag to exchange some digital information or data; The second is to hold two devices close to each other in order to exchange some information or data between them; The third one is to make payments by holding mobile phones close to point of sales terminals instead of swiping smart cards. NFC enables wireless communication between two devices at close proximity, usually less than a few centimeters.</abstract>
         </spec>
-        <spec id="payment-request" status="WD">
+        <spec id="payment-request" status="CR">
             <title>Payment Request API</title>
             <abstract>This specification describes a web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration. User agents (e.g. browsers) will facilitate the payment flow between merchant and user.</abstract>
         </spec>
@@ -230,7 +230,7 @@
             <title>Payment Handler API</title>
             <abstract>The Payment Request API provides a standard way to initiate payment requests from Web pages and applications. User agents implementing that API prompt the user to select a way to handle the payment request, after which the user agent returns a payment response to the originating site. This specification defines capabilities that enable Web applications to handle payment requests.</abstract>
         </spec>
-        <spec id="payment-method-id" status="WD">
+        <spec id="payment-method-id" status="CR">
             <title>Payment Method Identifiers</title>
             <abstract>The Payment Request API requires that merchants supply a list identifiers for supported payment methods. This document defines those identifier strings and how they are created.</abstract>
         </spec>
@@ -812,6 +812,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-09-14">changed status of <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a> and <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a></entry>
         <entry date="2017-09-08">added <a href="http://www.w3.org/TR/paint-timing/"><q>Paint Timing 1</q></a> and <a href="http://www.w3.org/TR/longtasks-1/"><q>Long Tasks API 1</q></a></entry>
         <entry date="2017-08-26">added <a href="http://www.w3.org/TR/motion-sensors/"><q>Motion Sensors Explainer</q></a></entry>
         <entry date="2017-08-10">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from WD to CR</entry>
