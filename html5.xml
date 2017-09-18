@@ -270,7 +270,7 @@
             <title>W3C HTML JSON form submission</title>
             <abstract>This specification defines a new form encoding algorithm that enables the transmission of form data as JSON. Instead of capturing form data as essentially an array of key-value pairs which is the bread and butter of existing form encodings, it relies on a simple name attribute syntax that makes it possible to capture rich data structures as JSON directly.</abstract>
         </spec>
-        <spec id="encrypted-media" status="PR">
+        <spec id="encrypted-media" status="REC">
             <title>Encrypted Media Extensions</title>
             <abstract>This proposal extends HTMLMediaElement providing APIs to control playback of protected content. The API supports use cases ranging from simple clear key decryption to high value video (given an appropriate user agent implementation). License/key exchange is controlled by the application, facilitating the development of robust playback applications supporting a range of content decryption and protection technologies. This specification does not define a content protection or Digital Rights Management system. Rather, it defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems. Implementation of Digital Rights Management is not required for compliance with this specification: only the simple clear key system is required to be implemented as a common baseline. The common API supports a simple set of content encryption capabilities, leaving application functions such as authentication and authorization to page authors. This is achieved by requiring content protection system-specific messaging to be mediated by the page rather than assuming out-of-band communication between the encryption system and a license or other server.</abstract>
         </spec>
@@ -816,6 +816,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-09-18">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from PR to REC</entry>
         <entry date="2017-09-14">changed status of <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a> and <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>; added <a href="http://www.w3.org/TR/intersection-observer/"><q>Intersection Observer</q></a></entry>
         <entry date="2017-09-08">added <a href="http://www.w3.org/TR/paint-timing/"><q>Paint Timing 1</q></a> and <a href="http://www.w3.org/TR/longtasks-1/"><q>Long Tasks API 1</q></a></entry>
         <entry date="2017-08-26">added <a href="http://www.w3.org/TR/motion-sensors/"><q>Motion Sensors Explainer</q></a></entry>
