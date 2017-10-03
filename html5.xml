@@ -142,7 +142,7 @@
             <title>Wake Lock API</title>
             <abstract>This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).</abstract>
         </spec>
-        <spec id="audio-output" status="WD">
+        <spec id="audio-output" status="CR">
             <title>Audio Output Devices API</title>
             <abstract>This document defines a set of JavaScript APIs that let a Web application manage how audio is rendered on the user audio output devices.</abstract>
         </spec>
@@ -816,6 +816,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-10-03">changed status of <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a> from WD to CR</entry>
         <entry date="2017-09-26">updated title and abstract of <a href="http://www.w3.org/TR/permissions/"><q>Permissions</q></a></entry>
         <entry date="2017-09-18">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from PR to REC</entry>
         <entry date="2017-09-14">changed status of <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a> and <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>; added <a href="http://www.w3.org/TR/intersection-observer/"><q>Intersection Observer</q></a></entry>

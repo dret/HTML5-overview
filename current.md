@@ -47,9 +47,10 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
 
-### <a name="CR"/>Candidate Recommendations (24 Specs)
+### <a name="CR"/>Candidate Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
+* [Audio Output Devices API](spec/audio-output)
 * [Battery Status API](spec/battery-status)
 * [Beacon](spec/beacon)
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
@@ -74,12 +75,11 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (67 Specs)
+### <a name="WD"/>Working Drafts (66 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
 * [Ambient Light Sensor](spec/ambient-light)
-* [Audio Output Devices API](spec/audio-output)
 * [Audio Processing API](spec/audioproc)
 * [Basic Card Payment](spec/payment-method-basic-card)
 * [Clear Site Data](spec/clear-site-data)
