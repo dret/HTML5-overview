@@ -276,7 +276,7 @@
         </spec>
         <spec id="microdata" status="WD">
             <title>HTML Microdata</title>
-            <abstract>This specification defines the HTML microdata mechanism. This mechanism allows machine-readable data to be embedded in HTML documents in an easy-to-write manner, with an unambiguous parsing model. It is compatible with numerous other data formats including RDF and JSON.</abstract>
+            <abstract>This specification defines new HTML attributes to embed machine-readable data in HTML documents in a style similar to RDFa. It is compatible with JSON, and can be written in a style which is convertible to RDF, although two-way conversion is not lossless.</abstract>
         </spec>
         <spec id="webmessaging" status="REC">
             <title>HTML5 Web Messaging</title>
@@ -816,6 +816,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-10-10">updated abstract of <a href="http://www.w3.org/TR/microdata/"><q>Microdata</q></a></entry>
         <entry date="2017-10-03">changed status of <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a> from WD to CR</entry>
         <entry date="2017-09-26">updated title and abstract of <a href="http://www.w3.org/TR/permissions/"><q>Permissions</q></a></entry>
         <entry date="2017-09-18">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from PR to REC</entry>
