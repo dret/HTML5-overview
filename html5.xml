@@ -62,6 +62,10 @@
             <title>System Information API</title>
             <abstract>This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.</abstract>
         </spec>
+        <spec id="vehicle-information-api" status="WD">
+            <title>Vehicle Information API Specification</title>
+            <abstract>This specification defines a high level API for accessing to vehicle signals and data attributes. The purpose of the specification is to promote a client implementation with a standard API that enables application development in a consistent manner across participating automotive manufacturers.</abstract>
+        </spec>
         <spec id="telephony" status="NOTE">
             <title>Web Telephony API</title>
             <abstract>This specification defines an API to manage telephone calls. A typical use case of the Web Telephony API is the implementation of a 'Dialer' application supporting multiparty calls and multiple telephony services. A minimal structure for call history items is also defined.</abstract>
@@ -816,6 +820,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-10-13">added <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a></entry>
         <entry date="2017-10-10">changed status of <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a> from CR to PR</entry>
         <entry date="2017-10-09">updated abstract of <a href="http://www.w3.org/TR/microdata/"><q>HTML Microdata</q></a></entry>
         <entry date="2017-10-03">changed status of <a href="http://www.w3.org/TR/audio-output/"><q>Audio Output Devices API</q></a> from WD to CR</entry>
