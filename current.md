@@ -51,7 +51,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 
-### <a name="CR"/>Candidate Recommendations (24 Specs)
+### <a name="CR"/>Candidate Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Audio Output Devices API](spec/audio-output)
@@ -70,6 +70,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Performance Timeline Level 2](spec/performance-timeline-2)
 * [Presentation API](spec/presentation-api)
 * [Referrer Policy](spec/referrer-policy)
+* [Remote Playback API](spec/remote-playback)
 * [Resource Timing Level 1](spec/resource-timing-1)
 * [Secure Contexts](spec/secure-contexts)
 * [UI Events KeyboardEvent code Values](spec/uievents-code)
@@ -78,7 +79,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [WebDriver](spec/webdriver)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (67 Specs)
+### <a name="WD"/>Working Drafts (66 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -121,7 +122,6 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Preload](spec/preload)
 * [Proximity Sensor](spec/proximity)
 * [Push API](spec/push-api)
-* [Remote Playback API](spec/remote-playback)
 * [Resource Hints](spec/resource-hints)
 * [Resource Timing Level 2](spec/resource-timing-2)
 * [Screen Capture](spec/screen-capture)
