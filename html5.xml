@@ -774,7 +774,7 @@
             <title>Resource Hints</title>
             <abstract>This specification defines the dns-prefetch, preconnect, prefetch, and prerender relationships of the HTML Link Element (&lt;link>). These primitives enable the developer, and the server generating or delivering the resources, to assist the user agent in the decision process of which origins it should connect to, and which resources it should fetch and preprocess to improve page performance.</abstract>
         </spec>
-        <spec id="preload" status="WD">
+        <spec id="preload" status="CR">
             <title>Preload</title>
             <abstract>This specification defines the preload keyword that may be used with link elements. This keyword provides a declarative fetch primitive that initiates an early fetch and separates fetching from resource execution.</abstract>
         </spec>
@@ -820,6 +820,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-10-28">changed status of <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a> from WD to CR</entry>
         <entry date="2017-10-19">changed status of <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a> from WD to CR</entry>
         <entry date="2017-10-13">added <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a></entry>
         <entry date="2017-10-10">changed status of <a href="http://www.w3.org/TR/requestidlecallback/"><q>Cooperative Scheduling of Background Tasks</q></a> from CR to PR</entry>
