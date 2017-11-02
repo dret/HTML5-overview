@@ -738,9 +738,9 @@
             <title>WebDriver</title>
             <abstract>This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser. The WebDriver API is primarily intended to allow developers to write tests that automate a browser from a separate controlling process, but may also be implemented in such a way as to allow in-browser scripts to control a browser. The WebDriver API is defined by a set of interfaces to discover and manipulate DOM elements on a page, and to control the behaviour of the containing browser. This specification also includes a non-normative reference useful for browser vendors.</abstract>
         </spec>
-        <spec id="webrtc" status="WD">
+        <spec id="webrtc" status="CR">
             <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
-            <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent over the network to another browser or device implementing the appropriate set of real-time protocols, and media to be received from another browser or device. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
+            <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent to and received from another browser or device implementing the appropriate set of real-time protocols. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
         </spec>
         <spec id="webrtcstats" status="WD">
             <title>Identifiers for WebRTC's Statistics API</title>
@@ -820,7 +820,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-11-02">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from CR to PR</entry>
+        <entry date="2017-11-02">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webrtc/"><q>WebRTC 1.0: Real-time Communication Between Browsers</q></a> from WD to CR</entry>
         <entry date="2017-10-28">changed status of <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a> from WD to CR</entry>
         <entry date="2017-10-19">changed status of <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a> from WD to CR</entry>
         <entry date="2017-10-13">added <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a></entry>

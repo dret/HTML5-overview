@@ -52,7 +52,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [HTML 5.2](spec/html52)
 
-### <a name="CR"/>Candidate Recommendations (25 Specs)
+### <a name="CR"/>Candidate Recommendations (26 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Audio Output Devices API](spec/audio-output)
@@ -78,9 +78,10 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [UI Events KeyboardEvent key Values](spec/uievents-key)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [WebDriver](spec/webdriver)
+* [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (65 Specs)
+### <a name="WD"/>Working Drafts (64 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -144,7 +145,6 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Web Payments HTTP API 1.0](spec/webpayments-http-api)
 * [Web Payments HTTP Messages 1.0](spec/webpayments-http-messages)
 * [Web Workers](spec/workers)
-* [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebVTT: The Web Video Text Tracks Format](spec/webvtt1)
 * [Worklets Level 1](spec/worklets-1)
 
