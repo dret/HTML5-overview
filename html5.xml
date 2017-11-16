@@ -310,7 +310,7 @@
             <title>Indexed Database API</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
         </spec>
-        <spec id="IndexedDB-2" status="CR">
+        <spec id="IndexedDB-2" status="PR">
             <title>Indexed Database API 2.0</title>
             <abstract>This document defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</abstract>
         </spec>
@@ -820,6 +820,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2017-11-16">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> from CR to PR</entry>
         <entry date="2017-11-02">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webrtc/"><q>WebRTC 1.0: Real-time Communication Between Browsers</q></a> from WD to CR</entry>
         <entry date="2017-10-28">changed status of <a href="http://www.w3.org/TR/preload/"><q>Preload</q></a> from WD to CR</entry>
         <entry date="2017-10-19">changed status of <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a> from WD to CR</entry>

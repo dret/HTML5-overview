@@ -47,12 +47,13 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (3 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [HTML 5.2](spec/html52)
+* [Indexed Database API 2.0](spec/IndexedDB-2)
 
-### <a name="CR"/>Candidate Recommendations (26 Specs)
+### <a name="CR"/>Candidate Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Audio Output Devices API](spec/audio-output)
@@ -61,7 +62,6 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
 * [HTML Media Capture](spec/html-media-capture)
 * [High Resolution Time Level 2](spec/hr-time-2)
-* [Indexed Database API 2.0](spec/IndexedDB-2)
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Mixed Content](spec/mixed-content)
 * [Page Visibility 2](spec/page-visibility-2)
