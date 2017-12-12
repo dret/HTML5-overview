@@ -242,6 +242,10 @@
             <title>Basic Card Payment</title>
             <abstract>The Basic Card Payment specification describes the data formats used by the PaymentRequest API to support payment by payment cards such as credit or debit cards.</abstract>
         </spec>
+        <spec id="payment-method-manifest" status="WD">
+            <title>Payment Method Manifest</title>
+            <abstract>This specification defines the machine-readable manifest file, known as a payment method manifest, describing how a payment method participates in the Web Payments ecosystem, and how such files are to be used.</abstract>
+        </spec>
         <spec id="webpayments-http-api" status="NOTE">
             <title>Web Payments HTTP API 1.0</title>
             <abstract>This document outlines how to register payment applications, create payment requests, and reply with payment responses using a standard HTTP API.</abstract>
@@ -820,7 +824,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-12-12">changed status of <a href="http://www.w3.org/TR/webpayments-http-api/"><q>Web Payments HTTP API 1.0</q></a> from WD to NOTE</entry>
+        <entry date="2017-12-12">changed status of <a href="http://www.w3.org/TR/webpayments-http-api/"><q>Web Payments HTTP API 1.0</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/payment-method-manifest/"><q>Payment Method Manifest</q></a></entry>
         <entry date="2017-12-02">updated abstract of <a href="http://www.w3.org/TR/clear-site-data/"><q>Clear Site Data</q></a></entry>
         <entry date="2017-11-29">changed status of <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from CR to PR</entry>
         <entry date="2017-11-16">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> from CR to PR</entry>
