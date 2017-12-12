@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (125 Specs)
+## <a name="TR"/>W3C TR Specifications (124 Specs)
 
 ### <a name="REC"/>Recommendations (33 Specs)
 
@@ -81,7 +81,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (64 Specs)
+### <a name="WD"/>Working Drafts (63 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -142,7 +142,6 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Web Audio API](spec/webaudio)
 * [Web Authentication: An API for accessing Scoped Credentials](spec/webauthn)
 * [Web MIDI API](spec/webmidi)
-* [Web Payments HTTP API 1.0](spec/webpayments-http-api)
 * [Web Payments HTTP Messages 1.0](spec/webpayments-http-messages)
 * [Web Workers](spec/workers)
 * [WebVTT: The Web Video Text Tracks Format](spec/webvtt1)

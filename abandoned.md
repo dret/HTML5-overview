@@ -10,7 +10,7 @@ permalink:   /abandoned
 This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [NOTE documents](http://www.w3.org/2014/Process-20140801/#rec-advance "W3C Technical Reports"), which are documents that are no longer under development by the W3C, and other abandoned HTML5 specifications. Please keep in mind that [W3C NOTE documents have no official standing and often represent outdated or abandoned work](http://www.w3.org/2014/Process-20140801/#maturity-levels).
 
 
-### <a name="NOTE"/>Notes (57 Specs)
+### <a name="NOTE"/>Notes (58 Specs)
 
 * [A Transcript Extension for HTML](spec/html-transcript-src)
 * [Calendar API](spec/calendar-api)
@@ -64,6 +64,7 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
 * [Web Intents](spec/web-intents)
 * [Web Intents Addendum — Local Services](spec/webintents-local-services)
 * [Web NFC API](spec/nfc)
+* [Web Payments HTTP API 1.0](spec/webpayments-http-api)
 * [Web SQL Database](spec/webdatabase)
 * [Web Telephony API](spec/telephony)
 * [WebCrypto Key Discovery](spec/webcrypto-key-discovery)
