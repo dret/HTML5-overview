@@ -54,7 +54,7 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [HTML Media Capture](spec/html-media-capture)
 * [Indexed Database API 2.0](spec/IndexedDB-2)
 
-### <a name="CR"/>Candidate Recommendations (24 Specs)
+### <a name="CR"/>Candidate Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Audio Output Devices API](spec/audio-output)
@@ -77,11 +77,12 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [UI Events KeyboardEvent code Values](spec/uievents-code)
 * [UI Events KeyboardEvent key Values](spec/uievents-key)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
+* [Wake Lock API](spec/wake-lock)
 * [WebDriver](spec/webdriver)
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (65 Specs)
+### <a name="WD"/>Working Drafts (64 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -139,7 +140,6 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [Vehicle Information API Specification](spec/vehicle-information-api)
 * [W3C DOM4](spec/intersection-observer)
 * [W3C DOM4.1](spec/dom41)
-* [Wake Lock API](spec/wake-lock)
 * [Web Animations](spec/web-animations-1)
 * [Web Audio API](spec/webaudio)
 * [Web Authentication: An API for accessing Scoped Credentials](spec/webauthn)

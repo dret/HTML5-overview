@@ -146,7 +146,7 @@
             <title>Battery Status API</title>
             <abstract>This specification defines an API that provides information about the battery status of the hosting device.</abstract>
         </spec>
-        <spec id="wake-lock" status="WD">
+        <spec id="wake-lock" status="CR">
             <title>Wake Lock API</title>
             <abstract>This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).</abstract>
         </spec>
@@ -828,7 +828,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2017-12-14">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from PR to REC; added <a href="http://www.w3.org/TR/html53/"><q>HTML 5.3</q></a></entry>
+        <entry date="2017-12-14">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from PR to REC; added <a href="http://www.w3.org/TR/html53/"><q>HTML 5.3</q></a>; changed status of <a href="http://www.w3.org/TR/wake-lock/"><q>Wake Lock API</q></a> from WD to CR</entry>
         <entry date="2017-12-12">changed status of <a href="http://www.w3.org/TR/webpayments-http-api/"><q>Web Payments HTTP API 1.0</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/payment-method-manifest/"><q>Payment Method Manifest</q></a></entry>
         <entry date="2017-12-02">updated abstract of <a href="http://www.w3.org/TR/clear-site-data/"><q>Clear Site Data</q></a></entry>
         <entry date="2017-11-29">changed status of <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from CR to PR</entry>
