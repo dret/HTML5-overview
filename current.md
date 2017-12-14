@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (125 Specs)
+## <a name="TR"/>W3C TR Specifications (126 Specs)
 
 ### <a name="REC"/>Recommendations (34 Specs)
 
@@ -81,7 +81,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (64 Specs)
+### <a name="WD"/>Working Drafts (65 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -100,6 +100,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Gamepad](spec/gamepad)
 * [Generic Sensor API](spec/generic-sensor)
 * [Gyroscope Sensor](spec/gyroscope)
+* [HTML 5.3](spec/html53)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
 * [HTML Microdata](spec/microdata)
