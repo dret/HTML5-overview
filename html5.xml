@@ -266,7 +266,7 @@
             <title>HTML Canvas 2D Context, Level 2</title>
             <abstract>This specification defines the 2D Context for the HTML canvas element. The 2D Context provides objects, methods, and properties to draw and manipulate graphics on a canvas drawing surface.</abstract>
         </spec>
-        <spec id="html-media-capture" status="PR">
+        <spec id="html-media-capture" status="REC">
             <title>HTML Media Capture</title>
             <abstract>This specification defines HTML form enhancements that provide access to the audio, image and video capture capabilities of the device.</abstract>
         </spec>
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-02-02">changed status of <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from PR to REC</entry>
         <entry date="2018-01-30">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> from PR to REC</entry>
         <entry date="2017-12-14">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from PR to REC; added <a href="http://www.w3.org/TR/html53/"><q>HTML 5.3</q></a>; changed status of <a href="http://www.w3.org/TR/wake-lock/"><q>Wake Lock API</q></a> from WD to CR</entry>
         <entry date="2017-12-12">changed status of <a href="http://www.w3.org/TR/webpayments-http-api/"><q>Web Payments HTTP API 1.0</q></a> from WD to NOTE; added <a href="http://www.w3.org/TR/payment-method-manifest/"><q>Payment Method Manifest</q></a></entry>

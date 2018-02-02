@@ -11,7 +11,7 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 
 ## <a name="TR"/>W3C TR Specifications (126 Specs)
 
-### <a name="REC"/>Recommendations (35 Specs)
+### <a name="REC"/>Recommendations (36 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -22,6 +22,7 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [HTML 5.2](spec/html52)
 * [HTML Canvas 2D Context](spec/2dcontext)
 * [HTML Image Description Extension (longdesc)](spec/html-longdesc)
+* [HTML Media Capture](spec/html-media-capture)
 * [HTML5](spec/html5)
 * [HTML5 Web Messaging](spec/webmessaging)
 * [High Resolution Time](spec/hr-time)
@@ -49,10 +50,9 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (1 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
-* [HTML Media Capture](spec/html-media-capture)
 
 ### <a name="CR"/>Candidate Recommendations (25 Specs)
 
