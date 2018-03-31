@@ -4,8 +4,8 @@
     <xsl:output name="markdown" method="text" encoding="UTF-8"/>
     <xsl:output name="markup" method="xhtml" encoding="UTF-8" omit-xml-declaration="yes"/>
     <xsl:variable name="post-dir" select="'_posts'"/>
-    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other', 'abandoned' )"/>
-    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other', 'Abandoned' )"/>
+    <xsl:variable name="status-index" select="( 'PER'                            , 'REC'            , 'SPSD'                      , 'PR'                      , 'CR'                       , 'WD'            , 'NOTE' , 'other', 'abandoned' )"/>
+    <xsl:variable name="status-title" select="( 'Proposed Edited Recommendation' , 'Recommendation' , 'Superseded Recommendation' , 'Proposed Recommendation' , 'Candidate Recommendation' , 'Working Draft' , 'Note' , 'Other', 'Abandoned' )"/>
     <!-- -->
     <xsl:template match="/">
         <xsl:result-document href="_includes/specs.html" format="markup">
@@ -16,9 +16,9 @@
                     <xsl:text> specifications, </xsl:text>
                     <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','other')])"/>
                     <xsl:text> of which are active, while the remaining </xsl:text>
-                    <xsl:value-of select="count(//specs/spec[@status = ('NOTE', 'abandoned')])"/>
-                    <xsl:text> have been abandoned. </xsl:text>
-                    <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','NOTE')])"/>
+                    <xsl:value-of select="count(//specs/spec[@status = ('SPSD', 'NOTE', 'abandoned')])"/>
+                    <xsl:text> have been superseded or abandoned. </xsl:text>
+                    <xsl:value-of select="count(//specs/spec[@status = ('WD','CR','PER','PR','REC','SPSD','NOTE')])"/>
                     <xsl:text> are W3C specifications, and the remaining </xsl:text>
                     <xsl:value-of select="count(//specs/spec[@status = ('other','abandoned')])"/>
                     <xsl:text> are published/developed elsewhere. Two separate lists are published here:</xsl:text>
@@ -36,11 +36,11 @@
                         </li>
                         <li>
                             <a href="abandoned">
-                                <xsl:value-of select="count(//specs/spec[@status = ('NOTE','abandoned')])"/>
-                                <xsl:text> abandoned specifications</xsl:text>
+                                <xsl:value-of select="count(//specs/spec[@status = ('SPSD','NOTE','abandoned')])"/>
+                                <xsl:text> superseded or abandoned specifications</xsl:text>
                             </a>
                             <xsl:text> (</xsl:text>
-                            <xsl:value-of select="count(//specs/spec[@status = ('NOTE')])"/>
+                            <xsl:value-of select="count(//specs/spec[@status = ('SPSD','NOTE')])"/>
                             <xsl:text> W3C, </xsl:text>
                             <xsl:value-of select="count(//specs/spec[@status = ('abandoned')])"/>
                             <xsl:text> other)</xsl:text>
@@ -95,7 +95,7 @@
                 </xsl:choose>
             </xsl:for-each-group>
         </xsl:result-document>
-        <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','NOTE')]">
+        <xsl:for-each select="//spec[@status = ('WD','CR','PER','PR','REC','SPSD','NOTE')]">
             <xsl:result-document href="spec/{@id}.html" format="markup">
                 <xsl:text>---&#xa;</xsl:text>
                 <xsl:text>layout:   page&#xa;</xsl:text>
