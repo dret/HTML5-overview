@@ -8,9 +8,9 @@
   <!ELEMENT specs (spec*) >
   <!ELEMENT spec (title, abstract) >
   <!ATTLIST spec
-    id        CDATA                                                     #REQUIRED
-    status    ( WD | CR | PER | PR | REC | NOTE | other | abandoned )   #REQUIRED
-    ed        CDATA                                                     #IMPLIED
+    id        CDATA                                                            #REQUIRED
+    status    ( WD | CR | PER | PR | REC | SPSD | NOTE | other | abandoned )   #REQUIRED
+    ed        CDATA                                                            #IMPLIED
     >
   <!ELEMENT title (#PCDATA) >
   <!ELEMENT abstract (#PCDATA | q | em)* >
@@ -19,30 +19,30 @@
   <!ELEMENT log (entry|rename)* >
   <!ELEMENT entry (#PCDATA | q | em | a)* >
   <!ATTLIST entry
-    date      CDATA                                                     #REQUIRED
+    date      CDATA                                                            #REQUIRED
     >
   <!ELEMENT a (#PCDATA | q)* >
   <!ATTLIST a
-    href      CDATA                                                     #REQUIRED
+    href      CDATA                                                            #REQUIRED
     >
   <!ELEMENT rename (old, new) >
   <!ATTLIST rename
-    date      CDATA                                                     #REQUIRED
+    date      CDATA                                                            #REQUIRED
     >
   <!ELEMENT old EMPTY >
   <!ATTLIST old
-    id        CDATA                                                     #REQUIRED
-    title     CDATA                                                     #REQUIRED
+    id        CDATA                                                            #REQUIRED
+    title     CDATA                                                            #REQUIRED
     >
   <!ELEMENT new EMPTY >
   <!ATTLIST new
-    id        CDATA                                                     #REQUIRED
-    title     CDATA                                                     #REQUIRED
+    id        CDATA                                                            #REQUIRED
+    title     CDATA                                                            #REQUIRED
     >
 ]>
 <html5>
     <specs>
-        <spec id="html5" status="REC">
+        <spec id="html5" status="SPSD">
             <title>HTML5</title>
             <abstract>This specification defines the 5th major revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features are introduced to help Web application authors, new elements are introduced based on research into prevailing authoring practices, and special attention has been given to defining clear conformance criteria for user agents in an effort to improve interoperability.</abstract>
         </spec>
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
         <entry date="2018-03-22">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/html-media-capture/"><q>Generic Sensor API</q></a> from WD to CR</entry>
         <entry date="2018-02-02">changed status of <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from PR to REC</entry>
         <entry date="2018-01-30">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> from PR to REC</entry>

@@ -7,11 +7,11 @@ permalink:   /current
 
 ---
 
-This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (126 Specs)
+## <a name="TR"/>W3C TR Specifications (125 Specs)
 
-### <a name="REC"/>Recommendations (36 Specs)
+### <a name="REC"/>Recommendations (35 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -23,7 +23,6 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [HTML Canvas 2D Context](spec/2dcontext)
 * [HTML Image Description Extension (longdesc)](spec/html-longdesc)
 * [HTML Media Capture](spec/html-media-capture)
-* [HTML5](spec/html5)
 * [HTML5 Web Messaging](spec/webmessaging)
 * [High Resolution Time](spec/hr-time)
 * [Indexed Database API](spec/IndexedDB)
@@ -49,6 +48,10 @@ This is a list of all 138 current HTML5 specs, first [126 W3C TR](#TR) (grouped 
 * [Web Notifications](spec/notifications)
 * [Web Storage (Second Edition)](spec/webstorage)
 * [Webmention](spec/webmention)
+
+### <a name="SPSD"/>Superseded Recommendations (1 Specs)
+
+* [HTML5](spec/html5)
 
 ### <a name="PR"/>Proposed Recommendations (1 Specs)
 
