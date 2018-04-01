@@ -244,7 +244,7 @@
         </spec>
         <spec id="payment-method-basic-card" status="WD">
             <title>Basic Card Payment</title>
-            <abstract>The Basic Card Payment specification describes the data formats used by the PaymentRequest API to support payment by payment cards such as credit or debit cards.</abstract>
+            <abstract>This specification describes data structures and formats, and a simple processing model, to facilitate card-based payments on the Web. It is used by other specifications to facilitate monetary transactions with a "basic card", such as credit, debit, or prepaid card.</abstract>
         </spec>
         <spec id="payment-method-manifest" status="WD">
             <title>Payment Method Manifest</title>
