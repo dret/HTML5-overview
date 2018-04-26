@@ -53,11 +53,12 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 
 * [HTML5](spec/html5)
 
-### <a name="PR"/>Proposed Recommendations (1 Specs)
+### <a name="PR"/>Proposed Recommendations (2 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
+* [WebDriver](spec/webdriver)
 
-### <a name="CR"/>Candidate Recommendations (31 Specs)
+### <a name="CR"/>Candidate Recommendations (30 Specs)
 
 * [Accelerometer Sensor](spec/accelerometer)
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
@@ -87,7 +88,6 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [UI Events KeyboardEvent key Values](spec/uievents-key)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [Wake Lock API](spec/wake-lock)
-* [WebDriver](spec/webdriver)
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
