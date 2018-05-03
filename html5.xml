@@ -494,7 +494,7 @@
             <title>Shadow DOM</title>
             <abstract>This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.</abstract>
         </spec>
-        <spec id="custom-elements" status="WD">
+        <spec id="custom-elements" status="NOTE">
             <title>Custom Elements</title>
             <abstract>This specification describes the method for enabling the author to define and use new types of DOM elements in a document.</abstract>
         </spec>
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
         <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
         <entry date="2018-03-22">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/html-media-capture/"><q>Generic Sensor API</q></a> from WD to CR</entry>
