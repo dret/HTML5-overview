@@ -95,7 +95,6 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 
 * [ARIA in HTML](spec/html-aria)
 * [Audio Processing API](spec/audioproc)
-* [Basic Card Payment](spec/payment-method-basic-card)
 * [Clear Site Data](spec/clear-site-data)
 * [Clipboard API and Events](spec/clipboard-apis)
 * [Confinement with Origin Web Labels](spec/cowl)
@@ -124,6 +123,7 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [Paint Timing 1](spec/paint-timing)
 * [Payment Handler API](spec/payment-handler)
 * [Payment Method Manifest](spec/payment-method-manifest)
+* [Payment Method: Basic Card](spec/payment-method-basic-card)
 * [Permissions](spec/permissions)
 * [Pointer Events - Level 2](spec/pointerevents2)
 * [Proximity Sensor](spec/proximity)

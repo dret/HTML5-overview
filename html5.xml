@@ -243,7 +243,7 @@
             <abstract>The Payment Request API requires that merchants supply a list identifiers for supported payment methods. This document defines those identifier strings and how they are created.</abstract>
         </spec>
         <spec id="payment-method-basic-card" status="WD">
-            <title>Basic Card Payment</title>
+            <title>Payment Method: Basic Card</title>
             <abstract>This specification describes data structures and formats, and a simple processing model, to facilitate card-based payments on the Web. It is used by other specifications to facilitate monetary transactions with a "basic card", such as credit, debit, or prepaid card.</abstract>
         </spec>
         <spec id="payment-method-manifest" status="WD">
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-05-10">updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
         <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
         <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
