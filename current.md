@@ -58,7 +58,7 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [WebDriver](spec/webdriver)
 
-### <a name="CR"/>Candidate Recommendations (30 Specs)
+### <a name="CR"/>Candidate Recommendations (31 Specs)
 
 * [Accelerometer Sensor](spec/accelerometer)
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
@@ -78,6 +78,7 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [Payment Method Identifiers](spec/payment-method-id)
 * [Payment Request API](spec/payment-request)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
+* [Pointer Events - Level 2](spec/pointerevents2)
 * [Preload](spec/preload)
 * [Presentation API](spec/presentation-api)
 * [Referrer Policy](spec/referrer-policy)
@@ -91,7 +92,7 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (57 Specs)
+### <a name="WD"/>Working Drafts (56 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Audio Processing API](spec/audioproc)
@@ -125,7 +126,6 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [Payment Method Manifest](spec/payment-method-manifest)
 * [Payment Method: Basic Card](spec/payment-method-basic-card)
 * [Permissions](spec/permissions)
-* [Pointer Events - Level 2](spec/pointerevents2)
 * [Proximity Sensor](spec/proximity)
 * [Push API](spec/push-api)
 * [Resource Hints](spec/resource-hints)

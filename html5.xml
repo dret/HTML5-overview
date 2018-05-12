@@ -558,7 +558,7 @@
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
-        <spec id="pointerevents2" status="WD">
+        <spec id="pointerevents2" status="CR">
             <title>Pointer Events - Level 2</title>
             <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
         </spec>
@@ -828,7 +828,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-05-10">updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
+        <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
         <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
         <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
