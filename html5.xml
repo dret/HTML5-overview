@@ -559,7 +559,7 @@
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
         <spec id="pointerevents2" status="CR">
-            <title>Pointer Events - Level 2</title>
+            <title>Pointer Events Level 2</title>
             <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
         </spec>
         <spec id="uievents" status="WD">
@@ -828,7 +828,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
+        <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a>from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
         <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
         <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
@@ -913,7 +913,7 @@
         <entry date="2016-08-18">added <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> and <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a>; changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from WD to CR</entry>
         <entry date="2016-08-16">changed status of <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a> from WD to CR</entry>
         <entry date="2016-07-21">changed status of <a href="http://www.w3.org/TR/resource-timing-1/"><q>Resource Timing Level 1</q></a> from WD to CR</entry>
-        <entry date="2016-07-19">added <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events - Level 2</q></a>; updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
+        <entry date="2016-07-19">added <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a>; updated <a href="http://www.w3.org/TR/proximity/"><q>Proximity Sensor</q></a> information (title/abstract)</entry>
         <entry date="2016-07-15">added <a href="http://www.w3.org/TR/remote-playback/"><q>Remote Playback API</q></a>; changed status of <a href="http://www.w3.org/TR/presentation-api/"><q>Presentation API</q></a> from WD to CR</entry>
         <entry date="2016-07-07">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from PR to CR</entry>
         <entry date="2016-07-05">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from WD to CR</entry>

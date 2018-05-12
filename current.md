@@ -78,7 +78,7 @@ This is a list of all 136 current HTML5 specs, first [124 W3C TR](#TR) (grouped 
 * [Payment Method Identifiers](spec/payment-method-id)
 * [Payment Request API](spec/payment-request)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
-* [Pointer Events - Level 2](spec/pointerevents2)
+* [Pointer Events Level 2](spec/pointerevents2)
 * [Preload](spec/preload)
 * [Presentation API](spec/presentation-api)
 * [Referrer Policy](spec/referrer-policy)
