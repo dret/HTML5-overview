@@ -828,7 +828,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a>from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
+        <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
         <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
         <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
