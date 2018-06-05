@@ -742,7 +742,7 @@
             <title>Credential Management Level 1</title>
             <abstract>This specification describes an imperative API enabling a website to request a user's credentials from a user agent, and to help the user agent correctly store user credentials for future use.</abstract>
         </spec>
-        <spec id="webdriver" status="PR">
+        <spec id="webdriver" status="REC">
             <title>WebDriver</title>
             <abstract>WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers. Provided is a set of interfaces to discover and manipulate DOM elements in web documents and to control the behavior of a user agent. It is primarily intended to allow web authors to write tests that automate a user agent from a separate controlling process, but may also be used in such a way as to allow in-browser scripts to control a - possibly separate - browser.</abstract>
         </spec>
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-06-05">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from PR to REC</entry>
         <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
         <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
