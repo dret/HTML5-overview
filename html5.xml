@@ -66,7 +66,7 @@
             <title>System Information API</title>
             <abstract>This specification defines an API to provide Web applications with access to various properties of the system which they are running on. Specifically, properties pertaining to the device hardware are addressed. Examples include battery status, current network bandwidth. Additionally, some of those properties offer access to the environment around the device, such as ambient brightness or atmospheric pressure.</abstract>
         </spec>
-        <spec id="vehicle-information-api" status="WD">
+        <spec id="vehicle-information-api" status="NOTE">
             <title>Vehicle Information API Specification</title>
             <abstract>This specification defines a high level API for accessing to vehicle signals and data attributes. The purpose of the specification is to promote a client implementation with a standard API that enables application development in a consistent manner across participating automotive manufacturers.</abstract>
         </spec>
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-06-27">changed status of <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a> from WD to NOTE</entry>
         <entry date="2018-06-19">updated abstract of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a></entry>
         <entry date="2018-06-05">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from PR to REC</entry>
         <entry date="2018-05-10">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from WD to CR; updated title of <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Payment Method: Basic Card</q></a></entry>
