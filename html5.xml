@@ -752,7 +752,7 @@
         </spec>
         <spec id="webrtc-stats" status="CR">
             <title>Identifiers for WebRTC's Statistics API</title>
-            <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
+            <abstract>This document defines a set of WebIDL objects that allow access to the statistical information about a RTCPeerConnection. These objects are returned from the getStats API that is specified in WebRTC.</abstract>
         </spec>
         <spec id="XMLHttpRequest" status="NOTE">
             <title>XMLHttpRequest Level 1</title>
