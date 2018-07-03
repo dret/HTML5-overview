@@ -58,7 +58,7 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 
-### <a name="CR"/>Candidate Recommendations (31 Specs)
+### <a name="CR"/>Candidate Recommendations (32 Specs)
 
 * [Accelerometer Sensor](spec/accelerometer)
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
@@ -70,6 +70,7 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [Generic Sensor API](spec/generic-sensor)
 * [Gyroscope Sensor](spec/gyroscope)
 * [High Resolution Time Level 2](spec/hr-time-2)
+* [Identifiers for WebRTC's Statistics API](spec/webrtcstats)
 * [Magnetometer Sensor](spec/magnetometer)
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Mixed Content](spec/mixed-content)
@@ -92,7 +93,7 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (55 Specs)
+### <a name="WD"/>Working Drafts (54 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Audio Processing API](spec/audioproc)
@@ -109,7 +110,6 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
 * [HTML Microdata](spec/microdata)
-* [Identifiers for WebRTC's Statistics API](spec/webrtcstats)
 * [IndieUI: Events 1.0](spec/indie-ui-events)
 * [IndieUI: User Context 1.0](spec/indie-ui-context)
 * [Input Events Level 1](spec/input-events-1)

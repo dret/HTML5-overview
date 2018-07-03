@@ -750,7 +750,7 @@
             <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
             <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent to and received from another browser or device implementing the appropriate set of real-time protocols. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
         </spec>
-        <spec id="webrtcstats" status="WD">
+        <spec id="webrtcstats" status="CR">
             <title>Identifiers for WebRTC's Statistics API</title>
             <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
         </spec>
@@ -828,6 +828,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-07-03">changed status of <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> from WD to CR</entry>
         <entry date="2018-06-27">changed status of <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a> from WD to NOTE</entry>
         <entry date="2018-06-19">updated abstract of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a></entry>
         <entry date="2018-06-05">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from PR to REC</entry>
