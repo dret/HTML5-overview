@@ -750,7 +750,7 @@
             <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
             <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent to and received from another browser or device implementing the appropriate set of real-time protocols. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
         </spec>
-        <spec id="webrtcstats" status="CR">
+        <spec id="webrtc-stats" status="CR">
             <title>Identifiers for WebRTC's Statistics API</title>
             <abstract>This document defines a set of JavaScript APIs that allow access to the statistical information about a PeerConnection.</abstract>
         </spec>

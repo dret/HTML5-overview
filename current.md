@@ -70,7 +70,7 @@ This is a list of all 135 current HTML5 specs, first [123 W3C TR](#TR) (grouped 
 * [Generic Sensor API](spec/generic-sensor)
 * [Gyroscope Sensor](spec/gyroscope)
 * [High Resolution Time Level 2](spec/hr-time-2)
-* [Identifiers for WebRTC's Statistics API](spec/webrtcstats)
+* [Identifiers for WebRTC's Statistics API](spec/webrtc-stats)
 * [Magnetometer Sensor](spec/magnetometer)
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Mixed Content](spec/mixed-content)
