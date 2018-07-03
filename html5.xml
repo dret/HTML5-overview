@@ -754,6 +754,14 @@
             <title>Identifiers for WebRTC's Statistics API</title>
             <abstract>This document defines a set of WebIDL objects that allow access to the statistical information about a RTCPeerConnection. These objects are returned from the getStats API that is specified in WebRTC.</abstract>
         </spec>
+        <spec id="webrtc-dscp" status="WD">
+            <title>WebRTC DSCP Control API</title>
+            <abstract>This API defines a control surface for manipulating the network control bits (DSCP bits) of outgoing WebRTC packets.</abstract>
+        </spec>
+        <spec id="mst-content-hint" status="WD">
+            <title>MediaStreamTrack Content Hints</title>
+            <abstract>This specification extends MediaStreamTrack to provide a media-content hint attribute. This optional hint permits MediaStreamTrack consumers such as PeerConnection (defined in WebRTC) or MediaRecorder (defined in Mediastream Recording) to encode or process track media with methods more appropriate to the type of content that is being consumed. Adding a media-content hint provides a way for a web application to help track consumers make more informed decision of what encoder parameters and processing algorithms to use on the consumed content.</abstract>
+        </spec>
         <spec id="XMLHttpRequest" status="NOTE">
             <title>XMLHttpRequest Level 1</title>
             <abstract>The XMLHttpRequest specification defines an API that provides scripted client functionality for transferring data between a client and a server.</abstract>
@@ -828,7 +836,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-07-03">changed status of <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> from WD to CR</entry>
+        <entry date="2018-07-03">changed status of <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> from WD to CR; added <a href="http://www.w3.org/TR/webrtc-dscp/"><q>WebRTC DSCP Control API</q></a> and <a href="http://www.w3.org/TR/mst-content-hint/"><q>MediaStreamTrack Content Hints</q></a></entry>
         <entry date="2018-06-27">changed status of <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a> from WD to NOTE</entry>
         <entry date="2018-06-19">updated abstract of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a></entry>
         <entry date="2018-06-05">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from PR to REC</entry>

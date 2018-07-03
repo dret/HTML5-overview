@@ -1,0 +1,52 @@
+---
+layout:   page
+category: spec
+title:    "MediaStreamTrack Content Hints"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Working Draft (WD)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/mst-content-hint">http://www.w3.org/TR/mst-content-hint</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This specification extends MediaStreamTrack to provide a media-content hint attribute.
+         This optional hint permits MediaStreamTrack consumers such as PeerConnection (defined
+         in WebRTC) or MediaRecorder (defined in Mediastream Recording) to encode or process
+         track media with methods more appropriate to the type of content that is being consumed.
+         Adding a media-content hint provides a way for a web application to help track consumers
+         make more informed decision of what encoder parameters and processing algorithms to
+         use on the consumed content.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>MediaStreamTrack Content Hints</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "mst-content-hint" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
