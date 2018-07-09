@@ -598,7 +598,7 @@
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
-        <spec id="user-timing-2" status="WD">
+        <spec id="user-timing-2" status="CR">
             <title>User Timing Level 2</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
@@ -836,6 +836,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-07-09">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from WD to CR</entry>
         <entry date="2018-07-03">changed status of <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> from WD to CR; added <a href="http://www.w3.org/TR/webrtc-dscp/"><q>WebRTC DSCP Control API</q></a> and <a href="http://www.w3.org/TR/mst-content-hint/"><q>MediaStreamTrack Content Hints</q></a></entry>
         <entry date="2018-06-27">changed status of <a href="http://www.w3.org/TR/vehicle-information-api/"><q>Vehicle Information API Specification</q></a> from WD to NOTE</entry>
         <entry date="2018-06-19">updated abstract of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a></entry>
