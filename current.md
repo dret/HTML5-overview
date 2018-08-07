@@ -58,7 +58,7 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 
-### <a name="CR"/>Candidate Recommendations (33 Specs)
+### <a name="CR"/>Candidate Recommendations (34 Specs)
 
 * [Accelerometer Sensor](spec/accelerometer)
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
@@ -91,10 +91,11 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
 * [User Timing Level 2](spec/user-timing-2)
 * [Wake Lock API](spec/wake-lock)
+* [Web Authentication: An API for accessing Public Key Credentials Level 1](spec/webauthn)
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (55 Specs)
+### <a name="WD"/>Working Drafts (54 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Audio Processing API](spec/audioproc)
@@ -144,7 +145,6 @@ This is a list of all 137 current HTML5 specs, first [125 W3C TR](#TR) (grouped 
 * [W3C DOM4.1](spec/dom41)
 * [Web Animations](spec/web-animations-1)
 * [Web Audio API](spec/webaudio)
-* [Web Authentication: An API for accessing Scoped Credentials](spec/webauthn)
 * [Web MIDI API](spec/webmidi)
 * [Web Payments HTTP Messages 1.0](spec/webpayments-http-messages)
 * [Web Workers](spec/workers)

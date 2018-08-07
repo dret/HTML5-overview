@@ -1,7 +1,7 @@
 ---
 layout:   page
 category: spec
-title:    "Web Authentication: An API for accessing Scoped Credentials"
+title:    "Web Authentication: An API for accessing Public Key Credentials Level 1"
 ---
 
 <table cellpadding="5">
@@ -9,7 +9,7 @@ title:    "Web Authentication: An API for accessing Scoped Credentials"
       <th valign="top" align="right">
          <em>Current Status:</em>
       </th>
-      <td>Working Draft (WD)</td>
+      <td>Candidate Recommendation (CR)</td>
    </tr>
    <tr>
       <th valign="top" align="right">
@@ -26,15 +26,15 @@ title:    "Web Authentication: An API for accessing Scoped Credentials"
          <em>Abstract:</em>
       </th>
       <td>This specification defines an API enabling the creation and use of strong, attested,
-         cryptographic scoped credentials by web applications, for the purpose of strongly
-         authenticating users. Conceptually, one or more credentials, each scoped to a given
-         Relying Party, are created and stored on an authenticator by the user agent in conjunction
-         with the web application. The user agent mediates access to scoped credentials in
-         order to preserve user privacy. Authenticators are responsible for ensuring that no
-         operation is performed without user consent. Authenticators provide cryptographic
-         proof of their properties to relying parties via attestation. This specification also
-         describes the functional model for WebAuthn conformant authenticators, including their
-         signature and attestation functionality.
+         scoped, public key-based credentials by web applications, for the purpose of strongly
+         authenticating users. Conceptually, one or more public key credentials, each scoped
+         to a given WebAuthn Relying Party, are created and stored on an authenticator by the
+         user agent in conjunction with the web application. The user agent mediates access
+         to public key credentials in order to preserve user privacy. Authenticators are responsible
+         for ensuring that no operation is performed without user consent. Authenticators provide
+         cryptographic proof of their properties to Relying Parties via attestation. This specification
+         also describes the functional model for WebAuthn conformant authenticators, including
+         their signature and attestation functionality.
       </td>
    </tr>
 </table>
@@ -42,7 +42,7 @@ title:    "Web Authentication: An API for accessing Scoped Credentials"
 <hr></hr>
 <br></br>
 <h3 id="history">
-   <q>Web Authentication: An API for accessing Scoped Credentials</q> Updates:
+   <q>Web Authentication: An API for accessing Public Key Credentials Level 1</q> Updates:
 </h3>
 <ul>
    {% for post in site.posts %}
