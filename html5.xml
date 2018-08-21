@@ -222,6 +222,10 @@
             <title>Geolocation API Specification Level 2</title>
             <abstract>This specification defines an API that provides scripted access to geographical location information associated with the hosting device, and this Level 2 version extends the capability of the Geolocation API Specification by adding the ability to get location represented as a civil address.</abstract>
         </spec>
+        <spec id="geolocation-sensor" status="WD">
+            <title>Geolocation Sensor</title>
+            <abstract>This specification defines the GeolocationSensor interface for obtaining geolocation of the hosting device.</abstract>
+        </spec>
         <spec id="geofencing" status="NOTE">
             <title>Geofencing API</title>
             <abstract>This specification defines an API that lets webapps setup geographic boundaries around specific locations and then receive notifications when the hosting device enters or leaves those areas.</abstract>
@@ -836,6 +840,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-08-21">added <a href="http://www.w3.org/TR/geolocation-sensor/"><q>Geolocation Sensor</q></a></entry>
         <entry date="2018-08-07">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from WD to CR</entry>
         <rename date="2018-08-06">
             <old id="webauthn" title="Web Authentication: An API for accessing Scoped Credentials"/>
