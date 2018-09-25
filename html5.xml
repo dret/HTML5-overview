@@ -810,6 +810,10 @@
             <title>Encoding</title>
             <abstract>While encodings have been defined to some extent, implementations have not always implemented them in the same way, have not always used the same labels, and often differ in dealing with undefined and former proprietary areas of encodings. This specification attempts to fill those gaps so that new implementations do not have to reverse engineer encoding implementations of the market leaders and existing implementations can converge.</abstract>
         </spec>
+        <spec id="device-memory-1" status="WD">
+            <title>Device Memory</title>
+            <abstract>This document defines a HTTP Client Hint header to surface device capability for memory i.e. device RAM, in order to enable web apps to customize content depending on device memory constraints.</abstract>
+        </spec>
         <spec id="https://fetch.spec.whatwg.org/" status="other">
             <title>Fetch</title>
             <abstract>The Fetch standard defines requests, responses, and the process that binds them; fetching.</abstract>
@@ -840,7 +844,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-09-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from NOTE to WD</entry>
+        <entry date="2018-09-25">added <a href="http://www.w3.org/TR/device-memory-1/"><q>Device Memory</q></a>, changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from NOTE to WD</entry>
         <entry date="2018-09-19">changed status of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a> from WD to CR</entry>
         <entry date="2018-08-21">added <a href="http://www.w3.org/TR/geolocation-sensor/"><q>Geolocation Sensor</q></a></entry>
         <entry date="2018-08-07">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from WD to CR</entry>
