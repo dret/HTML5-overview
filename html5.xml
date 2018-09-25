@@ -378,7 +378,7 @@
             <title>Navigation Timing Level 2</title>
             <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
-        <spec id="reporting-1" status="NOTE">
+        <spec id="reporting-1" status="WD">
             <title>Reporting API 1</title>
             <abstract>This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.</abstract>
         </spec>
@@ -840,7 +840,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-09-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> from NOTE to WD</entry>
+        <entry date="2018-09-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from NOTE to WD</entry>
         <entry date="2018-09-19">changed status of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a> from WD to CR</entry>
         <entry date="2018-08-21">added <a href="http://www.w3.org/TR/geolocation-sensor/"><q>Geolocation Sensor</q></a></entry>
         <entry date="2018-08-07">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from WD to CR</entry>
