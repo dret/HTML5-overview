@@ -379,7 +379,7 @@
             <abstract>This specification defines an interface for web applications to access the complete timing information for navigation of a document.</abstract>
         </spec>
         <spec id="reporting-1" status="WD">
-            <title>Reporting API 1</title>
+            <title>Reporting API</title>
             <abstract>This document defines a generic reporting framework which allows web developers to associate a set of named reporting endpoints with an origin. Various platform features (like Content Security Policy, Network Error Reporting, and others) will use these endpoints to deliver feature-specific reports in a consistent manner.</abstract>
         </spec>
         <spec id="network-error-logging" status="WD">
@@ -840,7 +840,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2018-09-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from NOTE to WD</entry>
+        <entry date="2018-09-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from NOTE to WD</entry>
         <entry date="2018-09-19">changed status of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a> from WD to CR</entry>
         <entry date="2018-08-21">added <a href="http://www.w3.org/TR/geolocation-sensor/"><q>Geolocation Sensor</q></a></entry>
         <entry date="2018-08-07">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from WD to CR</entry>
@@ -944,7 +944,7 @@
         <entry date="2016-07-05">changed status of <a href="http://www.w3.org/TR/encrypted-media/"><q>Encrypted Media Extensions</q></a> from WD to CR</entry>
         <entry date="2016-06-23">added <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a>; changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from CR to REC</entry>
         <entry date="2016-06-22">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from WD to CR</entry>
-        <entry date="2016-06-07">added <a href="http://www.w3.org/TR/worklets-1/"><q>Worklets Level 1</q></a> and <a href="http://www.w3.org/TR/UISecurity/"><q>User Interface Security and the Visibility API</q></a>; changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a> from WD to NOTE</entry>
+        <entry date="2016-06-07">added <a href="http://www.w3.org/TR/worklets-1/"><q>Worklets Level 1</q></a> and <a href="http://www.w3.org/TR/UISecurity/"><q>User Interface Security and the Visibility API</q></a>; changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from WD to NOTE</entry>
         <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
         <entry date="2016-05-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, <a href="http://www.w3.org/TR/server-timing/"><q>Server Timing</q></a>, and <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> from WD to NOTE</entry>
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
@@ -956,7 +956,7 @@
         </rename>
         <entry date="2016-04-21">added <a href="http://www.w3.org/TR/payment-request/"><q>Payment Request API</q></a>, <a href="http://www.w3.org/TR/payment-method-id/"><q>Payment Method Identifiers</q></a>, and <a href="http://www.w3.org/TR/payment-method-basic-card/"><q>Basic Card Payment</q></a></entry>
         <entry date="2016-04-19">changed status of <a href="http://www.w3.org/TR/webstorage/"><q>Web Storage (Second Edition)</q></a> from PR to REC</entry>
-        <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API 1</q></a></entry>
+        <entry date="2016-04-07">added <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a></entry>
         <entry date="2016-03-29">changed status of <a href="http://www.w3.org/TR/battery-status/"><q>Battery Status API</q></a> from CR to PR; changed status of <a href="http://www.w3.org/TR/webcrypto-key-discovery/"><q>WebCrypto Key Discovery</q></a> from WD to NOTE</entry>
         <entry date="2016-01-28">added <a href="http://www.w3.org/TR/micropub/"><q>Micropub</q></a></entry>
         <entry date="2016-01-26">added <a href="http://www.w3.org/TR/CSP3/"><q>Content Security Policy Level 3</q></a></entry>

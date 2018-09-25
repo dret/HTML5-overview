@@ -134,7 +134,7 @@ This is a list of all 140 current HTML5 specs, first [128 W3C TR](#TR) (grouped 
 * [Permissions](spec/permissions)
 * [Proximity Sensor](spec/proximity)
 * [Push API](spec/push-api)
-* [Reporting API 1](spec/reporting-1)
+* [Reporting API](spec/reporting-1)
 * [Resource Hints](spec/resource-hints)
 * [Resource Timing Level 2](spec/resource-timing-2)
 * [Screen Capture](spec/screen-capture)
