@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 141 current HTML5 specs, first [129 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped by status), and then [12 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (129 Specs)
+## <a name="TR"/>W3C TR Specifications (130 Specs)
 
 ### <a name="REC"/>Recommendations (36 Specs)
 
@@ -58,7 +58,7 @@ This is a list of all 141 current HTML5 specs, first [129 W3C TR](#TR) (grouped 
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 
-### <a name="CR"/>Candidate Recommendations (35 Specs)
+### <a name="CR"/>Candidate Recommendations (36 Specs)
 
 * [Accelerometer Sensor](spec/accelerometer)
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
@@ -71,6 +71,7 @@ This is a list of all 141 current HTML5 specs, first [129 W3C TR](#TR) (grouped 
 * [Gyroscope Sensor](spec/gyroscope)
 * [High Resolution Time Level 2](spec/hr-time-2)
 * [Identifiers for WebRTC's Statistics API](spec/webrtc-stats)
+* [Identity for WebRTC 1.0](spec/webrtc-identity)
 * [Magnetometer Sensor](spec/magnetometer)
 * [Media Capture and Streams](spec/mediastream-streams)
 * [Mixed Content](spec/mixed-content)

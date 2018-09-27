@@ -1,0 +1,49 @@
+---
+layout:   page
+category: spec
+title:    "Identity for WebRTC 1.0"
+---
+
+<table cellpadding="5">
+   <tr>
+      <th valign="top" align="right">
+         <em>Current Status:</em>
+      </th>
+      <td>Candidate Recommendation (CR)</td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Canonical URI:</em>
+      </th>
+      <td>
+         <code>
+            <a href="http://www.w3.org/TR/webrtc-identity">http://www.w3.org/TR/webrtc-identity</a>
+         </code>
+      </td>
+   </tr>
+   <tr>
+      <th valign="top" align="right">
+         <em>Abstract:</em>
+      </th>
+      <td>This document defines a set of ECMAScript APIs in WebIDL to allow and application
+         using WebRTC to assert an identity, and to mark media streams as only viewable by
+         another identity. This specification is being developed in conjunction with a protocol
+         specification developed by the IETF RTCWEB group.
+      </td>
+   </tr>
+</table>
+<br></br>
+<hr></hr>
+<br></br>
+<h3 id="history">
+   <q>Identity for WebRTC 1.0</q> Updates:
+</h3>
+<ul>
+   {% for post in site.posts %}
+   {% if post.tags contains "webrtc-identity" %}
+   <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a>
+   </li>
+   {% endif %}
+   {% endfor %}
+</ul>
