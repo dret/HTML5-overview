@@ -54,11 +54,12 @@ This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped 
 
 * [HTML5](spec/html5)
 
-### <a name="PR"/>Proposed Recommendations (1 Specs)
+### <a name="PR"/>Proposed Recommendations (2 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
+* [Pointer Events Level 2](spec/pointerevents2)
 
-### <a name="CR"/>Candidate Recommendations (36 Specs)
+### <a name="CR"/>Candidate Recommendations (35 Specs)
 
 * [Accelerometer Sensor](spec/accelerometer)
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
@@ -80,7 +81,6 @@ This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped 
 * [Payment Method Identifiers](spec/payment-method-id)
 * [Payment Request API](spec/payment-request)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
-* [Pointer Events Level 2](spec/pointerevents2)
 * [Preload](spec/preload)
 * [Presentation API](spec/presentation-api)
 * [Referrer Policy](spec/referrer-policy)

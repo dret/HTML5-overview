@@ -562,7 +562,7 @@
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
-        <spec id="pointerevents2" status="CR">
+        <spec id="pointerevents2" status="PR">
             <title>Pointer Events Level 2</title>
             <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
         </spec>
@@ -848,6 +848,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-10-16">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
         <entry date="2018-09-27">added <a href="http://www.w3.org/TR/webrtc-identity/"><q>Identity for WebRTC 1.0</q></a></entry>
         <entry date="2018-09-25">added <a href="http://www.w3.org/TR/device-memory-1/"><q>Device Memory</q></a>, changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from NOTE to WD</entry>
         <entry date="2018-09-19">changed status of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a> from WD to CR</entry>
