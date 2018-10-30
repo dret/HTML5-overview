@@ -410,7 +410,7 @@
             <title>Performance Timeline</title>
             <abstract>This specification defines an interface for web applications to access timing information related to navigation and elements.</abstract>
         </spec>
-        <spec id="performance-timeline-2" status="CR">
+        <spec id="performance-timeline-2" status="WD">
             <title>Performance Timeline Level 2</title>
             <abstract>This specification extends the High Resolution Time specification by providing methods to store and retrieve high resolution performance metric data.</abstract>
         </spec>
@@ -848,6 +848,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2018-10-30">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from CR to WD</entry>
         <entry date="2018-10-16">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
         <entry date="2018-09-27">added <a href="http://www.w3.org/TR/webrtc-identity/"><q>Identity for WebRTC 1.0</q></a></entry>
         <entry date="2018-09-25">added <a href="http://www.w3.org/TR/device-memory-1/"><q>Device Memory</q></a>, changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from NOTE to WD</entry>
