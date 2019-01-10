@@ -602,7 +602,7 @@
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
-        <spec id="user-timing-2" status="CR">
+        <spec id="user-timing-2" status="PR">
             <title>User Timing Level 2</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
@@ -848,6 +848,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-01-10">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from CR to PR</entry>
         <entry date="2018-10-30">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from CR to WD</entry>
         <entry date="2018-10-16">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
         <entry date="2018-09-27">added <a href="http://www.w3.org/TR/webrtc-identity/"><q>Identity for WebRTC 1.0</q></a></entry>
