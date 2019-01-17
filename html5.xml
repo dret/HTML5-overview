@@ -710,7 +710,7 @@
             <title>Mixed Content</title>
             <abstract>This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.</abstract>
         </spec>
-        <spec id="webauthn" status="CR">
+        <spec id="webauthn" status="PR">
             <title>Web Authentication: An API for accessing Public Key Credentials Level 1</title>
             <abstract>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users. Conceptually, one or more public key credentials, each scoped to a given WebAuthn Relying Party, are created and stored on an authenticator by the user agent in conjunction with the web application. The user agent mediates access to public key credentials in order to preserve user privacy. Authenticators are responsible for ensuring that no operation is performed without user consent. Authenticators provide cryptographic proof of their properties to Relying Parties via attestation. This specification also describes the functional model for WebAuthn conformant authenticators, including their signature and attestation functionality.</abstract>
         </spec>
@@ -848,6 +848,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-01-17">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from CR to PR</entry>
         <entry date="2019-01-10">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from CR to PR</entry>
         <entry date="2018-10-30">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from CR to WD</entry>
         <entry date="2018-10-16">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
