@@ -70,3 +70,7 @@ This is a list of [W3C](http://www.w3.org/ "World Wide Web Consortium") HTML5 [N
 * [WebCrypto Key Discovery](spec/webcrypto-key-discovery)
 * [XMLHttpRequest Level 1](spec/XMLHttpRequest)
 * [XMLHttpRequest Level 2](spec/XMLHttpRequest2)
+
+### Abandoned Specifications (1 Specs)
+
+* [WebVR](spec/http://w3c.github.io/webvr/)

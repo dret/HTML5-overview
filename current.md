@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped by status), and then [12 others](#others):
+This is a list of all 142 current HTML5 specs, first [131 W3C TR](#TR) (grouped by status), and then [11 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (130 Specs)
+## <a name="TR"/>W3C TR Specifications (131 Specs)
 
 ### <a name="REC"/>Recommendations (36 Specs)
 
@@ -96,7 +96,7 @@ This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (58 Specs)
+### <a name="WD"/>Working Drafts (59 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Audio Processing API](spec/audioproc)
@@ -155,9 +155,10 @@ This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped 
 * [Web Workers](spec/workers)
 * [WebRTC DSCP Control API](spec/webrtc-dscp)
 * [WebVTT: The Web Video Text Tracks Format](spec/webvtt1)
+* [WebXR Device API](spec/webxr)
 * [Worklets Level 1](spec/worklets-1)
 
-## <a name="others"/>Non-W3C Specifications (12 Specs)
+## <a name="others"/>Non-W3C Specifications (11 Specs)
 
 * [Fetch](https://fetch.spec.whatwg.org/)
 * [FileSystem API](http://w3c.github.io/filesystem-api/)
@@ -170,4 +171,3 @@ This is a list of all 142 current HTML5 specs, first [130 W3C TR](#TR) (grouped 
 * [Web Speech API Specification](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html)
 * [WebGL 1.0](https://www.khronos.org/registry/webgl/specs/latest/1.0/)
 * [WebGL 2.0](https://www.khronos.org/registry/webgl/specs/latest/2.0/)
-* [WebVR](http://w3c.github.io/webvr/)
