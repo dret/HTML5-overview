@@ -852,7 +852,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2019-02-06">added <a href="http://www.w3.org/TR/webxr/"><q>WebXR Device API</q></a>; changed status of <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a> to "abandoned"</entry>
+        <entry date="2019-02-06">added <a href="http://www.w3.org/TR/webxr/"><q>WebXR Device API</q></a>; changed status of <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a> to 'abandoned'</entry>
         <entry date="2019-01-17">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from CR to PR</entry>
         <entry date="2019-01-10">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from CR to PR</entry>
         <entry date="2018-10-30">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from CR to WD</entry>
@@ -996,7 +996,7 @@
         <entry date="2015-09-16">added <a href="http://www.w3.org/TR/MathML3/"><q>Mathematical Markup Language (MathML) Version 3.0</q></a></entry>
         <entry date="2015-09-10">changed status of <a href="http://www.w3.org/TR/notifications/"><q>Web Notifications</q></a> from CR to PR</entry>
         <entry date="2015-09-03">changed status of <a href="http://www.w3.org/TR/proximity/"><q>Proximity Events</q></a> from CR to WD</entry>
-        <entry date="2015-08-27">changed status of <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q> to new "abandoned" status.</a></entry>
+        <entry date="2015-08-27">changed status of <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q> to new 'abandoned' status.</a></entry>
         <entry date="2015-08-06">changed status of <a href="http://www.w3.org/TR/runtime/"><q>Runtime and Security Model for Web Applications</q></a> from WD to NOTE</entry>
         <entry date="2015-08-04">added <a href="http://www.w3.org/TR/clear-site-data/"><q>Clear Site Data</q></a></entry>
         <entry date="2015-07-24">changed status of <a href="http://www.w3.org/TR/app-uri/"><q>The app: URL Scheme</q></a> and <a href="http://www.w3.org/TR/tcp-udp-sockets/"><q>TCP and UDP Socket API</q></a> from WD to NOTE; added <a href="http://sysapps.github.io/app-lifecycle/"><q>Application Lifecycle and Events</q></a></entry>
