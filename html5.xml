@@ -566,7 +566,7 @@
             <title>Pointer Events</title>
             <abstract>This document defines events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For compatibility with existing mouse-based content, this specification also describes a mapping to fire DOM3 Mouse Events for pointer device types other than mouse.</abstract>
         </spec>
-        <spec id="pointerevents2" status="CR">
+        <spec id="pointerevents2" status="PR">
             <title>Pointer Events Level 2</title>
             <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
         </spec>
@@ -852,6 +852,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-02-21">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
         <entry date="2019-02-06">added <a href="http://www.w3.org/TR/webxr/"><q>WebXR Device API</q></a>; changed status of <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a> to 'abandoned'</entry>
         <entry date="2019-01-17">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from CR to PR</entry>
         <entry date="2019-01-10">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from CR to PR</entry>
