@@ -11,7 +11,7 @@ This is a list of all 142 current HTML5 specs, first [131 W3C TR](#TR) (grouped 
 
 ## <a name="TR"/>W3C TR Specifications (131 Specs)
 
-### <a name="REC"/>Recommendations (36 Specs)
+### <a name="REC"/>Recommendations (37 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -42,6 +42,7 @@ This is a list of all 142 current HTML5 specs, first [131 W3C TR](#TR) (grouped 
 * [Subresource Integrity](spec/SRI)
 * [Touch Events](spec/touch-events)
 * [User Timing](spec/user-timing)
+* [User Timing Level 2](spec/user-timing-2)
 * [Vibration API (Second Edition)](spec/vibration)
 * [W3C DOM4](spec/dom)
 * [Web Cryptography API](spec/WebCryptoAPI)
@@ -54,11 +55,10 @@ This is a list of all 142 current HTML5 specs, first [131 W3C TR](#TR) (grouped 
 
 * [HTML5](spec/html5)
 
-### <a name="PR"/>Proposed Recommendations (4 Specs)
+### <a name="PR"/>Proposed Recommendations (3 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [Pointer Events Level 2](spec/pointerevents2)
-* [User Timing Level 2](spec/user-timing-2)
 * [Web Authentication: An API for accessing Public Key Credentials Level 1](spec/webauthn)
 
 ### <a name="CR"/>Candidate Recommendations (32 Specs)

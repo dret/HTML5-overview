@@ -606,7 +606,7 @@
             <title>User Timing</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
-        <spec id="user-timing-2" status="PR">
+        <spec id="user-timing-2" status="REC">
             <title>User Timing Level 2</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
@@ -852,6 +852,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-02-26">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from PR to REC</entry>
         <entry date="2019-02-21">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
         <entry date="2019-02-06">added <a href="http://www.w3.org/TR/webxr/"><q>WebXR Device API</q></a>; changed status of <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a> to 'abandoned'</entry>
         <entry date="2019-01-17">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from CR to PR</entry>
