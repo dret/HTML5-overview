@@ -714,7 +714,7 @@
             <title>Mixed Content</title>
             <abstract>This specification describes how a user agent should handle fetching of content over unencrypted or unauthenticated connections in the context of an encrypted and authenticated document.</abstract>
         </spec>
-        <spec id="webauthn" status="PR">
+        <spec id="webauthn-1" status="PR">
             <title>Web Authentication: An API for accessing Public Key Credentials Level 1</title>
             <abstract>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users. Conceptually, one or more public key credentials, each scoped to a given WebAuthn Relying Party, are created and stored on an authenticator by the user agent in conjunction with the web application. The user agent mediates access to public key credentials in order to preserve user privacy. Authenticators are responsible for ensuring that no operation is performed without user consent. Authenticators provide cryptographic proof of their properties to Relying Parties via attestation. This specification also describes the functional model for WebAuthn conformant authenticators, including their signature and attestation functionality.</abstract>
         </spec>
@@ -855,7 +855,7 @@
         <entry date="2019-02-26">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from PR to REC</entry>
         <entry date="2019-02-21">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
         <entry date="2019-02-06">added <a href="http://www.w3.org/TR/webxr/"><q>WebXR Device API</q></a>; changed status of <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a> to 'abandoned'</entry>
-        <entry date="2019-01-17">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from CR to PR</entry>
+        <entry date="2019-01-17">changed status of <a href="http://www.w3.org/TR/webauthn-1/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from CR to PR</entry>
         <entry date="2019-01-10">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from CR to PR</entry>
         <entry date="2018-12-11">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from PR to CR</entry>
         <entry date="2018-10-30">changed status of <a href="http://www.w3.org/TR/performance-timeline-2/"><q>Performance Timeline Level 2</q></a> from CR to WD</entry>
@@ -864,10 +864,10 @@
         <entry date="2018-09-25">added <a href="http://www.w3.org/TR/device-memory-1/"><q>Device Memory</q></a>, changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a> and <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from NOTE to WD</entry>
         <entry date="2018-09-19">changed status of <a href="http://www.w3.org/TR/webaudio/"><q>Web Audio API</q></a> from WD to CR</entry>
         <entry date="2018-08-21">added <a href="http://www.w3.org/TR/geolocation-sensor/"><q>Geolocation Sensor</q></a></entry>
-        <entry date="2018-08-07">changed status of <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from WD to CR</entry>
+        <entry date="2018-08-07">changed status of <a href="http://www.w3.org/TR/webauthn-1/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from WD to CR</entry>
         <rename date="2018-08-06">
-            <old id="webauthn" title="Web Authentication: An API for accessing Scoped Credentials"/>
-            <new id="webauthn" title="Web Authentication: An API for accessing Public Key Credentials Level 1"/>
+            <old id="webauthn-1" title="Web Authentication: An API for accessing Scoped Credentials"/>
+            <new id="webauthn-1" title="Web Authentication: An API for accessing Public Key Credentials Level 1"/>
         </rename>
         <entry date="2018-07-09">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from WD to CR</entry>
         <entry date="2018-07-03">changed status of <a href="http://www.w3.org/TR/webrtc-stats/"><q>Identifiers for WebRTC's Statistics API</q></a> from WD to CR; added <a href="http://www.w3.org/TR/webrtc-dscp/"><q>WebRTC DSCP Control API</q></a> and <a href="http://www.w3.org/TR/mst-content-hint/"><q>MediaStreamTrack Content Hints</q></a></entry>
@@ -948,8 +948,8 @@
         <entry date="2016-10-06">changed status of <a href="http://www.w3.org/TR/XMLHttpRequest/"><q>XMLHttpRequest Level 1</q></a> from WD to NOTE</entry>
         <entry date="2016-10-04">changed status of <a href="http://www.w3.org/TR/media-source/"><q>Media Source Extensions</q></a> from CR to PR</entry>
         <rename date="2016-09-28">
-            <old id="webauthn" title="Web Authentication: A Web API for accessing scoped credentials"/>
-            <new id="webauthn" title="Web Authentication: An API for accessing Scoped Credentials"/>
+            <old id="webauthn-1" title="Web Authentication: A Web API for accessing scoped credentials"/>
+            <new id="webauthn-1" title="Web Authentication: An API for accessing Scoped Credentials"/>
         </rename>
         <entry date="2016-09-19">added <a href="https://w3c.github.io/webvr/"><q>WebVR</q></a></entry>
         <entry date="2016-09-15">added <a href="http://www.w3.org/TR/webpayments-http-api/"><q>Web Payments HTTP API 1.0</q></a>, <a href="http://www.w3.org/TR/webpayments-http-messages/"><q>Web Payments HTTP Messages 1.0</q></a>, and <a href="http://www.w3.org/TR/tvcontrol-api/"><q>TV Control API Specification</q></a>, changed status of <a href="http://www.w3.org/TR/secure-contexts/"><q>Secure Contexts</q></a> from WD to CR; changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from CR to PR</entry>
@@ -966,7 +966,7 @@
         <entry date="2016-06-23">added <a href="http://www.w3.org/TR/page-visibility-2/"><q>Page Visibility 2</q></a>; changed status of <a href="http://www.w3.org/TR/SRI/"><q>Subresource Integrity</q></a> from CR to REC</entry>
         <entry date="2016-06-22">changed status of <a href="http://www.w3.org/TR/html51/"><q>HTML 5.1</q></a> from WD to CR</entry>
         <entry date="2016-06-07">added <a href="http://www.w3.org/TR/worklets-1/"><q>Worklets Level 1</q></a> and <a href="http://www.w3.org/TR/UISecurity/"><q>User Interface Security and the Visibility API</q></a>; changed status of <a href="http://www.w3.org/TR/reporting-1/"><q>Reporting API</q></a> from WD to NOTE</entry>
-        <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
+        <entry date="2016-05-31">added <a href="http://www.w3.org/TR/webauthn-1/"><q>Web Authentication: A Web API for accessing scoped credentials</q></a></entry>
         <entry date="2016-05-25">changed status of <a href="http://www.w3.org/TR/network-error-logging/"><q>Network Error Logging</q></a>, <a href="http://www.w3.org/TR/server-timing/"><q>Server Timing</q></a>, and <a href="http://www.w3.org/TR/frame-timing/"><q>Frame Timing</q></a> from WD to NOTE</entry>
         <entry date="2016-05-24">added <a href="http://www.w3.org/TR/webmention/"><q>Webmention</q></a></entry>
         <entry date="2016-05-19">added <a href="http://www.w3.org/TR/mediacapture-streams/"><q>Media Capture and Streams</q></a></entry>

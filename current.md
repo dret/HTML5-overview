@@ -59,7 +59,7 @@ This is a list of all 142 current HTML5 specs, first [131 W3C TR](#TR) (grouped 
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [Pointer Events Level 2](spec/pointerevents2)
-* [Web Authentication: An API for accessing Public Key Credentials Level 1](spec/webauthn)
+* [Web Authentication: An API for accessing Public Key Credentials Level 1](spec/webauthn-1)
 
 ### <a name="CR"/>Candidate Recommendations (32 Specs)
 
