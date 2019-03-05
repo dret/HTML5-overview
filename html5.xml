@@ -610,6 +610,10 @@
             <title>User Timing Level 2</title>
             <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
         </spec>
+        <spec id="user-timing-3" status="WD">
+            <title>User Timing Level 3</title>
+            <abstract>This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.</abstract>
+        </spec>
         <spec id="vibration" status="REC">
             <title>Vibration API (Second Edition)</title>
             <abstract>This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.</abstract>
@@ -852,6 +856,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-03-05">added <a href="http://www.w3.org/TR/user-timing-3/"><q>User Timing Level 3</q></a></entry>
         <entry date="2019-03-04">changed status of <a href="http://www.w3.org/TR/webauthn-1/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from PR to REC</entry>
         <entry date="2019-02-26">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from PR to REC</entry>
         <entry date="2019-02-21">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from CR to PR</entry>
