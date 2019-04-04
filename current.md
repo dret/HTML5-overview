@@ -11,7 +11,7 @@ This is a list of all 143 current HTML5 specs, first [132 W3C TR](#TR) (grouped 
 
 ## <a name="TR"/>W3C TR Specifications (132 Specs)
 
-### <a name="REC"/>Recommendations (38 Specs)
+### <a name="REC"/>Recommendations (39 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.0](spec/wai-aria)
 * [Content Security Policy Level 2](spec/CSP2)
@@ -34,6 +34,7 @@ This is a list of all 143 current HTML5 specs, first [132 W3C TR](#TR) (grouped 
 * [Page Visibility](spec/page-visibility)
 * [Performance Timeline](spec/performance-timeline)
 * [Pointer Events](spec/pointerevents)
+* [Pointer Events Level 2](spec/pointerevents2)
 * [Pointer Lock](spec/pointerlock)
 * [Pointer Lock 2.0](spec/pointerlock-2)
 * [Progress Events](spec/progress-events)
@@ -56,10 +57,9 @@ This is a list of all 143 current HTML5 specs, first [132 W3C TR](#TR) (grouped 
 
 * [HTML5](spec/html5)
 
-### <a name="PR"/>Proposed Recommendations (2 Specs)
+### <a name="PR"/>Proposed Recommendations (1 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
-* [Pointer Events Level 2](spec/pointerevents2)
 
 ### <a name="CR"/>Candidate Recommendations (26 Specs)
 
