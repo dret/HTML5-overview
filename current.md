@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 143 current HTML5 specs, first [132 W3C TR](#TR) (grouped by status), and then [11 others](#others):
+This is a list of all 144 current HTML5 specs, first [133 W3C TR](#TR) (grouped by status), and then [11 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (132 Specs)
+## <a name="TR"/>W3C TR Specifications (133 Specs)
 
 ### <a name="REC"/>Recommendations (39 Specs)
 
@@ -90,7 +90,7 @@ This is a list of all 143 current HTML5 specs, first [132 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (66 Specs)
+### <a name="WD"/>Working Drafts (67 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -103,6 +103,7 @@ This is a list of all 143 current HTML5 specs, first [132 W3C TR](#TR) (grouped 
 * [Content Security Policy: Embedded Enforcement](spec/csp-embedded-enforcement)
 * [Credential Management Level 1](spec/credential-management-1)
 * [Device Memory](spec/device-memory-1)
+* [DeviceOrientation Event Specification](spec/orientation-event)
 * [Encoding](spec/encoding)
 * [File API](spec/FileAPI)
 * [Gamepad](spec/gamepad)

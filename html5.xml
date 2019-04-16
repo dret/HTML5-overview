@@ -162,7 +162,7 @@
             <title>Clipboard API and Events</title>
             <abstract>This document describes APIs for clipboard operations such as copy, cut and paste in web applications.</abstract>
         </spec>
-        <spec id="orientation-event" status="NOTE">
+        <spec id="orientation-event" status="WD">
             <title>DeviceOrientation Event Specification</title>
             <abstract>This specification defines several new DOM event types that provide information about the physical orientation and motion of a hosting device.</abstract>
         </spec>
@@ -856,6 +856,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-04-16">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from NOTE to WD</entry>
         <entry date="2019-04-04">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from PR to REC</entry>
         <entry date="2019-03-07">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from CR to WD</entry>
         <entry date="2019-03-05">added <a href="http://www.w3.org/TR/user-timing-3/"><q>User Timing Level 3</q></a></entry>
