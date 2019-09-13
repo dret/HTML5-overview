@@ -758,6 +758,10 @@
             <title>WebDriver</title>
             <abstract>WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers. Provided is a set of interfaces to discover and manipulate DOM elements in web documents and to control the behavior of a user agent. It is primarily intended to allow web authors to write tests that automate a user agent from a separate controlling process, but may also be used in such a way as to allow in-browser scripts to control a - possibly separate - browser.</abstract>
         </spec>
+        <spec id="webdriver2" status="WD">
+            <title>WebDriver Level 2</title>
+            <abstract>WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers. Provided is a set of interfaces to discover and manipulate DOM elements in web documents and to control the behavior of a user agent. It is primarily intended to allow web authors to write tests that automate a user agent from a separate controlling process, but may also be used in such a way as to allow in-browser scripts to control a - possibly separate - browser.</abstract>
+        </spec>
         <spec id="webrtc" status="CR">
             <title>WebRTC 1.0: Real-time Communication Between Browsers</title>
             <abstract>This document defines a set of ECMAScript APIs in WebIDL to allow media to be sent to and received from another browser or device implementing the appropriate set of real-time protocols. This specification is being developed in conjunction with a protocol specification developed by the IETF RTCWEB group and an API specification to get access to local media devices developed by the Media Capture Task Force.</abstract>
@@ -856,6 +860,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-09-13">added <a href="http://www.w3.org/TR/webdriver2/"><q>WebDriver Level 2</q></a></entry>
         <entry date="2019-04-16">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from NOTE to WD</entry>
         <entry date="2019-04-04">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from PR to REC</entry>
         <entry date="2019-03-07">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from CR to WD</entry>
