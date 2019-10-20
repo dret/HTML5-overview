@@ -194,6 +194,14 @@
             <title>WebXR Device API</title>
             <abstract>This specification describes support for accessing virtual reality (VR) and augmented reality (AR) devices, including sensors and head-mounted displays, on the Web.</abstract>
         </spec>
+        <spec id="webxr-gamepads-module-1" status="WD">
+            <title>WebXR Gamepads Module Level 1</title>
+            <abstract>This specification module describes support for accessing button, trigger, thumbstick, and touchpad data associated with virtual reality (VR) and augmented reality (AR) devices on the Web.</abstract>
+        </spec>
+        <spec id="webxr-ar-module-1" status="WD">
+            <title>WebXR Augmented Reality Module Level 1</title>
+            <abstract>The WebXR Augmented Reality module expands the WebXR Device API with the functionality available on AR hardware.</abstract>
+        </spec>
         <spec id="wai-aria" status="REC">
             <title>Accessible Rich Internet Applications (WAI-ARIA) 1.0</title>
             <abstract>Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup.</abstract>
@@ -860,7 +868,8 @@
         </spec>
     </specs>
     <log>
-        <entry date="2019-10-20">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from CR to PR</entry>
+        <entry date="2019-10-20">added <a href="http://www.w3.org/TR/webxr-gamepads-module-1/"><q>WebXR Gamepads Module Level 1</q></a> and <a href="http://www.w3.org/TR/webxr-ar-module-1/"><q>WebXR Augmented Reality Module Level 1</q></a></entry>
+        <entry date="2019-10-19">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from CR to PR</entry>
         <entry date="2019-09-13">added <a href="http://www.w3.org/TR/webdriver2/"><q>WebDriver Level 2</q></a></entry>
         <entry date="2019-04-16">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from NOTE to WD</entry>
         <entry date="2019-04-04">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from PR to REC</entry>
