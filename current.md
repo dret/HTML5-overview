@@ -57,18 +57,18 @@ This is a list of all 145 current HTML5 specs, first [134 W3C TR](#TR) (grouped 
 
 * [HTML5](spec/html5)
 
-### <a name="PR"/>Proposed Recommendations (1 Specs)
+### <a name="PR"/>Proposed Recommendations (2 Specs)
 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
+* [High Resolution Time Level 2](spec/hr-time-2)
 
-### <a name="CR"/>Candidate Recommendations (26 Specs)
+### <a name="CR"/>Candidate Recommendations (25 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Audio Output Devices API](spec/audio-output)
 * [Battery Status API](spec/battery-status)
 * [Beacon](spec/beacon)
 * [DOM Parsing and Serialization](spec/DOM-Parsing)
-* [High Resolution Time Level 2](spec/hr-time-2)
 * [Identifiers for WebRTC's Statistics API](spec/webrtc-stats)
 * [Identity for WebRTC 1.0](spec/webrtc-identity)
 * [Media Capture and Streams](spec/mediastream-streams)
