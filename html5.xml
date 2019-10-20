@@ -306,7 +306,7 @@
             <title>High Resolution Time</title>
             <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
-        <spec id="hr-time-2" status="CR">
+        <spec id="hr-time-2" status="PR">
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
@@ -860,6 +860,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-10-20">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from CR to PR</entry>
         <entry date="2019-09-13">added <a href="http://www.w3.org/TR/webdriver2/"><q>WebDriver Level 2</q></a></entry>
         <entry date="2019-04-16">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from NOTE to WD</entry>
         <entry date="2019-04-04">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from PR to REC</entry>
