@@ -786,6 +786,10 @@
             <title>WebRTC DSCP Control API</title>
             <abstract>This API defines a control surface for manipulating the network control bits (DSCP bits) of outgoing WebRTC packets.</abstract>
         </spec>
+        <spec id="webrtc-svc" status="WD">
+            <title>Scalable Video Coding (SVC) Extension for WebRTC</title>
+            <abstract>This document defines a set of ECMAScript APIs in WebIDL to extend the WebRTC 1.0 API to enable user agents to support scalable video coding (SVC).</abstract>
+        </spec>
         <spec id="mst-content-hint" status="WD">
             <title>MediaStreamTrack Content Hints</title>
             <abstract>This specification extends MediaStreamTrack to provide a media-content hint attribute. This optional hint permits MediaStreamTrack consumers such as PeerConnection (defined in WebRTC) or MediaRecorder (defined in Mediastream Recording) to encode or process track media with methods more appropriate to the type of content that is being consumed. Adding a media-content hint provides a way for a web application to help track consumers make more informed decision of what encoder parameters and processing algorithms to use on the consumed content.</abstract>
@@ -868,6 +872,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-11-01">added <a href="http://www.w3.org/TR/webrtc-svc/"><q>Scalable Video Coding (SVC) Extension for WebRTC</q></a></entry>
         <entry date="2019-10-20">added <a href="http://www.w3.org/TR/webxr-gamepads-module-1/"><q>WebXR Gamepads Module Level 1</q></a> and <a href="http://www.w3.org/TR/webxr-ar-module-1/"><q>WebXR Augmented Reality Module Level 1</q></a></entry>
         <entry date="2019-10-19">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from CR to PR</entry>
         <entry date="2019-09-13">added <a href="http://www.w3.org/TR/webdriver2/"><q>WebDriver Level 2</q></a></entry>
