@@ -62,7 +62,7 @@ This is a list of all 148 current HTML5 specs, first [137 W3C TR](#TR) (grouped 
 * [Cooperative Scheduling of Background Tasks](spec/requestidlecallback)
 * [High Resolution Time Level 2](spec/hr-time-2)
 
-### <a name="CR"/>Candidate Recommendations (25 Specs)
+### <a name="CR"/>Candidate Recommendations (26 Specs)
 
 * [Accessible Rich Internet Applications (WAI-ARIA) 1.1](spec/wai-aria-1.1)
 * [Audio Output Devices API](spec/audio-output)
@@ -82,6 +82,7 @@ This is a list of all 148 current HTML5 specs, first [137 W3C TR](#TR) (grouped 
 * [Remote Playback API](spec/remote-playback)
 * [Resource Timing Level 1](spec/resource-timing-1)
 * [Secure Contexts](spec/secure-contexts)
+* [Service Workers 1](spec/service-workers-1)
 * [UI Events KeyboardEvent code Values](spec/uievents-code)
 * [UI Events KeyboardEvent key Values](spec/uievents-key)
 * [Upgrade Insecure Requests](spec/upgrade-insecure-requests)
@@ -90,7 +91,7 @@ This is a list of all 148 current HTML5 specs, first [137 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (71 Specs)
+### <a name="WD"/>Working Drafts (70 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Accelerometer Sensor](spec/accelerometer)
@@ -145,7 +146,6 @@ This is a list of all 148 current HTML5 specs, first [137 W3C TR](#TR) (grouped 
 * [Screen Orientation API](spec/screen-orientation)
 * [Selection API](spec/selection-api)
 * [Server Timing](spec/server-timing)
-* [Service Workers 1](spec/service-workers-1)
 * [Shadow DOM](spec/shadow-dom)
 * [UI Events Specification](spec/uievents)
 * [User Interface Security and the Visibility API](spec/UISecurity)

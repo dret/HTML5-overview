@@ -670,9 +670,9 @@
             <title>Worklets Level 1</title>
             <abstract>This specification defines an API for running scripts in stages of the rendering pipeline independent of the main JavaScript execution environment.</abstract>
         </spec>
-        <spec id="service-workers-1" status="WD">
+        <spec id="service-workers-1" status="CR">
             <title>Service Workers 1</title>
-            <abstract>This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The Service Worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.</abstract>
+            <abstract>This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline. The core of this system is an event-driven Web Worker, which responds to events dispatched from documents and other sources. A system for managing installation, versions, and upgrades is provided. The service worker is a generic entry point for event-driven background processing in the Web Platform that is extensible by other specifications.</abstract>
         </spec>
         <spec id="appmanifest" status="WD">
             <title>Manifest for Web Application</title>
@@ -872,7 +872,7 @@
         </spec>
     </specs>
     <log>
-        <entry date="2019-11-20">updated abstract of <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>
+        <entry date="2019-11-20">changed status of <a href="http://www.w3.org/TR/service-workers-1/"><q>Service Workers 1</q></a> from WD to CR; updated abstract of <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>
         <entry date="2019-11-01">added <a href="http://www.w3.org/TR/webrtc-svc/"><q>Scalable Video Coding (SVC) Extension for WebRTC</q></a></entry>
         <entry date="2019-10-20">added <a href="http://www.w3.org/TR/webxr-gamepads-module-1/"><q>WebXR Gamepads Module Level 1</q></a> and <a href="http://www.w3.org/TR/webxr-ar-module-1/"><q>WebXR Augmented Reality Module Level 1</q></a></entry>
         <entry date="2019-10-19">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from CR to PR</entry>
