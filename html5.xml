@@ -314,7 +314,7 @@
             <title>High Resolution Time</title>
             <abstract>This specification defines a JavaScript interface that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
-        <spec id="hr-time-2" status="PR">
+        <spec id="hr-time-2" status="REC">
             <title>High Resolution Time Level 2</title>
             <abstract>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</abstract>
         </spec>
@@ -872,6 +872,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-11-22">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from PR to REC</entry>
         <entry date="2019-11-20">changed status of <a href="http://www.w3.org/TR/service-workers-1/"><q>Service Workers 1</q></a> from WD to CR; updated abstract of <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>
         <entry date="2019-11-01">added <a href="http://www.w3.org/TR/webrtc-svc/"><q>Scalable Video Coding (SVC) Extension for WebRTC</q></a></entry>
         <entry date="2019-10-20">added <a href="http://www.w3.org/TR/webxr-gamepads-module-1/"><q>WebXR Gamepads Module Level 1</q></a> and <a href="http://www.w3.org/TR/webxr-ar-module-1/"><q>WebXR Augmented Reality Module Level 1</q></a></entry>
