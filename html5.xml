@@ -578,6 +578,10 @@
             <title>Pointer Events Level 2</title>
             <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
         </spec>
+        <spec id="pointerevents3" status="WD">
+            <title>Pointer Events Level 3</title>
+            <abstract>The features in this specification extend or modify those found in "Pointer Events", a W3C Recommendation that describes events and related interfaces for handling hardware agnostic pointer input from devices including a mouse, pen, touchscreen, etc. For compatibility with existing mouse based content, this specification also describes a mapping to fire Mouse Events for other pointer device types.</abstract>
+        </spec>
         <spec id="uievents" status="WD">
             <title>UI Events Specification</title>
             <abstract>This specification defines UI Events which extend the DOM Event objects defined in DOM4. UI Events are those typically implemented by visual user agents for handling user interaction such as mouse and keyboard input.</abstract>
@@ -872,6 +876,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-12-12">added <a href="http://www.w3.org/TR/pointerevents3/"><q>Pointer Events Level 3</q></a></entry>
         <entry date="2019-11-22">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from PR to REC</entry>
         <entry date="2019-11-20">changed status of <a href="http://www.w3.org/TR/service-workers-1/"><q>Service Workers 1</q></a> from WD to CR; updated abstract of <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>
         <entry date="2019-11-01">added <a href="http://www.w3.org/TR/webrtc-svc/"><q>Scalable Video Coding (SVC) Extension for WebRTC</q></a></entry>
