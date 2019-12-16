@@ -91,7 +91,7 @@
             <abstract>This specification defines a concrete sensor interface to measure magnetic field in the X, Y and Z axis.</abstract>
         </spec>
         <spec id="gyroscope" status="WD">
-            <title>Gyroscope Sensor</title>
+            <title>Gyroscope</title>
             <abstract>This specification defines a concrete sensor interface to monitor the rate of rotation around the device's local three primary axes.</abstract>
         </spec>
         <spec id="accelerometer" status="WD">
@@ -876,6 +876,10 @@
         </spec>
     </specs>
     <log>
+        <rename date="2019-12-13">
+            <old id="gyroscope" title="Gyroscope Sensor"/>
+            <new id="gyroscope" title="Gyroscope"/>
+        </rename>
         <entry date="2019-12-12">added <a href="http://www.w3.org/TR/pointerevents3/"><q>Pointer Events Level 3</q></a></entry>
         <entry date="2019-11-22">changed status of <a href="http://www.w3.org/TR/hr-time-2/"><q>High Resolution Time Level 2</q></a> from PR to REC</entry>
         <entry date="2019-11-20">changed status of <a href="http://www.w3.org/TR/service-workers-1/"><q>Service Workers 1</q></a> from WD to CR; updated abstract of <a href="http://www.w3.org/TR/screen-capture/"><q>Screen Capture</q></a></entry>

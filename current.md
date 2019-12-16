@@ -110,7 +110,7 @@ This is a list of all 149 current HTML5 specs, first [138 W3C TR](#TR) (grouped 
 * [Gamepad](spec/gamepad)
 * [Generic Sensor API](spec/generic-sensor)
 * [Geolocation Sensor](spec/geolocation-sensor)
-* [Gyroscope Sensor](spec/gyroscope)
+* [Gyroscope](spec/gyroscope)
 * [HTML 5.3](spec/html53)
 * [HTML Accessibility API Mappings 1.0](spec/html-aam-1.0)
 * [HTML Imports](spec/html-imports)
