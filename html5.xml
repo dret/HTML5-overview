@@ -95,7 +95,7 @@
             <abstract>This specification defines a concrete sensor interface to monitor the rate of rotation around the device's local three primary axes.</abstract>
         </spec>
         <spec id="accelerometer" status="WD">
-            <title>Accelerometer Sensor</title>
+            <title>Accelerometer</title>
             <abstract>This specification defines accelerometer sensor interface for obtaining information about acceleration applied to the X, Y and Z axis of a device that hosts the sensor.</abstract>
         </spec>
         <spec id="motion-sensors" status="NOTE">
@@ -876,6 +876,10 @@
         </spec>
     </specs>
     <log>
+        <rename date="2019-12-14">
+            <old id="accelerometer" title="Accelerometer Sensor"/>
+            <new id="accelerometer" title="Accelerometer"/>
+        </rename>
         <rename date="2019-12-13">
             <old id="gyroscope" title="Gyroscope Sensor"/>
             <new id="gyroscope" title="Gyroscope"/>
@@ -889,7 +893,7 @@
         <entry date="2019-09-13">added <a href="http://www.w3.org/TR/webdriver2/"><q>WebDriver Level 2</q></a></entry>
         <entry date="2019-04-16">changed status of <a href="http://www.w3.org/TR/orientation-event/"><q>DeviceOrientation Event Specification</q></a> from NOTE to WD</entry>
         <entry date="2019-04-04">changed status of <a href="http://www.w3.org/TR/pointerevents2/"><q>Pointer Events Level 2</q></a> from PR to REC</entry>
-        <entry date="2019-03-07">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from CR to WD</entry>
+        <entry date="2019-03-07">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer Sensor</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope Sensor</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from CR to WD</entry>
         <entry date="2019-03-05">added <a href="http://www.w3.org/TR/user-timing-3/"><q>User Timing Level 3</q></a></entry>
         <entry date="2019-03-04">changed status of <a href="http://www.w3.org/TR/webauthn-1/"><q>Web Authentication: An API for accessing Public Key Credentials Level 1</q></a> from PR to REC</entry>
         <entry date="2019-02-26">changed status of <a href="http://www.w3.org/TR/user-timing-2/"><q>User Timing Level 2</q></a> from PR to REC</entry>
@@ -918,7 +922,7 @@
         <entry date="2018-05-03">changed status of <a href="http://www.w3.org/TR/custom-elements/"><q>Custom Elements</q></a> from WD to NOTE</entry>
         <entry date="2018-04-25">changed status of <a href="http://www.w3.org/TR/webdriver/"><q>WebDriver</q></a> from CR to PR</entry>
         <entry date="2018-03-27">changed status of <a href="http://www.w3.org/TR/html5/"><q>HTML5</q></a> from REC to SPSD</entry>
-        <entry date="2018-03-22">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from WD to CR</entry>
+        <entry date="2018-03-22">changed status of <a href="http://www.w3.org/TR/ambient-light/"><q>Ambient Light Sensor</q></a>, <a href="http://www.w3.org/TR/magnetometer/"><q>Magnetometer</q></a>, <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer Sensor</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope Sensor</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from WD to CR</entry>
         <entry date="2018-02-02">changed status of <a href="http://www.w3.org/TR/html-media-capture/"><q>HTML Media Capture</q></a> from PR to REC</entry>
         <entry date="2018-01-30">changed status of <a href="http://www.w3.org/TR/IndexedDB-2/"><q>Indexed Database API 2.0</q></a> from PR to REC</entry>
         <entry date="2017-12-14">changed status of <a href="http://www.w3.org/TR/html52/"><q>HTML 5.2</q></a> from PR to REC; added <a href="http://www.w3.org/TR/html53/"><q>HTML 5.3</q></a>; changed status of <a href="http://www.w3.org/TR/wake-lock/"><q>Wake Lock API</q></a> from WD to CR</entry>

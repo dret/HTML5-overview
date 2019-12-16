@@ -94,7 +94,7 @@ This is a list of all 149 current HTML5 specs, first [138 W3C TR](#TR) (grouped 
 ### <a name="WD"/>Working Drafts (71 Specs)
 
 * [ARIA in HTML](spec/html-aria)
-* [Accelerometer Sensor](spec/accelerometer)
+* [Accelerometer](spec/accelerometer)
 * [Ambient Light Sensor](spec/ambient-light)
 * [Audio Processing API](spec/audioproc)
 * [Clear Site Data](spec/clear-site-data)
