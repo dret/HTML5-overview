@@ -78,7 +78,7 @@
             <title>Network Service Discovery</title>
             <abstract>This specification defines a mechanism for an HTML document to discover and subsequently communicate with HTTP-based services advertised via common discovery protocols within the current network.</abstract>
         </spec>
-        <spec id="generic-sensor" status="WD">
+        <spec id="generic-sensor" status="CR">
             <title>Generic Sensor API</title>
             <abstract>This specification defines a framework for exposing sensor data to the Open Web Platform in a consistent way. It does so by defining a blueprint for writing specifications of concrete sensors along with an abstract Sensor interface that can be extended to accommodate different sensor types.</abstract>
         </spec>
@@ -90,11 +90,11 @@
             <title>Magnetometer Sensor</title>
             <abstract>This specification defines a concrete sensor interface to measure magnetic field in the X, Y and Z axis.</abstract>
         </spec>
-        <spec id="gyroscope" status="WD">
+        <spec id="gyroscope" status="CR">
             <title>Gyroscope</title>
             <abstract>This specification defines a concrete sensor interface to monitor the rate of rotation around the device's local three primary axes.</abstract>
         </spec>
-        <spec id="accelerometer" status="WD">
+        <spec id="accelerometer" status="CR">
             <title>Accelerometer</title>
             <abstract>This specification defines accelerometer sensor interface for obtaining information about acceleration applied to the X, Y and Z axis of a device that hosts the sensor.</abstract>
         </spec>
@@ -102,7 +102,7 @@
             <title>Motion Sensors Explainer</title>
             <abstract>This explainer is an introduction to low-level and high-level motion sensors, their relationship, inner workings and common use-cases. Common cases of event filtering and sensor fusion are introduced with examples, showing how to apply that on sensors following the Generic Sensor API specification.</abstract>
         </spec>
-        <spec id="orientation-sensor" status="WD">
+        <spec id="orientation-sensor" status="CR">
             <title>Orientation Sensor</title>
             <abstract>This specification defines a base orientation sensor interface and concrete sensor subclasses to monitor the device's physical orientation in relation to a stationary three dimensional Cartesian coordinate system.</abstract>
         </spec>
@@ -876,6 +876,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-12-16">changed status of <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from WD to CR</entry>
         <rename date="2019-12-14">
             <old id="accelerometer" title="Accelerometer Sensor"/>
             <new id="accelerometer" title="Accelerometer"/>
