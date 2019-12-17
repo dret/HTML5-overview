@@ -370,6 +370,10 @@
             <title>Streams API</title>
             <abstract>This specification provides APIs for creating, composing, and consuming streams of data. These streams are designed to map efficiently to low-level I/O primitives, and allow easy composition with built-in backpressure and queuing. On top of streams, the web platform can build higher-level abstractions, such as filesystem or socket APIs, while at the same time users can use the supplied tools to build their own streams which integrate well with those of the web platform.</abstract>
         </spec>
+        <spec id="web-share" status="WD">
+            <title>Web Share API</title>
+            <abstract> This specification defines an API for sharing text, links and other content to an arbitrary destination of the user's choice. The available share targets are not specified here; they are provided by the user agent. They could, for example, be apps, websites or contacts.</abstract>
+        </spec>
         <spec id="tvcontrol-api" status="NOTE">
             <title>TV Control API Specification</title>
             <abstract>This specification defines an API for sourcing audio and video media, such as TV and radio from broadcast, IPTV, or other sources, with associated channel and program metadata, and allows presentation of the media using the &lt;video> and &lt;audio> HTML elements. The API is agnostic of any underlying audio or video sourcing technologies.</abstract>
@@ -876,6 +880,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2019-12-17">added <a href="http://www.w3.org/TR/web-share/"><q>Web Share API</q></a></entry>
         <entry date="2019-12-16">changed status of <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from WD to CR</entry>
         <rename date="2019-12-14">
             <old id="accelerometer" title="Accelerometer Sensor"/>
