@@ -7,9 +7,9 @@ permalink:   /current
 
 ---
 
-This is a list of all 150 current HTML5 specs, first [139 W3C TR](#TR) (grouped by status), and then [11 others](#others):
+This is a list of all 153 current HTML5 specs, first [142 W3C TR](#TR) (grouped by status), and then [11 others](#others):
 
-## <a name="TR"/>W3C TR Specifications (139 Specs)
+## <a name="TR"/>W3C TR Specifications (142 Specs)
 
 ### <a name="REC"/>Recommendations (40 Specs)
 
@@ -95,7 +95,7 @@ This is a list of all 150 current HTML5 specs, first [139 W3C TR](#TR) (grouped 
 * [WebRTC 1.0: Real-time Communication Between Browsers](spec/webrtc)
 * [WebSocket API](spec/websockets)
 
-### <a name="WD"/>Working Drafts (68 Specs)
+### <a name="WD"/>Working Drafts (71 Specs)
 
 * [ARIA in HTML](spec/html-aria)
 * [Ambient Light Sensor](spec/ambient-light)
@@ -123,8 +123,10 @@ This is a list of all 150 current HTML5 specs, first [139 W3C TR](#TR) (grouped 
 * [Long Tasks API 1](spec/longtasks-1)
 * [Magnetometer Sensor](spec/magnetometer)
 * [Manifest for Web Application](spec/appmanifest)
+* [Media Capabilities](spec/media-capabilities)
 * [Media Capture Depth Stream Extensions](spec/mediacapture-depth)
 * [Media Capture from DOM Elements](spec/mediacapture-fromelement)
+* [Media Session Standard](spec/mediasession)
 * [MediaStream Recording](spec/mediastream-recording)
 * [MediaStreamTrack Content Hints](spec/mst-content-hint)
 * [Mediastream Image Capture](spec/image-capture)
@@ -136,6 +138,7 @@ This is a list of all 150 current HTML5 specs, first [139 W3C TR](#TR) (grouped 
 * [Payment Method: Basic Card](spec/payment-method-basic-card)
 * [Performance Timeline Level 2](spec/performance-timeline-2)
 * [Permissions](spec/permissions)
+* [Picture-in-Picture](spec/picture-in-picture)
 * [Pointer Events Level 3](spec/pointerevents3)
 * [Proximity Sensor](spec/proximity)
 * [Push API](spec/push-api)

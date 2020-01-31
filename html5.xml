@@ -126,6 +126,18 @@
             <title>The srcset Attribute</title>
             <abstract>When authors adapt their sites for high-resolution displays, they often need to be able to use different assets representing the same image. We address this need for adaptive, bitmapped content images by adding a srcset attribute to the img element.</abstract>
         </spec>
+        <spec id="media-capabilities" status="WD">
+            <title>Media Capabilities</title>
+            <abstract>This specification intends to provide APIs to allow websites to make an optimal decision when picking media content for the user. The APIs will expose information about the decoding and encoding capabilities for a given format but also output capabilities to find the best match based on the device’s display.</abstract>
+        </spec>
+        <spec id="mediasession" status="WD">
+            <title>Media Session Standard</title>
+            <abstract>This specification enables web developers to show customized media metadata on platform UI, customize available platform media controls, and access platform media keys such as hardware keys found on keyboards, headsets, remote controls, and software keys found in notification areas and on lock screens of mobile devices.</abstract>
+        </spec>
+        <spec id="picture-in-picture" status="WD">
+            <title>Picture-in-Picture</title>
+            <abstract>This specification intends to provide APIs to allow websites to create a floating video window always on top of other windows so that users may continue consuming media while they interact with other content sites, or applications on their device.</abstract>
+        </spec>
         <spec id="media-source" status="REC">
             <title>Media Source Extensions</title>
             <abstract>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.</abstract>
@@ -880,6 +892,7 @@
         </spec>
     </specs>
     <log>
+        <entry date="2020-01-31">added <a href="http://www.w3.org/TR/picture-in-picture/"><q>Picture-in-Picture</q></a>, <a href="http://www.w3.org/TR/media-capabilities/"><q>Media Capabilities</q></a>, and <a href="http://www.w3.org/TR/mediasession/"><q>Media Session Standard</q></a></entry>
         <entry date="2019-12-17">added <a href="http://www.w3.org/TR/web-share/"><q>Web Share API</q></a></entry>
         <entry date="2019-12-16">changed status of <a href="http://www.w3.org/TR/accelerometer/"><q>Accelerometer</q></a>, <a href="http://www.w3.org/TR/gyroscope/"><q>Gyroscope</q></a>, <a href="http://www.w3.org/TR/orientation-sensor/"><q>Orientation Sensor</q></a>, and <a href="http://www.w3.org/TR/generic-sensor/"><q>Generic Sensor API</q></a> from WD to CR</entry>
         <rename date="2019-12-14">
